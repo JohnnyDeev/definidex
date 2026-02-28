@@ -1,0 +1,110 @@
+{
+    "sid-s-autograph": {
+        "name": "Autógrafo do Sid",
+        "description": "Um autógrafo de um treinador famoso de Hoenn."
+    },
+    "signature-card": {
+        "name": "Cartão de Assinatura",
+        "description": "Um cartão para coletar assinaturas de treinadores famosos."
+    },
+    "silicon-pouch": {
+        "name": "Bolsa de Silicone",
+        "description": "Bolsa moderna e impermeável feita de silicone para proteger seus itens."
+    },
+    "silph-scope": {
+        "name": "Silph Scope",
+        "description": "Um dispositivo da Silph Co. que revela a verdadeira forma de fantasmas."
+    },
+    "silver-leaf": {
+        "name": "Folha de Prata",
+        "description": "Uma folha feita de prata cintilante. Pode ser vendida."
+    },
+    "silver-nugget": {
+        "name": "Pepita de Prata",
+        "description": "Uma pepita feita de prata pura. Pode ser vendida por um bom preço."
+    },
+    "silver-berry": {
+        "name": "Fruta Prateada",
+        "description": "Item Pokémon: Fruta Prateada."
+    },
+    "silver-pobox": {
+        "name": "Caixa de Correio Prateada",
+        "description": "Uma caixa de correio com um design prateado elegante."
+    },
+    "silver-powder": {
+        "name": "Pó de Prata",
+        "description": "Um pó brilhante que aumenta o poder de ataques do tipo Inseto."
+    },
+    "silver-wing": {
+        "name": "Asa Prateada",
+        "description": "Uma asa estranha e brilhante que dizem ter caído do lendário Lugia."
+    },
+    "silicobra-sand": {
+        "name": "Areia de Silicobra",
+        "description": "Areia fina e amadora coletada de uma Silicobra. Usada como material."
+    },
+    "sinistea-chip": {
+        "name": "Lasca de Sinistea",
+        "description": "Uma lasca de cerâmica de uma xícara de Sinistea. Usada como material."
+    },
+    "sinistcha-texture": {
+        "name": "Textura de Sinistcha",
+        "description": "Item Pokémon: Textura de Sinistcha."
+    },
+    "sirfetchd-pouch": {
+        "name": "Bolsa de Sirfetch'd",
+        "description": "Item Pokémon: Bolsa de Sirfetch'd."
+    },
+    "sitrus-berry": {
+        "name": "Fruta Sitrus",
+        "description": "Uma fruta que o Pokémon pode comer para restaurar 25% do seu HP máximo."
+    },
+    "sizzlipede-fern": {
+        "name": "Samambaia de Sizzlipede",
+        "description": "Item Pokémon: Samambaia de Sizzlipede."
+    },
+    "skarmory-candy": {
+        "name": "Doce de Skarmory",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "skiddo-leaf": {
+        "name": "Folha de Skiddo",
+        "description": "Uma folha verde e nutritiva de um Skiddo. Usada como material."
+    },
+    "skill-monitor": {
+        "name": "Monitor de Habilidades",
+        "description": "Um dispositivo que rastreia e exibe as habilidades dos Pokémon em tempo real."
+    },
+    "skull-fossil": {
+        "name": "Fóssil de Crânio",
+        "description": "Fóssil de um Pokémon pré-histórico. Pode ser regenerado em Cranidos."
+    },
+    "sky-plate": {
+        "name": "Placa de Céu",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Voador."
+    },
+    "slack-off-tm": {
+        "name": "TM Preguiça",
+        "description": "Ensina o golpe Preguiça. O Pokémon relaxa e recupera metade do seu HP."
+    },
+    "slakoth-candy": {
+        "name": "Doce de Slakoth",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "slakoth-fur": {
+        "name": "Pelo de Slakoth",
+        "description": "Um pedaço de pelo longo e marrom de um Slakoth. Usado como material."
+    },
+    "sleeper-cup": {
+        "name": "Copo Sonolento",
+        "description": "Um copo de plástico com estampa de olhos fechados para piqueniques."
+    },
+    "slowbro-candy": {
+        "name": "Doce de Slowbro",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "slowbronite": {
+        "name": "Slowbronite",
+        "description": "Uma Mega Stone que permite que Slowbro Megaevolua durante a batalha."
+    }
+}

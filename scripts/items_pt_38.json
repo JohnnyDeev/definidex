@@ -1,0 +1,106 @@
+{
+    "serrated-cup": {
+        "name": "Copo Serrilhado",
+        "description": "Um copo de plástico com bordas em zigue-zague para piqueniques."
+    },
+    "service-ticket": {
+        "name": "Bilhete de Serviço",
+        "description": "Um bilhete que permite solicitar ajuda ou serviços especiais."
+    },
+    "shaking-monitor": {
+        "name": "Monitor de Tremores",
+        "description": "Um dispositivo que detecta vibrações causadas por Pokémon subterrâneos."
+    },
+    "shallot": {
+        "name": "Chalota",
+        "description": "Pequenas cebolas chalotas de sabor suave para usar em piqueniques."
+    },
+    "sharp-beak": {
+        "name": "Bico Afiado",
+        "description": "Um bico longo e afiado que aumenta o poder de ataques do tipo Voador."
+    },
+    "sharpedo-candy": {
+        "name": "Doce de Sharpedo",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "sharpedonite": {
+        "name": "Sharpedonite",
+        "description": "Uma Mega Stone que permite que Sharpedo Megaevolua durante a batalha."
+    },
+    "shed-shell": {
+        "name": "Casca Vazia",
+        "description": "Uma carapaça descartada que permite ao portador ser trocado mesmo sob efeitos de aprisionamento."
+    },
+    "shell-bell": {
+        "name": "Sino de Concha",
+        "description": "Restaura um pouco de HP do portador toda vez que ele causa dano ao oponente."
+    },
+    "shellder-candy": {
+        "name": "Doce de Shellder",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "shellder-pearl": {
+        "name": "Pérola de Shellder",
+        "description": "Uma pequena pérola de um Shellder. Usada como material."
+    },
+    "shelly-autograph": {
+        "name": "Autógrafo da Shelly",
+        "description": "Um autógrafo de uma especialista em Pokémon marinhos."
+    },
+    "shelos-pouch": {
+        "name": "Bolsa de Shellos",
+        "description": "Item Pokémon: Bolsa de Shellos."
+    },
+    "shiinotic-candy": {
+        "name": "Doce de Shiinotic",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "shiinotic-spore": {
+        "name": "Esporo de Shiinotic",
+        "description": "Esporo luminescente e sonífero de um Shiinotic. Usado como material."
+    },
+    "shiny-charm": {
+        "name": "Amuleto Brilhante",
+        "description": "Um amuleto que aumenta a chance de encontrar Pokémon Brilhantes (Shiny) na natureza."
+    },
+    "shinx-candy": {
+        "name": "Doce de Shinx",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "shinx-fang": {
+        "name": "Presa de Shinx",
+        "description": "Uma pequena presa afiada de um Shinx. Usada como material."
+    },
+    "shinx-fur": {
+        "name": "Pelo de Shinx",
+        "description": "Pelo azulado e carregado de eletricidade estática. Usado como material."
+    },
+    "shiny-stone": {
+        "name": "Pedra Brilhante",
+        "description": "Uma pedra que brilha com uma luz radiante. Faz certos Pokémon evoluírem."
+    },
+    "shm-pouch": {
+        "name": "Bolsa SHM",
+        "description": "Item Pokémon: Bolsa SHM."
+    },
+    "shoal-salt": {
+        "name": "Sal de Shoal",
+        "description": "Sal coletado na Shoal Cave. Um artesão pode usá-lo para fazer Shell Bells."
+    },
+    "shoal-shell": {
+        "name": "Concha de Shoal",
+        "description": "Concha coletada na Shoal Cave. Um artesão pode usá-lo para fazer Shell Bells."
+    },
+    "shock-drive": {
+        "name": "Drive de Choque",
+        "description": "Um drive de memória para Genesect que muda o tipo de seu Techno Blast para Elétrico."
+    },
+    "shojo-pouch": {
+        "name": "Bolsa Shojo",
+        "description": "Item Pokémon: Bolsa Shojo."
+    },
+    "shroomish-spores": {
+        "name": "Esporos de Shroomish",
+        "description": "Esporos verdes finos de um Shroomish. Usados como material."
+    }
+}

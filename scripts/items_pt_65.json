@@ -1,0 +1,218 @@
+{
+    "safari-ball": {
+        "name": "Safari Bola",
+        "description": "Uma Poké Bola especial usada no Jogo do Safari e no Great Marsh."
+    },
+    "timer-ball": {
+        "name": "Tempo Bola",
+        "description": "Uma Poké Bola que se torna mais eficaz à medida que a batalha demora mais."
+    },
+    "premier-ball": {
+        "name": "Luxo Bola",
+        "description": "Uma Poké Bola rara feita para comemorar um evento especial."
+    },
+    "heal-ball": {
+        "name": "Cura Bola",
+        "description": "Uma Poké Bola que restaura o HP e cura o status do Pokémon capturado."
+    },
+    "ice-heal": {
+        "name": "Cura-Gelo",
+        "description": "Um spray medicinal que descongela um Pokémon congelado."
+    },
+    "soda-pop": {
+        "name": "Sodinha",
+        "description": "Uma bebida gasosa e doce que restaura 50 pontos de HP."
+    },
+    "heal-powder": {
+        "name": "Pó de Cura",
+        "description": "Um pó medicinal muito amargo que cura todos os problemas de status."
+    },
+    "protein": {
+        "name": "Proteína",
+        "description": "Um suplemento que aumenta permanentemente o Ataque de um Pokémon."
+    },
+    "guard-spec": {
+        "name": "Guarda Especial",
+        "description": "Evita que os atributos do Pokémon sejam reduzidos por 5 turnos."
+    },
+    "growth-mulch": {
+        "name": "Adubo de Crescimento",
+        "description": "Adubo que faz as Berries crescerem mais rápido, mas o solo seca antes."
+    },
+    "stable-mulch": {
+        "name": "Adubo de Estabilidade",
+        "description": "Adubo que faz as Berries maduras permanecerem no arbusto por mais tempo."
+    },
+    "gooey-mulch": {
+        "name": "Adubo Grudento",
+        "description": "Adubo que aumenta o número de vezes que uma Berry pode ser colhida."
+    },
+    "claw-fossil": {
+        "name": "Fóssil de Garra",
+        "description": "Fóssil de um Pokémon pré-histórico. Pode ser regenerado em Anorith."
+    },
+    "grass-mail": {
+        "name": "Carta de Grama",
+        "description": "Papel de carta com estampa de grama verdejante."
+    },
+    "flame-mail": {
+        "name": "Carta de Chama",
+        "description": "Papel de carta com estampa de chamas ardentes."
+    },
+    "bloom-mail": {
+        "name": "Carta de Flor",
+        "description": "Papel de carta com estampa de flores coloridas."
+    },
+    "tunnel-mail": {
+        "name": "Carta de Túnel",
+        "description": "Papel de carta com estampa de um túnel de mina."
+    },
+    "steel-mail": {
+        "name": "Carta de Aço",
+        "description": "Papel de carta com estampa de metal escovado."
+    },
+    "snow-mail": {
+        "name": "Carta de Neve",
+        "description": "Papel de carta com estampa de flocos de neve."
+    },
+    "space-mail": {
+        "name": "Carta de Espaço",
+        "description": "Papel de carta com estampa de estrelas e nebulosas."
+    },
+    "mosaic-mail": {
+        "name": "Carta de Mosaico",
+        "description": "Papel de carta com estampa de mosaicos coloridos."
+    },
+    "brick-mail": {
+        "name": "Carta de Tijolo",
+        "description": "Papel de carta com estampa de tijolos vermelhos."
+    },
+    "persim-berry": {
+        "name": "Fruta Persim",
+        "description": "Uma fruta que o Pokémon pode comer para curar a confusão."
+    },
+    "wiki-berry": {
+        "name": "Fruta Wiki",
+        "description": "Uma fruta que restaura HP, mas pode causar confusão se o Pokémon não gostar."
+    },
+    "mago-berry": {
+        "name": "Fruta Mago",
+        "description": "Uma fruta que restaura HP, mas pode causar confusão se o Pokémon não gostar."
+    },
+    "wepear-berry": {
+        "name": "Fruta Wepear",
+        "description": "Ingrediente para Pokébloquinhos. Tem um sabor amargo."
+    },
+    "hondew-berry": {
+        "name": "Fruta Hondew",
+        "description": "Torna o Pokémon mais amigável, mas reduz os pontos base de Atq. Esp."
+    },
+    "cornn-berry": {
+        "name": "Fruta Cornn",
+        "description": "Ingrediente para Pokébloquinhos. Tem um sabor seco."
+    },
+    "pamtre-berry": {
+        "name": "Fruta Pamtre",
+        "description": "Ingrediente para Pokébloquinhos. Tem um sabor muito seco."
+    },
+    "durin-berry": {
+        "name": "Fruta Durin",
+        "description": "Ingrediente para Pokébloquinhos. Tem um sabor amargo e seco."
+    },
+    "wacan-berry": {
+        "name": "Fruta Wacan",
+        "description": "Enfraquece um ataque Elétrico super efetivo recebido pelo portador."
+    },
+    "rindo-berry": {
+        "name": "Fruta Rindo",
+        "description": "Enfraquece um ataque de Planta super efetivo recebido pelo portador."
+    },
+    "kebia-berry": {
+        "name": "Fruta Kebia",
+        "description": "Enfraquece um ataque de Veneno super efetivo recebido pelo portador."
+    },
+    "shuca-berry": {
+        "name": "Fruta Shuca",
+        "description": "Enfraquece um ataque Terrestre super efetivo recebido pelo portador."
+    },
+    "coba-berry": {
+        "name": "Fruta Coba",
+        "description": "Enfraquece um ataque Voador super efetivo recebido pelo portador."
+    },
+    "charti-berry": {
+        "name": "Fruta Charti",
+        "description": "Enfraquece um ataque de Pedra super efetivo recebido pelo portador."
+    },
+    "chilan-berry": {
+        "name": "Fruta Chilan",
+        "description": "Enfraquece um ataque do tipo Normal recebido pelo portador."
+    },
+    "rowap-berry": {
+        "name": "Fruta Rowap",
+        "description": "Se o portador for atingido por um golpe especial, o atacante sofre dano."
+    },
+    "kings-rock": {
+        "name": "Rocha do Rei",
+        "description": "Pode causar recuo no oponente. Faz certos Pokémon evoluírem."
+    },
+    "metal-coat": {
+        "name": "Revestimento Metálico",
+        "description": "Aumenta o poder de ataques do tipo Aço. Faz certos Pokémon evoluírem."
+    },
+    "poison-barb": {
+        "name": "Farpas de Veneno",
+        "description": "Uma toxina rígida que aumenta o poder de ataques do tipo Veneno."
+    },
+    "silk-scarf": {
+        "name": "Lenço de Seda",
+        "description": "Um lenço de alta qualidade que aumenta o poder de ataques do tipo Normal."
+    },
+    "up-grade": {
+        "name": "Upgrade",
+        "description": "Um dispositivo transparente contendo dados peculiares. Faz Porygon evoluir."
+    },
+    "metal-powder": {
+        "name": "Pó de Metal",
+        "description": "Um item para Ditto que aumenta sua Defesa se ele não estiver transformado."
+    },
+    "yellow-scarf": {
+        "name": "Lenço Amarelo",
+        "description": "Um lenço que aumenta a Resistência (Toughness) do Pokémon em concursos."
+    },
+    "wise-glasses": {
+        "name": "Óculos de Sabedoria",
+        "description": "Óculos de grau que aumentam o poder de ataques especiais."
+    },
+    "toxic-orb": {
+        "name": "Orbe Tóxico",
+        "description": "Item bizarro que envenena gravemente o portador durante a batalha."
+    },
+    "splash-plate": {
+        "name": "Placa de Borrifo",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Água."
+    },
+    "zap-plate": {
+        "name": "Placa de Choque",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Elétrico."
+    },
+    "fist-plate": {
+        "name": "Placa de Punho",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Lutador."
+    },
+    "toxic-plate": {
+        "name": "Placa Tóxica",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Veneno."
+    },
+    "mind-plate": {
+        "name": "Placa da Mente",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Psíquico."
+    },
+    "stone-plate": {
+        "name": "Placa de Pedra",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Pedra."
+    },
+    "iron-plate": {
+        "name": "Placa de Ferro",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Aço."
+    }
+}

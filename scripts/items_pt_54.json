@@ -1,0 +1,18 @@
+{
+    "toxel-sweat": {
+        "name": "Suor de Toxel",
+        "description": "Líquido venenoso e pegajoso exalado pela pele de um Toxel. Usado como material."
+    },
+    "toxtricity-sparks": {
+        "name": "Faíscas de Toxtricity",
+        "description": "Faíscas elétricas de alta voltagem geradas por um Toxtricity. Usadas como material."
+    },
+    "trace-monitor": {
+        "name": "Monitor de Rastro",
+        "description": "Um escâner que ajuda a seguir trilhas deixadas por Pokémon selvagens."
+    },
+    "trade-monitor": {
+        "name": "Monitor de Troca",
+        "description": "Um dispositivo que exibe detalhes técnicos durante uma troca Pokémon."
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "kasib-berry": {
+        "name": "Fruta Kasib",
+        "description": "Enfraquece um ataque de Fantasma super efetivo recebido pelo portador."
+    },
+    "kee-berry": {
+        "name": "Fruta Kee",
+        "description": "Aumenta a Defesa do Pokémon se ele for atingido por um ataque físico."
+    },
+    "kelpsy-berry": {
+        "name": "Fruta Kelpsy",
+        "description": "Torna o Pokémon mais amigável, mas reduz os pontos base de Ataque."
+    },
+    "kevia-berry": {
+        "name": "Fruta Kevia",
+        "description": "Item Pokémon: Fruta Kevia."
+    },
+    "key-items-pocket": {
+        "name": "Bolso de Itens Chave",
+        "description": "O bolso da mochila reservado para itens importantes e únicos da jornada."
+    },
+    "key-stone": {
+        "name": "Pedra Chave",
+        "description": "Uma pedra brilhante que ressoa com as Mega Stones para ativar a Megaevolução."
+    },
+    "key-to-room-1": {
+        "name": "Chave do Quarto 1",
+        "description": "Uma das chaves necessárias para abrir os quartos do Sea Mauville."
+    },
+    "key-to-room-2": {
+        "name": "Chave do Quarto 2",
+        "description": "Uma das chaves necessárias para abrir os quartos do Sea Mauville."
+    },
+    "key-to-room-4": {
+        "name": "Chave do Quarto 4",
+        "description": "Uma das chaves necessárias para abrir os quartos do Sea Mauville."
+    },
+    "key-to-room-6": {
+        "name": "Chave do Quarto 6",
+        "description": "Uma das chaves necessárias para abrir os quartos do Sea Mauville."
+    },
+    "khans-autograph": {
+        "name": "Autógrafo do Khan",
+        "description": "Um autógrafo de um lutador de caratê renomado."
+    },
+    "kids-series-pouch": {
+        "name": "Bolsa da Série Infantil",
+        "description": "Item Pokémon: Bolsa da Série Infantil."
+    },
+    "king-s-rock": {
+        "name": "Pedra do Rei",
+        "description": "Pode causar recuo no oponente ao atacar. Evolui Poliwhirl e Slowpoke."
+    },
+    "kings-rock--held": {
+        "name": "Pedra do Rei (Segurado)",
+        "description": "Dá uma chance de 10% de causar recuo ao oponente se o portador atacar."
+    },
+    "kings-rock--bag": {
+        "name": "Pedra do Rei (Bolsa)",
+        "description": "Um amuleto com o formato de uma coroa."
+    },
+    "kitsch-series-pouch": {
+        "name": "Bolsa da Série Kitsch",
+        "description": "Item Pokémon: Bolsa da Série Kitsch."
+    },
+    "kivy-berry": {
+        "name": "Fruta Kivy",
+        "description": "Item Pokémon: Fruta Kivy."
+    },
+    "klawf-claw": {
+        "name": "Garra de Klawf",
+        "description": "Uma pinça grande e forte de um Klawf. Usada como material."
+    },
+    "klawf-sticks": {
+        "name": "Klawf Stick",
+        "description": "Carne de carapaça de Klawf processada usada em piqueniques."
+    },
+    "koffing-candy": {
+        "name": "Doce de Koffing",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "koffing-gas": {
+        "name": "Gás de Koffing",
+        "description": "Gás tóxico e fedorento de um Koffing. Usado como material."
+    },
+    "komala-log": {
+        "name": "Tronco de Komala",
+        "description": "Um pequeno tronco de madeira de um Komala. Usado como material."
+    },
+    "kommo-o-candy": {
+        "name": "Doce de Kommo-o",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "kommonium-z--bag": {
+        "name": "Kommonium Z (Bolsa)",
+        "description": "Converte o Clanging Scales de Kommo-o em seu ataque Z em Alola."
+    },
+    "kommonium-z--held": {
+        "name": "Kommonium Z (Segurado)",
+        "description": "Permite que Kommo-o execute seu ataque Z exclusivo: Clangorous Soulblaze."
+    },
+    "koraidon-candy": {
+        "name": "Doce de Koraidon",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "krabby-candy": {
+        "name": "Doce de Krabby",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "kricketot-fruit": {
+        "name": "Fruta de Kricketot",
+        "description": "Item Pokémon: Fruta de Kricketot."
+    },
+    "kricketot-shell": {
+        "name": "Casca de Kricketot",
+        "description": "Pedaço da carapaça de um Kricketot. Usado como material."
+    },
+    "kura-pouch": {
+        "name": "Bolsa Kura",
+        "description": "Item Pokémon: Bolsa Kura."
+    },
+    "lagging-tail": {
+        "name": "Cauda Lenta",
+        "description": "Um item muito pesado que faz o portador agir por último na sua prioridade."
+    },
+    "lake-of-outrage-pouch": {
+        "name": "Bolsa do Lake of Outrage",
+        "description": "Item Pokémon: Bolsa do Lake of Outrage."
+    }
+}

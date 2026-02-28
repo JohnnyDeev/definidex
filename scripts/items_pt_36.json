@@ -1,0 +1,74 @@
+{
+    "sapphire": {
+        "name": "Safira",
+        "description": "Uma pedra preciosa azul e cintilante que irradia uma aura de calma. Altamente valiosa."
+    },
+    "sassy-mint": {
+        "name": "Menta Cínica",
+        "description": "Faz com que a Def. Esp. cresça mais rápido, mas a Velocidade cresça mais devagar."
+    },
+    "scap-pouch": {
+        "name": "Bolsa Scap",
+        "description": "Item Pokémon: Bolsa Scap."
+    },
+    "scanner": {
+        "name": "Escâner",
+        "description": "Um escâner eletrônico usado para detectar a presença de itens ou energias específicas."
+    },
+    "scavenge-monitor": {
+        "name": "Monitor de Coleta",
+        "description": "Um dispositivo que registra itens encontrados durante a exploração."
+    },
+    "scent-pouch": {
+        "name": "Bolsa de Perfume",
+        "description": "Uma pequena bolsa contendo extratos de flores e essências calmantes."
+    },
+    "scent-series-pouch": {
+        "name": "Bolsa da Série Aroma",
+        "description": "Item Pokémon: Bolsa da Série Aroma."
+    },
+    "scher-autograph": {
+        "name": "Autógrafo do Scher",
+        "description": "Um autógrafo de um treinador especialista em estratégia."
+    },
+    "science-series-pouch": {
+        "name": "Bolsa da Série Científica",
+        "description": "Item Pokémon: Bolsa da Série Científica."
+    },
+    "scissors": {
+        "name": "Tesoura",
+        "description": "Uma tesoura afiada usada para aparar arbustos ou colher Berries."
+    },
+    "scizor-candy": {
+        "name": "Doce de Scizor",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "scizorite": {
+        "name": "Scizorite",
+        "description": "Uma Mega Stone que permite que Scizor Megaevolua durante a batalha."
+    },
+    "scope-lens": {
+        "name": "Lente de Alcance",
+        "description": "Uma lente que aumenta a taxa de acerto crítico do Pokémon que a segura."
+    },
+    "scovillain-red-pepper": {
+        "name": "Pimenta Vermelha de Scovillain",
+        "description": "Uma pimenta seca e ardente deixada por um Scovillain. Usada como material."
+    },
+    "scovillain-texture": {
+        "name": "Textura de Scovillain",
+        "description": "Item Pokémon: Textura de Scovillain."
+    },
+    "scuffy-cup": {
+        "name": "Copo Ralado",
+        "description": "Um copo de plástico com marcas de uso para piqueniques."
+    },
+    "scizor-shell": {
+        "name": "Casca de Scizor",
+        "description": "Um pedaço da carapaça de metal de um Scizor. Usado como material."
+    },
+    "scyther-candy": {
+        "name": "Doce de Scyther",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    }
+}

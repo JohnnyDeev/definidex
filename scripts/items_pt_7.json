@@ -1,0 +1,246 @@
+{
+    "fairium-z--held": {
+        "name": "Fairium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Fada: Twinkle Tackle."
+    },
+    "fairy-gem": {
+        "name": "Gema de Fada",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Fada."
+    },
+    "fairy-memory": {
+        "name": "Memória de Fada",
+        "description": "Um drive de memória com dados do tipo Fada para Silvally."
+    },
+    "fairy-tera-shard": {
+        "name": "Estilhaço Tera Fada",
+        "description": "Cristal com energia Tera Fada. Muda o Tera Tipo de um Pokémon."
+    },
+    "fake-prop-crown": {
+        "name": "Coroa de Adereço",
+        "description": "Uma coroa de brinquedo usada como acessório em teatros."
+    },
+    "fam-series-pouch": {
+        "name": "Bolsa da Série Família",
+        "description": "Item Pokémon: Bolsa da Série Família."
+    },
+    "fame-checker": {
+        "name": "Verificador de Fama",
+        "description": "Um dispositivo que registra informações sobre pessoas famosas."
+    },
+    "fancy-apple": {
+        "name": "Maçã Chique",
+        "description": "Uma maçã de alta qualidade e sabor refinado para piqueniques."
+    },
+    "farigiraf-fur": {
+        "name": "Pelo de Farigiraf",
+        "description": "Pelo macio e padronizado de uma Farigiraf. Usado como material."
+    },
+    "fearow-candy": {
+        "name": "Doce de Fearow",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "feather-ball": {
+        "name": "Pena Bola",
+        "description": "Uma Poké Bola leve que voa rápido e longe, ideal para Pokémon voadores."
+    },
+    "feedback-monitor": {
+        "name": "Monitor de Feedback",
+        "description": "Um painel que exibe dados de desempenho em tempo real."
+    },
+    "feebas-scales": {
+        "name": "Escamas de Feebas",
+        "description": "Escamas opacas e rústicas de um Feebas. Usadas como material."
+    },
+    "festival-ticket": {
+        "name": "Bilhete do Festival",
+        "description": "Um bilhete que dá acesso a eventos especiais em festivais."
+    },
+    "fighting-gem": {
+        "name": "Gema de Lutador",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Lutador."
+    },
+    "fighting-memory": {
+        "name": "Memória de Lutador",
+        "description": "Um drive de memória com dados do tipo Lutador para Silvally."
+    },
+    "fighting-tera-shard": {
+        "name": "Estilhaço Tera Lutador",
+        "description": "Cristal com energia Tera Lutadora. Muda o Tera Tipo de um Pokémon."
+    },
+    "fighting-z": {
+        "name": "Fighting Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Lutador."
+    },
+    "fightinium-z--bag": {
+        "name": "Fightinium Z (Bolsa)",
+        "description": "Converte golpes do tipo Lutador em Z-Moves de Lutador em Alola."
+    },
+    "fightinium-z--held": {
+        "name": "Fightinium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Lutador: All-Out Pummeling."
+    },
+    "figy-berry": {
+        "name": "Fruta Figy",
+        "description": "Restaura HP quando baixo, mas pode confundir quem não gosta de sabores picantes."
+    },
+    "fillet": {
+        "name": "Filé",
+        "description": "Um filé de carne tenro usado como ingrediente em piqueniques."
+    },
+    "fin-neon-scales": {
+        "name": "Escamas de Finneon",
+        "description": "Escamas que brilham suavemente no escuro. Usadas como material."
+    },
+    "fin-neon-texture": {
+        "name": "Textura de Finneon",
+        "description": "Item Pokémon: Textura de Finneon."
+    },
+    "finizen-mucus": {
+        "name": "Muco de Finizen",
+        "description": "Muco escorregadio de um Finizen. Usado como material."
+    },
+    "fire-gem": {
+        "name": "Gema de Fogo",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Fogo."
+    },
+    "fire-leaf-badge-case": {
+        "name": "Estojo de Insígnias FireLeaf",
+        "description": "Um estojo para guardar as insígnias conquistadas em Kanto."
+    },
+    "fire-memory": {
+        "name": "Memória de Fogo",
+        "description": "Um drive de memória com dados do tipo Fogo para Silvally."
+    },
+    "fire-stone": {
+        "name": "Pedra do Fogo",
+        "description": "Uma pedra alaranjada e quente. Faz certos Pokémon evoluírem."
+    },
+    "fire-tera-shard": {
+        "name": "Estilhaço Tera Fogo",
+        "description": "Cristal com energia Tera Fogo. Muda o Tera Tipo de um Pokémon."
+    },
+    "fire-z": {
+        "name": "Fire Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Fogo."
+    },
+    "firium-z--bag": {
+        "name": "Firium Z (Bolsa)",
+        "description": "Converte golpes do tipo Fogo em Z-Moves de Fogo em Alola."
+    },
+    "firium-z--held": {
+        "name": "Firium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Fogo: Inferno Overdrive."
+    },
+    "fists-pouch": {
+        "name": "Bolsa de Punhos",
+        "description": "Item Pokémon: Bolsa de Punhos."
+    },
+    "flabébe-pollen": {
+        "name": "Pólen de Flabébé",
+        "description": "Pólen perfumado coletado da flor de um Flabébé. Usado como material."
+    },
+    "flame-orb": {
+        "name": "Orbe de Chamas",
+        "description": "Um item bizarro que causa queimadura no portador durante a batalha."
+    },
+    "flame-plate": {
+        "name": "Placa de Chamas",
+        "description": "Uma tábua de pedra que aumenta o poder de golpes do tipo Fogo."
+    },
+    "flash-drive": {
+        "name": "Pen Drive",
+        "description": "Dados de teste para dispositivo de armazenamento."
+    },
+    "flax-tablecloth": {
+        "name": "Toalha de Linho",
+        "description": "Uma toalha de piquenique feita de linho resistente."
+    },
+    "fletchling-feather": {
+        "name": "Pena de Fletchling",
+        "description": "Uma pequena pena avermelhada de um Fletchling. Usada como material."
+    },
+    "float-badge": {
+        "name": "Insígnia Flutuante",
+        "description": "Uma insígnia conquistada ao derrotar o líder de ginásio de Pastoria City."
+    },
+    "float-stone": {
+        "name": "Pedra Flutuante",
+        "description": "Uma pedra muito leve que reduz o peso do portador pela metade."
+    },
+    "fluffy-tail": {
+        "name": "Cauda Fofinha",
+        "description": "Um item que permite fugir com certeza de uma batalha selvagem."
+    },
+    "flying-gem": {
+        "name": "Gema de Voador",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Voador."
+    },
+    "flying-memory": {
+        "name": "Memória de Voador",
+        "description": "Um drive de memória com dados do tipo Voador para Silvally."
+    },
+    "flying-tera-shard": {
+        "name": "Estilhaço Tera Voador",
+        "description": "Cristal com energia Tera Voadora. Muda o Tera Tipo de um Pokémon."
+    },
+    "flying-z": {
+        "name": "Flying Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Voador."
+    },
+    "flyinium-z--bag": {
+        "name": "Flyinium Z (Bolsa)",
+        "description": "Converte golpes do tipo Voador em Z-Moves de Voador em Alola."
+    },
+    "flyinium-z--held": {
+        "name": "Flyinium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Voador: Supersonic Skystrike."
+    },
+    "focus-band": {
+        "name": "Faixa de Foco",
+        "description": "Dá uma chance ao portador de resistir a um nocaute com 1 HP."
+    },
+    "focus-sash": {
+        "name": "Cinta de Foco",
+        "description": "Se o Pokémon estiver com HP cheio, resiste a um golpe fatal com 1 HP."
+    },
+    "fomantis-leaf": {
+        "name": "Folha de Fomantis",
+        "description": "Folha verde e afiada de um Fomantis. Usada como material."
+    },
+    "food-set": {
+        "name": "Conjunto de Comida",
+        "description": "Um kit completo com vários ingredientes para piqueniques e curry."
+    },
+    "forretress-shell": {
+        "name": "Casca de Forretress",
+        "description": "Pedaço da carapaça metálica de um Forretress. Usado como material."
+    },
+    "fossilized-bird": {
+        "name": "Pássaro Fossilizado",
+        "description": "Um fóssil de um pássaro antigo. Combinado com outros, revive Pokémon."
+    },
+    "fossilized-dino": {
+        "name": "Dino Fossilizado",
+        "description": "Um fóssil de um dinossauro antigo. Combinado com outros, revive Pokémon."
+    },
+    "fossilized-drake": {
+        "name": "Dragão Fossilizado",
+        "description": "Um fóssil de um dragão antigo. Combinado com outros, revive Pokémon."
+    },
+    "fossilized-fish": {
+        "name": "Peixe Fossilizado",
+        "description": "Um fóssil de um peixe antigo. Combinado com outros, revive Pokémon."
+    },
+    "four-leaf-clover": {
+        "name": "Trevo de Quatro Folhas",
+        "description": "Um amuleto da sorte. Aumenta a chance de encontrar itens raros."
+    },
+    "fridge-mail": {
+        "name": "Carta Geladeira",
+        "description": "Papel de carta com estampa de alimentos frescos e gelados."
+    },
+    "fresh-water": {
+        "name": "Água Fresca",
+        "description": "Água com alto conteúdo mineral que recupera 30 pontos de HP."
+    }
+}

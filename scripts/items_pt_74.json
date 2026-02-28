@@ -1,0 +1,138 @@
+{
+    "persim-berry": {
+        "name": "Fruta Persim",
+        "description": "Uma fruta que o Pokémon pode comer para curar a confusão."
+    },
+    "wiki-berry": {
+        "name": "Fruta Wiki",
+        "description": "Uma fruta que restaura HP, mas pode causar confusão se o Pokémon não gostar."
+    },
+    "mago-berry": {
+        "name": "Fruta Mago",
+        "description": "Uma fruta que restaura HP, mas pode causar confusão se o Pokémon não gostar."
+    },
+    "wepear-berry": {
+        "name": "Fruta Wepear",
+        "description": "Ingrediente para Pokébloquinhos. Tem um sabor amargo."
+    },
+    "hondew-berry": {
+        "name": "Fruta Hondew",
+        "description": "Torna o Pokémon mais amigável, mas reduz os pontos base de Atq. Esp."
+    },
+    "cornn-berry": {
+        "name": "Fruta Cornn",
+        "description": "Ingrediente para Pokébloquinhos. Tem um sabor seco."
+    },
+    "pamtre-berry": {
+        "name": "Fruta Pamtre",
+        "description": "Ingrediente para Pokébloquinhos. Tem um sabor muito seco."
+    },
+    "durin-berry": {
+        "name": "Fruta Durin",
+        "description": "Ingrediente para Pokébloquinhos. Tem um sabor amargo e seco."
+    },
+    "wacan-berry": {
+        "name": "Fruta Wacan",
+        "description": "Enfraquece um ataque Elétrico super efetivo recebido pelo portador."
+    },
+    "rindo-berry": {
+        "name": "Fruta Rindo",
+        "description": "Enfraquece um ataque de Planta super efetivo recebido pelo portador."
+    },
+    "kebia-berry": {
+        "name": "Fruta Kebia",
+        "description": "Enfraquece um ataque de Veneno super efetivo recebido pelo portador."
+    },
+    "shuca-berry": {
+        "name": "Fruta Shuca",
+        "description": "Enfraquece um ataque Terrestre super efetivo recebido pelo portador."
+    },
+    "coba-berry": {
+        "name": "Fruta Coba",
+        "description": "Enfraquece um ataque Voador super efetivo recebido pelo portador."
+    },
+    "charti-berry": {
+        "name": "Fruta Charti",
+        "description": "Enfraquece um ataque de Pedra super efetivo recebido pelo portador."
+    },
+    "chilan-berry": {
+        "name": "Fruta Chilan",
+        "description": "Enfraquece um ataque do tipo Normal recebido pelo portador."
+    },
+    "rowap-berry": {
+        "name": "Fruta Rowap",
+        "description": "Se o portador for atingido por um golpe especial, o atacante sofre dano."
+    },
+    "silver-razz-berry": {
+        "name": "Fruta Razz Prateada",
+        "description": "Uma fruta prateada que facilita muito a captura de Pokémon selvagens."
+    },
+    "silver-nanab-berry": {
+        "name": "Fruta Nanab Prateada",
+        "description": "Uma fruta prateada que acalma muito o Pokémon selvagem."
+    },
+    "silver-pinap-berry": {
+        "name": "Fruta Pinap Prateada",
+        "description": "Uma fruta prateada que aumenta muito o número de Doces recebidos ao capturar."
+    },
+    "splash-plate": {
+        "name": "Placa de Borrifo",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Água."
+    },
+    "zap-plate": {
+        "name": "Placa de Choque",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Elétrico."
+    },
+    "fist-plate": {
+        "name": "Placa de Punho",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Lutador."
+    },
+    "toxic-plate": {
+        "name": "Placa Tóxica",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Veneno."
+    },
+    "mind-plate": {
+        "name": "Placa da Mente",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Psíquico."
+    },
+    "stone-plate": {
+        "name": "Placa de Pedra",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Pedra."
+    },
+    "iron-plate": {
+        "name": "Placa de Ferro",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Aço."
+    },
+    "blank-plate": {
+        "name": "Placa em Branco",
+        "description": "Uma tábua de pedra misteriosa que não parece ter nenhum poder elemental."
+    },
+    "legend-plate": {
+        "name": "Placa da Lenda",
+        "description": "Uma tábua de pedra brilhante que contém o poder de todos os tipos."
+    },
+    "rock-incense": {
+        "name": "Incenso de Rocha",
+        "description": "Um incenso que aumenta o poder de ataques do tipo Pedra. Necessário para Breed do Bonsly."
+    },
+    "rose-incense": {
+        "name": "Incenso de Rosa",
+        "description": "Um incenso que aumenta o poder de ataques do tipo Planta. Necessário para Breed do Budew."
+    },
+    "luck-incense": {
+        "name": "Incenso de Sorte",
+        "description": "Dobra o dinheiro ganho em batalha se o portador participar. Necessário para Breed do Happiny."
+    },
+    "claw-fossil": {
+        "name": "Fóssil de Garra",
+        "description": "Fóssil de um Pokémon pré-histórico. Pode ser regenerado em Anorith."
+    },
+    "plume-fossil": {
+        "name": "Fóssil de Pluma",
+        "description": "Fóssil de um Pokémon pré-histórico voador. Pode ser regenerado em Archen."
+    },
+    "sail-fossil": {
+        "name": "Fóssil de Vela",
+        "description": "Fóssil de um Pokémon pré-histórico aquático. Pode ser regenerado em Amaura."
+    }
+}

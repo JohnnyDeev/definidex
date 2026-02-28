@@ -1,0 +1,58 @@
+{
+    "sea-incense": {
+        "name": "Incenso do Mar",
+        "description": "Um incenso que aumenta o poder de ataques do tipo Água. Necessário para Breed do Azurill."
+    },
+    "seal-bag": {
+        "name": "Bolsa de Selos",
+        "description": "Uma bolsa para guardar selos usados na customização de Poké Bolas."
+    },
+    "seal-case": {
+        "name": "Estojo de Selos",
+        "description": "Um estojo para carregar e organizar seus selos de decoração."
+    },
+    "secret-key": {
+        "name": "Chave Secreta",
+        "description": "Uma chave misteriosa que abre uma porta trancada na Mansão Pokémon."
+    },
+    "secret-machine": {
+        "name": "Máquina Secreta",
+        "description": "Dispositivos que ensinam técnicas especiais para serem usadas fora de batalha."
+    },
+    "secret-potion": {
+        "name": "Poção Secreta",
+        "description": "Uma poção medicinal de Cianwood City capaz de curar o Ampharos doente."
+    },
+    "security-card": {
+        "name": "Cartão de Segurança",
+        "description": "Um cartão eletrônico que concede acesso a áreas restritas."
+    },
+    "seed-pouch": {
+        "name": "Bolsa de Sementes",
+        "description": "Pequena bolsa para carregar sementes de plantio e Berries."
+    },
+    "seel-candy": {
+        "name": "Doce de Seel",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "seismitoad-pouch": {
+        "name": "Bolsa de Seismitoad",
+        "description": "Item Pokémon: Bolsa de Seismitoad."
+    },
+    "selp-berry": {
+        "name": "Fruta Selp",
+        "description": "Item Pokémon: Fruta Selp."
+    },
+    "selp-mulch": {
+        "name": "Adubo Selp",
+        "description": "Item Pokémon: Adubo Selp."
+    },
+    "septer-pouch": {
+        "name": "Bolsa Septer",
+        "description": "Item Pokémon: Bolsa Septer."
+    },
+    "sent-mail": {
+        "name": "Carta Enviada",
+        "description": "Uma carta contendo uma mensagem que já foi escrita e enviada."
+    }
+}

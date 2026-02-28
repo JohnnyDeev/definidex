@@ -1,0 +1,50 @@
+{
+    "purple-apricorn": {
+        "name": "Apricorn Roxo",
+        "description": "Um apricorn roxo com uma superfície levemente aveludada."
+    },
+    "purple-nectar": {
+        "name": "Néctar Roxo",
+        "description": "Néctar de flores roxas. Muda Oricorio para o Estilo Sensu."
+    },
+    "purple-shard": {
+        "name": "Estilhaço Roxo",
+        "description": "Um pequeno pedaço de uma ferramenta antiga de cor roxa. Pode ser trocado."
+    },
+    "pyroar-candy": {
+        "name": "Doce de Pyroar",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "quaking-series-pouch": {
+        "name": "Bolsa da Série Tremor",
+        "description": "Item Pokémon: Bolsa da Série Tremor."
+    },
+    "qualot-berry": {
+        "name": "Fruta Qualot",
+        "description": "Torna o Pokémon mais amigável, mas reduz os pontos base de Defesa."
+    },
+    "quaxly-candy": {
+        "name": "Doce de Quaxly",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "quest-item-pouch": {
+        "name": "Bolsa de Itens de Missão",
+        "description": "Uma bolsa reforçada para itens importantes necessários para completar missões."
+    },
+    "quick-ball": {
+        "name": "Veloz Bola",
+        "description": "Uma Poké Bola que funciona melhor se usada no início de uma batalha."
+    },
+    "quick-claw": {
+        "name": "Garra Rápida",
+        "description": "Dá uma chance ao portador de atacar primeiro, independentemente da sua Velocidade."
+    },
+    "quick-powder": {
+        "name": "Pó Rápido",
+        "description": "Um item para Ditto que dobra sua Velocidade se ele não estiver transformado."
+    },
+    "quiet-mint": {
+        "name": "Menta Mansa",
+        "description": "Faz com que o Atq. Esp. cresça mais rápido, mas a Velocidade cresça mais devagar."
+    }
+}

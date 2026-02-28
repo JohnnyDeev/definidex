@@ -1,0 +1,70 @@
+{
+    "oak-s-letter": {
+        "name": "Carta do Prof. Oak",
+        "description": "Uma carta escrita pelo Professor Oak pedindo para encontrá-lo na Rota 224."
+    },
+    "oak-s-pokedex": {
+        "name": "Pokédex do Prof. Oak",
+        "description": "O modelo original da enciclopédia Pokémon criada pelo Professor Oak."
+    },
+    "oaks-letter": {
+        "name": "Carta do Prof. Oak",
+        "description": "Uma carta oficial do Professor Oak referente a uma pesquisa importante."
+    },
+    "oaks-parcel": {
+        "name": "Encomenda do Prof. Oak",
+        "description": "Um pacote destinado ao Professor Oak. Deve ser entregue em seu laboratório."
+    },
+    "occurence-ticket": {
+        "name": "Bilhete de Ocorrência",
+        "description": "Um bilhete que registra um evento especial encontrado na jornada."
+    },
+    "occurence-monitor": {
+        "name": "Monitor de Ocorrências",
+        "description": "Um dispositivo que rastreia atividades Pokémon incomuns."
+    },
+    "occurence-card": {
+        "name": "Cartão de Ocorrência",
+        "description": "Cartão que registra dados de encontros com Pokémon raros."
+    },
+    "occa-berry": {
+        "name": "Fruta Occa",
+        "description": "Enfraquece um ataque de Fogo super efetivo recebido pelo portador."
+    },
+    "odd-incense": {
+        "name": "Incenso Esquisito",
+        "description": "Aumenta o poder de ataques Psíquicos. Necessário para Breed do Mime Jr."
+    },
+    "odd-keystone": {
+        "name": "Pedra Chave Estranha",
+        "description": "Uma pedra com vozes que parecem vir de dentro. Usada em Spiritomb."
+    },
+    "oddish-candy": {
+        "name": "Doce de Oddish",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "oishii-mushroom": {
+        "name": "Cogumelo Delicioso",
+        "description": "Um cogumelo muito saboroso e raro. Pode ser vendido por um alto preço."
+    },
+    "old-amber": {
+        "name": "Âmbar Antigo",
+        "description": "Âmbar contendo genes de um Pokémon antigo. Pode ser regenerado em Aerodactyl."
+    },
+    "old-gateau": {
+        "name": "Bolo Antigo",
+        "description": "Especialidade da Old Chateau. Cura todos os problemas de status."
+    },
+    "old-pokedex": {
+        "name": "Pokédex Antiga",
+        "description": "Um modelo antigo da Pokédex que já viu muitas aventuras."
+    },
+    "old-rod": {
+        "name": "Vara Velha",
+        "description": "Uma vara de pesca simples para pegar Pokémon aquáticos comuns."
+    },
+    "old-sea-map": {
+        "name": "Mapa do Mar Antigo",
+        "description": "Um mapa desbotado que mostra o caminho para uma ilha distante."
+    }
+}

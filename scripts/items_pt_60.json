@@ -1,0 +1,62 @@
+{
+    "volcanion-candy": {
+        "name": "Doce de Volcanion",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "volcarona-candy": {
+        "name": "Doce de Volcarona",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "volunteer-monitor": {
+        "name": "Monitor de Voluntários",
+        "description": "Um dispositivo que organiza e rastreia atividades de assistência comunitária."
+    },
+    "vulpix-candy": {
+        "name": "Doce de Vulpix",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "vulpix-fur": {
+        "name": "Pelo de Vulpix",
+        "description": "Pelo macio e flamejante de um Vulpix. Usado como material."
+    },
+    "w-autograph": {
+        "name": "Autógrafo do W",
+        "description": "Um autógrafo de um treinador famoso de Galar."
+    },
+    "wailmer-candy": {
+        "name": "Doce de Wailmer",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "wailmer-pail": {
+        "name": "Regador Wailmer",
+        "description": "Um regador em forma de Wailmer usado para cultivar Berries."
+    },
+    "warp-series-pouch": {
+        "name": "Bolsa da Série Teleporte",
+        "description": "Item Pokémon: Bolsa da Série Teleporte."
+    },
+    "wasabi": {
+        "name": "Wasabi",
+        "description": "Wasabi picante usado como ingrediente em piqueniques."
+    },
+    "wash-pouch": {
+        "name": "Bolsa de Lavagem",
+        "description": "Uma bolsa contendo sabão e esponjas para limpar seu Pokémon."
+    },
+    "water-gem": {
+        "name": "Gema de Água",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Água."
+    },
+    "water-memory": {
+        "name": "Memória de Água",
+        "description": "Um drive de memória com dados do tipo Água para Silvally."
+    },
+    "water-stone": {
+        "name": "Pedra da Água",
+        "description": "Uma pedra azul e límpida que parece água cristalina. Faz certos Pokémon evoluírem."
+    },
+    "water-tera-shard": {
+        "name": "Estilhaço Tera Água",
+        "description": "Cristal com energia Tera Água. Muda o Tera Tipo de um Pokémon."
+    }
+}

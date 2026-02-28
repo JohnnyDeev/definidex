@@ -1,0 +1,62 @@
+{
+    "old-silver": {
+        "name": "Prata Antiga",
+        "description": "Uma moeda de prata desgastada pelo tempo. Pode ser vendida."
+    },
+    "olive-oil": {
+        "name": "Azeite de Oliva",
+        "description": "Azeite de alta qualidade usado como ingrediente em piqueniques."
+    },
+    "on-hand-pouch": {
+        "name": "Bolsa de Mão",
+        "description": "Uma bolsa prática para itens que precisam estar sempre ao alcance."
+    },
+    "on-off-cup": {
+        "name": "Copo Liga-Desliga",
+        "description": "Um copo de plástico com tampa abre-e-feche para piqueniques."
+    },
+    "onesie": {
+        "name": "Macacão",
+        "description": "Um macacão confortável para o treinador usar em momentos de descanso."
+    },
+    "onion": {
+        "name": "Cebola",
+        "description": "Cebolas frescas e crocantes usadas como ingrediente em piqueniques."
+    },
+    "onix-candy": {
+        "name": "Doce de Onix",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "onyx-crystal": {
+        "name": "Cristal de Ônix",
+        "description": "Um cristal escuro e polido com uma aparência imponente."
+    },
+    "opal-mall-pouch": {
+        "name": "Bolsa do Shopping Opala",
+        "description": "Uma sacola de compras luxuosa do famoso Shopping Opala."
+    },
+    "open-pouch": {
+        "name": "Bolsa Aberta",
+        "description": "Indica que a bolsa está aberta para organização de itens."
+    },
+    "oran-berry": {
+        "name": "Fruta Oran",
+        "description": "Uma fruta que o Pokémon pode comer para restaurar 10 pontos de HP."
+    },
+    "orange-apricorn": {
+        "name": "Apricorn Laranja",
+        "description": "Um apricorn laranja com um cheiro cítrico e vibrante."
+    },
+    "orange-balloon": {
+        "name": "Balão Laranja",
+        "description": "Um balão decorativo laranja para eventos festivos."
+    },
+    "orange-mail": {
+        "name": "Carta Laranja",
+        "description": "Papel de carta com estampa de um céu ensolarado de laranja."
+    },
+    "orange-petal": {
+        "name": "Pétala Laranja",
+        "description": "Uma das pétalas necessárias para completar a Flor de Sete Cores."
+    }
+}

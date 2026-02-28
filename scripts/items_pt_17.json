@@ -1,0 +1,78 @@
+{
+    "max-nectar": {
+        "name": "Néctar Máximo",
+        "description": "Um néctar concentrado que restaura completamente todos os PP de um golpe."
+    },
+    "max-potion": {
+        "name": "Poção Máxima",
+        "description": "Um spray medicinal que restaura completamente o HP de um Pokémon."
+    },
+    "max-repel": {
+        "name": "Repelente Máximo",
+        "description": "Impede Pokémon selvagens fracos de aparecerem por 250 passos."
+    },
+    "max-revive": {
+        "name": "Reviver Máximo",
+        "description": "Revive um Pokémon desmaiado, restaurando completamente o seu HP."
+    },
+    "max-soup": {
+        "name": "Sopa Max",
+        "description": "Uma sopa especial de Galar que permite a certos Pokémon Gigantamaxizar."
+    },
+    "may-s-autograph": {
+        "name": "Autógrafo da May",
+        "description": "Um autógrafo de uma coordenadora Pokémon famosa da região de Hoenn."
+    },
+    "meadow-plate": {
+        "name": "Placa de Prado",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Planta."
+    },
+    "meowth-candy": {
+        "name": "Doce de Meowth",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "meowth-fur": {
+        "name": "Pelo de Meowth",
+        "description": "Pelo brilhante e bem cuidado de um Meowth. Usado como material."
+    },
+    "medichamite": {
+        "name": "Medichamite",
+        "description": "Uma Mega Stone que permite que Medicham Megaevolua durante a batalha."
+    },
+    "mega-ring": {
+        "name": "Mega Anel",
+        "description": "Um bracelete que permite ao treinador ativar a Megaevolução em batalha."
+    },
+    "mega-stone": {
+        "name": "Mega Stone",
+        "description": "Uma pedra misteriosa que catalisa a Megaevolução de Pokémon específicos."
+    },
+    "mega-ticket": {
+        "name": "Mega Bilhete",
+        "description": "Um bilhete que dá direito a receber uma Mega Stone aleatória."
+    },
+    "mega-bracelet": {
+        "name": "Mega Bracelete",
+        "description": "Uma pulseira que permite a Megaevolução, similar ao Mega Anel."
+    },
+    "mega-charm": {
+        "name": "Mega Amuleto",
+        "description": "Um acessório que ressoa com a energia da Megaevolução."
+    },
+    "meister-s-badge": {
+        "name": "Insígnia do Mestre",
+        "description": "Uma insígnia dada apenas àqueles que provaram domínio total em batalhas."
+    },
+    "melody-mail": {
+        "name": "Carta Melodia",
+        "description": "Papel de carta com estampa de notas musicais e instrumentos."
+    },
+    "member-card": {
+        "name": "Cartão de Sócio",
+        "description": "Um cartão que permite o acesso a uma pousada trancada em Canalave City."
+    },
+    "mental-herb": {
+        "name": "Erva Mental",
+        "description": "Uma erva que remove efeitos limitantes de golpes como Taunt ou Encore."
+    }
+}

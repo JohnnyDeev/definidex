@@ -1,0 +1,154 @@
+{
+    "lansat-berry": {
+        "name": "Fruta Lansat",
+        "description": "Uma fruta rara que aumenta muito a chance de acertos críticos em uma emergência."
+    },
+    "lapras-candy": {
+        "name": "Doce de Lapras",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "larvitar-candy": {
+        "name": "Doce de Larvitar",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "latiasite": {
+        "name": "Latiasite",
+        "description": "Uma Mega Stone que permite que Latias Megaevolua durante a batalha."
+    },
+    "latiosite": {
+        "name": "Latiosite",
+        "description": "Uma Mega Stone que permite que Latios Megaevolua durante a batalha."
+    },
+    "lava-cookie": {
+        "name": "Cookie de Lava",
+        "description": "Especialidade de Lavaridge Town. Cura todos os problemas de status."
+    },
+    "lavender-tea": {
+        "name": "Chá de Lavanda",
+        "description": "Um chá aromático e calmante usado em piqueniques."
+    },
+    "lax-incense": {
+        "name": "Incenso Preguiçoso",
+        "description": "Diminui a precisão dos oponentes. Necessário para Breed do Wynaut."
+    },
+    "lax-mint": {
+        "name": "Menta Relaxada",
+        "description": "Faz com que a Defesa cresça mais rápido, mas a Def. Esp. cresça mais devagar."
+    },
+    "leaders-crest": {
+        "name": "Brasão do Líder",
+        "description": "Um brasão majestoso que permite a Bisharp evoluir."
+    },
+    "leaf-letter": {
+        "name": "Carta de Folha",
+        "description": "Papel de carta com estampa de folhas de outono caindo."
+    },
+    "leaf-stone": {
+        "name": "Pedra da Folha",
+        "description": "Uma pedra com o desenho de uma folha. Faz certos Pokémon evoluírem."
+    },
+    "leek": {
+        "name": "Alho-Poró",
+        "description": "O alho-poró segurado por Farfetch'd. Aumenta sua taxa de acerto crítico."
+    },
+    "leftovers": {
+        "name": "Restos",
+        "description": "Um item que restaura gradualmente o HP do portador a cada turno."
+    },
+    "legendary-clue-1": {
+        "name": "Dica Lendária 1",
+        "description": "Uma pista sobre o rei das colheitas lendário em Galar."
+    },
+    "legendary-clue-2": {
+        "name": "Dica Lendária 2",
+        "description": "Uma pista sobre os gigantes lendários escondidos em ruínas."
+    },
+    "legendary-clue-3": {
+        "name": "Dica Lendária 3",
+        "description": "Uma pista sobre as aves lendárias de outra região."
+    },
+    "legendary-clue-?": {
+        "name": "Dica Lendária ?",
+        "description": "Uma pista misteriosa sobre uma criatura de outro mundo."
+    },
+    "lemon": {
+        "name": "Limão",
+        "description": "Um limão azedo usado como ingrediente em piqueniques."
+    },
+    "lemonade": {
+        "name": "Limonada",
+        "description": "Uma bebida muito doce e refrescante que recupera 70 pontos de HP."
+    },
+    "leppa-berry": {
+        "name": "Fruta Leppa",
+        "description": "Uma fruta que o Pokémon pode comer para restaurar 10 PP de um golpe."
+    },
+    "letter": {
+        "name": "Carta",
+        "description": "Uma carta simples para enviar mensagens a outros treinadores."
+    },
+    "level-ball": {
+        "name": "Nível Bola",
+        "description": "Uma Poké Bola que funciona melhor se o seu Pokémon tiver nível maior que o alvo."
+    },
+    "leichi-berry": {
+        "name": "Fruta Leichi",
+        "description": "Uma fruta que aumenta o Ataque do portador em uma emergência."
+    },
+    "liechi-berry": {
+        "name": "Fruta Liechi",
+        "description": "Uma fruta que aumenta o Ataque do portador em uma emergência."
+    },
+    "life-orb": {
+        "name": "Orbe de Vida",
+        "description": "Aumenta o dano causado em 30%, mas o portador perde 10% de HP ao atacar."
+    },
+    "light-ball": {
+        "name": "Bola de Luz",
+        "description": "Um orbe elétrico que dobra o Ataque e Atq. Esp. de um Pikachu quando segurado."
+    },
+    "light-clay": {
+        "name": "Argila de Luz",
+        "description": "Aumenta a duração de Light Screen e Reflect para 8 turnos quando segurada."
+    },
+    "light-stone": {
+        "name": "Pedra de Luz",
+        "description": "A pedra branca lendária que brilha com o poder de Reshiram."
+    },
+    "linfu-pouch": {
+        "name": "Bolsa Linfu",
+        "description": "Item Pokémon: Bolsa Linfu."
+    },
+    "lite-mail": {
+        "name": "Carta Leve",
+        "description": "Papel de carta básico com estampa simples de Poké Bolas."
+    },
+    "little-boy-cup": {
+        "name": "Copo de Menino",
+        "description": "Um copo de plástico com design infantil para piqueniques."
+    },
+    "liveliness-pouch": {
+        "name": "Bolsa de Vivacidade",
+        "description": "Item Pokémon: Bolsa de Vivacidade."
+    },
+    "load-mail": {
+        "name": "Carta de Carga",
+        "description": "Papel de carta com estampa de itens e caixas de transporte."
+    },
+    "lock-capsule": {
+        "name": "Cápsula Trancada",
+        "description": "Uma cápsula que não pode ser aberta. Pode conter algo valioso."
+    },
+    "loidal-pouch": {
+        "name": "Bolsa Loidal",
+        "description": "Item Pokémon: Bolsa Loidal."
+    },
+    "lola-autograph": {
+        "name": "Autógrafo de Lola",
+        "description": "Um autógrafo de uma ídolo pop famosa."
+    },
+    "long-long-pouch": {
+        "name": "Bolsa Longa Longa",
+        "description": "Item Pokémon: Bolsa Longa Longa."
+    }
+}

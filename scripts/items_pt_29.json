@@ -1,0 +1,78 @@
+{
+    "prof-s-letter": {
+        "name": "Carta do Professor",
+        "description": "Uma carta oficial do Professor endereçada a você."
+    },
+    "professor-s-mask": {
+        "name": "Máscara do Professor",
+        "description": "A máscara usada pelo Professor Kukui quando ele assume a identidade do Royal Mask."
+    },
+    "promo-card": {
+        "name": "Cartão Promocional",
+        "description": "Um cartão especial dado durante eventos promocionais limitados."
+    },
+    "prop-case": {
+        "name": "Estojo de Adereços",
+        "description": "Um estojo para guardar adereços usados no Pokémon Musical."
+    },
+    "protective-pads": {
+        "name": "Almofadas de Proteção",
+        "description": "Protege o portador de sofrer efeitos de contato ao usar ataques."
+    },
+    "protocon-pouch": {
+        "name": "Bolsa Protocon",
+        "description": "Item Pokémon: Bolsa Protocon."
+    },
+    "psycho-gem": {
+        "name": "Gema Psíquica",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Psíquico."
+    },
+    "psychic-memory": {
+        "name": "Memória Psíquica",
+        "description": "Um drive de memória com dados do tipo Psíquico para Silvally."
+    },
+    "psychic-seed": {
+        "name": "Semente Psíquica",
+        "description": "Aumenta a Def. Esp. do Pokémon em um Campo Psíquico. Consumível."
+    },
+    "psychic-tera-shard": {
+        "name": "Estilhaço Tera Psíquico",
+        "description": "Cristal com energia Tera Psíquica. Muda o Tera Tipo de um Pokémon."
+    },
+    "psychic-z": {
+        "name": "Psychic Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Psíquico."
+    },
+    "psychium-z--bag": {
+        "name": "Psychium Z (Bolsa)",
+        "description": "Converte golpes do tipo Psíquico em Z-Moves de Psíquico em Alola."
+    },
+    "psychium-z--held": {
+        "name": "Psychium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Psíquico: Shattered Psyche."
+    },
+    "psyduck-candy": {
+        "name": "Doce de Psyduck",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "pulp-series-pouch": {
+        "name": "Bolsa da Série Polpa",
+        "description": "Item Pokémon: Bolsa da Série Polpa."
+    },
+    "pumpkaboo-candy": {
+        "name": "Doce de Pumpkaboo",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "pure-incense": {
+        "name": "Incenso Puro",
+        "description": "Ajuda a repelir Pokémon selvagens quando segurado. Necessário para Breed do Chingling."
+    },
+    "purification-machine": {
+        "name": "Máquina de Purificação",
+        "description": "Um dispositivo avançado para purificar Corações Sombrios de Pokémon."
+    },
+    "purify-chamber": {
+        "name": "Câmara de Purificação",
+        "description": "Um sistema que utiliza a amizade entre Pokémon para purificá-los."
+    }
+}

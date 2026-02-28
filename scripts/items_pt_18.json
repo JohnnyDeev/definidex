@@ -1,0 +1,106 @@
+{
+    "metagrossite": {
+        "name": "Metagrossite",
+        "description": "Uma Mega Stone que permite que Metagross Megaevolua durante a batalha."
+    },
+    "meteorite": {
+        "name": "Meteorito",
+        "description": "Uma pedra vinda do espaço. Tem uma influência estranha em certos Pokémon."
+    },
+    "meteorite--2": {
+        "name": "Meteorito 2",
+        "description": "Um fragmento de meteorito que brilha com uma luz misteriosa."
+    },
+    "metronome": {
+        "name": "Metrônomo",
+        "description": "Aumenta o poder de um golpe se ele for usado repetidamente pelo portador."
+    },
+    "mew-candy": {
+        "name": "Doce de Mew",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "mewnium-z--bag": {
+        "name": "Mewnium Z (Bolsa)",
+        "description": "Converte o Psychic de Mew em seu ataque Z em Alola."
+    },
+    "mewnium-z--held": {
+        "name": "Mewnium Z (Segurado)",
+        "description": "Permite que Mew execute seu ataque Z exclusivo: Genesis Supernova."
+    },
+    "mewtwo-candy": {
+        "name": "Doce de Mewtwo",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "mewtwonite-x": {
+        "name": "Mewtwonite X",
+        "description": "Uma Mega Stone que permite que Mewtwo Megaevolua para Mega Mewtwo X."
+    },
+    "mewtwonite-y": {
+        "name": "Mewtwonite Y",
+        "description": "Uma Mega Stone que permite que Mewtwo Megaevolua para Mega Mewtwo Y."
+    },
+    "micle-berry": {
+        "name": "Fruta Micle",
+        "description": "Aumenta a precisão do próximo golpe se o Pokémon estiver em uma emergência."
+    },
+    "mimikyu-candy": {
+        "name": "Doce de Mimikyu",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "mimikyu-scrap": {
+        "name": "Retalho de Mimikyu",
+        "description": "Um pedaço de pano velho usado como disfarce por um Mimikyu. Usado como material."
+    },
+    "mimikium-z--bag": {
+        "name": "Mimikium Z (Bolsa)",
+        "description": "Converte o Play Rough de Mimikyu em seu ataque Z em Alola."
+    },
+    "mimikium-z--held": {
+        "name": "Mimikium Z (Segurado)",
+        "description": "Permite que Mimikyu execute seu ataque Z exclusivo: Let's Snuggle Forever."
+    },
+    "mini-mushroom": {
+        "name": "Minicogumelo",
+        "description": "Um cogumelo pequeno e comum que pode ser vendido barato."
+    },
+    "mint-pouch": {
+        "name": "Bolsa de Mentas",
+        "description": "Uma bolsa perfumada para guardar sua coleção de mentas medicinais."
+    },
+    "miracle-seed": {
+        "name": "Semente Milagrosa",
+        "description": "Uma semente que transborda energia vital e aumenta o poder de golpes Planta."
+    },
+    "mirror-herb": {
+        "name": "Erva Espelhada",
+        "description": "Copia os aumentos de atributos de um oponente uma única vez em batalha."
+    },
+    "misty-seed": {
+        "name": "Semente Nebulosa",
+        "description": "Aumenta a Def. Esp. do Pokémon em um Campo Nebuloso. Consumível."
+    },
+    "misdreavus-bead": {
+        "name": "Contas de Misdreavus",
+        "description": "Uma das contas vermelhas do colar de uma Misdreavus. Usada como material."
+    },
+    "misty-terrain": {
+        "name": "CampoNebuloso",
+        "description": "Item Pokémon: Campo Nebuloso."
+    },
+    "mixture-cup": {
+        "name": "Copo Misturador",
+        "description": "Um copo de plástico projetado para misturar bebidas em piqueniques."
+    },
+    "moltres-candy": {
+        "name": "Doce de Moltres",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "moomoo-cheese": {
+        "name": "Queijo Moomoo",
+        "description": "Queijo rico e cremoso feito com leite Moomoo altamente nutritivo."
+    },
+    "moomoo-milk": {
+        "name": "Leite Moomoo",
+        "description": "Leite altamente nutritivo retirado de uma Miltank. Recupera 100 pontos de HP."
+    }
+}

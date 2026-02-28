@@ -1,0 +1,182 @@
+{
+    "machamp-candy": {
+        "name": "Doce de Machamp",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "machop-candy": {
+        "name": "Doce de Machop",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "machoke-candy": {
+        "name": "Doce de Machoke",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "macho-brace": {
+        "name": "Bracelete Macho",
+        "description": "Um bracelete pesado que reduz a Velocidade, mas dobra os pontos base de atributos ganhos."
+    },
+    "magma-stone": {
+        "name": "Pedra de Magma",
+        "description": "Uma pedra superaquecida que irradia o calor intenso do centro da terra."
+    },
+    "magma-suit": {
+        "name": "Traje Magma",
+        "description": "Um traje tecnológico da Equipe Magma feito para resistir ao calor extremo."
+    },
+    "magmar-candy": {
+        "name": "Doce de Magmar",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "magmarizer": {
+        "name": "Magmarizador",
+        "description": "Um dispositivo carregado com energia de magma. Evolui Magmar."
+    },
+    "magmarizer--held": {
+        "name": "Magmarizador (Segurado)",
+        "description": "Evolui Magmar quando trocado segurando este item."
+    },
+    "magmarizer--bag": {
+        "name": "Magmarizador (Bolsa)",
+        "description": "Um dispositivo cheio de energia de magma de alta temperatura."
+    },
+    "magnezone-candy": {
+        "name": "Doce de Magnezone",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "magnet": {
+        "name": "Ímã",
+        "description": "Um item que aumenta o poder de ataques do tipo Elétrico."
+    },
+    "magost-berry": {
+        "name": "Fruta Magost",
+        "description": "Ingrediente para Pokébloquinhos. Tem um sabor misterioso."
+    },
+    "magikarp-candy": {
+        "name": "Doce de Magikarp",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "magikarp-scales": {
+        "name": "Escamas de Magikarp",
+        "description": "Escamas rústicas e nada valiosas de um Magikarp. Usadas como material."
+    },
+    "magnemite-candy": {
+        "name": "Doce de Magnemite",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "magnemite-screw": {
+        "name": "Parafuso de Magnemite",
+        "description": "Um parafuso metálico deixado por um Magnemite. Usado como material."
+    },
+    "magost-mulch": {
+        "name": "Adubo Magost",
+        "description": "Item Pokémon: Adubo Magost."
+    },
+    "mahou-pouch": {
+        "name": "Bolsa Mahou",
+        "description": "Item Pokémon: Bolsa Mahou."
+    },
+    "mailbox": {
+        "name": "Caixa de Correio",
+        "description": "Uma caixa onde você pode receber mensagens e presentes eletrônicos."
+    },
+    "make-up-pouch": {
+        "name": "Estojo de Maquiagem",
+        "description": "Um estojo fino para guardar acessórios estéticos."
+    },
+    "maka-pouch": {
+        "name": "Bolsa Maka",
+        "description": "Item Pokémon: Bolsa Maka."
+    },
+    "major-lottery-ticket": {
+        "name": "Bilhete de Loteria Maior",
+        "description": "Um bilhete que dá direito a prêmios valiosos em sorteios oficiais."
+    },
+    "makit-pouch": {
+        "name": "Bolsa Makit",
+        "description": "Item Pokémon: Bolsa Makit."
+    },
+    "makuhita-candy": {
+        "name": "Doce de Makuhita",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "malasada-case": {
+        "name": "Cesto de Malasada",
+        "description": "Um cesto especial para carregar e manter as Malasadas frescas."
+    },
+    "manaphy-candy": {
+        "name": "Doce de Manaphy",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "mankey-candy": {
+        "name": "Doce de Mankey",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "mankey-fur": {
+        "name": "Pelo de Mankey",
+        "description": "Pelo rústico e bagunçado de um Mankey. Usado como material."
+    },
+    "manectrite": {
+        "name": "Manectrite",
+        "description": "Uma Mega Stone que permite que Manectric Megaevolua durante a batalha."
+    },
+    "maranga-berry": {
+        "name": "Fruta Maranga",
+        "description": "Aumenta a Def. Esp. do Pokémon se ele for atingido por um ataque especial."
+    },
+    "mareanie-spike": {
+        "name": "Espinho de Mareanie",
+        "description": "Um espinho venenoso de uma Mareanie. Usado como material."
+    },
+    "marep-candy": {
+        "name": "Doce de Mareep",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "marill-candy": {
+        "name": "Doce de Marill",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "mark-charm": {
+        "name": "Amuleto de Marca",
+        "description": "Um amuleto que aumenta a chance de encontrar Pokémon com Marcas raras."
+    },
+    "marshadium-z--bag": {
+        "name": "Marshadium Z (Bolsa)",
+        "description": "Converte o Spectral Thief de Marshadow em seu ataque Z em Alola."
+    },
+    "marshadium-z--held": {
+        "name": "Marshadium Z (Segurado)",
+        "description": "Permite que Marshadow execute seu ataque Z exclusivo: Soul-Stealing 7-Star Strike."
+    },
+    "master-ball": {
+        "name": "Mestra Bola",
+        "description": "A melhor Poké Bola de todas. Pode capturar qualquer Pokémon sem falhar."
+    },
+    "master-piece-teacup": {
+        "name": "Xícara Obra-Prima",
+        "description": "Uma xícara de porcelana requintada que faz certos Pokémon evoluírem."
+    },
+    "mat-block": {
+        "name": "Bloco de Tapete",
+        "description": "Item Pokémon: Bloco de Tapete."
+    },
+    "mauville-old-key": {
+        "name": "Chave Antiga de Mauville",
+        "description": "Uma chave velha e enferrujada encontrada em Mauville."
+    },
+    "max-elixir": {
+        "name": "Elixir Máximo",
+        "description": "Restaura completamente todos os PP de todos os golpes de um único Pokémon."
+    },
+    "max-ether": {
+        "name": "Éter Máximo",
+        "description": "Restaura completamente todos os PP de um único golpe de um Pokémon."
+    },
+    "max-honey": {
+        "name": "Mel Máximo",
+        "description": "Um mel raro encontrado na Isle of Armor que permite a certos Pokémon Gigantamaxizar."
+    },
+    "max-mushrooms": {
+        "name": "Cogumelos Máximos",
+        "description": "Cogumelos gigantes encontrados na Isle of Armor usados para a Sopa Max."
+    }
+}

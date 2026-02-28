@@ -1,0 +1,138 @@
+{
+    "ice-stone": {
+        "name": "Pedra do Gelo",
+        "description": "Uma pedra que brilha como a neve de inverno. Faz certos Pokémon evoluírem."
+    },
+    "ice-tera-shard": {
+        "name": "Estilhaço Tera Gelo",
+        "description": "Cristal com energia Tera Gelo. Muda o Tera Tipo de um Pokémon."
+    },
+    "ice-z": {
+        "name": "Ice Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Gelo."
+    },
+    "icicle-plate": {
+        "name": "Placa de Gelo",
+        "description": "Uma tábua de pedra que aumenta o poder de golpes do tipo Gelo."
+    },
+    "icium-z--bag": {
+        "name": "Icium Z (Bolsa)",
+        "description": "Converte golpes do tipo Gelo em Z-Moves de Gelo em Alola."
+    },
+    "icium-z--held": {
+        "name": "Icium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Gelo: Subzero Slammer."
+    },
+    "icy-mulch": {
+        "name": "Adubo Gelado",
+        "description": "Adubo que retarda o amadurecimento das Berries para que a colheita dure mais."
+    },
+    "icy-rock": {
+        "name": "Rocha de Gelo",
+        "description": "Aumenta a duração do golpe Hail/Snowscape para 8 turnos quando segurada."
+    },
+    "id-card": {
+        "name": "Cartão de Identidade",
+        "description": "Um cartão oficial que identifica o treinador e suas conquistas."
+    },
+    "igglybuff-candy": {
+        "name": "Doce de Igglybuff",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "ignite-mail": {
+        "name": "Carta de Ignição",
+        "description": "Papel de carta com estampa de labaredas e chamas brilhantes."
+    },
+    "illusion-card": {
+        "name": "Cartão de Ilusão",
+        "description": "Um cartão que parece mudar de imagem dependendo do ângulo."
+    },
+    "imbue-mail": {
+        "name": "Carta Infundida",
+        "description": "Papel de carta que emite uma leve fragrância de flores selvagens."
+    },
+    "impidimp-hair": {
+        "name": "Cabelo de Impidimp",
+        "description": "Um tufo de cabelo roxo e bagunçado de um Impidimp. Usado como material."
+    },
+    "incense-pouch": {
+        "name": "Bolsa de Incenso",
+        "description": "Pequena bolsa para carregar incensos aromáticos e seus efeitos."
+    },
+    "incentive-ticket": {
+        "name": "Bilhete de Incentivo",
+        "description": "Um bilhete dado como recompensa por completar desafios específicos."
+    },
+    "incineroar-candy": {
+        "name": "Doce de Incineroar",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "incinium-z--bag": {
+        "name": "Incinium Z (Bolsa)",
+        "description": "Converte o Darkest Lariat de Incineroar em seu ataque Z em Alola."
+    },
+    "incinium-z--held": {
+        "name": "Incinium Z (Segurado)",
+        "description": "Permite que Incineroar execute seu ataque Z exclusivo: Malicious Moonsault."
+    },
+    "indis-berry": {
+        "name": "Fruta Indis",
+        "description": "Item Pokémon: Fruta Indis."
+    },
+    "indis-mulch": {
+        "name": "Adubo Indis",
+        "description": "Item Pokémon: Adubo Indis."
+    },
+    "infatuation-mint": {
+        "name": "Menta da Paixão",
+        "description": "Uma menta cujo aroma dizem causar sentimentos de afeição profunda."
+    },
+    "inkay-ink": {
+        "name": "Tinta de Inkay",
+        "description": "Tinta luminescente expelida por um Inkay. Usada como material."
+    },
+    "insect-plate": {
+        "name": "Placa de Inseto",
+        "description": "Uma tábua de pedra que aumenta o poder de golpes do tipo Inseto."
+    },
+    "insignia-ticket": {
+        "name": "Bilhete de Insígnia",
+        "description": "Bilhete especial para colecionadores de insígnias de ginásio."
+    },
+    "insulation-series-pouch": {
+        "name": "Bolsa da Série Isolante",
+        "description": "Item Pokémon: Bolsa da Série Isolante."
+    },
+    "intel-card": {
+        "name": "Cartão de Inteligência",
+        "description": "Cartão contendo dados estratégicos sobre habitats Pokémon."
+    },
+    "intimidate-mint": {
+        "name": "Menta da Intimidação",
+        "description": "Diz-se que esta menta ajuda o Pokémon a ter uma presença mais imponente."
+    },
+    "intrigue-mail": {
+        "name": "Carta da Intriga",
+        "description": "Papel de carta com estampa de códigos e segredos escondidos."
+    },
+    "inventory-pouch": {
+        "name": "Bolsa de Inventário",
+        "description": "Uma bolsa extra para organizar novos itens encontrados na jornada."
+    },
+    "invisible-pouch": {
+        "name": "Bolsa Invisível",
+        "description": "Uma bolsa feita de material translúcido para itens secretos."
+    },
+    "invited-ticket": {
+        "name": "Bilhete de Convidado",
+        "description": "Um convite formal para um evento exclusivo de treinadores."
+    },
+    "iota-mall-pouch": {
+        "name": "Bolsa do Shopping Iota",
+        "description": "Uma sacola de compras elegante do famoso Shopping Iota."
+    },
+    "iron": {
+        "name": "Ferro",
+        "description": "Suplemento vitamínico que aumenta os pontos base de Defesa de um Pokémon."
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "orange-shard": {
+        "name": "Estilhaço Laranja",
+        "description": "Um pequeno pedaço de uma ferramenta antiga de cor laranja. Pode ser trocado."
+    },
+    "organ-pouch": {
+        "name": "Bolsa de Órgão",
+        "description": "Item Pokémon: Bolsa de Órgão."
+    },
+    "orthworm-tarnish": {
+        "name": "Fuligem de Orthworm",
+        "description": "Pequenos fragmentos de metal oxidado de um Orthworm. Usados como material."
+    },
+    "ost-berry": {
+        "name": "Fruta Ost",
+        "description": "Item Pokémon: Fruta Ost."
+    },
+    "ot-pouch": {
+        "name": "Bolsa OT",
+        "description": "Item Pokémon: Bolsa OT."
+    },
+    "oval-charm": {
+        "name": "Amuleto Oval",
+        "description": "Um amuleto que aumenta a chance de encontrar Ovos Pokémon no Day Care."
+    },
+    "oval-stone": {
+        "name": "Pedra Oval",
+        "description": "Uma pedra redonda e lisa. Faz com que Happiny evolua."
+    },
+    "over-pouch": {
+        "name": "Bolsa Sobre",
+        "description": "Item Pokémon: Bolsa Sobre."
+    },
+    "overcast-tablecloth": {
+        "name": "Toalha Nublada",
+        "description": "Uma toalha de piquenique com estampa de céu nublado."
+    },
+    "oxygen": {
+        "name": "Oxigênio",
+        "description": "Suplemento vitamínico que ajuda na performance pulmonar de certos Pokémon."
+    },
+    "p-teleport-pouch": {
+        "name": "Bolsa Teletransporte P",
+        "description": "Item Pokémon: Bolsa Teletransporte P."
+    },
+    "pachirisu-candy": {
+        "name": "Doce de Pachirisu",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "pachirisu-fur": {
+        "name": "Pelo de Pachirisu",
+        "description": "Pelo eletrizado e fofinho de um Pachirisu. Usado como material."
+    },
+    "pallet-mail": {
+        "name": "Carta de Pallet",
+        "description": "Papel de carta com estampa da tranquila cidade de Pallet Town."
+    },
+    "pan-mail": {
+        "name": "Carta Pan",
+        "description": "Papel de carta com estampa de belas paisagens naturais."
+    },
+    "pampas-series-pouch": {
+        "name": "Bolsa da Série Pampas",
+        "description": "Item Pokémon: Bolsa da Série Pampas."
+    },
+    "pao-pouch": {
+        "name": "Bolsa Pao",
+        "description": "Item Pokémon: Bolsa Pao."
+    },
+    "paper-bag": {
+        "name": "Saco de Papel",
+        "description": "Um saco de papel simples para carregar restos de comida."
+    },
+    "paralyze-heal": {
+        "name": "Cura Paralisia",
+        "description": "Um spray medicinal que remove a paralisia de um Pokémon."
+    },
+    "parcel": {
+        "name": "Pacote",
+        "description": "Um pacote bem fechado destinado a uma entrega específica."
+    },
+    "park-ball": {
+        "name": "Parque Bola",
+        "description": "Uma Poké Bola especial usada exclusivamente no Pal Park."
+    },
+    "parking-ticket": {
+        "name": "Bilhete de Estacionamento",
+        "description": "Um bilhete que permite deixar veículos em áreas autorizadas."
+    },
+    "parlor-cup": {
+        "name": "Copo de Salão",
+        "description": "Um copo de plástico elegante para ocasiões especiais em piqueniques."
+    }
+}

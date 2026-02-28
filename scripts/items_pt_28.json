@@ -1,0 +1,74 @@
+{
+    "power-anklet": {
+        "name": "Tornozeleira do Poder",
+        "description": "Um item de segurar que reduz a Velocidade, mas aumenta muito o ganho de pontos base de Velocidade."
+    },
+    "power-band": {
+        "name": "Faixa do Poder",
+        "description": "Um item de segurar que reduz a Velocidade, mas aumenta muito o ganho de pontos base de Def. Esp."
+    },
+    "power-belt": {
+        "name": "Cinto do Poder",
+        "description": "Um item de segurar que reduz a Velocidade, mas aumenta muito o ganho de pontos base de Defesa."
+    },
+    "power-bracer": {
+        "name": "Bracelete do Poder",
+        "description": "Um item de segurar que reduz a Velocidade, mas aumenta muito o ganho de pontos base de Ataque."
+    },
+    "power-herb": {
+        "name": "Erva do Poder",
+        "description": "Permite o uso imediato de um golpe que normalmente precisaria carregar no primeiro turno."
+    },
+    "power-lens": {
+        "name": "Lente do Poder",
+        "description": "Um item de segurar que reduz a Velocidade, mas aumenta muito o ganho de pontos base de Atq. Esp."
+    },
+    "power-weight": {
+        "name": "Peso do Poder",
+        "description": "Um item de segurar que reduz a Velocidade, mas aumenta muito o ganho de pontos base de HP."
+    },
+    "pp-max": {
+        "name": "PP Máximo",
+        "description": "Aumenta o PP de um golpe selecionado para o nível máximo possível."
+    },
+    "pp-up": {
+        "name": "PP Up",
+        "description": "Aumenta o PP máximo de um golpe selecionado em uma unidade."
+    },
+    "precision-feather": {
+        "name": "Pena de Precisão",
+        "description": "Uma pena que aumenta levemente a chance de acerto do seu Pokémon."
+    },
+    "precision-monitor": {
+        "name": "Monitor de Precisão",
+        "description": "Um dispositivo que exibe a porcentagem exata de chance de acerto de cada golpe."
+    },
+    "precipice-badge": {
+        "name": "Insígnia do Precipício",
+        "description": "Uma insígnia conquistada ao vencer o líder de ginásio de Sootopolis City."
+    },
+    "pre-series-pouch": {
+        "name": "Bolsa Pré-Série",
+        "description": "Item Pokémon: Bolsa Pré-Série."
+    },
+    "pressinium-z--bag": {
+        "name": "Pressinium Z (Bolsa)",
+        "description": "Item Pokémon: Pressinium Z (Bolsa)."
+    },
+    "pretty-feather": {
+        "name": "Pena Bonita",
+        "description": "Uma pena simples, mas muito bonita. Não tem efeito, mas pode ser vendida."
+    },
+    "primarium-z--bag": {
+        "name": "Primarium Z (Bolsa)",
+        "description": "Converte o Sparkling Aria de Primarina em seu ataque Z em Alola."
+    },
+    "primarium-z--held": {
+        "name": "Primarium Z (Segurado)",
+        "description": "Permite que Primarina execute seu ataque Z exclusivo: Oceanic Operetta."
+    },
+    "prison-bottle": {
+        "name": "Garrafa da Prisão",
+        "description": "Uma garrafa mística que permite a Hoopa mudar para sua Forma Desvinculada."
+    }
+}

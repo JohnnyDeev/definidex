@@ -1,0 +1,86 @@
+{
+    "parting-ticket": {
+        "name": "Bilhete de Despedida",
+        "description": "Um bilhete dado como lembrança ao se despedir de um local especial."
+    },
+    "pass": {
+        "name": "Passe",
+        "description": "Um passe necessário para pegar o Magnet Train que viaja entre Saffron e Goldenrod."
+    },
+    "pass-orb": {
+        "name": "Orbe de Passagem",
+        "description": "Um orbe que concede poderes especiais de passagem na Entree Forest."
+    },
+    "pass-pouch": {
+        "name": "Bolsa de Passes",
+        "description": "Uma pequena bolsa para guardar diversos tipos de passes de viagem."
+    },
+    "passho-berry": {
+        "name": "Fruta Passho",
+        "description": "Enfraquece um ataque de Água super efetivo recebido pelo portador."
+    },
+    "pata-pouch": {
+        "name": "Bolsa Pata",
+        "description": "Item Pokémon: Bolsa Pata."
+    },
+    "pawmi-fur": {
+        "name": "Pelo de Pawmi",
+        "description": "Pelo alaranjado e macio de um Pawmi. Usado como material."
+    },
+    "payapa-berry": {
+        "name": "Fruta Payapa",
+        "description": "Enfraquece um ataque Psíquico super efetivo recebido pelo portador."
+    },
+    "peak-pouch": {
+        "name": "Bolsa de Pico",
+        "description": "Item Pokémon: Bolsa de Pico."
+    },
+    "pearl": {
+        "name": "Pérola",
+        "description": "Uma pérola bonita e brilhante que pode ser vendida barato."
+    },
+    "pearl-pouch": {
+        "name": "Bolsa de Pérolas",
+        "description": "Uma pequena bolsa brilhante decorada com pérolas brancas."
+    },
+    "pearl-series-pouch": {
+        "name": "Bolsa da Série Pérola",
+        "description": "Item Pokémon: Bolsa da Série Pérola."
+    },
+    "pearl-string": {
+        "name": "Colar de Pérolas",
+        "description": "Um colar feito de pérolas muito grandes e raras. Pode ser vendido caro."
+    },
+    "pecha-berry": {
+        "name": "Fruta Pecha",
+        "description": "Uma fruta que o Pokémon pode comer para curar envenenamento."
+    },
+    "pedestal-mail": {
+        "name": "Carta Pedestal",
+        "description": "Papel de carta com estampa de um troféu em um pedestal de mármore."
+    },
+    "pent-autograph": {
+        "name": "Autógrafo do Pent",
+        "description": "Um autógrafo de um pesquisador excêntrico."
+    },
+    "pepper": {
+        "name": "Pimenta",
+        "description": "Pimenta preta moída usada como ingrediente em piqueniques."
+    },
+    "peperoni": {
+        "name": "Pepperoni",
+        "description": "Fatias de pepperoni condimentado usadas como ingrediente em piqueniques."
+    },
+    "pesto": {
+        "name": "Pesto",
+        "description": "Molho de manjericão e ervas usado como ingrediente em piqueniques."
+    },
+    "petality-pouch": {
+        "name": "Bolsa de Pétalas",
+        "description": "Bolsa perfumada decorada com pétalas de flores secas."
+    },
+    "petaya-berry": {
+        "name": "Fruta Petaya",
+        "description": "Uma fruta que aumenta o Atq. Esp. do portador em uma emergência."
+    }
+}

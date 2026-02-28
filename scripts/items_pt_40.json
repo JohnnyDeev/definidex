@@ -1,0 +1,114 @@
+{
+    "slowpoke-candy": {
+        "name": "Doce de Slowpoke",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "slowpoke-claw": {
+        "name": "Garra de Slowpoke",
+        "description": "Uma pequena garra de um Slowpoke. Usada como material."
+    },
+    "slowpoke-tail": {
+        "name": "Cauda de Slowpoke",
+        "description": "Uma iguaria muito saborosa e valiosa. Pode ser vendida por um alto preço."
+    },
+    "sludge-pouch": {
+        "name": "Bolsa de Lodo",
+        "description": "Bolsa para carregar itens tóxicos e lodosos encontrados em pântanos."
+    },
+    "slugma-candy": {
+        "name": "Doce de Slugma",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "smell-pouch": {
+        "name": "Bolsa de Cheiro",
+        "description": "Uma bolsa que exala um aroma forte para afastar ou atrair Pokémon."
+    },
+    "smellium-z--bag": {
+        "name": "Smellium Z (Bolsa)",
+        "description": "Item Pokémon: Smellium Z (Bolsa)."
+    },
+    "smoke-ball": {
+        "name": "Bola de Fumaça",
+        "description": "Permite que o Pokémon escape com certeza de qualquer batalha selvagem."
+    },
+    "smoky-fillet": {
+        "name": "Filé Defumado",
+        "description": "Um filé de carne defumado com um aroma rico para piqueniques."
+    },
+    "smooth-rock": {
+        "name": "Rocha Lisa",
+        "description": "Aumenta a duração do golpe Sandstorm para 8 turnos quando segurada."
+    },
+    "smoliv-oil": {
+        "name": "Azeite de Smoliv",
+        "description": "Azeite fresco e perfumado produzido por um Smoliv. Usado como material."
+    },
+    "sneasel-candy": {
+        "name": "Doce de Sneasel",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "sneasel-claw": {
+        "name": "Garra de Sneasel",
+        "description": "Uma garra afiada e curva de um Sneasel. Usada como material."
+    },
+    "snom-thread": {
+        "name": "Fio de Snom",
+        "description": "Fio de seda branco e frio produzido por um Snom. Usado como material."
+    },
+    "snorlax-candy": {
+        "name": "Doce de Snorlax",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "snorlium-z--bag": {
+        "name": "Snorlium Z (Bolsa)",
+        "description": "Converte o Giga Impact de Snorlax em seu ataque Z em Alola."
+    },
+    "snorlium-z--held": {
+        "name": "Snorlium Z (Segurado)",
+        "description": "Permite que Snorlax execute seu ataque Z exclusivo: Pulverizing Pancake."
+    },
+    "snow-series-pouch": {
+        "name": "Bolsa da Série Neve",
+        "description": "Item Pokémon: Bolsa da Série Neve."
+    },
+    "snowball": {
+        "name": "Bola de Neve",
+        "description": "Aumenta o Ataque do portador se ele for atingido por um ataque de Gelo."
+    },
+    "soothe-bell": {
+        "name": "Sino de Conforto",
+        "description": "Um sino de som agradável que torna o Pokémon mais amigável ao caminhar."
+    },
+    "soft-sand": {
+        "name": "Areia Macia",
+        "description": "Areia de grão fino que aumenta o poder de ataques do tipo Terrestre."
+    },
+    "solgalium-z--bag": {
+        "name": "Solgalium Z (Bolsa)",
+        "description": "Converte o Sunsteel Strike de Solgaleo em seu ataque Z em Alola."
+    },
+    "solgalium-z--held": {
+        "name": "Solgalium Z (Segurado)",
+        "description": "Permite que Solgaleo execute seu ataque Z exclusivo: Searing Sunraze Smash."
+    },
+    "solo-series-pouch": {
+        "name": "Bolsa da Série Solo",
+        "description": "Item Pokémon: Bolsa da Série Solo."
+    },
+    "sonans-autograph": {
+        "name": "Autógrafo do Sonans",
+        "description": "Um autógrafo de um treinador especialista em paciência."
+    },
+    "sooty-monitor": {
+        "name": "Monitor de Fuligem",
+        "description": "Um dispositivo que mede o nível de fuligem vulcânica no ar."
+    },
+    "sorce-pouch": {
+        "name": "Bolsa Sorce",
+        "description": "Item Pokémon: Bolsa Sorce."
+    },
+    "soul-dew": {
+        "name": "Orbe de Alma",
+        "description": "Um cristal para Latios e Latias. Aumenta poder de golpes Psíquicos e Dragão."
+    }
+}

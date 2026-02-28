@@ -1,0 +1,70 @@
+{
+    "repeat-ball": {
+        "name": "Repetição Bola",
+        "description": "Uma Poké Bola que funciona melhor se o Pokémon já tiver sido capturado antes."
+    },
+    "repel": {
+        "name": "Repelente",
+        "description": "Impede Pokémon selvagens fracos de aparecerem por 100 passos."
+    },
+    "report-card": {
+        "name": "Boletim",
+        "description": "Um cartão que registra o desempenho e as notas de um estudante de treinamento."
+    },
+    "rescue-bell": {
+        "name": "Sino de Resgate",
+        "description": "Um sino que ajuda a guiar Pokémon perdidos de volta para a segurança."
+    },
+    "rescue-pouch": {
+        "name": "Bolsa de Resgate",
+        "description": "Uma bolsa contendo itens essenciais para situações de emergência."
+    },
+    "reshiram-candy": {
+        "name": "Doce de Reshiram",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "revival-herb": {
+        "name": "Erva da Ressurreição",
+        "description": "Uma erva muito amarga que revive um Pokémon e restaura todo o seu HP."
+    },
+    "revive": {
+        "name": "Reviver",
+        "description": "Um medicamento que revive um Pokémon desmaiado, restaurando metade do seu HP."
+    },
+    "rhp-pouch": {
+        "name": "Bolsa RHP",
+        "description": "Item Pokémon: Bolsa RHP."
+    },
+    "rhyhorn-candy": {
+        "name": "Doce de Rhyhorn",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "ribbon-pouch": {
+        "name": "Bolsa de Fitas",
+        "description": "Uma bolsa elegante para guardar e exibir as fitas conquistadas em concursos."
+    },
+    "ribbon-sweet": {
+        "name": "Doce de Fita",
+        "description": "Um doce em forma de laço. Faz Milcery girar feliz ao segurá-lo."
+    },
+    "rich-incense": {
+        "name": "Incenso de Riqueza",
+        "description": "Dobra o dinheiro ganho em batalha se o portador participar."
+    },
+    "ride-pager": {
+        "name": "Pager de Montaria",
+        "description": "Um dispositivo que permite chamar Pokémon de montaria em Alola."
+    },
+    "ride-pouch": {
+        "name": "Bolsa de Montaria",
+        "description": "Uma bolsa prática para carregar selas e equipamentos de montaria."
+    },
+    "ride-ticket": {
+        "name": "Bilhete de Montaria",
+        "description": "Um bilhete que dá acesso a serviços de transporte por Pokémon."
+    },
+    "rillaboom-candy": {
+        "name": "Doce de Rillaboom",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    }
+}

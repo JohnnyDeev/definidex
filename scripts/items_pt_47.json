@@ -1,0 +1,30 @@
+{
+    "teeth-pouch": {
+        "name": "Bolsa de Dentes",
+        "description": "Item Pokémon: Bolsa de Dentes."
+    },
+    "tear-monitor": {
+        "name": "Monitor de Lágrimas",
+        "description": "Um painel que registra reações emocionais de Pokémon durante o cuidado."
+    },
+    "tech-pouch": {
+        "name": "Bolsa Tecnológica",
+        "description": "Uma bolsa de alta tecnologia projetada para carregar dispositivos eletrônicos."
+    },
+    "teim-berry": {
+        "name": "Fruta Teim",
+        "description": "Item Pokémon: Fruta Teim."
+    },
+    "temp-series-pouch": {
+        "name": "Bolsa da Série Temporária",
+        "description": "Item Pokémon: Bolsa da Série Temporária."
+    },
+    "temple-badge": {
+        "name": "Insígnia do Templo",
+        "description": "Uma insígnia conquistada em um templo antigo de treinamento."
+    },
+    "tera-orb": {
+        "name": "Orbe Tera",
+        "description": "Um orbe que permite ao Pokémon usar o fenômeno Terastal na região de Paldea."
+    }
+}

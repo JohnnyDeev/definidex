@@ -1,0 +1,242 @@
+{
+    "choice-scarf": {
+        "name": "Lenço Escolha",
+        "description": "Aumenta a Velocidade em 50%, mas permite usar apenas um golpe."
+    },
+    "choice-specs": {
+        "name": "Óculos Escolha",
+        "description": "Aumenta o Atq. Esp. em 50%, mas permite usar apenas um golpe."
+    },
+    "chople-berry": {
+        "name": "Fruta Chople",
+        "description": "Enfraquece um ataque Lutador super efetivo recebido pelo portador."
+    },
+    "chorizo": {
+        "name": "Chouriço",
+        "description": "Linguiça condimentada e saborosa usada em piqueniques."
+    },
+    "cinccino-fur": {
+        "name": "Pelo de Cinccino",
+        "description": "Pelo luxuoso e brilhante de um Cinccino. Usado como material."
+    },
+    "cinderace-candy": {
+        "name": "Doce de Cinderace",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "clawncher-claw": {
+        "name": "Garra de Clawncher",
+        "description": "Pinça afiada de um Clawncher. Usada como material."
+    },
+    "clay-cup": {
+        "name": "Copo de Argila",
+        "description": "Um copo de plástico com cor de argila para piqueniques."
+    },
+    "cleanse-tag": {
+        "name": "Selo de Limpeza",
+        "description": "Um amuleto que ajuda a afastar Pokémon selvagens se o portador estiver na frente."
+    },
+    "clear-amulet": {
+        "name": "Amuleto de Clareza",
+        "description": "Impede que os atributos do portador sejam reduzidos por outros Pokémon."
+    },
+    "clear-bell": {
+        "name": "Sino de Cristal",
+        "description": "Um sino antigo que emite um som puro e límpido."
+    },
+    "clefable-candy": {
+        "name": "Doce de Clefable",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "clefairy-candy": {
+        "name": "Doce de Clefairy",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "cleffa-candy": {
+        "name": "Doce de Cleffa",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "clobberpus-ink": {
+        "name": "Tinta de Clobberpus",
+        "description": "Tinta escura expelida por um Clobberpus. Usada como material."
+    },
+    "clover-sweet": {
+        "name": "Doce de Trevo",
+        "description": "Um doce em forma de trevo. Faz Milcery girar feliz ao segurá-lo."
+    },
+    "cobaba-berry": {
+        "name": "Fruta Cobaba",
+        "description": "Enfraquece um ataque de Voador super efetivo recebido pelo portador."
+    },
+    "coin-case": {
+        "name": "Porta-Moedas",
+        "description": "Um estojo fino para guardar as moedas obtidas no Game Corner."
+    },
+    "colbur-berry": {
+        "name": "Fruta Colbur",
+        "description": "Enfraquece um ataque de Sombrio super efetivo recebido pelo portador."
+    },
+    "combee-honey": {
+        "name": "Mel de Combee",
+        "description": "Mel doce e âmbar produzido por Combee. Usado como material."
+    },
+    "comet-shard": {
+        "name": "Estilhaço de Cometa",
+        "description": "Um fragmento de um cometa raro. Pode ser vendido muito caro."
+    },
+    "common-stone": {
+        "name": "Pedra Comum",
+        "description": "Uma pedra pequena encontrada em qualquer lugar. Usada como material."
+    },
+    "complex-cup": {
+        "name": "Copo Complexo",
+        "description": "Um copo de plástico com design geométrico para piqueniques."
+    },
+    "composite-cup": {
+        "name": "Copo Composto",
+        "description": "Um copo feito de materiais mistos para piqueniques."
+    },
+    "compubox": {
+        "name": "Computador de Bolso",
+        "description": "Um dispositivo que permite acessar o Sistema de Armazenamento de qualquer lugar."
+    },
+    "concord-grape": {
+        "name": "Uva Concord",
+        "description": "Uvas escuras e doces usadas como ingrediente em piqueniques."
+    },
+    "confuse-mint": {
+        "name": "Menta Confusa",
+        "description": "Diz-se que esta menta faz com que alguns Pokémon se sintam confusos."
+    },
+    "contour-cup": {
+        "name": "Copo de Contorno",
+        "description": "Um copo de plástico ergonômico para piqueniques."
+    },
+    "cooking-pot": {
+        "name": "Panela de Cozinha",
+        "description": "Uma panela resistente para cozinhar durante acampamentos."
+    },
+    "copycat-card": {
+        "name": "Cartão do Imitador",
+        "description": "Um cartão de visita dado pela Copycat de Vermilion City."
+    },
+    "coronite-ore": {
+        "name": "Minério de Coronita",
+        "description": "Minério especial encontrado nas profundezas de Sinnoh."
+    },
+    "corvisquire-feather": {
+        "name": "Pena de Corvisquire",
+        "description": "Uma pena preta de um Corvisquire. Usada como material."
+    },
+    "cotton-mail": {
+        "name": "Carta de Algodão",
+        "description": "Papel de carta com estampa de nuvens de algodão macio."
+    },
+    "counterfeit-pot": {
+        "name": "Bule Falsificado",
+        "description": "Um bule que parece antigo mas é uma réplica. Faz certos Pokémon evoluírem."
+    },
+    "cover-fossil": {
+        "name": "Fóssil de Casco",
+        "description": "Um fóssil de um Pokémon pré-histórico. Pode ser regenerado em Tirtouga."
+    },
+    "covert-cloak": {
+        "name": "Manto Camuflado",
+        "description": "Um manto que protege o portador de efeitos secundários de ataques inimigos."
+    },
+    "crab-stick": {
+        "name": "Kani-kama",
+        "description": "Bastão de carne de caranguejo processada usado em piqueniques."
+    },
+    "crabrawler-shell": {
+        "name": "Casca de Crabrawler",
+        "description": "Pedaço da carapaça de um Crabrawler. Usado como material."
+    },
+    "cracked-pot": {
+        "name": "Bule Rachado",
+        "description": "Um bule com uma rachadura. Faz certos Pokémon evoluírem."
+    },
+    "cranidos-candy": {
+        "name": "Doce de Cranidos",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "cream-cheese": {
+        "name": "Queijo Cremoso",
+        "description": "Queijo suave e espalhável usado como ingrediente em piqueniques."
+    },
+    "creamy-series-pouch": {
+        "name": "Bolsa da Série Cremosa",
+        "description": "Item Pokémon: Bolsa da Série Cremosa."
+    },
+    "cresselia-candy": {
+        "name": "Doce de Cresselia",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "crocodile-series-pouch": {
+        "name": "Bolsa da Série Jacaré",
+        "description": "Item Pokémon: Bolsa da Série Jacaré."
+    },
+    "cryogonal-ice": {
+        "name": "Cristal de Cryogonal",
+        "description": "Cristal de gelo que nunca derrete de um Cryogonal. Usado como material."
+    },
+    "cufant-tusk": {
+        "name": "Presa de Cufant",
+        "description": "Uma pequena presa de marfim de um Cufant. Usada como material."
+    },
+    "cup-of-tea": {
+        "name": "Xícara de Chá",
+        "description": "Uma xícara de chá quente para relaxar durante piqueniques."
+    },
+    "curry-powder": {
+        "name": "Pó de Curry",
+        "description": "Pó condimentado essencial para fazer curry no acampamento."
+    },
+    "custap-berry": {
+        "name": "Fruta Custap",
+        "description": "Permite que o Pokémon ataque primeiro em uma emergência."
+    },
+    "cyndaquil-candy": {
+        "name": "Doce de Cyndaquil",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "dainty-cup": {
+        "name": "Copo Delicado",
+        "description": "Um copo de plástico pequeno e leve para piqueniques."
+    },
+    "damp-mulch": {
+        "name": "Adubo Úmido",
+        "description": "Adubo que mantém a terra úmida por mais tempo."
+    },
+    "damp-rock": {
+        "name": "Rocha Úmida",
+        "description": "Aumenta a duração do golpe Rain Dance para 8 turnos quando segurada."
+    },
+    "dark-gem": {
+        "name": "Gema de Sombrio",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Sombrio."
+    },
+    "dark-memory": {
+        "name": "Memória de Sombrio",
+        "description": "Um drive de memória com dados do tipo Sombrio para Silvally."
+    },
+    "dark-tera-shard": {
+        "name": "Estilhaço Tera Sombrio",
+        "description": "Cristal com energia Tera Sombria. Muda o Tera Tipo de um Pokémon."
+    },
+    "dark-z": {
+        "name": "Dark Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Sombrio."
+    },
+    "darkinium-z--bag": {
+        "name": "Darkinium Z (Bolsa)",
+        "description": "Converte golpes do tipo Sombrio em Z-Moves de Sombrio em Alola."
+    },
+    "darkinium-z--held": {
+        "name": "Darkinium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Sombrio: Black Hole Eclipse."
+    },
+    "data-card": {
+        "name": "Cartão de Dados",
+        "description": "Um cartão de armazenamento que contém informações úteis."
+    }
+}

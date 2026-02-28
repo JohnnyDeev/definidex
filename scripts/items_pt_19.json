@@ -1,0 +1,70 @@
+{
+    "moon-ball": {
+        "name": "Lua Bola",
+        "description": "Uma Poké Bola que funciona melhor em Pokémon que evoluem com a Pedra da Lua."
+    },
+    "moon-stone": {
+        "name": "Pedra da Lua",
+        "description": "Uma pedra peculiar que parece escura como o céu noturno. Evolui certos Pokémon."
+    },
+    "most-pouch": {
+        "name": "Bolsa Most",
+        "description": "Item Pokémon: Bolsa Most."
+    },
+    "mudbray-mud": {
+        "name": "Lama de Mudbray",
+        "description": "Lama seca e terra coletada de um Mudbray. Usada como material."
+    },
+    "mudkip-candy": {
+        "name": "Doce de Mudkip",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "murkrow-bauble": {
+        "name": "Adorno de Murkrow",
+        "description": "Um pequeno objeto brilhante coletado pelo bico de um Murkrow. Usado como material."
+    },
+    "muscle-band": {
+        "name": "Faixa de Músculo",
+        "description": "Um item para ser segurado que aumenta um pouco o poder de ataques físicos."
+    },
+    "muscle-feather": {
+        "name": "Pena de Músculo",
+        "description": "Uma pena que aumenta levemente os pontos base de Ataque de um Pokémon."
+    },
+    "muscle-waistband": {
+        "name": "Cinturão de Músculo",
+        "description": "Uma cinta que ajuda o Pokémon a demonstrar mais força física."
+    },
+    "mushman-pouch": {
+        "name": "Bolsa Mushman",
+        "description": "Item Pokémon: Bolsa Mushman."
+    },
+    "mushroom-scent": {
+        "name": "Perfume de Cogumelo",
+        "description": "Um aroma terroso que ajuda a purificar corações Pokémon."
+    },
+    "mustard-s-letter": {
+        "name": "Carta do Mustard",
+        "description": "Uma carta de recomendação assinada pelo mestre Mustard."
+    },
+    "mysterious-crystal": {
+        "name": "Cristal Misterioso",
+        "description": "Um cristal que emite uma energia desconhecida e fascinante."
+    },
+    "mysterious-stone": {
+        "name": "Pedra Misteriosa",
+        "description": "Uma pedra de origem desconhecida. Parece reagir a certas energias."
+    },
+    "mystic-ticket": {
+        "name": "Bilhete Místico",
+        "description": "Um bilhete raro necessário para viajar até a Navel Rock."
+    },
+    "mystic-water": {
+        "name": "Água Mística",
+        "description": "Uma joia em forma de gota que aumenta o poder de golpes do tipo Água."
+    },
+    "mystery-berry": {
+        "name": "Fruta Mistério",
+        "description": "Uma fruta que restaura 5 PP de um golpe usado pelo Pokémon."
+    }
+}

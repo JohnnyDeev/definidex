@@ -1,0 +1,242 @@
+{
+    "golden-nanab-berry": {
+        "name": "Fruta Nanab Dourada",
+        "description": "Uma fruta Nanab dourada que acalma Pokémon selvagens muito mais que a comum."
+    },
+    "golden-pinap-berry": {
+        "name": "Fruta Pinap Dourada",
+        "description": "Uma fruta Pinap dourada que aumenta muito o ganho de Doce ao capturar Pokémon."
+    },
+    "golden-razz-berry": {
+        "name": "Fruta Razz Dourada",
+        "description": "Uma fruta Razz dourada que facilita muito a captura de Pokémon selvagens."
+    },
+    "gold-nugget-2": {
+        "name": "Pepita de Ouro 2",
+        "description": "Uma pepita de ouro puro altamente valiosa."
+    },
+    "gon-s-autograph": {
+        "name": "Autógrafo de Gon",
+        "description": "Um autógrafo de um treinador lendário."
+    },
+    "good-rod": {
+        "name": "Vara Boa",
+        "description": "Uma vara de pesca de qualidade que permite pescar Pokémon aquáticos melhores."
+    },
+    "goomy-mucus": {
+        "name": "Muco de Goomy",
+        "description": "Muco viscoso e grudento expelido por um Goomy. Usado como material."
+    },
+    "gossifleur-pollen": {
+        "name": "Pólen de Gossifleur",
+        "description": "Pólen leve e amarelado de um Gossifleur. Usado como material."
+    },
+    "gothita-eyelash": {
+        "name": "Cílio de Gothita",
+        "description": "Um pequeno cílio de uma Gothita. Usado como material."
+    },
+    "grace-mail": {
+        "name": "Carta da Graça",
+        "description": "Papel de carta com estampa elegante de pétalas caindo."
+    },
+    "gradu-mail": {
+        "name": "Carta de Graduação",
+        "description": "Papel de carta com estampa comemorativa de formatura."
+    },
+    "gram-1": {
+        "name": "Grama 1",
+        "description": "Item Pokémon: Grama 1."
+    },
+    "gram-2": {
+        "name": "Grama 2",
+        "description": "Item Pokémon: Grama 2."
+    },
+    "gram-3": {
+        "name": "Grama 3",
+        "description": "Item Pokémon: Grama 3."
+    },
+    "gracidea": {
+        "name": "Gracidea",
+        "description": "Uma flor que permite que Shaymin mude para sua Forma Céu durante o dia."
+    },
+    "granite-cave-pouch": {
+        "name": "Bolsa da Caverna de Granito",
+        "description": "Item Pokémon: Bolsa da Caverna de Granito."
+    },
+    "grape": {
+        "name": "Uva",
+        "description": "Uvas roxas doces e suculentas usadas como ingrediente em piqueniques."
+    },
+    "grass-gem": {
+        "name": "Gema de Planta",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Planta."
+    },
+    "grass-memory": {
+        "name": "Memória de Planta",
+        "description": "Um drive de memória com dados do tipo Planta para Silvally."
+    },
+    "grass-tera-shard": {
+        "name": "Estilhaço Tera Planta",
+        "description": "Cristal com energia Tera Planta. Muda o Tera Tipo de um Pokémon."
+    },
+    "grass-z": {
+        "name": "Grass Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Planta."
+    },
+    "grassinium-z--bag": {
+        "name": "Grassinium Z (Bolsa)",
+        "description": "Converte golpes do tipo Planta em Z-Moves de Planta em Alola."
+    },
+    "grassinium-z--held": {
+        "name": "Grassinium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Planta: Bloom Doom."
+    },
+    "grassy-seed": {
+        "name": "Semente de Grama",
+        "description": "Aumenta a Defesa do Pokémon em um Campo de Grama. Consumível."
+    },
+    "great-ball": {
+        "name": "Grande Bola",
+        "description": "Uma Poké Bola de alto desempenho com taxa de captura melhor que a comum."
+    },
+    "greavard-wax": {
+        "name": "Cera de Greavard",
+        "description": "Cera de vela coletada da cabeça de um Greavard. Usada como material."
+    },
+    "green-apricorn": {
+        "name": "Apricorn Verde",
+        "description": "Um apricorn verde com um aroma refrescante de menta."
+    },
+    "green-flute": {
+        "name": "Flauta Verde",
+        "description": "Dados de teste para dispositivo sonoro verde."
+    },
+    "green-orb": {
+        "name": "Orbe Verde",
+        "description": "Um orbe antigo que emite um brilho esmeralda para Rayquaza."
+    },
+    "green-petal": {
+        "name": "Pétala Verde",
+        "description": "Uma das pétalas necessárias para completar a Flor de Sete Cores."
+    },
+    "green-scarf": {
+        "name": "Lenço Verde",
+        "description": "Um lenço que aumenta a Inteligência (Smartness) do Pokémon em concursos."
+    },
+    "green-shard": {
+        "name": "Estilhaço Verde",
+        "description": "Um pequeno pedaço de uma ferramenta antiga. Pode ser trocado."
+    },
+    "greet-mail": {
+        "name": "Carta de Saudação",
+        "description": "Papel de carta colorido para mensagens de boas-vindas."
+    },
+    "grepa-berry": {
+        "name": "Fruta Grepa",
+        "description": "Torna o Pokémon mais amigável, mas reduz os pontos base de Def. Esp."
+    },
+    "grip-claw": {
+        "name": "Garra de Aperto",
+        "description": "Aumenta a duração de golpes que prendem (como Wrap) para 7 turnos."
+    },
+    "griseous-core": {
+        "name": "Núcleo de Griseous",
+        "description": "Um núcleo sombrio que permite a Giratina mudar para sua Forma Origem."
+    },
+    "griseous-orb": {
+        "name": "Orbe de Griseous",
+        "description": "Orbe brilhante para Giratina. Aumenta poder de golpes Dragão e Fantasma."
+    },
+    "gromat-pouch": {
+        "name": "Bolsa Gromat",
+        "description": "Item Pokémon: Bolsa Gromat."
+    },
+    "ground-gem": {
+        "name": "Gema de Terra",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Terrestre."
+    },
+    "ground-memory": {
+        "name": "Memória de Terra",
+        "description": "Um drive de memória com dados do tipo Terrestre para Silvally."
+    },
+    "ground-tera-shard": {
+        "name": "Estilhaço Tera Terrestre",
+        "description": "Cristal com energia Tera Terrestre. Muda o Tera Tipo de um Pokémon."
+    },
+    "ground-z": {
+        "name": "Ground Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Terrestre."
+    },
+    "groundium-z--bag": {
+        "name": "Groundium Z (Bolsa)",
+        "description": "Converte golpes do tipo Terrestre em Z-Moves de Terrestre em Alola."
+    },
+    "groundium-z--held": {
+        "name": "Groundium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Terrestre: Tectonic Rage."
+    },
+    "growlithe-candy": {
+        "name": "Doce de Growlithe",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "growlithe-fur": {
+        "name": "Pelo de Growlithe",
+        "description": "Pelo macio e avermelhado de um Growlithe. Usado como material."
+    },
+    "grubbin-jaw": {
+        "name": "Mandíbula de Grubbin",
+        "description": "Mandíbula afiada de um Grubbin. Usada como material."
+    },
+    "grumble-cup": {
+        "name": "Copo Resmungão",
+        "description": "Um copo de plástico com estampa de rostos engraçados."
+    },
+    "grumpig-pearl": {
+        "name": "Pérola de Grumpig",
+        "description": "Uma das pérolas negras da testa de um Grumpig. Usada como material."
+    },
+    "guarda-pouch": {
+        "name": "Bolsa Guarda",
+        "description": "Item Pokémon: Bolsa Guarda."
+    },
+    "guaranteed-stat-boost-item": {
+        "name": "Item de Aumento Garantido",
+        "description": "Dados de teste para item que aumenta stats com certeza."
+    },
+    "gulpink-mucus": {
+        "name": "Muco de Gulpin",
+        "description": "Muco viscoso e tóxico de um Gulpin. Usado como material."
+    },
+    "gumshoos-pouch": {
+        "name": "Bolsa de Gumshoos",
+        "description": "Item Pokémon: Bolsa de Gumshoos."
+    },
+    "gummi-pouch": {
+        "name": "Bolsa de Gomas",
+        "description": "Pequena bolsa para guardar gomas nutritivas para Pokémon."
+    },
+    "gym-pouch": {
+        "name": "Bolsa de Ginásio",
+        "description": "Uma bolsa resistente para carregar equipamentos de treino."
+    },
+    "gym-ticket": {
+        "name": "Bilhete de Ginásio",
+        "description": "Um bilhete que permite a entrada em ginásios oficiais."
+    },
+    "gyaradosite": {
+        "name": "Gyaradosite",
+        "description": "Uma Mega Stone que permite que Gyarados Megaevolua durante a batalha."
+    },
+    "h-p-up": {
+        "name": "HP Up",
+        "description": "Um suplemento vitamínico que aumenta os pontos base de HP de um Pokémon."
+    },
+    "haban-berry": {
+        "name": "Fruta Haban",
+        "description": "Enfraquece um ataque de Dragão super efetivo recebido pelo portador."
+    },
+    "habanero-pouch": {
+        "name": "Bolsa Habanero",
+        "description": "Item Pokémon: Bolsa Habanero."
+    }
+}

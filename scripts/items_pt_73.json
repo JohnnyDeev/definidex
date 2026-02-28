@@ -1,0 +1,362 @@
+{
+  "squirt-bottle": {
+    "name": "Garrafa Squirt",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "roto-hatch": {
+    "name": "Roto-Poder Hatch",
+    "description": "Um poder temporário ativado pelo Rotom que concede bônus especiais."
+  },
+  "roto-bargain": {
+    "name": "Roto-Poder Bargain",
+    "description": "Um poder temporário ativado pelo Rotom que concede bônus especiais."
+  },
+  "roto-prize-money": {
+    "name": "Roto-Poder Prize Money",
+    "description": "Um poder temporário ativado pelo Rotom que concede bônus especiais."
+  },
+  "roto-exp-points": {
+    "name": "Roto-Poder Exp Points",
+    "description": "Um poder temporário ativado pelo Rotom que concede bônus especiais."
+  },
+  "roto-friendship": {
+    "name": "Roto-Poder Friendship",
+    "description": "Um poder temporário ativado pelo Rotom que concede bônus especiais."
+  },
+  "roto-encounter": {
+    "name": "Roto-Poder Encounter",
+    "description": "Um poder temporário ativado pelo Rotom que concede bônus especiais."
+  },
+  "roto-stealth": {
+    "name": "Roto-Poder Stealth",
+    "description": "Um poder temporário ativado pelo Rotom que concede bônus especiais."
+  },
+  "roto-hp-restore": {
+    "name": "Roto-Poder Hp Restore",
+    "description": "Um poder temporário ativado pelo Rotom que concede bônus especiais."
+  },
+  "roto-pp-restore": {
+    "name": "Roto-Poder Pp Restore",
+    "description": "Um poder temporário ativado pelo Rotom que concede bônus especiais."
+  },
+  "roto-boost": {
+    "name": "Roto-Poder Boost",
+    "description": "Um poder temporário ativado pelo Rotom que concede bônus especiais."
+  },
+  "roto-catch": {
+    "name": "Roto-Poder Catch",
+    "description": "Um poder temporário ativado pelo Rotom que concede bônus especiais."
+  },
+  "health-candy-l": {
+    "name": "Doce Health G",
+    "description": "Um doce grande que concede muita experiência ao Pokémon."
+  },
+  "mighty-candy-l": {
+    "name": "Doce Mighty G",
+    "description": "Um doce grande que concede muita experiência ao Pokémon."
+  },
+  "tough-candy-l": {
+    "name": "Doce Tough G",
+    "description": "Um doce grande que concede muita experiência ao Pokémon."
+  },
+  "smart-candy-l": {
+    "name": "Doce Smart G",
+    "description": "Um doce grande que concede muita experiência ao Pokémon."
+  },
+  "courage-candy-l": {
+    "name": "Doce Courage G",
+    "description": "Um doce grande que concede muita experiência ao Pokémon."
+  },
+  "quick-candy-l": {
+    "name": "Doce Quick G",
+    "description": "Um doce grande que concede muita experiência ao Pokémon."
+  },
+  "health-candy-xl": {
+    "name": "Doce Health XG",
+    "description": "Um doce extra grande que concede uma quantidade imensa de experiência ao Pokémon."
+  },
+  "mighty-candy-xl": {
+    "name": "Doce Mighty XG",
+    "description": "Um doce extra grande que concede uma quantidade imensa de experiência ao Pokémon."
+  },
+  "tough-candy-xl": {
+    "name": "Doce Tough XG",
+    "description": "Um doce extra grande que concede uma quantidade imensa de experiência ao Pokémon."
+  },
+  "smart-candy-xl": {
+    "name": "Doce Smart XG",
+    "description": "Um doce extra grande que concede uma quantidade imensa de experiência ao Pokémon."
+  },
+  "courage-candy-xl": {
+    "name": "Doce Courage XG",
+    "description": "Um doce extra grande que concede uma quantidade imensa de experiência ao Pokémon."
+  },
+  "quick-candy-xl": {
+    "name": "Doce Quick XG",
+    "description": "Um doce extra grande que concede uma quantidade imensa de experiência ao Pokémon."
+  },
+  "polka-dot-bottle": {
+    "name": "Garrafa Polka Dot",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "striped-bottle": {
+    "name": "Garrafa Striped",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "diamond-bottle": {
+    "name": "Garrafa Diamond",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "striped-cup": {
+    "name": "Copo Striped",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "polka-dot-cup": {
+    "name": "Copo Polka Dot",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "flower-pattern-cup": {
+    "name": "Copo Flower Pattern",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "whimsical-tablecloth": {
+    "name": "Toalha de Mesa Whimsical",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "leafy-tablecloth": {
+    "name": "Toalha de Mesa Leafy",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "spooky-tablecloth": {
+    "name": "Toalha de Mesa Spooky",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "gold-pick": {
+    "name": "Palito Gold",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "silver-pick": {
+    "name": "Palito Silver",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "red-flag-pick": {
+    "name": "Palito Red Flag",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "blue-flag-pick": {
+    "name": "Palito Blue Flag",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "pika-pika-pick": {
+    "name": "Palito Pika Pika",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "winking-pika-pick": {
+    "name": "Palito Winking Pika",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "vee-vee-pick": {
+    "name": "Palito Vee Vee",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "smiling-vee-pick": {
+    "name": "Palito Smiling Vee",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "blue-poke-ball-pick": {
+    "name": "Palito Blue Poke Ball",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "pink-bottle": {
+    "name": "Garrafa Pink",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "blue-bottle": {
+    "name": "Garrafa Blue",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "yellow-bottle": {
+    "name": "Garrafa Yellow",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "steel-bottle-(r)": {
+    "name": "(r) Steel Bottle",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "steel-bottle-(y)": {
+    "name": "(y) Steel Bottle",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "steel-bottle-(b)": {
+    "name": "(b) Steel Bottle",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "silver-bottle": {
+    "name": "Garrafa Silver",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "diamond-pattern-cup": {
+    "name": "Copo Diamond Pattern",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "fire-pattern-cup": {
+    "name": "Copo Fire Pattern",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "pink-cup": {
+    "name": "Copo Pink",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "blue-cup": {
+    "name": "Copo Blue",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "yellow-cup": {
+    "name": "Copo Yellow",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "pikachu-cup": {
+    "name": "Copo Pikachu",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "eevee-cup": {
+    "name": "Copo Eevee",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "slowpoke-cup": {
+    "name": "Copo Slowpoke",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "silver-cup": {
+    "name": "Copo Silver",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "plaid-tablecloth-(y)": {
+    "name": "(y) Plaid Tablecloth",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "plaid-tablecloth-(b)": {
+    "name": "(b) Plaid Tablecloth",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "plaid-tablecloth-(r)": {
+    "name": "(r) Plaid Tablecloth",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "monstrous-tablecloth": {
+    "name": "Toalha de Mesa Monstrous",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "diamond-tablecloth": {
+    "name": "Toalha de Mesa Diamond",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "polka-dot-tablecloth": {
+    "name": "Toalha de Mesa Polka Dot",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "lilac-tablecloth": {
+    "name": "Toalha de Mesa Lilac",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "mint-tablecloth": {
+    "name": "Toalha de Mesa Mint",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "peach-tablecloth": {
+    "name": "Toalha de Mesa Peach",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "yellow-tablecloth": {
+    "name": "Toalha de Mesa Yellow",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "blue-tablecloth": {
+    "name": "Toalha de Mesa Blue",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "pink-tablecloth": {
+    "name": "Toalha de Mesa Pink",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "gold-bottle": {
+    "name": "Garrafa Gold",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "bronze-bottle": {
+    "name": "Garrafa Bronze",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "gold-cup": {
+    "name": "Copo Gold",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "green-poke-ball-pick": {
+    "name": "Palito Green Poke Ball",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "red-poke-ball-pick": {
+    "name": "Palito Red Poke Ball",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "party-sparkler-pick": {
+    "name": "Palito Party Sparkler",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "heroic-sword-pick": {
+    "name": "Palito Heroic Sword",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "magical-star-pick": {
+    "name": "Palito Magical Star",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "magical-heart-pick": {
+    "name": "Palito Magical Heart",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "parasol-pick": {
+    "name": "Palito Parasol",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "blue-sky-flower-pick": {
+    "name": "Palito Blue Sky Flower",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "sunset-flower-pick": {
+    "name": "Palito Sunset Flower",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "sunrise-flower-pick": {
+    "name": "Palito Sunrise Flower",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "blue-dish": {
+    "name": "Prato Blue",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "green-dish": {
+    "name": "Prato Green",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "orange-dish": {
+    "name": "Prato Orange",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "red-dish": {
+    "name": "Prato Red",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "white-dish": {
+    "name": "Prato White",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "yellow-dish": {
+    "name": "Prato Yellow",
+    "description": "Um item décor especial usado para personalizar seus piqueniques Pokémon."
+  },
+  "roto-stick": {
+    "name": "Roto-Poder Stick",
+    "description": "Um poder temporário ativado pelo Rotom que concede bônus especiais."
+  }
+}

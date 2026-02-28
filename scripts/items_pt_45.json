@@ -1,0 +1,78 @@
+{
+    "sylveon-candy": {
+        "name": "Doce de Sylveon",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "sync-orb": {
+        "name": "Orbe de Sincronia",
+        "description": "Um orbe que permite fortalecer os laços e golpes Sincronizados."
+    },
+    "syrup-apple": {
+        "name": "Maçã de Calda",
+        "description": "Uma maçã coberta de calda doce que faz Applin evoluir para Dipplin."
+    },
+    "t-mail": {
+        "name": "Carta T",
+        "description": "Papel de carta com estampa de um símbolo em forma de T futurista."
+    },
+    "t-rex-pouch": {
+        "name": "Bolsa T-Rex",
+        "description": "Item Pokémon: Bolsa T-Rex."
+    },
+    "tablecloth-pocket": {
+        "name": "Bolso de Toalhas",
+        "description": "Bolso da mochila reservado para sua coleção de toalhas de piquenique."
+    },
+    "tadbulb-mucus": {
+        "name": "Muco de Tadbulb",
+        "description": "Muco viscoso de um Tadbulb. Usado como material."
+    },
+    "tagium-z--bag": {
+        "name": "Tagium Z (Bolsa)",
+        "description": "Item Pokémon: Tagium Z (Bolsa)."
+    },
+    "tamato-berry": {
+        "name": "Fruta Tamato",
+        "description": "Torna o Pokémon mais amigável, mas reduz os pontos base de Velocidade."
+    },
+    "tandemaus-fur": {
+        "name": "Pelo de Tandemaus",
+        "description": "Tufo de pelo branco e macio de um par de Tandemaus. Usado como material."
+    },
+    "tangela-candy": {
+        "name": "Doce de Tangela",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "tangela-vine": {
+        "name": "Cipó de Tangela",
+        "description": "Um cipó azul e flexível de um Tangela. Usado como material."
+    },
+    "tanga-berry": {
+        "name": "Fruta Tanga",
+        "description": "Enfraquece um ataque de Inseto super efetivo recebido pelo portador."
+    },
+    "tapestry-mail": {
+        "name": "Carta de Tapeçaria",
+        "description": "Papel de carta com estampa de uma tapeçaria antiga e detalhada."
+    },
+    "tapium-z--bag": {
+        "name": "Tapium Z (Bolsa)",
+        "description": "Converte o Nature's Madness do guardião em seu ataque Z em Alola."
+    },
+    "tapium-z--held": {
+        "name": "Tapium Z (Segurado)",
+        "description": "Permite que os guardiões de Alola executem o ataque Z: Guardian of Alola."
+    },
+    "tar-mount-pouch": {
+        "name": "Bolsa Monte Alcatrão",
+        "description": "Item Pokémon: Bolsa Monte Alcatrão."
+    },
+    "tarot-card": {
+        "name": "Carta de Tarô",
+        "description": "Um cartão com desenhos misteriosos que parece prever o destino."
+    },
+    "tarantula-thread": {
+        "name": "Fio de Tarountula",
+        "description": "Fio de seda resistente e elástico de uma Tarountula. Usado como material."
+    }
+}

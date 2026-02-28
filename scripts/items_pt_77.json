@@ -1,0 +1,150 @@
+{
+    "style-card": {
+        "name": "Cartão de Estilo",
+        "description": "Um cartão que libera novas opções de roupas e penteados nas lojas."
+    },
+    "exp-charm": {
+        "name": "Amuleto de Exp.",
+        "description": "Um amuleto que faz o Pokémon ganhar mais pontos de experiência em batalha."
+    },
+    "reins-of-unity": {
+        "name": "Rédeas da Unidade",
+        "description": "Rédeas feitas de cabelo e flores. Permite fundir Calyrex com seus corcéis."
+    },
+    "legendary-clue-question": {
+        "name": "Pista Lendária (Interrogação)",
+        "description": "Um diário com anotações borradas sobre fenômenos lendários em Crown Tundra."
+    },
+    "crown-pass": {
+        "name": "Passe de Crown",
+        "description": "Um passe especial necessário para pegar o trem até Crown Tundra."
+    },
+    "wooden-crown": {
+        "name": "Coroa de Madeira",
+        "description": "Uma réplica esculpida de uma coroa antiga para um Pokémon lendário."
+    },
+    "iceroot-carrot": {
+        "name": "Cenoura de Raiz de Gelo",
+        "description": "Uma cenoura congelante que atrai o Pokémon lendário Glastrier."
+    },
+    "shaderoot-carrot": {
+        "name": "Cenoura de Raiz Sombria",
+        "description": "Uma cenoura sinistra que atrai o Pokémon lendário Spectrier."
+    },
+    "dynite-ore": {
+        "name": "Minério de Dinita",
+        "description": "Um minério raro encontrado em Max Raid Dens em Crown Tundra."
+    },
+    "carrot-seeds": {
+        "name": "Sementes de Cenoura",
+        "description": "Sementes que podem ser plantadas para crescer cenouras especiais."
+    },
+    "rotom-phone": {
+        "name": "Rotom Fone",
+        "description": "Um smartphone habitado por um Rotom que serve como Pokédex e mapa."
+    },
+    "koraidons-poke-ball": {
+        "name": "Poké Bola de Koraidon",
+        "description": "A Poké Bola que originalmente continha o Pokémon lendário Koraidon."
+    },
+    "miraidons-poke-ball": {
+        "name": "Poké Bola de Miraidon",
+        "description": "A Poké Bola que originalmente continha o Pokémon lendário Miraidon."
+    },
+    "scarlet-book": {
+        "name": "Livro Escarlate",
+        "description": "Um registro antigo sobre expedições na Área Zero na região de Paldea."
+    },
+    "violet-book": {
+        "name": "Livro Violeta",
+        "description": "Um registro antigo sobre expedições na Área Zero na região de Paldea."
+    },
+    "kofu’s-wallet": {
+        "name": "Carteira de Kofu",
+        "description": "A carteira perdida do Líder de Ginásio Kofu. Deve ser devolvida a ele."
+    },
+    "tiny-bamboo-shoot": {
+        "name": "Brotinho de Bambu",
+        "description": "Um broto de bambu pequeno e tenro encontrado em áreas selvagens."
+    },
+    "scroll-of-darkness": {
+        "name": "Pergaminho das Trevas",
+        "description": "Um pergaminho antigo que faz o Pokémon Kubfu evoluir para Urshifu (Estilo Single Strike)."
+    },
+    "scroll-of-waters": {
+        "name": "Pergaminho das Águas",
+        "description": "Um pergaminho antigo que faz o Pokémon Kubfu evoluir para Urshifu (Estilo Rapid Strike)."
+    },
+    "malicious-armor": {
+        "name": "Armadura Maliciosa",
+        "description": "Uma armadura assustadora imbuída de rancor. Faz Charcadet evoluir em Ceruledge."
+    },
+    "teal-style-card": {
+        "name": "Cartão de Estilo Teal",
+        "description": "Um cartão especial que libera novos itens de moda na região de Kitakami."
+    },
+    "teal-mask": {
+        "name": "Máscara Turquesa",
+        "description": "A máscara principal de Ogerpon, brilhando com um tom turquesa."
+    },
+    "glimmering-charm": {
+        "name": "Amuleto Cintilante",
+        "description": "Um amuleto que permite ao usuário ver Pokémon com o Tera Type Estelar."
+    },
+    "linking-cord": {
+        "name": "Cabo de Ligação",
+        "description": "Um cabo misterioso que ressoa com energia de troca. Faz certos Pokémon evoluírem sem troca."
+    },
+    "normalium-z--held": {
+        "name": "Normalium Z (Segurado)",
+        "description": "Cristal que converte ataques normais em Z-Moves épicos."
+    },
+    "grassium-z--held": {
+        "name": "Grassium Z (Segurado)",
+        "description": "Cristal que converte ataques de planta em Z-Moves épicos."
+    },
+    "tapunium-z--held": {
+        "name": "Tapunium Z (Segurado)",
+        "description": "Cristal usado pelos guardiões de Alola para Z-Moves especiais."
+    },
+    "solganium-z--held": {
+        "name": "Solganium Z (Segurado)",
+        "description": "Cristal que emana o brilho do sol para Z-Moves de Solgaleo."
+    },
+    "ultranecrozium-z--held": {
+        "name": "Ultranecrozium Z (Segurado)",
+        "description": "Cristal que libera a luz infinita de Necrozma."
+    },
+    "lycanium-z--held": {
+        "name": "Lycanium Z (Segurado)",
+        "description": "Cristal Z exclusivo para Lycanroc."
+    },
+    "normalium-z--bag": {
+        "name": "Normalium Z (Bolsa)",
+        "description": "Cristal Z do tipo Normal guardado na bolsa."
+    },
+    "grassium-z--bag": {
+        "name": "Grassium Z (Bolsa)",
+        "description": "Cristal Z do tipo Planta guardado na bolsa."
+    },
+    "tapunium-z--bag": {
+        "name": "Tapunium Z (Bolsa)",
+        "description": "Um cristal Z misterioso guardado na bolsa."
+    },
+    "solganium-z--bag": {
+        "name": "Solganium Z (Bolsa)",
+        "description": "Cristal Z para Solgaleo guardado na bolsa."
+    },
+    "ultranecrozium-z--bag": {
+        "name": "Ultranecrozium Z (Bolsa)",
+        "description": "Cristal Z para Necrozma guardado na bolsa."
+    },
+    "lycanium-z--bag": {
+        "name": "Lycanium Z (Bolsa)",
+        "description": "Cristal Z para Lycanroc guardado na bolsa."
+    },
+    "ilimas-normalium-z": {
+        "name": "Normalium Z de Ilima",
+        "description": "O Cristal Z dado pelo Capitão Ilima após completar seu Trial."
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "data-card-01": {
+        "name": "Cartão de Dados 01",
+        "description": "Contém informações sobre a evolução de certos Pokémon."
+    },
+    "data-card-02": {
+        "name": "Cartão de Dados 02",
+        "description": "Contém informações sobre tipos de Pokémon e suas fraquezas."
+    },
+    "data-card-03": {
+        "name": "Cartão de Dados 03",
+        "description": "Contém informações sobre habilidades raras de Pokémon."
+    },
+    "data-card-04": {
+        "name": "Cartão de Dados 04",
+        "description": "Contém informações sobre ataques poderosos e como usá-los."
+    },
+    "data-card-05": {
+        "name": "Cartão de Dados 05",
+        "description": "Contém informações sobre as lendas de Pokémon antigos."
+    },
+    "data-card-06": {
+        "name": "Cartão de Dados 06",
+        "description": "Contém informações sobre itens raros encontrados em desertos."
+    },
+    "dawn-stone": {
+        "name": "Pedra da Alvorada",
+        "description": "Uma pedra peculiar que brilha como um par de olhos. Evolui certos Pokémon."
+    },
+    "decidueye-candy": {
+        "name": "Doce de Decidueye",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "decidium-z--bag": {
+        "name": "Decidium Z (Bolsa)",
+        "description": "Converte o Spirit Shackle de Decidueye em seu ataque Z em Alola."
+    },
+    "decidium-z--held": {
+        "name": "Decidium Z (Segurado)",
+        "description": "Permite que Decidueye execute seu poderoso ataque Z: Sinister Arrow Raid."
+    },
+    "dedenne-fur": {
+        "name": "Pelo de Dedenne",
+        "description": "Pelo macio e eletrizado de um Dedenne. Usado como material."
+    },
+    "deep-sea-scale": {
+        "name": "Escama Mar Profundo",
+        "description": "Uma escama brilhante que aumenta a Def. Esp. de Clamperl quando segurada."
+    },
+    "deep-sea-tooth": {
+        "name": "Dente Mar Profundo",
+        "description": "Um dente afiado que aumenta o Atq. Esp. de Clamperl quando segurado."
+    },
+    "deerling-hair": {
+        "name": "Pelo de Deerling",
+        "description": "Pelo curto que muda de cor conforme a estação. Usado como material."
+    },
+    "defense-pocket": {
+        "name": "Bolso de Defesa",
+        "description": "Bolso da mochila para itens de proteção e defesa."
+    },
+    "destiny-knot": {
+        "name": "Nó do Destino",
+        "description": "Se o portador se apaixonar, o oponente também se apaixona. Útil para cruzamento."
+    },
+    "devon-goods": {
+        "name": "Mercadorias Devon",
+        "description": "Um pacote contendo componentes mecânicos da Devon Corporation."
+    },
+    "devon-parts": {
+        "name": "Peças Devon",
+        "description": "Peças industriais valiosas desenvolvidas pela Devon Corporation."
+    },
+    "devon-scope": {
+        "name": "Scope Devon",
+        "description": "Um dispositivo que permite ver Pokémon invisíveis a olho nu."
+    },
+    "devon-scuba-gear": {
+        "name": "Traje de Mergulho Devon",
+        "description": "Equipamento de alta tecnologia para respirar debaixo d'água."
+    },
+    "dewpider-hook": {
+        "name": "Gancho de Dewpider",
+        "description": "Pequeno gancho das patas de um Dewpider. Usado como material."
+    },
+    "diana-s-journal": {
+        "name": "Diário da Diana",
+        "description": "Um diário antigo pertencente a Diana, cheio de anotações sobre exploração."
+    },
+    "diancite": {
+        "name": "Diancite",
+        "description": "Uma Mega Stone que permite que Diancie Megaevolua durante a batalha."
+    },
+    "diancie-candy": {
+        "name": "Doce de Diancie",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "diglett-candy": {
+        "name": "Doce de Diglett",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "diglett-dirt": {
+        "name": "Terra de Diglett",
+        "description": "Pedaço de terra seca e compacta deixado por um Diglett. Usado como material."
+    },
+    "dinosaur-series-pouch": {
+        "name": "Bolsa da Série Dinossauro",
+        "description": "Item Pokémon: Bolsa da Série Dinossauro."
+    },
+    "dire-hit": {
+        "name": "Ataque Certeiro",
+        "description": "Um item consumível que aumenta a chance de acertos críticos na batalha."
+    },
+    "dire-hit-2": {
+        "name": "Ataque Certeiro 2",
+        "description": "Aumenta muito a taxa de acerto crítico de um Pokémon em batalha."
+    },
+    "dire-hit-3": {
+        "name": "Ataque Certeiro 3",
+        "description": "Aumenta drasticamente a taxa de acerto crítico por um curto tempo."
+    },
+    "disc-case": {
+        "name": "Estojo de Discos",
+        "description": "Um estojo projetado para armazenar TMs e outros discos de dados."
+    },
+    "distress-letter": {
+        "name": "Carta de Socorro",
+        "description": "Uma mensagem urgente pedindo ajuda de emergência."
+    },
+    "dive-ball": {
+        "name": "Mergulho Bola",
+        "description": "Uma Poké Bola que funciona melhor em Pokémon encontrados debaixo d'água."
+    },
+    "diving-gear": {
+        "name": "Equipamento de Mergulho",
+        "description": "Equipamento essencial para explorar o fundo dos oceanos."
+    },
+    "d-n-a-splicers": {
+        "name": "Splicers de DNA",
+        "description": "Um dispositivo que permite fundir Kyurem com Zekrom ou Reshiram."
+    },
+    "domino-mask": {
+        "name": "Máscara Dominó",
+        "description": "Uma máscara misteriosa que esconde parcialmente a identidade."
+    },
+    "dome-fossil": {
+        "name": "Fóssil de Cúpula",
+        "description": "Fóssil de um Pokémon pré-histórico. Pode ser regenerado em Kabuto."
+    },
+    "dondozo-whisker": {
+        "name": "Bigode de Dondozo",
+        "description": "Um bigode longo e grosso de um Dondozo. Usado como material."
+    },
+    "dotler-shell": {
+        "name": "Casca de Dotler",
+        "description": "Pedaço da carapaça de um Dotler. Usado como material."
+    },
+    "double-dip-tablecloth": {
+        "name": "Toalha Mergulho Duplo",
+        "description": "Uma toalha de piquenique com estampa de gotas duplas."
+    },
+    "doubtful-patch": {
+        "name": "Patch Duvidoso",
+        "description": "Um dispositivo transparente contendo dados duvidosos. Evolui Porygon2."
+    },
+    "douse-drive": {
+        "name": "Drive de Molhar",
+        "description": "Um drive de Genesect que muda o tipo de seu Techno Blast para Água."
+    },
+    "draco-plate": {
+        "name": "Placa de Dragão",
+        "description": "Uma tábua de pedra que aumenta o poder de golpes do tipo Dragão."
+    },
+    "dragon-fang": {
+        "name": "Presa de Dragão",
+        "description": "Um dente duro e afiado que aumenta o poder de golpes Dragão."
+    },
+    "dragon-gem": {
+        "name": "Gema de Dragão",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Dragão."
+    },
+    "dragon-memory": {
+        "name": "Memória de Dragão",
+        "description": "Um drive de memória com dados do tipo Dragão para Silvally."
+    },
+    "dragon-scale": {
+        "name": "Escama de Dragão",
+        "description": "Uma escama de Pokémon dragão rústica e dura. Evolui Seadra."
+    },
+    "dragon-skull": {
+        "name": "Crânio de Dragão",
+        "description": "Um crânio fossilizado de um dragão antigo. Item valioso."
+    },
+    "dragon-tera-shard": {
+        "name": "Estilhaço Tera Dragão",
+        "description": "Cristal com energia Tera Dragão. Muda o Tera Tipo de um Pokémon."
+    },
+    "dragon-z": {
+        "name": "Dragon Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Dragão."
+    },
+    "dragonium-z--bag": {
+        "name": "Dragonium Z (Bolsa)",
+        "description": "Converte golpes do tipo Dragão em Z-Moves de Dragão em Alola."
+    },
+    "dragonium-z--held": {
+        "name": "Dragonium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Dragão: Devastating Drake."
+    },
+    "drakloak-flakes": {
+        "name": "Escamas de Drakloak",
+        "description": "Pequenas escamas transparentes de um Drakloak. Usadas como material."
+    },
+    "dratini-candy": {
+        "name": "Doce de Dratini",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "dratini-scales": {
+        "name": "Escamas de Dratini",
+        "description": "Pequenas escamas azuladas de um Dratini. Usadas como material."
+    },
+    "dread-plate": {
+        "name": "Placa de Medo",
+        "description": "Uma tábua de pedra que aumenta o poder de golpes do tipo Sombrio."
+    },
+    "dream-ball": {
+        "name": "Sonho Bola",
+        "description": "Uma Poké Bola que funciona melhor em Pokémon que estão dormindo."
+    },
+    "dream-mail": {
+        "name": "Carta Onírica",
+        "description": "Papel de carta com estampa de nuvens e estrelas mágicas."
+    },
+    "drifloon-gas": {
+        "name": "Gás de Drifloon",
+        "description": "Um gás leve coletado de um Drifloon. Usado como material."
+    },
+    "drilbur-claw": {
+        "name": "Garra de Drilbur",
+        "description": "Garra de metal afiada de um Drilbur. Usada como material."
+    }
+}

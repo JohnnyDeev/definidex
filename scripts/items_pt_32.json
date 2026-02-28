@@ -1,0 +1,126 @@
+{
+    "reaper-cloth": {
+        "name": "Tecido de Terror",
+        "description": "Um tecido imbuído com energia espiritual. Faz Dusclops evoluir."
+    },
+    "reaper-cloth--held": {
+        "name": "Tecido de Terror (Segurado)",
+        "description": "Evolui Dusclops quando trocado segurando este item."
+    },
+    "reaper-cloth--bag": {
+        "name": "Tecido de Terror (Bolsa)",
+        "description": "Um tecido assustadoramente macio e espiritual."
+    },
+    "re-autograph": {
+        "name": "Autógrafo de Re",
+        "description": "Um autógrafo de um treinador famoso por sua resiliência."
+    },
+    "recoil-item": {
+        "name": "Item de Recuo",
+        "description": "Dados de teste para item que causa dano de recuo."
+    },
+    "red-apricorn": {
+        "name": "Apricorn Vermelho",
+        "description": "Um apricorn vermelho com uma casca dura e resistente."
+    },
+    "red-balloon": {
+        "name": "Balão Vermelho",
+        "description": "Um balão decorativo vermelho para eventos festivos."
+    },
+    "red-card": {
+        "name": "Cartão Vermelho",
+        "description": "Se o portador for atingido, o oponente é forçado a trocar de Pokémon."
+    },
+    "red-chain": {
+        "name": "Corrente Vermelha",
+        "description": "Uma corrente mítica capaz de controlar os Pokémon lendários do tempo e espaço."
+    },
+    "red-flute": {
+        "name": "Flauta Vermelha",
+        "description": "Uma flauta de vidro que acorda um Pokémon do estado de atração."
+    },
+    "red-nectar": {
+        "name": "Néctar Vermelho",
+        "description": "Néctar de flores vermelhas. Muda Oricorio para o Estilo Baile."
+    },
+    "red-orb": {
+        "name": "Orbe Vermelho",
+        "description": "Um orbe antigo que emite um brilho carmesim para Groudon."
+    },
+    "red-petal": {
+        "name": "Pétala Vermelha",
+        "description": "Uma das pétalas necessárias para completar a Flor de Sete Cores."
+    },
+    "red-scarf": {
+        "name": "Lenço Vermelho",
+        "description": "Um lenço que aumenta o Frescor (Coolness) do Pokémon em concursos."
+    },
+    "red-shard": {
+        "name": "Estilhaço Vermelho",
+        "description": "Um pequeno pedaço de uma ferramenta antiga de cor vermelha. Pode ser trocado."
+    },
+    "red-ver-monitor": {
+        "name": "Monitor Versão Vermelha",
+        "description": "Um dispositivo que exibe dados temáticos da versão clássica Red."
+    },
+    "red-tm-case": {
+        "name": "Estojo de TMs Vermelho",
+        "description": "Um estojo de TMs de cor vermelha vibrante."
+    },
+    "regice-candy": {
+        "name": "Doce de Regice",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "regidrago-candy": {
+        "name": "Doce de Regidrago",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "regieleki-candy": {
+        "name": "Doce de Regieleki",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "regigigas-candy": {
+        "name": "Doce de Regigigas",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "regirock-candy": {
+        "name": "Doce de Regirock",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "registeel-candy": {
+        "name": "Doce de Registeel",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "relia-autograph": {
+        "name": "Autógrafo de Relia",
+        "description": "Um autógrafo de uma treinadora especialista em relíquias."
+    },
+    "relic-band": {
+        "name": "Braçadeira Relíquia",
+        "description": "Um item antigo que aumenta o Atq. Esp. do portador em detrimento do Ataque."
+    },
+    "relic-copper": {
+        "name": "Cobre Relíquia",
+        "description": "Uma moeda de cobre muito antiga. Pode ser vendida por pesquisadores."
+    },
+    "relic-gold": {
+        "name": "Ouro Relíquia",
+        "description": "Uma moeda de ouro muito antiga e valiosa. Pode ser vendida por um alto preço."
+    },
+    "relic-silver": {
+        "name": "Prata Relíquia",
+        "description": "Uma moeda de prata muito antiga. Pode ser vendida por um bom preço."
+    },
+    "relic-statue": {
+        "name": "Estátua Relíquia",
+        "description": "Uma estátua antiga e pesada que retrata um Pokémon do passado. Altamente valiosa."
+    },
+    "relic-vase": {
+        "name": "Vaso Relíquia",
+        "description": "Um vaso de cerâmica antigo recuperado de ruínas. Pode ser vendido."
+    },
+    "relic-crown": {
+        "name": "Coroa Relíquia",
+        "description": "Uma coroa magnífica de uma civilização antiga. Extremamente valiosa."
+    }
+}

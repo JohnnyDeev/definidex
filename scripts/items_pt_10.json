@@ -1,0 +1,166 @@
+{
+    "ham": {
+        "name": "Presunto",
+        "description": "Fatias de presunto suculentas usadas como ingrediente em piqueniques."
+    },
+    "harbor-mail": {
+        "name": "Carta do Porto",
+        "description": "Papel de carta com estampa de um porto movimentado e barcos."
+    },
+    "hard-stone": {
+        "name": "Pedra Dura",
+        "description": "Uma pedra sólida e inquebrável que aumenta o poder de golpes do tipo Pedra."
+    },
+    "hatterene-brush": {
+        "name": "Pincel de Hatterene",
+        "description": "Uma cerda macia mas carregada de Hatterene. Usada como material."
+    },
+    "hattrem-bristle": {
+        "name": "Cerdas de Hattrem",
+        "description": "Pequenas cerdas sensoriais de uma Hattrem. Usadas como material."
+    },
+    "haunter-candy": {
+        "name": "Doce de Haunter",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "hawlucha-down": {
+        "name": "Pluma de Hawlucha",
+        "description": "Uma pluma colorida e resistente de um Hawlucha. Usada como material."
+    },
+    "haze-mail": {
+        "name": "Carta da Névoa",
+        "description": "Papel de carta com estampa de uma floresta envolta em névoa."
+    },
+    "health-ball": {
+        "name": "Saúde Bola",
+        "description": "Poké Bola que cura totalmente o Pokémon capturado (HP e status)."
+    },
+    "health-candy": {
+        "name": "Doce de Saúde",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "health-feather": {
+        "name": "Pena de Saúde",
+        "description": "Pena que aumenta levemente os pontos base de HP de um Pokémon."
+    },
+    "heart-mail": {
+        "name": "Carta Coração",
+        "description": "Papel de carta com estampa de corações vermelhos."
+    },
+    "heart-scale": {
+        "name": "Escama de Coração",
+        "description": "Escama rara e bonita. Um colecionador pode trocá-la por ensinar golpes esquecidos."
+    },
+    "heart-sweet": {
+        "name": "Doce de Coração",
+        "description": "Um doce em forma de coração. Faz Milcery girar feliz ao segurá-lo."
+    },
+    "heat-rock": {
+        "name": "Rocha de Calor",
+        "description": "Aumenta a duração do golpe Sunny Day para 8 turnos quando segurada."
+    },
+    "heavy-ball": {
+        "name": "Peso Bola",
+        "description": "Uma Poké Bola que funciona melhor em Pokémon muito pesados."
+    },
+    "heavy-duty-boots": {
+        "name": "Botas Pesadas",
+        "description": "Protege o portador de perigos no chão (Spikes, Stealth Rock, etc.)."
+    },
+    "helix-fossil": {
+        "name": "Fóssil de Hélice",
+        "description": "Fóssil de um Pokémon pré-histórico. Pode ser regenerado em Omanyte."
+    },
+    "heracross-candy": {
+        "name": "Doce de Heracross",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "heracrossite": {
+        "name": "Heracrossite",
+        "description": "Uma Mega Stone que permite que Heracross Megaevolua durante a batalha."
+    },
+    "herb-sauce": {
+        "name": "Molho de Ervas",
+        "description": "Molho aromático usado para temperar pratos em piqueniques."
+    },
+    "herba-mystica-bag": {
+        "name": "Bolsa de Ervas Místicas",
+        "description": "Uma bolsa contendo várias ervas místicas raras."
+    },
+    "hi-tech-earbuds": {
+        "name": "Fones de Ouvido Hi-Tech",
+        "description": "Permitem ajustar configurações avançadas de áudio no jogo."
+    },
+    "hilary-s-journal": {
+        "name": "Diário da Hilary",
+        "description": "Um diário com anotações sobre as aventuras de Hilary."
+    },
+    "hilo-mail": {
+        "name": "Carta Hilo",
+        "description": "Papel de carta com estampa inspirada na cultura de Alola."
+    },
+    "hippopotas-sand": {
+        "name": "Areia de Hippopotas",
+        "description": "Areia fina expelida pelas narinas de um Hippopotas. Usada como material."
+    },
+    "honey": {
+        "name": "Mel",
+        "description": "Mel doce que atrai Pokémon selvagens quando usado na grama alta ou árvores."
+    },
+    "honedge-scrap": {
+        "name": "Sucata de Honedge",
+        "description": "Pedaço de metal de uma espada Honedge antiga. Usado como material."
+    },
+    "honor-medal": {
+        "name": "Medalha de Honra",
+        "description": "Uma medalha dada em reconhecimento por bravura e mérito."
+    },
+    "ho-oh-candy": {
+        "name": "Doce de Ho-Oh",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "hoopa-candy": {
+        "name": "Doce de Hoopa",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "hop-berry": {
+        "name": "Fruta Hop",
+        "description": "Item Pokémon: Fruta Hop."
+    },
+    "horseradish": {
+        "name": "Raiz-Forte",
+        "description": "Ingrediente de sabor picante e forte usado em piqueniques."
+    },
+    "houndoominite": {
+        "name": "Houndoominite",
+        "description": "Uma Mega Stone que permite que Houndoom Megaevolua durante a batalha."
+    },
+    "house-mail": {
+        "name": "Carta Casa",
+        "description": "Papel de carta com desenho de uma casa acolhedora no campo."
+    },
+    "hp-up": {
+        "name": "HP Up",
+        "description": "Vitamina que aumenta os pontos base de HP de um Pokémon."
+    },
+    "hybrid-cup": {
+        "name": "Copo Híbrido",
+        "description": "Um copo de plástico feito de materiais compostos para piqueniques."
+    },
+    "hyper-potion": {
+        "name": "Híper Poção",
+        "description": "Um spray medicinal que recupera 120 pontos de HP de um Pokémon."
+    },
+    "iapapa-berry": {
+        "name": "Fruta Iapapa",
+        "description": "Restaura HP quando baixo, mas pode confundir quem não gosta de sabores azedos."
+    },
+    "ice-gem": {
+        "name": "Gema de Gelo",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Gelo."
+    },
+    "ice-memory": {
+        "name": "Memória de Gelo",
+        "description": "Um drive de memória com dados do tipo Gelo para Silvally."
+    }
+}

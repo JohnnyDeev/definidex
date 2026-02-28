@@ -1,0 +1,94 @@
+{
+    "looker-ticket": {
+        "name": "Bilhete do Looker",
+        "description": "Um bilhete deixado pelo detetive Looker para encontrá-lo em Lumiose City."
+    },
+    "loot-sack": {
+        "name": "Saco de Saque",
+        "description": "Uma sacola para guardar itens valiosos encontrados durante a exploração."
+    },
+    "lopunnite": {
+        "name": "Lopunnite",
+        "description": "Uma Mega Stone que permite que Lopunny Megaevolua durante a batalha."
+    },
+    "lost-item": {
+        "name": "Item Perdido",
+        "description": "Um item encontrado que pertence a alguém. Descubra o dono para devolvê-lo."
+    },
+    "love-ball": {
+        "name": "Amor Bola",
+        "description": "Uma Poké Bola que funciona melhor se o alvo for da mesma espécie, mas sexo oposto."
+    },
+    "love-letter": {
+        "name": "Carta de Amor",
+        "description": "Papel de carta romântico com estampa de corações e flores."
+    },
+    "love-sweet": {
+        "name": "Doce de Amor",
+        "description": "Um doce em forma de coração. Faz Milcery girar feliz ao segurá-lo."
+    },
+    "lovely-series-pouch": {
+        "name": "Bolsa da Série Amável",
+        "description": "Item Pokémon: Bolsa da Série Amável."
+    },
+    "low-key-series-pouch": {
+        "name": "Bolsa da Série Suave",
+        "description": "Item Pokémon: Bolsa da Série Suave."
+    },
+    "lucarionite": {
+        "name": "Lucarionite",
+        "description": "Uma Mega Stone que permite que Lucario Megaevolua durante a batalha."
+    },
+    "lucky-egg": {
+        "name": "Ovo da Sorte",
+        "description": "Um item que aumenta a experiência ganha em batalha pelo Pokémon que o segura."
+    },
+    "lucky-punch": {
+        "name": "Soco da Sorte",
+        "description": "Um item para ser segurado por Chansey que aumenta sua taxa de acerto crítico."
+    },
+    "lum-berry": {
+        "name": "Fruta Lum",
+        "description": "Uma fruta que o Pokémon pode comer para curar qualquer problema de status."
+    },
+    "luminous-moss": {
+        "name": "Musgo Luminoso",
+        "description": "Aumenta a Def. Esp. do portador se ele for atingido por um ataque de Água."
+    },
+    "lunalium-z--bag": {
+        "name": "Lunalium Z (Bolsa)",
+        "description": "Converte o Moongeist Beam de Lunala em seu ataque Z em Alola."
+    },
+    "lunalium-z--held": {
+        "name": "Lunalium Z (Segurado)",
+        "description": "Permite que Lunala execute seu ataque Z exclusivo: Menacing Moonraze Maelstrom."
+    },
+    "lunc-autograph": {
+        "name": "Autógrafo do Lunc",
+        "description": "Um autógrafo de um explorador famoso."
+    },
+    "lure": {
+        "name": "Isca",
+        "description": "Um item que atrai Pokémon selvagens, facilitando o encontro com eles."
+    },
+    "lure-ball": {
+        "name": "Isca Bola",
+        "description": "Uma Poké Bola que funciona melhor em Pokémon encontrados pescando."
+    },
+    "lustre-ball": {
+        "name": "Brilho Bola",
+        "description": "Uma Poké Bola bem rara com um brilho intenso e belo."
+    },
+    "lustrous-globe": {
+        "name": "Globo Lustroso",
+        "description": "Um globo brilhante que permite a Palkia mudar para sua Forma Origem."
+    },
+    "lustrous-orb": {
+        "name": "Orbe Lustroso",
+        "description": "Um orbe brilhante para Palkia. Aumenta o poder de golpes Dragão e Água."
+    },
+    "luxury-ball": {
+        "name": "Luxo Bola",
+        "description": "Uma Poké Bola muito confortável que torna o Pokémon capturado mais amigável."
+    }
+}

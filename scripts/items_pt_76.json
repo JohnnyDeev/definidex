@@ -1,0 +1,162 @@
+{
+    "mach-bike": {
+        "name": "Bicicleta Mach",
+        "description": "Uma bicicleta de alta velocidade que permite subir rampas íngremes."
+    },
+    "soot-sack": {
+        "name": "Saco de Cinzas",
+        "description": "Um saco para coletar cinzas vulcânicas da Rota 113."
+    },
+    "pokeblock-case": {
+        "name": "Porta-Pokébloco",
+        "description": "Um estojo para guardar Pokébloquinhos feitos com Berries."
+    },
+    "teachy-tv": {
+        "name": "TV Educativa",
+        "description": "Uma televisão portátil que exibe tutoriais básicos para treinadores."
+    },
+    "tea": {
+        "name": "Chá",
+        "description": "Um chá aromático que acalma a sede dos guardas de Saffron."
+    },
+    "mysticticket": {
+        "name": "Bilhete Místico",
+        "description": "Um bilhete raro necessário para navegar até a Ilha Navel."
+    },
+    "powder-jar": {
+        "name": "Frasco de Pó",
+        "description": "Um frasco para armazenar o pó medicinal feito de Berries moídas."
+    },
+    "magma-emblem": {
+        "name": "Emblema Magma",
+        "description": "Um item que prova que o portador é um membro da Equipe Magma."
+    },
+    "chill-drive": {
+        "name": "Drive de Gelo",
+        "description": "Um cassete contendo dados de gelo. Altera o tipo do golpe Techno Blast."
+    },
+    "liberty-pass": {
+        "name": "Passe da Liberdade",
+        "description": "Um passe especial necessário para navegar até o Jardim da Liberdade."
+    },
+    "reset-urge": {
+        "name": "Impulso de Reset",
+        "description": "Um desejo súbito de recomeçar algo do zero."
+    },
+    "xtransceiver": {
+        "name": "Transceptor X",
+        "description": "Um dispositivo que permite fazer chamadas de vídeo com amigos no jogo."
+    },
+    "medal-box": {
+        "name": "Caixa de Medalhas",
+        "description": "Um estojo para guardar medalhas ganhas por completar conquistas."
+    },
+    "dna-splicers": {
+        "name": "Emenda de DNA",
+        "description": "Um dispositivo que permite fundir Kyurem com Reshiram ou Zekrom."
+    },
+    "permit": {
+        "name": "Licença",
+        "description": "Uma autorização oficial que permite o acesso à Reserva Natural."
+    },
+    "grubby-hanky": {
+        "name": "Lenço Sujo",
+        "description": "Um lenço de pano que parece ter pertencido a um detetive."
+    },
+    "colress-machine": {
+        "name": "Máquina de Colress",
+        "description": "Um dispositivo capaz de despertar o verdadeiro poder dos Pokémon."
+    },
+    "dropped-item": {
+        "name": "Item Perdido",
+        "description": "Um Transceptor X que alguém deixou cair no chão."
+    },
+    "reveal-glass": {
+        "name": "Espelho da Revelação",
+        "description": "Um espelho misterioso que revela a verdadeira forma das Forças da Natureza."
+    },
+    "discount-coupon": {
+        "name": "Cupom de Desconto",
+        "description": "Garante um desconto nos itens comprados nas Boutiques."
+    },
+    "elevator-key": {
+        "name": "Chave do Elevador",
+        "description": "Chave necessária para operar os elevadores em certos edifícios."
+    },
+    "holo-caster": {
+        "name": "Holo Caster",
+        "description": "Um dispositivo portátil que transmite hologramas e notícias."
+    },
+    "honor-of-kalos": {
+        "name": "Honra de Kalos",
+        "description": "Uma medalha comemorativa dada em reconhecimento ao herói de Kalos."
+    },
+    "lens-case": {
+        "name": "Porta-Lentes",
+        "description": "Estojo para guardar suas lentes de contato e mudar a cor dos olhos."
+    },
+    "power-plant-pass": {
+        "name": "Passe da Usina",
+        "description": "Um cartão eletrônico que garante acesso à Usina de Energia de Kalos."
+    },
+    "profs-letter": {
+        "name": "Carta do Professor",
+        "description": "Uma carta escrita pelo Professor Sycamore endereçada à sua mãe."
+    },
+    "sprinklotad": {
+        "name": "Regador Lotad",
+        "description": "Um regador fofo em forma de Lotad usado para molhar plantas."
+    },
+    "tmv-pass": {
+        "name": "Passe do TMV",
+        "description": "Um passe para usar o trem de alta velocidade entre Lumiose e Kiloude."
+    },
+    "makeup-bag": {
+        "name": "Maleta de Maquiagem",
+        "description": "Contém todos os cosméticos necessários para mudar o seu visual."
+    },
+    "travel-trunk": {
+        "name": "Baú de Viagem",
+        "description": "Um baú robusto para carregar suas roupas e pertences."
+    },
+    "mega-glove": {
+        "name": "Luva Mega",
+        "description": "Uma luva que contém uma Keystone para desencadear a Mega Evolução."
+    },
+    "pokeblock-kit": {
+        "name": "Kit de Pokébloco",
+        "description": "Um conjunto completo de ferramentas para criar e dar Pokébloquinhos."
+    },
+    "pair-of-tickets": {
+        "name": "Par de Ingressos",
+        "description": "Dois ingressos para o Show de Talentos em Lilycove."
+    },
+    "forage-bag": {
+        "name": "Bolsa de Coleta",
+        "description": "Bolsa usada para coletar ingredientes durante o Trial de Mallow."
+    },
+    "fishing-rod": {
+        "name": "Vara de Pescar",
+        "description": "Uma vara básica para pescar Pokémon em rios e lagos."
+    },
+    "professors-mask": {
+        "name": "Máscara do Professor",
+        "description": "Uma máscara de luta livre que pertence a um treinador famoso."
+    },
+    "zygarde-cube": {
+        "name": "Cubo Zygarde",
+        "description": "Um item usado para coletar Células e Núcleos do Pokémon Zygarde."
+    },
+    "sun-flute": {
+        "name": "Flauta do Sol",
+        "description": "Uma flauta lendária cujo som invoca o poder ardente do sol."
+    },
+    "moon-flute": {
+        "name": "Flauta da Lua",
+        "description": "Uma flauta lendária cujo som invoca o poder prateado da lua."
+    },
+    "enigmatic-card": {
+        "name": "Cartão Enigmático",
+        "description": "Um cartão misterioso recebido de um agente da Polícia Internacional."
+    }
+}

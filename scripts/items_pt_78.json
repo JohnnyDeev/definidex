@@ -1,0 +1,198 @@
+{
+    "gengarite": {
+        "name": "Gengarite",
+        "description": "Uma Mega Stone necessária para Mega Evoluir Gengar em batalha."
+    },
+    "heracronite": {
+        "name": "Heracronite",
+        "description": "Uma Mega Stone necessária para Mega Evoluir Heracross em batalha."
+    },
+    "mawilite": {
+        "name": "Mawilite",
+        "description": "Uma Mega Stone necessária para Mega Evoluir Mawile em batalha."
+    },
+    "manectite": {
+        "name": "Manectite",
+        "description": "Uma Mega Stone necessária para Mega Evoluir Manectric em batalha."
+    },
+    "sceptilite": {
+        "name": "Sceptilite",
+        "description": "Uma Mega Stone necessária para Mega Evoluir Sceptile em batalha."
+    },
+    "glalitite": {
+        "name": "Glalitite",
+        "description": "Uma Mega Stone necessária para Mega Evoluir Glalie em batalha."
+    },
+    "mega-pendant": {
+        "name": "Pingente Mega",
+        "description": "Um pingente que contém uma Keystone para a Mega Evolução."
+    },
+    "mega-glasses": {
+        "name": "Óculos Mega",
+        "description": "Óculos especiais que contêm uma Keystone para a Mega Evolução."
+    },
+    "mega-anchor": {
+        "name": "Âncora Mega",
+        "description": "Uma âncora que contém uma Keystone para a Mega Evolução."
+    },
+    "mega-stickpin": {
+        "name": "Alfinete Mega",
+        "description": "Um alfinete que contém uma Keystone para a Mega Evolução."
+    },
+    "mega-tiara": {
+        "name": "Tiara Mega",
+        "description": "Uma tiara que contém uma Keystone para a Mega Evolução."
+    },
+    "mega-anklet": {
+        "name": "Tornozeleira Mega",
+        "description": "Uma tornozeleira que contém uma Keystone para a Mega Evolução."
+    },
+    "mega-cuff": {
+        "name": "Punho Mega",
+        "description": "Um bracelete de punho que contém uma Keystone para a Mega Evolução."
+    },
+    "mayonnaise": {
+        "name": "Maionese",
+        "description": "Um condimento cremoso e rico usado como ingrediente em piqueniques."
+    },
+    "ketchup": {
+        "name": "Ketchup",
+        "description": "Um condimento de tomate doce e picante usado como ingrediente em piqueniques."
+    },
+    "mustard": {
+        "name": "Mostarda",
+        "description": "Um condimento amarelado e forte usado como ingrediente em piqueniques."
+    },
+    "butter": {
+        "name": "Manteiga",
+        "description": "Gordura láctea usada para dar sabor aos sanduíches de piquenique."
+    },
+    "peanut-butter": {
+        "name": "Manteiga de Amendoim",
+        "description": "Um creme de amendoim doce e denso usado em sanduíches."
+    },
+    "salt": {
+        "name": "Sal",
+        "description": "Um tempero básico que realça o sabor dos ingredientes do piquenique."
+    },
+    "yogurt": {
+        "name": "Iogurte",
+        "description": "Um ingrediente lácteo cremoso e levemente azedo para sanduíches."
+    },
+    "whipped-cream": {
+        "name": "Creme Batido",
+        "description": "Creme de leite aerado e doce usado em sanduíches de sobremesa."
+    },
+    "marmalade": {
+        "name": "Geleia de Laranja",
+        "description": "Uma geleia cítrica e doce usada como ingrediente em piqueniques."
+    },
+    "sweet-herba-mystica": {
+        "name": "Erva Mística Doce",
+        "description": "Uma erva lendária e doce que emana uma energia incrível."
+    },
+    "salty-herba-mystica": {
+        "name": "Erva Mística Salgada",
+        "description": "Uma erva lendária e salgada que emana uma energia incrível."
+    },
+    "sour-herba-mystica": {
+        "name": "Erva Mística Azeda",
+        "description": "Uma erva lendária e azeda que emana uma energia incrível."
+    },
+    "spicy-herba-mystica": {
+        "name": "Erva Mística Picante",
+        "description": "Uma erva lendária e picante que emana uma energia incrível."
+    },
+    "lettuce": {
+        "name": "Alface",
+        "description": "Folhas verdes frescas e crocantes usadas em sanduíches."
+    },
+    "cucumber": {
+        "name": "Pepino",
+        "description": "Fatias de pepino refrescantes usadas como ingrediente em piqueniques."
+    },
+    "pickle": {
+        "name": "Picles",
+        "description": "Pepino em conserva que adiciona um sabor azedo ao sanduíche."
+    },
+    "red-onion": {
+        "name": "Cebola Roxa",
+        "description": "Fatias de cebola roxa que adicionam um sabor marcante ao sanduíche."
+    },
+    "green-bell-pepper": {
+        "name": "Pimentão Verde",
+        "description": "Fatias de pimentão verde usadas como ingrediente em piqueniques."
+    },
+    "red-bell-pepper": {
+        "name": "Pimentão Vermelho",
+        "description": "Fatias de pimentão vermelho usadas como ingrediente em piqueniques."
+    },
+    "yellow-bell-pepper": {
+        "name": "Pimentão Amarelo",
+        "description": "Fatias de pimentão amarelo usadas como ingrediente em piqueniques."
+    },
+    "prosciutto": {
+        "name": "Presunto Cru",
+        "description": "Fatias finas de presunto curado de alta qualidade."
+    },
+    "herbed-sausage": {
+        "name": "Salsicha com Ervas",
+        "description": "Salsicha temperada usada como ingrediente em piqueniques."
+    },
+    "hamburger": {
+        "name": "Hambúrguer",
+        "description": "Um disco de carne suculento usado como base para sanduíches."
+    },
+    "klawf-stick": {
+        "name": "Klawf Stick",
+        "description": "Carne de Klawf processada em palitos, similar ao kani."
+    },
+    "smoked-fillet": {
+        "name": "Filé Defumado",
+        "description": "Um filé de peixe defumado com sabor intenso para sanduíches."
+    },
+    "egg": {
+        "name": "Ovo",
+        "description": "Ovos cozidos fatiados usados como ingrediente em piqueniques."
+    },
+    "potato-tortilla": {
+        "name": "Tortilla de Batata",
+        "description": "Uma omelete de batata espessa usada em sanduíches."
+    },
+    "rice": {
+        "name": "Arroz",
+        "description": "Grãos de arroz cozidos usados para dar volume aos sanduíches."
+    },
+    "noodles": {
+        "name": "Macarrão",
+        "description": "Tiras de massa cozida usadas como ingrediente em piqueniques."
+    },
+    "potato-salad": {
+        "name": "Salada de Batata",
+        "description": "Batatas amassadas com maionese, ideais para sanduíches."
+    },
+    "cheese": {
+        "name": "Queijo",
+        "description": "Fatias de queijo derretível que combinam com qualquer sanduíche."
+    },
+    "strawberry": {
+        "name": "Morango",
+        "description": "Fatias de morango doce e suculento para sanduíches de sobremesa."
+    },
+    "kiwi": {
+        "name": "Kiwi",
+        "description": "Fatias de kiwi fresco que adicionam um toque azedinho ao piquenique."
+    },
+    "pineapple": {
+        "name": "Abacaxi",
+        "description": "Fatias de abacaxi doce e tropical para sanduíches refrescantes."
+    },
+    "jalapeño": {
+        "name": "Jalapeño",
+        "description": "Fatias de pimenta jalapeño que deixam o sanduíche bem picante."
+    },
+    "watercress": {
+        "name": "Agrião",
+        "description": "Folhas de agrião picantes usadas como ingrediente em piqueniques."
+    }
+}

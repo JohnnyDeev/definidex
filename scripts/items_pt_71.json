@@ -1,0 +1,830 @@
+{
+  "lunar-wing": {
+    "name": "Pena de Lunar",
+    "description": "Uma pena que aumenta levemente os pontos base para o atributo Lunar."
+  },
+  "health-wing": {
+    "name": "Pena de Health",
+    "description": "Uma pena que aumenta levemente os pontos base para o atributo Health."
+  },
+  "muscle-wing": {
+    "name": "Pena de Muscle",
+    "description": "Uma pena que aumenta levemente os pontos base para o atributo Muscle."
+  },
+  "resist-wing": {
+    "name": "Pena de Resist",
+    "description": "Uma pena que aumenta levemente os pontos base para o atributo Resist."
+  },
+  "genius-wing": {
+    "name": "Pena de Genius",
+    "description": "Uma pena que aumenta levemente os pontos base para o atributo Genius."
+  },
+  "clever-wing": {
+    "name": "Pena de Clever",
+    "description": "Uma pena que aumenta levemente os pontos base para o atributo Clever."
+  },
+  "swift-wing": {
+    "name": "Pena de Swift",
+    "description": "Uma pena que aumenta levemente os pontos base para o atributo Swift."
+  },
+  "pretty-wing": {
+    "name": "Pena de Pretty",
+    "description": "Uma pena que aumenta levemente os pontos base para o atributo Pretty."
+  },
+  "tm100": {
+    "name": "TM100",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "mighty-candy": {
+    "name": "Doce de Mighty",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "tough-candy": {
+    "name": "Doce de Tough",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "smart-candy": {
+    "name": "Doce de Smart",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "courage-candy": {
+    "name": "Doce de Courage",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "quick-candy": {
+    "name": "Doce de Quick",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "bulbasaur-candy": {
+    "name": "Doce de Bulbasaur",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "charmander-candy": {
+    "name": "Doce de Charmander",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "squirtle-candy": {
+    "name": "Doce de Squirtle",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "caterpie-candy": {
+    "name": "Doce de Caterpie",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "rattata-candy": {
+    "name": "Doce de Rattata",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "spearow-candy": {
+    "name": "Doce de Spearow",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "ekans-candy": {
+    "name": "Doce de Ekans",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "sandshrew-candy": {
+    "name": "Doce de Sandshrew",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "nidoran-f-candy": {
+    "name": "Doce de Nidoran F",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "nidoran-m-candy": {
+    "name": "Doce de Nidoran M",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "paras-candy": {
+    "name": "Doce de Paras",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "venonat-candy": {
+    "name": "Doce de Venonat",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "poliwag-candy": {
+    "name": "Doce de Poliwag",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "tentacool-candy": {
+    "name": "Doce de Tentacool",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "farfetchd-candy": {
+    "name": "Doce de Farfetchd",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "doduo-candy": {
+    "name": "Doce de Doduo",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "grimer-candy": {
+    "name": "Doce de Grimer",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "drowzee-candy": {
+    "name": "Doce de Drowzee",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "voltorb-candy": {
+    "name": "Doce de Voltorb",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "exeggcute-candy": {
+    "name": "Doce de Exeggcute",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "cubone-candy": {
+    "name": "Doce de Cubone",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "hitmonlee-candy": {
+    "name": "Doce de Hitmonlee",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "hitmonchan-candy": {
+    "name": "Doce de Hitmonchan",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "lickitung-candy": {
+    "name": "Doce de Lickitung",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "chansey-candy": {
+    "name": "Doce de Chansey",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "horsea-candy": {
+    "name": "Doce de Horsea",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "goldeen-candy": {
+    "name": "Doce de Goldeen",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "mr-mime-candy": {
+    "name": "Doce de Mr Mime",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "electabuzz-candy": {
+    "name": "Doce de Electabuzz",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "pinsir-candy": {
+    "name": "Doce de Pinsir",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "ditto-candy": {
+    "name": "Doce de Ditto",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "omanyte-candy": {
+    "name": "Doce de Omanyte",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "meltan-candy": {
+    "name": "Doce de Meltan",
+    "description": "Um doce energético que aumenta os atributos de certos Pokémon."
+  },
+  "lonely-mint": {
+    "name": "Menta Lonely",
+    "description": "Uma menta que altera o crescimento dos atributos do Pokémon para a natureza Lonely."
+  },
+  "naughty-mint": {
+    "name": "Menta Naughty",
+    "description": "Uma menta que altera o crescimento dos atributos do Pokémon para a natureza Naughty."
+  },
+  "bold-mint": {
+    "name": "Menta Bold",
+    "description": "Uma menta que altera o crescimento dos atributos do Pokémon para a natureza Bold."
+  },
+  "impish-mint": {
+    "name": "Menta Impish",
+    "description": "Uma menta que altera o crescimento dos atributos do Pokémon para a natureza Impish."
+  },
+  "relaxed-mint": {
+    "name": "Menta Relaxed",
+    "description": "Uma menta que altera o crescimento dos atributos do Pokémon para a natureza Relaxed."
+  },
+  "modest-mint": {
+    "name": "Menta Modest",
+    "description": "Uma menta que altera o crescimento dos atributos do Pokémon para a natureza Modest."
+  },
+  "mild-mint": {
+    "name": "Menta Mild",
+    "description": "Uma menta que altera o crescimento dos atributos do Pokémon para a natureza Mild."
+  },
+  "calm-mint": {
+    "name": "Menta Calm",
+    "description": "Uma menta que altera o crescimento dos atributos do Pokémon para a natureza Calm."
+  },
+  "gentle-mint": {
+    "name": "Menta Gentle",
+    "description": "Uma menta que altera o crescimento dos atributos do Pokémon para a natureza Gentle."
+  },
+  "hasty-mint": {
+    "name": "Menta Hasty",
+    "description": "Uma menta que altera o crescimento dos atributos do Pokémon para a natureza Hasty."
+  },
+  "jolly-mint": {
+    "name": "Menta Jolly",
+    "description": "Uma menta que altera o crescimento dos atributos do Pokémon para a natureza Jolly."
+  },
+  "naive-mint": {
+    "name": "Menta Naive",
+    "description": "Uma menta que altera o crescimento dos atributos do Pokémon para a natureza Naive."
+  },
+  "serious-mint": {
+    "name": "Menta Serious",
+    "description": "Uma menta que altera o crescimento dos atributos do Pokémon para a natureza Serious."
+  },
+  "tm101": {
+    "name": "TM101",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm102": {
+    "name": "TM102",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm103": {
+    "name": "TM103",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm104": {
+    "name": "TM104",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm105": {
+    "name": "TM105",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm106": {
+    "name": "TM106",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm107": {
+    "name": "TM107",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm108": {
+    "name": "TM108",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm109": {
+    "name": "TM109",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm110": {
+    "name": "TM110",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm111": {
+    "name": "TM111",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm112": {
+    "name": "TM112",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm113": {
+    "name": "TM113",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm114": {
+    "name": "TM114",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm115": {
+    "name": "TM115",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm116": {
+    "name": "TM116",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm117": {
+    "name": "TM117",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm118": {
+    "name": "TM118",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm119": {
+    "name": "TM119",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm120": {
+    "name": "TM120",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm121": {
+    "name": "TM121",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm122": {
+    "name": "TM122",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm123": {
+    "name": "TM123",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm124": {
+    "name": "TM124",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm125": {
+    "name": "TM125",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm126": {
+    "name": "TM126",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm127": {
+    "name": "TM127",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm128": {
+    "name": "TM128",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm129": {
+    "name": "TM129",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm130": {
+    "name": "TM130",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm131": {
+    "name": "TM131",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm132": {
+    "name": "TM132",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm133": {
+    "name": "TM133",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm134": {
+    "name": "TM134",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm135": {
+    "name": "TM135",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm136": {
+    "name": "TM136",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm137": {
+    "name": "TM137",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm138": {
+    "name": "TM138",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm139": {
+    "name": "TM139",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm140": {
+    "name": "TM140",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm141": {
+    "name": "TM141",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm142": {
+    "name": "TM142",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm143": {
+    "name": "TM143",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm144": {
+    "name": "TM144",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm145": {
+    "name": "TM145",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm146": {
+    "name": "TM146",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm147": {
+    "name": "TM147",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm148": {
+    "name": "TM148",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm149": {
+    "name": "TM149",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm150": {
+    "name": "TM150",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm151": {
+    "name": "TM151",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm152": {
+    "name": "TM152",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm153": {
+    "name": "TM153",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm154": {
+    "name": "TM154",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm155": {
+    "name": "TM155",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm156": {
+    "name": "TM156",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm157": {
+    "name": "TM157",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm158": {
+    "name": "TM158",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm159": {
+    "name": "TM159",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm160": {
+    "name": "TM160",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm161": {
+    "name": "TM161",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm162": {
+    "name": "TM162",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm163": {
+    "name": "TM163",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm164": {
+    "name": "TM164",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm165": {
+    "name": "TM165",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm166": {
+    "name": "TM166",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm167": {
+    "name": "TM167",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm168": {
+    "name": "TM168",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm169": {
+    "name": "TM169",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm170": {
+    "name": "TM170",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm171": {
+    "name": "TM171",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "health-mochi": {
+    "name": "Mochi de Health",
+    "description": "Um mochi doce que aumenta os pontos base para o atributo Health."
+  },
+  "muscle-mochi": {
+    "name": "Mochi de Muscle",
+    "description": "Um mochi doce que aumenta os pontos base para o atributo Muscle."
+  },
+  "resist-mochi": {
+    "name": "Mochi de Resist",
+    "description": "Um mochi doce que aumenta os pontos base para o atributo Resist."
+  },
+  "genius-mochi": {
+    "name": "Mochi de Genius",
+    "description": "Um mochi doce que aumenta os pontos base para o atributo Genius."
+  },
+  "clever-mochi": {
+    "name": "Mochi de Clever",
+    "description": "Um mochi doce que aumenta os pontos base para o atributo Clever."
+  },
+  "swift-mochi": {
+    "name": "Mochi de Swift",
+    "description": "Um mochi doce que aumenta os pontos base para o atributo Swift."
+  },
+  "fresh-start-mochi": {
+    "name": "Mochi de Fresh-start",
+    "description": "Um mochi doce que aumenta os pontos base para o atributo Fresh-start."
+  },
+  "tm172": {
+    "name": "TM172",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm173": {
+    "name": "TM173",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm174": {
+    "name": "TM174",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm175": {
+    "name": "TM175",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm176": {
+    "name": "TM176",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm177": {
+    "name": "TM177",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm178": {
+    "name": "TM178",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm179": {
+    "name": "TM179",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm180": {
+    "name": "TM180",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm181": {
+    "name": "TM181",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm182": {
+    "name": "TM182",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm183": {
+    "name": "TM183",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm184": {
+    "name": "TM184",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm185": {
+    "name": "TM185",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm186": {
+    "name": "TM186",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm187": {
+    "name": "TM187",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm188": {
+    "name": "TM188",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm189": {
+    "name": "TM189",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm190": {
+    "name": "TM190",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm191": {
+    "name": "TM191",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm192": {
+    "name": "TM192",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm193": {
+    "name": "TM193",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm194": {
+    "name": "TM194",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm195": {
+    "name": "TM195",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm196": {
+    "name": "TM196",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm197": {
+    "name": "TM197",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm198": {
+    "name": "TM198",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm199": {
+    "name": "TM199",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm200": {
+    "name": "TM200",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm201": {
+    "name": "TM201",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm202": {
+    "name": "TM202",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm203": {
+    "name": "TM203",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm204": {
+    "name": "TM204",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm205": {
+    "name": "TM205",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm206": {
+    "name": "TM206",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm207": {
+    "name": "TM207",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm208": {
+    "name": "TM208",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm209": {
+    "name": "TM209",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm210": {
+    "name": "TM210",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm211": {
+    "name": "TM211",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm212": {
+    "name": "TM212",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm213": {
+    "name": "TM213",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm214": {
+    "name": "TM214",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm215": {
+    "name": "TM215",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm216": {
+    "name": "TM216",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm217": {
+    "name": "TM217",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm218": {
+    "name": "TM218",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm219": {
+    "name": "TM219",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm220": {
+    "name": "TM220",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm221": {
+    "name": "TM221",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm222": {
+    "name": "TM222",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm223": {
+    "name": "TM223",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm224": {
+    "name": "TM224",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm225": {
+    "name": "TM225",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm226": {
+    "name": "TM226",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm227": {
+    "name": "TM227",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm228": {
+    "name": "TM228",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "tm229": {
+    "name": "TM229",
+    "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+  },
+  "lastrange-ball": {
+    "name": "Strange Bola (Hisui)",
+    "description": "Uma Poké Bola de estilo antigo feita à mão na região de Hisui."
+  },
+  "lapoke-ball": {
+    "name": "Poke Bola (Hisui)",
+    "description": "Uma Poké Bola de estilo antigo feita à mão na região de Hisui."
+  },
+  "lagreat-ball": {
+    "name": "Great Bola (Hisui)",
+    "description": "Uma Poké Bola de estilo antigo feita à mão na região de Hisui."
+  },
+  "laultra-ball": {
+    "name": "Ultra Bola (Hisui)",
+    "description": "Uma Poké Bola de estilo antigo feita à mão na região de Hisui."
+  },
+  "laheavy-ball": {
+    "name": "Heavy Bola (Hisui)",
+    "description": "Uma Poké Bola de estilo antigo feita à mão na região de Hisui."
+  },
+  "laleaden-ball": {
+    "name": "Leaden Bola (Hisui)",
+    "description": "Uma Poké Bola de estilo antigo feita à mão na região de Hisui."
+  },
+  "lagigaton-ball": {
+    "name": "Gigaton Bola (Hisui)",
+    "description": "Uma Poké Bola de estilo antigo feita à mão na região de Hisui."
+  },
+  "lafeather-ball": {
+    "name": "Feather Bola (Hisui)",
+    "description": "Uma Poké Bola de estilo antigo feita à mão na região de Hisui."
+  },
+  "lawing-ball": {
+    "name": "Wing Bola (Hisui)",
+    "description": "Uma Poké Bola de estilo antigo feita à mão na região de Hisui."
+  },
+  "lajet-ball": {
+    "name": "Jet Bola (Hisui)",
+    "description": "Uma Poké Bola de estilo antigo feita à mão na região de Hisui."
+  },
+  "laorigin-ball": {
+    "name": "Origin Bola (Hisui)",
+    "description": "Uma Poké Bola de estilo antigo feita à mão na região de Hisui."
+  }
+}

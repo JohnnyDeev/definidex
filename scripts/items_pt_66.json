@@ -1,0 +1,250 @@
+{
+    "rock-incense": {
+        "name": "Incenso de Rocha",
+        "description": "Um incenso que aumenta o poder de ataques do tipo Pedra. Necessário para Breed do Bonsly."
+    },
+    "rose-incense": {
+        "name": "Incenso de Rosa",
+        "description": "Um incenso que aumenta o poder de ataques do tipo Planta. Necessário para Breed do Budew."
+    },
+    "luck-incense": {
+        "name": "Incenso de Sorte",
+        "description": "Dobra o dinheiro ganho em batalha se o portador participar. Necessário para Breed do Happiny."
+    },
+    "protector": {
+        "name": "Protetor",
+        "description": "Um item de proteção pesado e resistente. Faz Rhydon evoluir."
+    },
+    "tm01": {
+        "name": "TM01",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm02": {
+        "name": "TM02",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm03": {
+        "name": "TM03",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm04": {
+        "name": "TM04",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm05": {
+        "name": "TM05",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm06": {
+        "name": "TM06",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm07": {
+        "name": "TM07",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm08": {
+        "name": "TM08",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm09": {
+        "name": "TM09",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm10": {
+        "name": "TM10",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm11": {
+        "name": "TM11",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm12": {
+        "name": "TM12",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm13": {
+        "name": "TM13",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm14": {
+        "name": "TM14",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm15": {
+        "name": "TM15",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm16": {
+        "name": "TM16",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm17": {
+        "name": "TM17",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm18": {
+        "name": "TM18",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm19": {
+        "name": "TM19",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm20": {
+        "name": "TM20",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm21": {
+        "name": "TM21",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm22": {
+        "name": "TM22",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm23": {
+        "name": "TM23",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm24": {
+        "name": "TM24",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm25": {
+        "name": "TM25",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm26": {
+        "name": "TM26",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm27": {
+        "name": "TM27",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm28": {
+        "name": "TM28",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm29": {
+        "name": "TM29",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm30": {
+        "name": "TM30",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm31": {
+        "name": "TM31",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm32": {
+        "name": "TM32",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm33": {
+        "name": "TM33",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm34": {
+        "name": "TM34",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm35": {
+        "name": "TM35",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm36": {
+        "name": "TM36",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm37": {
+        "name": "TM37",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm38": {
+        "name": "TM38",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm39": {
+        "name": "TM39",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm40": {
+        "name": "TM40",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm41": {
+        "name": "TM41",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm42": {
+        "name": "TM42",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm43": {
+        "name": "TM43",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm44": {
+        "name": "TM44",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm45": {
+        "name": "TM45",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm46": {
+        "name": "TM46",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm47": {
+        "name": "TM47",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm48": {
+        "name": "TM48",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm49": {
+        "name": "TM49",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "tm50": {
+        "name": "TM50",
+        "description": "Máquina Técnica que ensina um golpe específico a um Pokémon compatível."
+    },
+    "hm01": {
+        "name": "HM01",
+        "description": "Máquina Oculta que ensina um golpe essencial para navegar no mundo Pokémon."
+    },
+    "hm02": {
+        "name": "HM02",
+        "description": "Máquina Oculta que ensina um golpe essencial para navegar no mundo Pokémon."
+    },
+    "hm03": {
+        "name": "HM03",
+        "description": "Máquina Oculta que ensina um golpe essencial para navegar no mundo Pokémon."
+    },
+    "hm04": {
+        "name": "HM04",
+        "description": "Máquina Oculta que ensina um golpe essencial para navegar no mundo Pokémon."
+    },
+    "hm05": {
+        "name": "HM05",
+        "description": "Máquina Oculta que ensina um golpe essencial para navegar no mundo Pokémon."
+    },
+    "hm06": {
+        "name": "HM06",
+        "description": "Máquina Oculta que ensina um golpe essencial para navegar no mundo Pokémon."
+    },
+    "hm07": {
+        "name": "HM07",
+        "description": "Máquina Oculta que ensina um golpe essencial para navegar no mundo Pokémon."
+    },
+    "hm08": {
+        "name": "HM08",
+        "description": "Máquina Oculta que ensina um golpe essencial para navegar no mundo Pokémon."
+    }
+}

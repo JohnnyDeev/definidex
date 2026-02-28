@@ -1,0 +1,18 @@
+{
+    "tool-pouch": {
+        "name": "Bolsa de Ferramentas",
+        "description": "Uma bolsa resistente para carregar martelos, chaves e outras ferramentas de manutenção."
+    },
+    "toool-pouch": {
+        "name": "Bolsa de Ferrramentas",
+        "description": "Item Pokémon: Bolsa de Ferrramentas."
+    },
+    "top-pouch": {
+        "name": "Bolsa Superior",
+        "description": "A aba superior da mochila, ideal para itens acessados com frequência."
+    },
+    "torchic-candy": {
+        "name": "Doce de Torchic",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    }
+}

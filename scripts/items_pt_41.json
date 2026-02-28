@@ -1,0 +1,118 @@
+{
+    "special-feather": {
+        "name": "Pena Especial",
+        "description": "Uma pena que aumenta levemente o Atq. Esp. do seu Pokémon."
+    },
+    "special-monitor": {
+        "name": "Monitor Especial",
+        "description": "Um painel de controle para monitorar as estatísticas especiais dos Pokémon."
+    },
+    "sparkling-series-pouch": {
+        "name": "Bolsa da Série Cintilante",
+        "description": "Item Pokémon: Bolsa da Série Cintilante."
+    },
+    "sparkling-stone": {
+        "name": "Pedra Cintilante",
+        "description": "Uma pedra dada pela divindade guardiã de Alola. Necessária para Z-Moves."
+    },
+    "speak-series-pouch": {
+        "name": "Bolsa da Série de Fala",
+        "description": "Item Pokémon: Bolsa da Série de Fala."
+    },
+    "special-lottery-ticket": {
+        "name": "Bilhete de Loteria Especial",
+        "description": "Um bilhete raro que dá uma chance maior de ganhar prêmios premium."
+    },
+    "spectrier-hair": {
+        "name": "Cabelo de Spectrier",
+        "description": "Um fio de cabelo longo e preto de um Spectrier. Usado como material."
+    },
+    "speed-ball": {
+        "name": "Velocidade Bola",
+        "description": "Uma Poké Bola que funciona melhor em Pokémon muito velozes ou que fogem."
+    },
+    "speed-candy": {
+        "name": "Doce de Velocidade",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "spell-tag": {
+        "name": "Amuleto de Feitiço",
+        "description": "Um amuleto sinistro que aumenta o poder de golpes do tipo Fantasma."
+    },
+    "spelon-berry": {
+        "name": "Fruta Spelon",
+        "description": "Ingrediente para Pokébloquinhos. Tem um sabor muito picante."
+    },
+    "spelon-mulch": {
+        "name": "Adubo Spelon",
+        "description": "Item Pokémon: Adubo Spelon."
+    },
+    "spherical-cup": {
+        "name": "Copo Esférico",
+        "description": "Um copo de plástico com base arredondada para piqueniques."
+    },
+    "spikey-ball": {
+        "name": "Bola de Espinhos",
+        "description": "Uma pequena bola coberta de espinhos usada para brincar com Pokémon."
+    },
+    "spinning-series-pouch": {
+        "name": "Bolsa da Série Giratória",
+        "description": "Item Pokémon: Bolsa da Série Giratória."
+    },
+    "spiral-pouch": {
+        "name": "Bolsa Espiral",
+        "description": "Uma bolsa decorada com padrões em espiral coloridos."
+    },
+    "spirit-pouch": {
+        "name": "Bolsa de Espírito",
+        "description": "Bolsa feita de tecido leve para carregar itens com energia espiritual."
+    },
+    "spirit-scent": {
+        "name": "Perfume Espiritual",
+        "description": "Um perfume místico usado para purificar o coração de Pokémon sombrios."
+    },
+    "spiritomb-candy": {
+        "name": "Doce de Spiritomb",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "spiritomb-fragment": {
+        "name": "Fragmento de Spiritomb",
+        "description": "Um pequeno fragmento de rocha de uma Odd Keystone. Usado como material."
+    },
+    "splashing-mulch": {
+        "name": "Adubo de Borrifo",
+        "description": "Adubo que faz o solo secar mais rápido, exigindo regas constantes."
+    },
+    "spoken-monitor": {
+        "name": "Monitor de Voz",
+        "description": "Dispositivo para registrar e analisar os sons emitidos pelos Pokémon."
+    },
+    "splat-pouch": {
+        "name": "Bolsa Splat",
+        "description": "Item Pokémon: Bolsa Splat."
+    },
+    "spooky-plate": {
+        "name": "Placa Assustadora",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Fantasma."
+    },
+    "sport-ball": {
+        "name": "Esporte Bola",
+        "description": "Uma Poké Bola especial usada exclusivamente no Concurso de Captura de Insetos."
+    },
+    "spotted-cup": {
+        "name": "Copo Manchado",
+        "description": "Um copo de plástico com estampa de manchas coloridas para piqueniques."
+    },
+    "spotted-tablecloth": {
+        "name": "Toalha Manchada",
+        "description": "Uma toalha de piquenique com estampa de manchas irregulares."
+    },
+    "sprayduck": {
+        "name": "Sprayduck",
+        "description": "Um regador em forma de Psyduck usado para cultivar Berries."
+    },
+    "sprigatito-candy": {
+        "name": "Doce de Sprigatito",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    }
+}

@@ -1,0 +1,550 @@
+{
+    "coupon-1": {
+        "name": "Cupom 1",
+        "description": "Um dos cupons necessários para obter uma Bicicleta em Goldenrod."
+    },
+    "coupon-2": {
+        "name": "Cupom 2",
+        "description": "Um dos cupons necessários para obter uma Bicicleta em Goldenrod."
+    },
+    "coupon-3": {
+        "name": "Cupom 3",
+        "description": "Um dos cupons necessários para obter uma Bicicleta em Goldenrod."
+    },
+    "sweet-heart": {
+        "name": "Coração Doce",
+        "description": "Um chocolate muito doce que restaura 20 pontos de HP."
+    },
+    "prism-scale": {
+        "name": "Escama de Prisma",
+        "description": "Uma escama que brilha com todas as cores do arco-íris. Faz Feebas evoluir."
+    },
+    "rich-mulch": {
+        "name": "Adubo Rico",
+        "description": "Adubo que aumenta o rendimento da colheita de Berries."
+    },
+    "surprise-mulch": {
+        "name": "Adubo Surpresa",
+        "description": "Adubo que causa mutações aleatórias no crescimento das Berries."
+    },
+    "boost-mulch": {
+        "name": "Adubo de Impulso",
+        "description": "Adubo que faz o solo secar muito mais rápido, permitindo regas frequentes."
+    },
+    "lumiose-galette": {
+        "name": "Galette de Lumiose",
+        "description": "Um doce famoso de Lumiose City que cura todos os problemas de status."
+    },
+    "shalour-sable": {
+        "name": "Sable de Shalour",
+        "description": "Um biscoito famoso de Shalour City que cura todos os problemas de status."
+    },
+    "contest-costume--jacket": {
+        "name": "Traje de Concurso (Jaqueta)",
+        "description": "Um traje elegante para usar durante os Concursos Pokémon."
+    },
+    "meteorite-shard": {
+        "name": "Estilhaço de Meteorito",
+        "description": "Um pedaço de um meteorito que caiu do espaço."
+    },
+    "storage-key--galactic-warehouse": {
+        "name": "Chave do Depósito Galactic",
+        "description": "Chave para entrar no depósito da Equipe Galactic em Veilstone."
+    },
+    "xtransceiver--red": {
+        "name": "Transceptor X (Vermelho)",
+        "description": "Diz-se que pertence a uma garota chamada Nancy."
+    },
+    "xtransceiver--yellow": {
+        "name": "Transceptor X (Amarelo)",
+        "description": "Diz-se que pertence a um garoto chamado Curtis."
+    },
+    "dna-splicers--merge": {
+        "name": "Emenda de DNA (Fundir)",
+        "description": "Dispositivo para fundir Kyurem com outro Pokémon dragão."
+    },
+    "dna-splicers--split": {
+        "name": "Emenda de DNA (Separar)",
+        "description": "Dispositivo para separar a fusão de Kyurem."
+    },
+    "dropped-item--red": {
+        "name": "Item Perdido (Vermelho)",
+        "description": "Um Transceptor X vermelho esquecido por alguém."
+    },
+    "dropped-item--yellow": {
+        "name": "Item Perdido (Amarelo)",
+        "description": "Um Transceptor X amarelo esquecido por alguém."
+    },
+    "holo-caster--green": {
+        "name": "Holo Caster (Verde)",
+        "description": "Um modelo especial verde do Holo Caster."
+    },
+    "holo-caster--red": {
+        "name": "Holo Caster (Vermelho)",
+        "description": "Um modelo especial vermelho do Holo Caster."
+    },
+    "storage-key--sea-mauville": {
+        "name": "Chave do Sea Mauville",
+        "description": "Uma chave antiga para abrir portas no navio naufragado Sea Mauville."
+    },
+    "ss-ticket--hoenn": {
+        "name": "Bilhete do Navio (Hoenn)",
+        "description": "Um bilhete de passadiço para o navio S.S. Tidal."
+    },
+    "contest-costume--dress": {
+        "name": "Traje de Concurso (Vestido)",
+        "description": "Um vestido lindo para usar durante os Concursos Pokémon."
+    },
+    "meteorite--3": {
+        "name": "Meteorito (Tipo 3)",
+        "description": "Um meteorito misterioso que reage à radiação espacial."
+    },
+    "meteorite--4": {
+        "name": "Meteorito (Tipo 4)",
+        "description": "Um meteorito misterioso que reage à radiação espacial."
+    },
+    "purple-petal": {
+        "name": "Pétala Roxa",
+        "description": "Uma das pétalas necessárias para completar a Flor de Sete Cores."
+    },
+    "surge-badge": {
+        "name": "Insígnia do Trovão",
+        "description": "A insígnia oficial do Ginásio de Vermilion City."
+    },
+    "n-solarizer--merge": {
+        "name": "Solarizador-N (Fundir)",
+        "description": "Permite fundir Necrozma com Solgaleo."
+    },
+    "n-lunarizer--merge": {
+        "name": "Lunarizador-N (Fundir)",
+        "description": "Permite fundir Necrozma com Lunala."
+    },
+    "n-solarizer--split": {
+        "name": "Solarizador-N (Separar)",
+        "description": "Permite separar Necrozma e Solgaleo."
+    },
+    "n-lunarizer--split": {
+        "name": "Lunarizador-N (Separar)",
+        "description": "Permite separar Necrozma e Lunala."
+    },
+    "left-poke-ball": {
+        "name": "Poké Bola de Esquerda",
+        "description": "Uma Poké Bola comum que foi encontrada abandonada."
+    },
+    "pokemon-box": {
+        "name": "Caixa Pokémon",
+        "description": "Um dispositivo que permite acessar seus Pokémon armazenados em qualquer lugar."
+    },
+    "medicine-pocket": {
+        "name": "Bolso de Medicamentos",
+        "description": "Uma seção da bolsa dedicada a itens de cura."
+    },
+    "power-up-pocket": {
+        "name": "Bolso de Fortalecimento",
+        "description": "Uma seção da bolsa para itens que aumentam atributos."
+    },
+    "clothing-trunk": {
+        "name": "Baú de Roupas",
+        "description": "Um baú para organizar e carregar suas roupas favoritas."
+    },
+    "catching-pocket": {
+        "name": "Bolso de Captura",
+        "description": "Uma seção da bolsa dedicada a Poké Bolas."
+    },
+    "secret-key--letsgo": {
+        "name": "Chave Secreta (Let's Go)",
+        "description": "Chave necessária para entrar na Mansão Pokémon."
+    },
+    "ss-ticket--letsgo": {
+        "name": "Bilhete do S.S. Anne (Let's Go)",
+        "description": "Um ingresso de luxo para o cruzeiro S.S. Anne."
+    },
+    "parcel--letsgo": {
+        "name": "Pacote (Let's Go)",
+        "description": "Um pacote que deve ser entregue ao Professor Oak."
+    },
+    "card-key--letsgo": {
+        "name": "Cartão Chave (Let's Go)",
+        "description": "Um cartão eletrônico que abre portas no prédio da Silph Co."
+    },
+    "stretchy-spring": {
+        "name": "Mola Elástica",
+        "description": "Uma mola que pula e estica, encontrada durante a exploração."
+    },
+    "marble": {
+        "name": "Bolinha de Gude",
+        "description": "Uma pequena esfera de vidro colorida e brilhante."
+    },
+    "lone-earring": {
+        "name": "Brinco Solitário",
+        "description": "Um brinco de ouro que parece ter perdido o seu par."
+    },
+    "polished-mud-ball": {
+        "name": "Bola de Lama Polida",
+        "description": "Uma bola de lama que foi polida até brilhar como uma joia."
+    },
+    "leaf-letter--pikachu": {
+        "name": "Carta de Folha (Pikachu)",
+        "description": "Uma mensagem escrita em uma folha com a imagem de um Pikachu."
+    },
+    "leaf-letter--eevee": {
+        "name": "Carta de Folha (Eevee)",
+        "description": "Uma mensagem escrita em uma folha com a imagem de um Eevee."
+    },
+    "small-bouquet": {
+        "name": "Pequeno Buquê",
+        "description": "Um arranjo de flores silvestres com um perfume suave."
+    },
+    "super-lure": {
+        "name": "Super-Isca",
+        "description": "Uma isca potente que atrai mais Pokémon selvagens."
+    },
+    "max-lure": {
+        "name": "Isca Máxima",
+        "description": "A melhor isca disponível para atrair Pokémon raros."
+    },
+    "pewter-crunchies": {
+        "name": "Biscoitos de Pewter",
+        "description": "Uma guloseima famosa de Pewter City que cura status."
+    },
+    "endorsement": {
+        "name": "Endosso",
+        "description": "Uma carta oficial permitindo que você participe do Gym Challenge."
+    },
+    "wishing-star": {
+        "name": "Estrela do Desejo",
+        "description": "Um fragmento de meteorito que permite a ativação da pulseira Dynamax."
+    },
+    "fishing-rod--galar": {
+        "name": "Vara de Pescar (Galar)",
+        "description": "Uma vara de pescar moderna usada na região de Galar."
+    },
+    "rotom-bike": {
+        "name": "Bicicleta Rotom",
+        "description": "Uma bicicleta especial que pode ser impulsionada por um Rotom."
+    },
+    "sausages": {
+        "name": "Salsichas",
+        "description": "Um ingrediente clássico para preparar curry no acampamento."
+    },
+    "bobs-food-tin": {
+        "name": "Lata de Comida do Bob",
+        "description": "Um ingrediente raro usado para fazer variedades especiais de curry."
+    },
+    "tin-of-beans": {
+        "name": "Lata de Feijão",
+        "description": "Um ingrediente nutritivo para o seu curry Pokémon."
+    },
+    "bread": {
+        "name": "Pão",
+        "description": "Fatias de pão fresco usadas como ingrediente em piqueniques."
+    },
+    "pasta": {
+        "name": "Macarrão",
+        "description": "Um ingrediente de massa usado para pratos de piquenique."
+    },
+    "mixed-mushrooms": {
+        "name": "Cogumelos Mistos",
+        "description": "Uma variedade de cogumelos silvestres para cozinhar."
+    },
+    "smoke-poke-tail": {
+        "name": "Cauda de Pokémon Defumada",
+        "description": "Um ingrediente polêmico e saboroso para seu curry."
+    },
+    "large-leek": {
+        "name": "Alho-poró Grande",
+        "description": "Um talo grande de alho-poró, amado por Pokémon como Farfetch'd."
+    },
+    "brittle-bones": {
+        "name": "Ossos Quebradiços",
+        "description": "Um ingrediente rico em cálcio para pratos especiais."
+    },
+    "pack-of-potatoes": {
+        "name": "Pacote de Batatas",
+        "description": "Um conjunto de batatas frescas para cozinhar no acampamento."
+    },
+    "pungent-root": {
+        "name": "Raiz Picante",
+        "description": "Uma raiz com cheiro forte que adiciona profundidade ao curry."
+    },
+    "salad-mix": {
+        "name": "Mistura de Salada",
+        "description": "Uma combinação de vegetais frescos para acompanhamentos."
+    },
+    "fried-food": {
+        "name": "Fritura",
+        "description": "Pedaços de comida frita crocante para o piquenique."
+    },
+    "boiled-egg": {
+        "name": "Ovo Cozido",
+        "description": "Um ovo cozido e fatiado, ideal para sanduíches."
+    },
+    "camping-gear": {
+        "name": "Equipamento de Acampamento",
+        "description": "Um conjunto de itens necessários para montar seu acampamento."
+    },
+    "flower-sweet": {
+        "name": "Doce de Flor",
+        "description": "Um ingrediente em forma de flor que faz Alcremie evoluir."
+    },
+    "tart-apple": {
+        "name": "Maçã Azeda",
+        "description": "Uma maçã bem ácida. Faz Applin evoluir para Flapple."
+    },
+    "throat-spray": {
+        "name": "Spray de Garganta",
+        "description": "Aumenta o Atq. Esp. do portador ao usar um golpe baseado em som."
+    },
+    "utility-umbrella": {
+        "name": "Guarda-chuva Utilitário",
+        "description": "Protege o portador dos efeitos das condições climáticas."
+    },
+    "wishing-piece": {
+        "name": "Pedaço do Desejo",
+        "description": "Um fragmento que ativa um Max Raid Den inativo."
+    },
+    "fruit-bunch": {
+        "name": "Cacho de Frutas",
+        "description": "Uma seleção de frutas frescas para o piquenique."
+    },
+    "spice-mix": {
+        "name": "Mistura de Especiarias",
+        "description": "Temperos variados para apimentar o seu curry."
+    },
+    "fresh-cream": {
+        "name": "Creme de Leite Fresco",
+        "description": "Creme de leite rico e doce para sobremesas."
+    },
+    "packaged-curry": {
+        "name": "Curry Embalado",
+        "description": "Uma porção de curry pronta para ser aquecida."
+    },
+    "coconut-milk": {
+        "name": "Leite de Coco",
+        "description": "Um leite cremoso e tropical para o seu piquenique."
+    },
+    "instant-noodles": {
+        "name": "Macarrão Instantâneo",
+        "description": "Macarrão rápido de preparar para uma refeição no acampamento."
+    },
+    "precooked-burger": {
+        "name": "Hambúrguer Pré-cozido",
+        "description": "Um hambúrguer prático para grelhar no piquenique."
+    },
+    "gigantamix": {
+        "name": "Mix Giganta",
+        "description": "Um ingrediente especial que pode causar um efeito inesperado no curry."
+    },
+    "wishing-chip": {
+        "name": "Lasca do Desejo",
+        "description": "Um pequeno fragmento de uma Estrela do Desejo."
+    },
+    "rotom-bike--water-mode": {
+        "name": "Bicicleta Rotom (Modo Aquático)",
+        "description": "Permite que a bicicleta flutue e se desloque sobre a água."
+    },
+    "catching-charm": {
+        "name": "Amuleto de Captura",
+        "description": "Aumenta levemente a chance de um Critical Catch."
+    },
+    "old-letter": {
+        "name": "Carta Antiga",
+        "description": "Uma carta amarelada pelo tempo, destinada a alguém em Hammerlocke."
+    },
+    "sonias-book": {
+        "name": "Livro da Sonia",
+        "description": "Um livro que detalha as lendas da região de Galar."
+    },
+    "style-card": {
+        "name": "Cartão de Estilo",
+        "description": "Libera novas opções de vestuário em Postwick e Wedgehurst."
+    },
+    "rotom-bike--sparkling-white": {
+        "name": "Bicicleta Rotom (Branco Brilhante)",
+        "description": "Uma pintura personalizada branca e cintilante para sua bicicleta."
+    },
+    "rotom-bike--glistening-black": {
+        "name": "Bicicleta Rotom (Preto Reluzente)",
+        "description": "Uma pintura personalizada preta e elegante para sua bicicleta."
+    },
+    "exp-charm": {
+        "name": "Amuleto de Exp.",
+        "description": "Garante um bônus de experiência após as batalhas."
+    },
+    "style-card": {
+        "name": "Cartão de Estilo",
+        "description": "Libera novas coleções nas boutiques de luxo."
+    },
+    "reins-of-unity--merge": {
+        "name": "Rédeas da Unidade (Fundir)",
+        "description": "Permite fundir Calyrex com um dos seus corcéis."
+    },
+    "reins-of-unity--split": {
+        "name": "Rédeas da Unidade (Separar)",
+        "description": "Permite separar Calyrex do seu corcel."
+    },
+    "legendary-clue-question": {
+        "name": "Pista Lendária (?)",
+        "description": "Uma pista confusa sobre fenômenos incomuns."
+    },
+    "crown-pass": {
+        "name": "Passe de Crown",
+        "description": "Passe para a região Gelada de Crown Tundra."
+    },
+    "wooden-crown": {
+        "name": "Coroa de Madeira",
+        "description": "Réplica da coroa do Rei das Colheitas."
+    },
+    "iceroot-carrot": {
+        "name": "Cenoura de Raiz de Gelo",
+        "description": "Atrai o Corcel do Gelo."
+    },
+    "shaderoot-carrot": {
+        "name": "Cenoura de Raiz Sombria",
+        "description": "Atrai o Corcel das Sombras."
+    },
+    "dynite-ore": {
+        "name": "Minério de Dinita",
+        "description": "Usado para trocas em campos de expedição."
+    },
+    "carrot-seeds": {
+        "name": "Sementes de Cenoura",
+        "description": "Sementes raras para cultivar cenouras lendárias."
+    },
+    "reins-of-unity": {
+        "name": "Rédeas da Unidade",
+        "description": "O laço entre rei e corcel."
+    },
+    "blank-plate": {
+        "name": "Placa em Branco",
+        "description": "Uma tábua de pedra pura e sem tipo."
+    },
+    "legend-plate": {
+        "name": "Placa da Lenda",
+        "description": "O poder máximo de Arceus."
+    },
+    "rotom-phone": {
+        "name": "Rotom Fone",
+        "description": "Dispositivo multitarefa inteligente."
+    },
+    "koraidons-poke-ball": {
+        "name": "Poké Bola de Koraidon",
+        "description": "A bola que contém o Dragão do Passado."
+    },
+    "miraidons-poke-ball": {
+        "name": "Poké Bola de Miraidon",
+        "description": "A bola que contém o Dragão do Futuro."
+    },
+    "scarlet-book": {
+        "name": "Livro Escarlate",
+        "description": "Relatórios da Área Zero."
+    },
+    "violet-book": {
+        "name": "Livro Violeta",
+        "description": "Relatórios da Área Zero."
+    },
+    "kofu’s-wallet": {
+        "name": "Carteira de Kofu",
+        "description": "Propriedade do Líder Kofu."
+    },
+    "tiny-bamboo-shoot": {
+        "name": "Broto de Bambu",
+        "description": "Pequeno e comestível."
+    },
+    "scroll-of-darkness": {
+        "name": "Pergaminho das Trevas",
+        "description": "Evolui Kubfu em Urshifu Sombrio."
+    },
+    "scroll-of-waters": {
+        "name": "Pergaminho das Águas",
+        "description": "Evolui Kubfu em Urshifu Aquático."
+    },
+    "malicious-armor": {
+        "name": "Armadura Maliciosa",
+        "description": "Evolui Charcadet em Ceruledge."
+    },
+    "punching-glove": {
+        "name": "Luva de Soco",
+        "description": "Aumenta o dano de ataques de soco e evita contato."
+    },
+    "loaded-dice": {
+        "name": "Dado Viciado",
+        "description": "Faz ataques multi-golpe atingirem mais vezes."
+    },
+    "wiglett-sand": {
+        "name": "Areia de Wiglett",
+        "description": "Areia fina e salgada coletada de um Wiglett."
+    },
+    "picnic-set": {
+        "name": "Kit de Piquenique",
+        "description": "Tudo o que você precisa para comer com seus Pokémon."
+    },
+    "marill-ball": {
+        "name": "Bola Marill",
+        "description": "Uma bola azul decorativa para brincar no piquenique."
+    },
+    "yarn-ball": {
+        "name": "Bola de Lã",
+        "description": "Um brinquedo macio para diversão Pokémon."
+    },
+    "cyber-ball": {
+        "name": "Bola Cyber",
+        "description": "Uma bola com design tecnológico e futurista."
+    },
+    "leader’s-crest": {
+        "name": "Brasão do Líder",
+        "description": "Permite que Bisharp evolua para Kingambit."
+    },
+    "exercise-ball": {
+        "name": "Bola de Exercício",
+        "description": "Uma bola grande para treinos e brincadeiras."
+    },
+    "teal-style-card": {
+        "name": "Cartão de Estilo Teal",
+        "description": "Novas modas de Kitakami."
+    },
+    "teal-mask": {
+        "name": "Máscara Turquesa",
+        "description": "Ligada ao poder de Ogerpon."
+    },
+    "glimmering-charm": {
+        "name": "Amuleto Cintilante",
+        "description": "Brilha com poder Estelar."
+    },
+    "wellspring-mask": {
+        "name": "Máscara da Nascente",
+        "description": "Máscara de Ogerpon do tipo Água."
+    },
+    "hearthflame-mask": {
+        "name": "Máscara da Chama",
+        "description": "Máscara de Ogerpon do tipo Fogo."
+    },
+    "cornerstone-mask": {
+        "name": "Máscara do Alicerce",
+        "description": "Máscara de Ogerpon do tipo Pedra."
+    },
+    "syrupy-apple": {
+        "name": "Maçã de Xarope",
+        "description": "Evolui Applin em Dipplin."
+    },
+    "unremarkable-teacup": {
+        "name": "Xícara Comum",
+        "description": "Evolui Poltchageist em Forma Falsificada."
+    },
+    "masterpiece-teacup": {
+        "name": "Xícara de Obra-prima",
+        "description": "Evolui Poltchageist em Forma Genuína."
+    },
+    "carbink-jewel": {
+        "name": "Joia de Carbink",
+        "description": "Um cristal brilhante de Carbink."
+    },
+    "linking-cord": {
+        "name": "Cabo de Ligação",
+        "description": "Evolui por troca fictícia."
+    },
+    "peat-block": {
+        "name": "Bloco de Turfa",
+        "description": "Evolui Ursaring em Ursaluna em noite de lua cheia."
+    }
+}

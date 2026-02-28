@@ -1,0 +1,32 @@
+name: Update VGC Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Every day at midnight
+  workflow_dispatch: # Allow manual run
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update VGC Data
+        run: npm run update-vgc
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'VGC Automation Bot'
+          git config --global user.email 'vgc-bot@example.com'
+          git add src/data/vgc-meta.json
+          git commit -m "chore: auto-update VGC statistics (2026)" || echo "No changes to commit"
+          git push

@@ -1,0 +1,158 @@
+{
+    "grass-mail": {
+        "name": "Carta de Grama",
+        "description": "Papel de carta com estampa de grama verdejante."
+    },
+    "flame-mail": {
+        "name": "Carta de Chama",
+        "description": "Papel de carta com estampa de chamas ardentes."
+    },
+    "bloom-mail": {
+        "name": "Carta de Flor",
+        "description": "Papel de carta com estampa de flores coloridas."
+    },
+    "tunnel-mail": {
+        "name": "Carta de Túnel",
+        "description": "Papel de carta com estampa de um túnel de mina."
+    },
+    "steel-mail": {
+        "name": "Carta de Aço",
+        "description": "Papel de carta com estampa de metal escovado."
+    },
+    "snow-mail": {
+        "name": "Carta de Neve",
+        "description": "Papel de carta com estampa de flocos de neve."
+    },
+    "space-mail": {
+        "name": "Carta de Espaço",
+        "description": "Papel de carta com estampa de estrelas e nebulosas."
+    },
+    "mosaic-mail": {
+        "name": "Carta de Mosaico",
+        "description": "Papel de carta com estampa de mosaicos coloridos."
+    },
+    "brick-mail": {
+        "name": "Carta de Tijolo",
+        "description": "Papel de carta com estampa de tijolos vermelhos."
+    },
+    "favored-mail": {
+        "name": "Carta Favorita",
+        "description": "Papel de carta com estampa de corações fofos."
+    },
+    "rsvp-mail": {
+        "name": "Carta de Resposta",
+        "description": "Papel de carta usado para responder a um convite."
+    },
+    "inquiry-mail": {
+        "name": "Carta de Inquérito",
+        "description": "Papel de carta com um ponto de interrogação impresso."
+    },
+    "like-mail": {
+        "name": "Carta de Curtida",
+        "description": "Papel de carta usado para expressar afeição."
+    },
+    "reply-mail": {
+        "name": "Carta de Réplica",
+        "description": "Papel de carta usado para enviar uma resposta rápida."
+    },
+    "glitter-mail": {
+        "name": "Carta de Brilho",
+        "description": "Papel de carta com detalhes brilhantes e cintilantes."
+    },
+    "mech-mail": {
+        "name": "Carta Mecânica",
+        "description": "Papel de carta com estampa de engrenagens e pistões."
+    },
+    "shadow-mail": {
+        "name": "Carta de Sombra",
+        "description": "Papel de carta com estampa de silhuetas sombrias."
+    },
+    "tropic-mail": {
+        "name": "Carta Tropical",
+        "description": "Papel de carta com estampa de folhas de palmeira."
+    },
+    "retro-mail": {
+        "name": "Carta Retrô",
+        "description": "Papel de carta com um design clássico e nostálgico."
+    },
+    "explorer-kit": {
+        "name": "Kit de Explorador",
+        "description": "Um kit contendo as ferramentas essenciais para explorar o subsolo."
+    },
+    "point-card": {
+        "name": "Cartão de Pontos",
+        "description": "Um cartão que acumula Battle Points (BP) ganhos em instalações de batalha."
+    },
+    "fashion-case": {
+        "name": "Maleta de Moda",
+        "description": "Um estojo elegante para guardar acessórios do Pokémon."
+    },
+    "pal-pad": {
+        "name": "Caderno de Amigos",
+        "description": "Um caderno eletrônico que armazena os Friend Codes dos seus amigos."
+    },
+    "old-charm": {
+        "name": "Amuleto Antigo",
+        "description": "Um amuleto misterioso com a imagem de um Pokémon lendário."
+    },
+    "vs-seeker": {
+        "name": "Buscador VS",
+        "description": "Um dispositivo que localiza treinadores que desejam uma revanche."
+    },
+    "poffin-case": {
+        "name": "Porta-Poffin",
+        "description": "Pequeno estojo para carregar e proteger seus Poffins."
+    },
+    "contest-pass": {
+        "name": "Passe de Concurso",
+        "description": "Um passe necessário para participar de concursos Pokémon."
+    },
+    "vs-recorder": {
+        "name": "Gravador VS",
+        "description": "Um dispositivo que registra e reproduz batalhas importantes."
+    },
+    "squirt-bottle": {
+        "name": "Garrafa de Esguicho",
+        "description": "Um regador em forma de Squirtle usado para cuidar de plantas."
+    },
+    "fast-ball": {
+        "name": "Rápida Bola",
+        "description": "Uma Poké Bola eficaz na captura de Pokémon que fogem rápido."
+    },
+    "dowsing-machine": {
+        "name": "Detector de Metais",
+        "description": "Um dispositivo que reage à presença de itens invisíveis enterrados por perto."
+    },
+    "jade-orb": {
+        "name": "Orbe de Jade",
+        "description": "Um orbe esverdeado que emana o poder de Rayquaza."
+    },
+    "blue-card": {
+        "name": "Cartão Azul",
+        "description": "Um cartão para registrar pontos de programas de rádio."
+    },
+    "red-scale": {
+        "name": "Escama Vermelha",
+        "description": "Uma escama brilhante de um Gyarados vermelho."
+    },
+    "machine-part": {
+        "name": "Peça de Máquina",
+        "description": "Uma peça essencial que faltava no gerador da Usina de Energia."
+    },
+    "mystery-egg": {
+        "name": "Ovo Misterioso",
+        "description": "Um Ovo Pokémon dado pelo Sr. Pokémon. Ninguém sabe o que há dentro."
+    },
+    "gb-sounds": {
+        "name": "Sons de GB",
+        "description": "Um reprodutor de música que emite os sons clássicos do Game Boy."
+    },
+    "tidal-bell": {
+        "name": "Sino de Maré",
+        "description": "Um sino que emite um som límpido e sagrado relacionado a Lugia."
+    },
+    "photo-album": {
+        "name": "Álbum de Fotos",
+        "description": "Um álbum para guardar fotos tiradas durante sua aventura."
+    }
+}

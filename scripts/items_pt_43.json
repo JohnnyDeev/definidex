@@ -1,0 +1,82 @@
+{
+    "stick": {
+        "name": "Graveto",
+        "description": "Um item para ser segurado por Farfetch'd que aumenta sua taxa de acerto crítico."
+    },
+    "sticky-barb": {
+        "name": "Farpas Grudentas",
+        "description": "Causa dano ao portador a cada turno. Se o oponente tocar o portador, o item pode mudar de dono."
+    },
+    "storage-key": {
+        "name": "Chave do Depósito",
+        "description": "Uma chave necessária para entrar no depósito da Equipe Galáctica."
+    },
+    "strange-ball": {
+        "name": "Bola Estranha",
+        "description": "Uma Poké Bola misteriosa que parece vir de uma época ou dimensão diferente."
+    },
+    "strange-souvenir": {
+        "name": "Lembrança Estranha",
+        "description": "Um ornamento que retrata um Pokémon vindo de uma região distante em Alola."
+    },
+    "strawberry-sweet": {
+        "name": "Doce de Morango",
+        "description": "Um doce em forma de morango. Faz Milcery girar feliz ao segurá-lo."
+    },
+    "streak-pouch": {
+        "name": "Bolsa de Sequência",
+        "description": "Item Pokémon: Bolsa de Sequência."
+    },
+    "stripe-series-pouch": {
+        "name": "Bolsa da Série Listrada",
+        "description": "Item Pokémon: Bolsa da Série Listrada."
+    },
+    "striped-tablecloth": {
+        "name": "Toalha Listrada",
+        "description": "Uma toalha de piquenique com estampa de listras horizontais coloridas."
+    },
+    "strong-pouch": {
+        "name": "Bolsa Forte",
+        "description": "Uma bolsa feita de material ultra resistente para aventuras extremas."
+    },
+    "study-pouch": {
+        "name": "Bolsa de Estudo",
+        "description": "Bolsa para carregar livros de pesquisa e anotações sobre Pokémon."
+    },
+    "stuffy-cup": {
+        "name": "Copo Abafado",
+        "description": "Um copo de plástico com design fechado para piqueniques."
+    },
+    "sturdy-pouch": {
+        "name": "Bolsa Robusta",
+        "description": "Uma bolsa sólida e durável que aguenta qualquer impacto."
+    },
+    "sun-stone": {
+        "name": "Pedra do Sol",
+        "description": "Uma pedra peculiar que brilha como o próprio sol. Evolui certos Pokémon."
+    },
+    "sun-tera-shard": {
+        "name": "Estilhaço Tera Solar",
+        "description": "Cristal com energia Tera Solar. Muda o Tera Tipo de um Pokémon."
+    },
+    "super-honey": {
+        "name": "Súper Mel",
+        "description": "Item Pokémon: Súper Mel."
+    },
+    "super-incubator": {
+        "name": "Súper Incubadora",
+        "description": "Uma incubadora avançada que faz Ovos Pokémon chocarem muito mais rápido."
+    },
+    "super-potion": {
+        "name": "Súper Poção",
+        "description": "Um spray medicinal que recupera 60 pontos de HP de um Pokémon."
+    },
+    "super-repel": {
+        "name": "Súper Repelente",
+        "description": "Impede Pokémon selvagens fracos de aparecerem por 200 passos."
+    },
+    "super-rod": {
+        "name": "Vara Súper",
+        "description": "A melhor vara de pesca. Permite pegar os maiores e mais raros Pokémon aquáticos."
+    }
+}

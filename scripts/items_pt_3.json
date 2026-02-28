@@ -1,0 +1,194 @@
+{
+    "bug-tera-shard": {
+        "name": "Estilhaço Tera Inseto",
+        "description": "Um cristal contendo energia Tera do tipo Inseto. Pode mudar o Tera Tipo de um Pokémon."
+    },
+    "bug-tera-shards": {
+        "name": "Estilhaços Tera Inseto",
+        "description": "Dados de teste para múltiplos estilhaços."
+    },
+    "bug-z": {
+        "name": "Bug Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Inseto."
+    },
+    "buginium-z--bag": {
+        "name": "Buginium Z (Bolsa)",
+        "description": "Converte golpes do tipo Inseto em Z-Moves de Inseto em Alola."
+    },
+    "buginium-z--held": {
+        "name": "Buginium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Inseto: Savage Spin-out."
+    },
+    "bumble-cup": {
+        "name": "Copo de Abelha",
+        "description": "Um copo de plástico amarelo e preto para piqueniques."
+    },
+    "buizel-fur": {
+        "name": "Pelo de Buizel",
+        "description": "Pelo macio e resistente à água de um Buizel. Usado como material."
+    },
+    "burning-field": {
+        "name": "CampoArdente",
+        "description": "Item Pokémon: Campo Ardente."
+    },
+    "burn-drive": {
+        "name": "Drive de Queimadura",
+        "description": "Um drive de Genesect que muda o tipo de seu Techno Blast para Fogo."
+    },
+    "burn-heal": {
+        "name": "Cura-Queimadura",
+        "description": "Um spray usado para curar queimaduras em um Pokémon."
+    },
+    "butterfly-tablecloth": {
+        "name": "Toalha Borboleta",
+        "description": "Uma toalha de piquenique com estampas de borboletas coloridas."
+    },
+    "cacnea-needle": {
+        "name": "Agulha de Cacnea",
+        "description": "Uma agulha afiada de um Cacnea. Usada como material."
+    },
+    "cactus-tablecloth": {
+        "name": "Toalha de Cacto",
+        "description": "Uma toalha de piquenique com estampa de pequenos cactos."
+    },
+    "cadich-pouch": {
+        "name": "Bolsa Cadich",
+        "description": "Item Pokémon: Bolsa Cadich."
+    },
+    "calcium": {
+        "name": "Cálcio",
+        "description": "Suplemento que aumenta o atributo base de Atq. Esp. de um Pokémon."
+    },
+    "cameruptite": {
+        "name": "Cameruptite",
+        "description": "Uma Mega Stone que permite que Camerupt Megaevolua durante a batalha."
+    },
+    "camp-curry": {
+        "name": "Curry de Acampamento",
+        "description": "Uma porção de curry delicioso preparado em um acampamento."
+    },
+    "candy-jar": {
+        "name": "Pote de Doces",
+        "description": "Um pote cheio de doces coloridos para Pokémon."
+    },
+    "can-of-beans": {
+        "name": "Lata de Feijões",
+        "description": "Ingrediente usado para preparar sanduíches e pratos em piqueniques."
+    },
+    "capsakid-seeds": {
+        "name": "Sementes de Capsakid",
+        "description": "Sementes picantes de um Capsakid. Usadas como material."
+    },
+    "card-key": {
+        "name": "Cartão-Chave",
+        "description": "Um cartão eletrônico que abre portas trancadas eletronicamente."
+    },
+    "card-key--faffron": {
+        "name": "Cartão-Chave (Saffron)",
+        "description": "Abre as portas bloqueadas no edifício da Silph Co. em Saffron."
+    },
+    "carbos": {
+        "name": "Carbos",
+        "description": "Suplemento que aumenta o atributo base de Velocidade de um Pokémon."
+    },
+    "careful-mint": {
+        "name": "Menta Cuidadosa",
+        "description": "Faz com que a Def. Esp. cresça mais rápido, mas o Atq. Esp. cresça mais devagar."
+    },
+    "carve-out-mail": {
+        "name": "Carta Esculpida",
+        "description": "Papel de carta com recortes elegantes ao redor da borda."
+    },
+    "casanova-mail": {
+        "name": "Carta Casanova",
+        "description": "Papel de carta com estampa de corações flutuantes."
+    },
+    "casteliacone": {
+        "name": "Casteliacone",
+        "description": "Sorvete famoso de Castelia City. Cura todos os problemas de status."
+    },
+    "castle-gate-pouch": {
+        "name": "Bolsa do Portão do Castelo",
+        "description": "Item Pokémon: Bolsa do Portão do Castelo."
+    },
+    "cell-battery": {
+        "name": "Bateria Celular",
+        "description": "Item consumível. Aumenta Ataque se atingido por um golpe Elétrico."
+    },
+    "ceruledge-fire": {
+        "name": "Fogo de Ceruledge",
+        "description": "Item Pokémon: Fogo de Ceruledge."
+    },
+    "chalky-stone": {
+        "name": "Pedra de Giz",
+        "description": "Uma pedra macia e branca. Usada como material."
+    },
+    "charcoal": {
+        "name": "Carvão",
+        "description": "Um combustível que aumenta o poder de golpes do tipo Fogo."
+    },
+    "charizardite-x": {
+        "name": "Charizardite X",
+        "description": "Uma Mega Stone que permite que Charizard Megaevolua para Mega Charizard X."
+    },
+    "charizardite-y": {
+        "name": "Charizardite Y",
+        "description": "Uma Mega Stone que permite que Charizard Megaevolua para Mega Charizard Y."
+    },
+    "chariti-berry": {
+        "name": "Fruta Chariti",
+        "description": "Enfraquece um ataque de Elétrico super efetivo recebido pelo portador."
+    },
+    "charmer-pouch": {
+        "name": "Bolsa Encantadora",
+        "description": "Item Pokémon: Bolsa Encantadora."
+    },
+    "checkerboard-tablecloth": {
+        "name": "Toalha Xadrez",
+        "description": "Uma toalha de piquenique com padrão clássico de xadrez."
+    },
+    "cheri-berry": {
+        "name": "Fruta Cheri",
+        "description": "Uma fruta que o Pokémon pode comer para curar paralisia."
+    },
+    "cherish-ball": {
+        "name": "Gloria Bola",
+        "description": "Uma Poké Bola bem rara feita para comemorar uma ocasião especial."
+    },
+    "cherry-tomatoes": {
+        "name": "Tomates Cereja",
+        "description": "Pequenos tomates doces e suculentos usados em piqueniques."
+    },
+    "chesto-berry": {
+        "name": "Fruta Chesto",
+        "description": "Uma fruta que o Pokémon pode comer para acordar de um sono profundo."
+    },
+    "chewtle-claw": {
+        "name": "Garra de Chewtle",
+        "description": "Uma garra afiada de um Chewtle. Usada como material."
+    },
+    "chic-cup": {
+        "name": "Copo Chique",
+        "description": "Um copo de plástico com design elegante para piqueniques."
+    },
+    "chikorita-candy": {
+        "name": "Doce de Chikorita",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "chili-sauce": {
+        "name": "Molho de Pimenta",
+        "description": "Molho picante usado para temperar pratos em piqueniques."
+    },
+    "chilled-series-pouch": {
+        "name": "Bolsa da Série Gelada",
+        "description": "Item Pokémon: Bolsa da Série Gelada."
+    },
+    "chipped-pot": {
+        "name": "Bule Lascado",
+        "description": "Um bule de chá lascado que faz certos Pokémon evoluírem."
+    },
+    "choice-band": {
+        "name": "Faixa Escolha",
+        "description": "Aumenta o Ataque em 50%, mas permite usar apenas um golpe."
+    }
+}

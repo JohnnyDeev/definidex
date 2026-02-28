@@ -1,0 +1,26 @@
+{
+    "tutu-pouch": {
+        "name": "Bolsa Tutu",
+        "description": "Item Pokémon: Bolsa Tutu."
+    },
+    "twisted-spoon": {
+        "name": "Colher Entortada",
+        "description": "Uma colher imbuída com poder telecinético que aumenta o poder de ataques do tipo Psíquico."
+    },
+    "tyranitarite": {
+        "name": "Tyranitarite",
+        "description": "Uma Mega Stone que permite que Tyranitar Megaevolua durante a batalha."
+    },
+    "tyrantrum-candy": {
+        "name": "Doce de Tyrantrum",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "u-turn-tm": {
+        "name": "TM Ida e Volta",
+        "description": "Ensina o golpe Ida e Volta. Após atacar, o Pokémon volta e você pode enviar outro."
+    },
+    "ultra-ball": {
+        "name": "Ultra Bola",
+        "description": "Uma Poké Bola de ultra performance com uma taxa de captura maior que a Grande Bola."
+    }
+}

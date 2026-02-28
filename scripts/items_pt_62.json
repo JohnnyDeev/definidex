@@ -1,0 +1,74 @@
+{
+    "white-flute": {
+        "name": "Flauta Branca",
+        "description": "Uma flauta de vidro que aumenta a taxa de encontro com Pokémon selvagens."
+    },
+    "white-herb": {
+        "name": "Erva Branca",
+        "description": "Um item de segurar que restaura qualquer atributo reduzido do Pokémon para o normal."
+    },
+    "white-honey": {
+        "name": "Mel Branco",
+        "description": "Item Pokémon: Mel Branco."
+    },
+    "white-pobox": {
+        "name": "Caixa de Correio Branca",
+        "description": "Uma caixa de correio com um design branco minimalista."
+    },
+    "white-scarf": {
+        "name": "Lenço Branco",
+        "description": "Um lenço que aumenta a Inteligência (Smartness) do Pokémon em concursos."
+    },
+    "whm-pouch": {
+        "name": "Bolsa WHM",
+        "description": "Item Pokémon: Bolsa WHM."
+    },
+    "wide-lens": {
+        "name": "Lente Larga",
+        "description": "Uma lente de aumento que melhora levemente a precisão dos golpes do portador."
+    },
+    "wigglytuff-candy": {
+        "name": "Doce de Wigglytuff",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "wiglett-mucus": {
+        "name": "Muco de Wiglett",
+        "description": "Muco transparente e salgado de um Wiglett. Usado como material."
+    },
+    "wild-berry": {
+        "name": "Fruta Selvagem",
+        "description": "Item Pokémon: Fruta Selvagem."
+    },
+    "wild-pouch": {
+        "name": "Bolsa Selvagem",
+        "description": "Uma bolsa robusta projetada para longas estadias na natureza selvagem."
+    },
+    "will-o-wisp-tm": {
+        "name": "TM Fogo Fátuo",
+        "description": "Ensina o golpe Fogo Fátuo. Lança uma chama que causa queimadura no alvo."
+    },
+    "wing-pouch": {
+        "name": "Bolsa de Asa",
+        "description": "Pequena bolsa aerodinâmica para carregar penas e itens de Pokémon voadores."
+    },
+    "wingull-candy": {
+        "name": "Doce de Wingull",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "wingull-feather": {
+        "name": "Pena de Wingull",
+        "description": "Uma pena azul e branca de um Wingull. Usada como material."
+    },
+    "wio-berry": {
+        "name": "Fruta Wio",
+        "description": "Item Pokémon: Fruta Wio."
+    },
+    "wishiwashi-scales": {
+        "name": "Escamas de Wishiwashi",
+        "description": "Escamas prateadas e pequenas de um Wishiwashi. Usadas como material."
+    },
+    "wobbuffet-candy": {
+        "name": "Doce de Wobbuffet",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    }
+}

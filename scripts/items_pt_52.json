@@ -1,0 +1,10 @@
+{
+    "torkoal-coal": {
+        "name": "Carvão de Torkoal",
+        "description": "Um pedaço de carvão bem quente deixado por um Torkoal. Usado como material."
+    },
+    "totodile-candy": {
+        "name": "Doce de Totodile",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    }
+}

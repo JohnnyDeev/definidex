@@ -1,0 +1,242 @@
+{
+    "fried-fillet": {
+        "name": "Filé Frito",
+        "description": "Um filé crocante e dourado pronto para ser servido em piqueniques."
+    },
+    "friend-ball": {
+        "name": "Amigo Bola",
+        "description": "Uma Poké Bola que torna o Pokémon capturado mais amigável imediatamente."
+    },
+    "froslass-candy": {
+        "name": "Doce de Froslass",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "frou-frou-cup": {
+        "name": "Copo Frou-frou",
+        "description": "Um copo de plástico decorado com babados para piqueniques."
+    },
+    "frozen-sand-tablecloth": {
+        "name": "Toalha Areia Congelada",
+        "description": "Uma toalha de piquenique com estampa de areia coberta de gelo."
+    },
+    "full-heal": {
+        "name": "Cura Tudo",
+        "description": "Um spray que cura todos os problemas de status de um único Pokémon."
+    },
+    "full-herb": {
+        "name": "Erva Total",
+        "description": "Uma erva medicinal muito amarga que cura todos os problemas de status."
+    },
+    "full-incense": {
+        "name": "Incenso de Fartura",
+        "description": "Um incenso que faz o portador agir por último. Necessário para Breed do Munchlax."
+    },
+    "full-restore": {
+        "name": "Restaurador Total",
+        "description": "Restaura completamente o HP e cura todos os problemas de status."
+    },
+    "fury-cutter-tm": {
+        "name": "TM Corte Furioso",
+        "description": "Ensina o golpe Corte Furioso. O dano aumenta a cada acerto consecutivo."
+    },
+    "gabite-scales": {
+        "name": "Escamas de Gabite",
+        "description": "Escamas ásperas de um Gabite. Usadas como material."
+    },
+    "galar-ica-twig": {
+        "name": "Graveto de Galar",
+        "description": "Um graveto encontrado nas ilhas de Galar. Usado para evoluções."
+    },
+    "galar-mine-pouch": {
+        "name": "Bolsa da Mina de Galar",
+        "description": "Item Pokémon: Bolsa da Mina de Galar."
+    },
+    "galar-pokedex": {
+        "name": "Pokédex de Galar",
+        "description": "Uma Pokédex de alta tecnologia feita especificamente para a região de Galar."
+    },
+    "galar-star-tournament-pouch": {
+        "name": "Bolsa do Torneio Estrela",
+        "description": "Item Pokémon: Bolsa do Torneio Estrela."
+    },
+    "galar-ticket": {
+        "name": "Bilhete de Galar",
+        "description": "Um bilhete que permite viajar entre diferentes cidades na região de Galar."
+    },
+    "galarica-cuff": {
+        "name": "Bracelete de Galar",
+        "description": "Um bracelete feito de gravetos de Galar. Evolui Slowpoke de Galar."
+    },
+    "galarica-twig": {
+        "name": "Graveto de Galar",
+        "description": "Um item encontrado nas praias da Isle of Armor. Usado como material."
+    },
+    "galarica-wreath": {
+        "name": "Coroa de Galar",
+        "description": "Uma coroa feita de gravetos de Galar. Evolui Slowpoke de Galar."
+    },
+    "galladite": {
+        "name": "Galladite",
+        "description": "Uma Mega Stone que permite que Gallade Megaevolua durante a batalha."
+    },
+    "ganlon-berry": {
+        "name": "Fruta Ganlon",
+        "description": "Aumenta a Defesa do Pokémon em uma emergência."
+    },
+    "gar-series-pouch": {
+        "name": "Bolsa da Série Gar",
+        "description": "Item Pokémon: Bolsa da Série Gar."
+    },
+    "garchompite": {
+        "name": "Garchompite",
+        "description": "Uma Mega Stone que permite que Garchomp Megaevolua durante a batalha."
+    },
+    "garde-autograph": {
+        "name": "Autógrafo de Garde",
+        "description": "Um autógrafo especial de um campeão famoso."
+    },
+    "gardevoirite": {
+        "name": "Gardevoirite",
+        "description": "Uma Mega Stone que permite que Gardevoir Megaevolua durante a batalha."
+    },
+    "gastly-candy": {
+        "name": "Doce de Gastly",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "gastly-gas": {
+        "name": "Gás de Gastly",
+        "description": "Gás etéreo e misterioso de um Gastly. Usado como material."
+    },
+    "gastrier-mane": {
+        "name": "Crina de Gastrier",
+        "description": "Pelo branco e congelado da crina de um Gastrier. Usado como material."
+    },
+    "gate-mail": {
+        "name": "Carta do Portão",
+        "description": "Papel de carta com estampa de um portão de castelo antigo."
+    },
+    "gear-pocket": {
+        "name": "Bolso de Engrenagens",
+        "description": "Bolso da mochila para ferramentas e dispositivos mecânicos."
+    },
+    "genesect-candy": {
+        "name": "Doce de Genesect",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "genge-autograph": {
+        "name": "Autógrafo de Genge",
+        "description": "Um autógrafo raro e valioso."
+    },
+    "geodude-candy": {
+        "name": "Doce de Geodude",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "ghost-gem": {
+        "name": "Gema de Fantasma",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Fantasma."
+    },
+    "ghost-memory": {
+        "name": "Memória de Fantasma",
+        "description": "Um drive de memória com dados do tipo Fantasma para Silvally."
+    },
+    "ghost-tera-shard": {
+        "name": "Estilhaço Tera Fantasma",
+        "description": "Cristal com energia Tera Fantasma. Muda o Tera Tipo de um Pokémon."
+    },
+    "ghost-z": {
+        "name": "Ghost Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Fantasma."
+    },
+    "ghostium-z--bag": {
+        "name": "Ghostium Z (Bolsa)",
+        "description": "Converte golpes do tipo Fantasma em Z-Moves de Fantasma em Alola."
+    },
+    "ghostium-z--held": {
+        "name": "Ghostium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Fantasma: Never-Ending Nightmare."
+    },
+    "giant-rock": {
+        "name": "Rocha Gigante",
+        "description": "Uma rocha enorme e pesada. Item valioso para colecionadores."
+    },
+    "gible-scales": {
+        "name": "Escamas de Gible",
+        "description": "Pequenas escamas ásperas de um Gible. Usadas como material."
+    },
+    "gigan-pouch": {
+        "name": "Bolsa Gigante",
+        "description": "Item Pokémon: Bolsa Gigante."
+    },
+    "gilly-weed": {
+        "name": "Erva de Guelra",
+        "description": "Dá a capacidade de respirar debaixo d'água por um curto período."
+    },
+    "gimmighoul-coin": {
+        "name": "Moeda de Gimmighoul",
+        "description": "Uma moeda antiga e estranha. Junte muitas para algo acontecer."
+    },
+    "ginger": {
+        "name": "Gengibre",
+        "description": "Raiz de gengibre fresca usada como ingrediente em piqueniques."
+    },
+    "giratina-candy": {
+        "name": "Doce de Giratina",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "glalite": {
+        "name": "Glalite",
+        "description": "Uma Mega Stone que permite que Glalie Megaevolua durante a batalha."
+    },
+    "glass-card": {
+        "name": "Cartão de Vidro",
+        "description": "Um cartão transparente e frágil com dados de acesso."
+    },
+    "glimmet-crystals": {
+        "name": "Cristais de Glimmet",
+        "description": "Pequenos cristais venenosos de um Glimmet. Usados como material."
+    },
+    "glittering-charm": {
+        "name": "Amuleto Brilhante",
+        "description": "Um amuleto que aumenta a chance de encontrar Pokémon Brilhantes (Shiny)."
+    },
+    "glittering-honey": {
+        "name": "Mel Brilhante",
+        "description": "Mel dourado e reluzente com aroma doce e forte."
+    },
+    "glimmet-texture": {
+        "name": "Textura de Glimmet",
+        "description": "Item Pokémon: Textura de Glimmet."
+    },
+    "go-goggles": {
+        "name": "Óculos de Proteção",
+        "description": "Óculos que protegem os olhos do usuário de tempestades de areia."
+    },
+    "god-box": {
+        "name": "Caixa dos Deuses",
+        "description": "Uma caixa adornada com símbolos de Pokémon lendários."
+    },
+    "god-stone": {
+        "name": "Pedra Divina",
+        "description": "Uma pedra radiante que dizem conter o poder dos criadores."
+    },
+    "go-go-fencing": {
+        "name": "Cerca Veloz",
+        "description": "Item Pokémon: Cerca Veloz."
+    },
+    "gold-bottle-cap": {
+        "name": "Tampa de Garrafa de Ouro",
+        "description": "Uma tampa dourada que maximiza todos os atributos básicos no Treinamento Hiper."
+    },
+    "gold-leaf": {
+        "name": "Folha de Ouro",
+        "description": "Uma folha feita de ouro puro e cintilante. Pode ser vendida caro."
+    },
+    "gold-nugget": {
+        "name": "Pepita de Ouro",
+        "description": "Uma pepita feita de ouro puro. Pode ser vendida por um bom preço."
+    },
+    "gold-teeth": {
+        "name": "Dentes de Ouro",
+        "description": "Uma dentadura de ouro encontrada na Safari Zone."
+    }
+}

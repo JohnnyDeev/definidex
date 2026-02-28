@@ -1,0 +1,42 @@
+{
+    "throh-candy": {
+        "name": "Doce de Throh",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "thunder-stone": {
+        "name": "Pedra do Trovão",
+        "description": "Uma pedra peculiar que emite faíscas elétricas. Faz certos Pokémon evoluírem."
+    },
+    "thunder-tera-shard": {
+        "name": "Estilhaço Tera Elétrico",
+        "description": "Cristal com energia Tera Elétrica. Muda o Tera Tipo de um Pokémon."
+    },
+    "tid-pouch": {
+        "name": "Bolsa TID",
+        "description": "Item Pokémon: Bolsa TID."
+    },
+    "tier-pouch": {
+        "name": "Bolsa Tier",
+        "description": "Item Pokémon: Bolsa Tier."
+    },
+    "ticket-bag": {
+        "name": "Bolsa de Bilhetes",
+        "description": "Uma bolsa reforçada para guardar bilhetes de transporte e passes de acesso."
+    },
+    "ticket-stub": {
+        "name": "Canhoto de Bilhete",
+        "description": "Um pedaço de um bilhete já utilizado. Recordação de uma viagem."
+    },
+    "timid-mint": {
+        "name": "Menta Tímida",
+        "description": "Faz com que a Velocidade cresça mais rápido, mas o Ataque cresça mais devagar."
+    },
+    "tinkatink-hair": {
+        "name": "Cabelo de Tinkatink",
+        "description": "Tufo de cabelo rosa e sedoso de uma Tinkatink. Usado como material."
+    },
+    "tinted-monitor": {
+        "name": "Monitor Colorido",
+        "description": "Um monitor que utiliza filtros de cores para melhorar a visualização de dados."
+    }
+}

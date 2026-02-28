@@ -1,0 +1,22 @@
+{
+    "toucannon-candy": {
+        "name": "Doce de Toucannon",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "tough-pouch": {
+        "name": "Bolsa Resistente",
+        "description": "Bolsa feita de tecido balístico durável para aguentar o tranco de qualquer jornada."
+    },
+    "town-map": {
+        "name": "Mapa da Cidade",
+        "description": "Um mapa detalhado que mostra sua localização atual e as vilas e cidades da região."
+    },
+    "toxapex-candy": {
+        "name": "Doce de Toxapex",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "toxapex-spine": {
+        "name": "Espinha de Toxapex",
+        "description": "Uma espinha venenosa e resistente de um Toxapex. Usada como material."
+    }
+}

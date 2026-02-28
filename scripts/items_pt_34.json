@@ -1,0 +1,94 @@
+{
+    "ring-target": {
+        "name": "Alvo de Anel",
+        "description": "O portador pode ser atingido por ataques que normalmente não teriam efeito (imunidades)."
+    },
+    "rival-card": {
+        "name": "Cartão do Rival",
+        "description": "Um cartão que registra os dados e as vitórias do seu principal rival."
+    },
+    "rock-gem": {
+        "name": "Gema de Pedra",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Pedra."
+    },
+    "rock-memory": {
+        "name": "Memória de Pedra",
+        "description": "Um drive de memória com dados do tipo Pedra para Silvally."
+    },
+    "rock-tera-shard": {
+        "name": "Estilhaço Tera Rocha",
+        "description": "Cristal com energia Tera Rocha. Muda o Tera Tipo de um Pokémon."
+    },
+    "rock-z": {
+        "name": "Rock Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Pedra."
+    },
+    "rockium-z--bag": {
+        "name": "Rockium Z (Bolsa)",
+        "description": "Converte golpes do tipo Pedra em Z-Moves de Pedra em Alola."
+    },
+    "rockium-z--held": {
+        "name": "Rockium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Pedra: Continental Crush."
+    },
+    "rockruff-candy": {
+        "name": "Doce de Rockruff",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "rocky-helmet": {
+        "name": "Capacete Rugoso",
+        "description": "Se o portador for atingido por um ataque de contato, o atacante sofre dano equal a 1/6 do seu HP."
+    },
+    "roid-pouch": {
+        "name": "Bolsa Roid",
+        "description": "Item Pokémon: Bolsa Roid."
+    },
+    "roller-skates": {
+        "name": "Patins",
+        "description": "Permitem que o treinador se mova muito mais rápido por superfícies planas."
+    },
+    "room-service": {
+        "name": "Serviço de Quarto",
+        "description": "Reduz a Velocidade do portador se o golpe Trick Room for ativado."
+    },
+    "root-fossil": {
+        "name": "Fóssil de Raiz",
+        "description": "Fóssil de um Pokémon pré-histórico. Pode ser regenerado em Lileep."
+    },
+    "root-pouch": {
+        "name": "Bolsa de Raiz",
+        "description": "Pequena bolsa para guardar raízes medicinais e outros ingredientes amargos."
+    },
+    "roseli-berry": {
+        "name": "Fruta Roseli",
+        "description": "Enfraquece um ataque de Fada super efetivo recebido pelo portador."
+    },
+    "roserade-candy": {
+        "name": "Doce de Roserade",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "roset-pouch": {
+        "name": "Bolsa Roset",
+        "description": "Item Pokémon: Bolsa Roset."
+    },
+    "rotom-candy": {
+        "name": "Doce de Rotom",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "rotom-catalog": {
+        "name": "Catálogo de Rotom",
+        "description": "Um catálogo de eletrodomésticos que permite ao Rotom mudar de forma."
+    },
+    "rough-cup": {
+        "name": "Copo Rugoso",
+        "description": "Um copo de plástico com textura áspera para piqueniques."
+    },
+    "rowlet-candy": {
+        "name": "Doce de Rowlet",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "rows-pouch": {
+        "name": "Bolsa Filas",
+        "description": "Item Pokémon: Bolsa Filas."
+    }
+}

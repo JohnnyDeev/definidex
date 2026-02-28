@@ -1,0 +1,102 @@
+{
+    "ruby": {
+        "name": "Rubi",
+        "description": "Uma pedra preciosa vermelha e brilhante que emite uma aura de calor. Altamente valiosa."
+    },
+    "rufflet-feather": {
+        "name": "Pena de Rufflet",
+        "description": "Uma pena branca e macia de um Rufflet. Usada como material."
+    },
+    "rule-book": {
+        "name": "Livro de Regras",
+        "description": "Um livro contendo todas as regras oficiais para competições Pokémon."
+    },
+    "runt-pouch": {
+        "name": "Bolsa Runt",
+        "description": "Item Pokémon: Bolsa Runt."
+    },
+    "rust-series-pouch": {
+        "name": "Bolsa da Série Ferrugem",
+        "description": "Item Pokémon: Bolsa da Série Ferrugem."
+    },
+    "rusted-shield": {
+        "name": "Escudo Enferrujado",
+        "description": "Um escudo de metal desgastado que permite a Zamazenta mudar de forma."
+    },
+    "rusted-sword": {
+        "name": "Espada Enferrujada",
+        "description": "Uma espada de metal desgastada que permite a Zacian mudar de forma."
+    },
+    "sablenite": {
+        "name": "Sablenite",
+        "description": "Uma Mega Stone que permite que Sableye Megaevolua durante a batalha."
+    },
+    "sachet": {
+        "name": "Sachê Perfumado",
+        "description": "Um envelope com um aroma doce e sutil que Spritzee adora. Evolui Spritzee."
+    },
+    "sachet--held": {
+        "name": "Sachê Perfumado (Segurado)",
+        "description": "Evolui Spritzee quando trocado segurando este item."
+    },
+    "sachet--bag": {
+        "name": "Sachê Perfumado (Bolsa)",
+        "description": "Um envelope que exibe uma fragrância delicada."
+    },
+    "sacred-ash": {
+        "name": "Cinza Sagrada",
+        "description": "Revive todos os Pokémon desmaiados no seu grupo e restaura todo o HP deles."
+    },
+    "safe-monitor": {
+        "name": "Monitor de Segurança",
+        "description": "Um painel que exibe protocolos de segurança para laboratórios Pokémon."
+    },
+    "safe-series-pouch": {
+        "name": "Bolsa da Série de Segurança",
+        "description": "Item Pokémon: Bolsa da Série de Segurança."
+    },
+    "safety-goggles": {
+        "name": "Óculos de Proteção",
+        "description": "Protege o portador de sofrer dano de clima e de golpes baseados em pó."
+    },
+    "salamencite": {
+        "name": "Salamencite",
+        "description": "Uma Mega Stone que permite que Salamence Megaevolua durante a batalha."
+    },
+    "salandit-gas": {
+        "name": "Gás de Salandit",
+        "description": "Gás tóxico e perfumado exalado pela cauda de um Salandit. Usado como material."
+    },
+    "salac-berry": {
+        "name": "Fruta Salac",
+        "description": "Uma fruta que aumenta a Velocidade do portador em uma emergência."
+    },
+    "salt-sauce": {
+        "name": "Molho de Sal",
+        "description": "Molho temperado com sal marinho usado como ingrediente em piqueniques."
+    },
+    "salve-pouch": {
+        "name": "Bolsa de Pomada",
+        "description": "Pequena bolsa para carregar bálsamos e ungüentos medicinais."
+    },
+    "sand-series-pouch": {
+        "name": "Bolsa da Série Areia",
+        "description": "Item Pokémon: Bolsa da Série Areia."
+    },
+    "sand-tablecloth": {
+        "name": "Toalha de Areia",
+        "description": "Uma toalha de piquenique com estampa de areia de praia."
+    },
+    "sandwich": {
+        "name": "Sanduíche",
+        "description": "Um sanduíche nutritivo feito para ser compartilhado com seu grupo Pokémon."
+    },
+    "sandwich-pick": {
+        "name": "Palito de Sanduíche",
+        "description": "Um palito decorado para manter o sanduíche montado durante o piquenique."
+    },
+    "sandygast-sand": {
+        "name": "Areia de Sandygast",
+        "description": "Areia assombrada coletada de um Sandygast. Usada como material."
+    }
+}

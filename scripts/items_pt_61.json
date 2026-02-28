@@ -1,0 +1,86 @@
+{
+    "water-z": {
+        "name": "Water Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Água."
+    },
+    "waterium-z--bag": {
+        "name": "Waterium Z (Bolsa)",
+        "description": "Converte golpes do tipo Água em Z-Moves de Água em Alola."
+    },
+    "waterium-z--held": {
+        "name": "Waterium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Água: Hydro Vortex."
+    },
+    "watmel-berry": {
+        "name": "Fruta Watmel",
+        "description": "Ingrediente para Pokébloquinhos. Tem um sabor doce e amargo."
+    },
+    "watmel-mulch": {
+        "name": "Adubo Watmel",
+        "description": "Item Pokémon: Adubo Watmel."
+    },
+    "wave-incense": {
+        "name": "Incenso de Ondas",
+        "description": "Um incenso que aumenta o poder de ataques do tipo Água. Necessário para Breed do Mantyke."
+    },
+    "wave-mail": {
+        "name": "Carta de Onda",
+        "description": "Papel de carta com estampa de uma onda azul e suave."
+    },
+    "weakness-policy": {
+        "name": "Seguro de Fraqueza",
+        "description": "Aumenta muito o Ataque e o Atq. Esp. do portador se ele for atingido por um golpe super efetivo."
+    },
+    "wearing-monitor": {
+        "name": "Monitor de Vestimenta",
+        "description": "Um dispositivo que rastreia o uso de acessórios e roupas Pokémon."
+    },
+    "weedle-candy": {
+        "name": "Doce de Weedle",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "weepinbell-candy": {
+        "name": "Doce de Weepinbell",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "weight-pouch": {
+        "name": "Bolsa de Pesos",
+        "description": "Uma bolsa prática para carregar pesos de treinamento e itens densos."
+    },
+    "weird-pouch": {
+        "name": "Bolsa Esquisita",
+        "description": "Item Pokémon: Bolsa Esquisita."
+    },
+    "we-pouch": {
+        "name": "Bolsa Nós",
+        "description": "Item Pokémon: Bolsa Nós."
+    },
+    "west-sea-shellos-pouch": {
+        "name": "Bolsa de Shellos (Mar do Oeste)",
+        "description": "Item Pokémon: Bolsa de Shellos (Mar do Oeste)."
+    },
+    "wet-pouch": {
+        "name": "Bolsa Molhada",
+        "description": "Bolsa feita de material impermeável para ambientes aquáticos."
+    },
+    "whimsicott-candy": {
+        "name": "Doce de Whimsicott",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "whipped-dream": {
+        "name": "Sonho Batido",
+        "description": "Um doce leve e fofo que certos Pokémon adoram. Faz Swirlix evoluir."
+    },
+    "whipped-dream--held": {
+        "name": "Sonho Batido (Segurado)",
+        "description": "Evolui Swirlix quando trocado segurando este item."
+    },
+    "whipped-dream--bag": {
+        "name": "Sonho Batido (Bolsa)",
+        "description": "Um doce aerado e espumoso."
+    },
+    "white-apricorn": {
+        "name": "Apricorn Branco",
+        "description": "Um apricorn branco com uma superfície fosca e limpa."
+    }
+}

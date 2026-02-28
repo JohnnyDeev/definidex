@@ -1,0 +1,162 @@
+{
+    "wood-mail": {
+        "name": "Carta de Madeira",
+        "description": "Papel de carta com estampa de tábuas de madeira rústicas."
+    },
+    "wooloo-wool": {
+        "name": "Lã de Wooloo",
+        "description": "Lã branca e extremamente macia coletada de um Wooloo. Usada como material."
+    },
+    "wooper-candy": {
+        "name": "Doce de Wooper",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "wooper-slime": {
+        "name": "Gosma de Wooper",
+        "description": "Líquido viscoso e refrescante da pele de um Wooper. Usado como material."
+    },
+    "worked-monitor": {
+        "name": "Monitor de Trabalho",
+        "description": "Um painel que registra horas e tarefas executadas por assistentes Pokémon."
+    },
+    "workshop-pouch": {
+        "name": "Bolsa de Oficina",
+        "description": "Uma bolsa reforçada para carregar protótipos e peças mecânicas."
+    },
+    "worm-monitor": {
+        "name": "Monitor de Vermes",
+        "description": "Um escâner especializado em detectar Pokémon do tipo Inseto que vivem sob a terra."
+    },
+    "world-shaking-pouch": {
+        "name": "Bolsa do Mundo em Chamas",
+        "description": "Item Pokémon: Bolsa do Mundo em Chamas."
+    },
+    "woven-pouch": {
+        "name": "Bolsa Tecida",
+        "description": "Uma bolsa feita à mão com fibras naturais entrelaçadas."
+    },
+    "wrapped-monitor": {
+        "name": "Monitor Envolto",
+        "description": "Um monitor protegido por uma película especial contra poeira e danos."
+    },
+    "writer-pouch": {
+        "name": "Bolsa de Escritor",
+        "description": "Bolsa para carregar diários, canetas de tinta e manuscritos."
+    },
+    "wurmple-candy": {
+        "name": "Doce de Wurmple",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "wynaut-candy": {
+        "name": "Doce de Wynaut",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "x-accuracy": {
+        "name": "Ataque X",
+        "description": "Um item que aumenta drasticamente a precisão do Pokémon durante a batalha."
+    },
+    "x-accuracy-2": {
+        "name": "Ataque X 2",
+        "description": "Uma versão mais potente do item que aumenta a precisão."
+    },
+    "x-accuracy-3": {
+        "name": "Ataque X 3",
+        "description": "A versão máxima do item que aumenta a precisão."
+    },
+    "x-accuracy-6": {
+        "name": "Ataque X 6",
+        "description": "Efeito multiplicado do item que aumenta a precisão."
+    },
+    "x-attack": {
+        "name": "Ataque X",
+        "description": "Um item que aumenta drasticamente o Ataque do Pokémon durante a batalha."
+    },
+    "x-attack-2": {
+        "name": "Ataque X 2",
+        "description": "Uma versão mais potente do item que aumenta o Ataque."
+    },
+    "x-attack-3": {
+        "name": "Ataque X 3",
+        "description": "A versão máxima do item que aumenta o Ataque."
+    },
+    "x-attack-6": {
+        "name": "Ataque X 6",
+        "description": "Efeito multiplicado do item que aumenta o Ataque."
+    },
+    "x-defense": {
+        "name": "Defesa X",
+        "description": "Um item que aumenta drasticamente a Defesa do Pokémon durante a batalha."
+    },
+    "x-defense-2": {
+        "name": "Defesa X 2",
+        "description": "Uma versão mais potente do item que aumenta a Defesa."
+    },
+    "x-defense-3": {
+        "name": "Defesa X 3",
+        "description": "A versão máxima do item que aumenta a Defesa."
+    },
+    "x-defense-6": {
+        "name": "Defesa X 6",
+        "description": "Efeito multiplicado do item que aumenta a Defesa."
+    },
+    "x-items-pouch": {
+        "name": "Bolsa de Itens X",
+        "description": "Pequena bolsa para organizar seus intensificadores de batalha X."
+    },
+    "x-sp-atk": {
+        "name": "Atq. Esp. X",
+        "description": "Um item que aumenta drasticamente o Ataque Especial do Pokémon durante a batalha."
+    },
+    "x-sp-atk-2": {
+        "name": "Atq. Esp. X 2",
+        "description": "Uma versão mais potente do item que aumenta o Atq. Espec."
+    },
+    "x-sp-atk-3": {
+        "name": "Atq. Esp. X 3",
+        "description": "A versão máxima do item que aumenta o Atq. Especial."
+    },
+    "x-sp-atk-6": {
+        "name": "Atq. Esp. X 6",
+        "description": "Efeito multiplicado do item que aumenta o Atq. Especial."
+    },
+    "x-sp-def": {
+        "name": "Def. Esp. X",
+        "description": "Um item que aumenta drasticamente a Defesa Especial do Pokémon durante a batalha."
+    },
+    "x-sp-def-2": {
+        "name": "Def. Esp. X 2",
+        "description": "Uma versão mais potente do item que aumenta a Def. Esp."
+    },
+    "x-sp-def-3": {
+        "name": "Def. Esp. X 3",
+        "description": "A versão máxima do item que aumenta a Def. Esp."
+    },
+    "x-sp-def-6": {
+        "name": "Def. Esp. X 6",
+        "description": "Efeito multiplicado do item que aumenta a Def. Esp."
+    },
+    "x-speed": {
+        "name": "Velocidade X",
+        "description": "Um item que aumenta drasticamente a Velocidade do Pokémon durante a batalha."
+    },
+    "x-speed-2": {
+        "name": "Velocidade X 2",
+        "description": "Uma versão mais potente do item que aumenta a Velocidade."
+    },
+    "x-speed-3": {
+        "name": "Velocidade X 3",
+        "description": "A versão máxima do item que aumenta a Velocidade."
+    },
+    "x-speed-6": {
+        "name": "Velocidade X 6",
+        "description": "Efeito multiplicado do item que aumenta a Velocidade."
+    },
+    "x-transceiver": {
+        "name": "Transceptor X",
+        "description": "Um dispositivo que permite fazer chamadas de vídeo com amigos no jogo."
+    },
+    "xy-monitor": {
+        "name": "Monitor XY",
+        "description": "Um dispositivo que exibe dados temáticos das versões X e Y."
+    }
+}

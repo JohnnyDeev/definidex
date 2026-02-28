@@ -1,0 +1,50 @@
+{
+    "normium-z--bag": {
+        "name": "Normium Z (Bolsa)",
+        "description": "Converte golpes do tipo Normal em Z-Moves de Normal em Alola."
+    },
+    "normium-z--held": {
+        "name": "Normium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Normal: Breakneck Blitz."
+    },
+    "normal-gem": {
+        "name": "Gema Normal",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Normal."
+    },
+    "normal-tera-shard": {
+        "name": "Estilhaço Tera Normal",
+        "description": "Cristal com energia Tera Normal. Muda o Tera Tipo de um Pokémon."
+    },
+    "nostalgic-series-pouch": {
+        "name": "Bolsa da Série Nostálgica",
+        "description": "Item Pokémon: Bolsa da Série Nostálgica."
+    },
+    "novice-pouch": {
+        "name": "Bolsa Novata",
+        "description": "Bolsa básica para treinadores que estão começando sua jornada."
+    },
+    "nugget": {
+        "name": "Pepita",
+        "description": "Uma pepita de ouro puro que pode ser vendida por um bom preço."
+    },
+    "n-solarizer--held": {
+        "name": "N-Solarizer (Segurado)",
+        "description": "Item Pokémon: N-Solarizer (Segurado)."
+    },
+    "n-solarizer--bag": {
+        "name": "N-Solarizer (Bolsa)",
+        "description": "Dispositivo para fundir Necrozma e Solgaleo em Necrozma Juba Crepúsculo."
+    },
+    "n-lunarizer--held": {
+        "name": "N-Lunarizer (Segurado)",
+        "description": "Item Pokémon: N-Lunarizer (Segurado)."
+    },
+    "n-lunarizer--bag": {
+        "name": "N-Lunarizer (Bolsa)",
+        "description": "Dispositivo para fundir Necrozma e Lunala em Necrozma Asas Alvorada."
+    },
+    "nybble-pouch": {
+        "name": "Bolsa Nybble",
+        "description": "Item Pokémon: Bolsa Nybble."
+    }
+}

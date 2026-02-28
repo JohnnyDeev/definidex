@@ -1,0 +1,30 @@
+{
+    "tiny-mushroom": {
+        "name": "Cogumelo Pequeno",
+        "description": "Um cogumelo pequeno e raro. Pode ser vendido por um bom preço."
+    },
+    "tm-case": {
+        "name": "Estojo de TMs",
+        "description": "Um estojo prático para carregar e organizar suas Máquinas Técnicas (TMs)."
+    },
+    "toedscool-flap": {
+        "name": "Aba de Toedscool",
+        "description": "Parte do corpo elástica e fina de um Toedscool. Usada como material."
+    },
+    "tofu": {
+        "name": "Tofu",
+        "description": "Tofu fresco e macio usado como ingrediente em piqueniques."
+    },
+    "together-pouch": {
+        "name": "Bolsa Juntos",
+        "description": "Item Pokémon: Bolsa Juntos."
+    },
+    "tomato": {
+        "name": "Tomate",
+        "description": "Fatias de tomate suculentas usadas como ingrediente em piqueniques."
+    },
+    "ton-cup": {
+        "name": "Copo Ton",
+        "description": "Um copo de plástico robusto com grande capacidade para piqueniques."
+    }
+}

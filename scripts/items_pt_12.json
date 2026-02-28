@@ -1,0 +1,122 @@
+{
+    "iron-ball": {
+        "name": "Bola de Ferro",
+        "description": "Um peso que reduz drasticamente a Velocidade e torna o portador vulnerável a golpes Terrestres."
+    },
+    "iron-tera-shard": {
+        "name": "Estilhaço Tera Sideral",
+        "description": "Cristal com energia Tera de Aço. Muda o Tera Tipo de um Pokémon."
+    },
+    "islands-series-pouch": {
+        "name": "Bolsa da Série Ilhas",
+        "description": "Item Pokémon: Bolsa da Série Ilhas."
+    },
+    "item-drop": {
+        "name": "Drop de Item",
+        "description": "Dados de teste para item que cai de Pokémon selvagens."
+    },
+    "item-finder": {
+        "name": "Detector de Itens",
+        "description": "Um dispositivo que reage e apita quando há itens escondidos por perto."
+    },
+    "item-pocket": {
+        "name": "Bolso de Itens",
+        "description": "O bolso principal da mochila para itens diversos e utilitários."
+    },
+    "item-urge": {
+        "name": "Impulso de Item",
+        "description": "Item que força o uso imediato de um item segurado por um aliado."
+    },
+    "itep-berry": {
+        "name": "Fruta Itep",
+        "description": "Item Pokémon: Fruta Itep."
+    },
+    "itu-berry": {
+        "name": "Fruta Itu",
+        "description": "Item Pokémon: Fruta Itu."
+    },
+    "iv-stone": {
+        "name": "Pedra de IV",
+        "description": "Uma pedra preciosa que dizem revelar o potencial oculto de um Pokémon."
+    },
+    "jaboca-berry": {
+        "name": "Fruta Jaboca",
+        "description": "Se o portador for atingido por um ataque físico, o atacante sofre dano."
+    },
+    "jacket": {
+        "name": "Jaqueta",
+        "description": "Uma jaqueta estilosa para o treinador usar em climas frios."
+    },
+    "jalapeno": {
+        "name": "Jalapeño",
+        "description": "Pimenta jalapeño picante usada como ingrediente em piqueniques."
+    },
+    "jam": {
+        "name": "Geleia",
+        "description": "Geleia de frutas doce usada como ingrediente em piqueniques."
+    },
+    "jaw-fossil": {
+        "name": "Fóssil de Mandíbula",
+        "description": "Um fóssil de um Pokémon pré-histórico. Pode ser regenerado em Tyrunt."
+    },
+    "jigglypuff-candy": {
+        "name": "Doce de Jigglypuff",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "journal": {
+        "name": "Diário",
+        "description": "Um caderno para registrar as memórias e progresso da sua jornada."
+    },
+    "joy-pouch": {
+        "name": "Bolsa da Alegria",
+        "description": "Uma pequena bolsa colorida que parece trazer felicidade a quem a carrega."
+    },
+    "joy-scent": {
+        "name": "Perfume da Alegria",
+        "description": "Um spray aromático que ajuda a acalmar e purificar o coração de um Pokémon."
+    },
+    "jubilife-muffin": {
+        "name": "Muffin de Jubilife",
+        "description": "Um muffin delicioso feito com a receita tradicional de Jubilife City."
+    },
+    "juice-bottle": {
+        "name": "Garrafa de Suco",
+        "description": "Uma garrafa de suco refrescante para levar em longas caminhadas."
+    },
+    "jungle-series-pouch": {
+        "name": "Bolsa da Série Selva",
+        "description": "Item Pokémon: Bolsa da Série Selva."
+    },
+    "juniper-s-letter": {
+        "name": "Carta da Prof. Juniper",
+        "description": "Uma carta oficial da Professora Juniper sobre pesquisas Pokémon."
+    },
+    "jynx-candy": {
+        "name": "Doce de Jynx",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "k-a-v-a-pouch": {
+        "name": "Bolsa KAVA",
+        "description": "Item Pokémon: Bolsa KAVA."
+    },
+    "kabuto-candy": {
+        "name": "Doce de Kabuto",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "kabutops-candy": {
+        "name": "Doce de Kabutops",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "kadabra-candy": {
+        "name": "Doce de Kadabra",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "kangaskhan-candy": {
+        "name": "Doce de Kangaskhan",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "kangaskhanite": {
+        "name": "Kangaskhanite",
+        "description": "Uma Mega Stone que permite que Kangaskhan Megaevolua durante a batalha."
+    }
+}

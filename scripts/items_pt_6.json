@@ -1,0 +1,274 @@
+{
+    "drought-rock": {
+        "name": "Rocha de Seca",
+        "description": "Item Pokémon: Rocha de Seca."
+    },
+    "dubious-disc": {
+        "name": "Disco Duvidoso",
+        "description": "Um dispositivo transparente contendo dados estranhos. Evolui Porygon2."
+    },
+    "ducklett-feather": {
+        "name": "Pena de Ducklett",
+        "description": "Uma pena azul clara e macia de um Ducklett. Usada como material."
+    },
+    "dull-cup": {
+        "name": "Copo Fosco",
+        "description": "Um copo de plástico sem brilho para piqueniques."
+    },
+    "dunsparce-scales": {
+        "name": "Escamas de Dunsparce",
+        "description": "Pequenas escamas da cauda de um Dunsparce. Usadas como material."
+    },
+    "durant-mandible": {
+        "name": "Mandíbula de Durant",
+        "description": "Uma mandíbula de metal resistente de um Durant. Usada como material."
+    },
+    "dusk-ball": {
+        "name": "Crepúsculo Bola",
+        "description": "Uma Poké Bola que funciona melhor à noite ou em cavernas escuras."
+    },
+    "dusk-stone": {
+        "name": "Pedra do Crepúsculo",
+        "description": "Uma pedra peculiar que brilha como a noite. Evolui certos Pokémon."
+    },
+    "dust-island-tablecloth": {
+        "name": "Toalha Ilha de Poeira",
+        "description": "Uma toalha de piquenique com estampa de ilhas áridas."
+    },
+    "dwebble-claw": {
+        "name": "Garra de Dwebble",
+        "description": "Uma pequena pinça de um Dwebble. Usada como material."
+    },
+    "dynamax-band": {
+        "name": "Pulseira Dynamax",
+        "description": "Uma pulseira que permite aos Pokémon usar o fenômeno Dynamax em Galar."
+    },
+    "dynamax-candy": {
+        "name": "Doce Dynamax",
+        "description": "Um doce que aumenta o Nível Dynamax de um Pokémon."
+    },
+    "dynamax-crystal": {
+        "name": "Cristal Dynamax",
+        "description": "Um cristal que emite energia para batalhas Max Raid."
+    },
+    "earth-plate": {
+        "name": "Placa de Terra",
+        "description": "Uma tábua de pedra que aumenta o poder de golpes do tipo Terrestre."
+    },
+    "eat-at-home-mail": {
+        "name": "Carta Coma em Casa",
+        "description": "Papel de carta com estampa de pratos de comida caseira."
+    },
+    "eevee-candy": {
+        "name": "Doce de Eevee",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "eevee-fur": {
+        "name": "Pelo de Eevee",
+        "description": "Pelo fofinho de um Eevee. Usado como material."
+    },
+    "eevee-tm-case": {
+        "name": "Estojo de TMs Eevee",
+        "description": "Um estojo de TMs com o desenho de um Eevee."
+    },
+    "eevium-z--bag": {
+        "name": "Eevium Z (Bolsa)",
+        "description": "Converte o Last Resort de Eevee em seu ataque Z em Alola."
+    },
+    "eevium-z--held": {
+        "name": "Eevium Z (Segurado)",
+        "description": "Permite que Eevee execute seu ataque Z exclusivo: Extreme Evoboost."
+    },
+    "egg-case": {
+        "name": "Porta-Ovos",
+        "description": "Um estojo projetado para proteger e carregar Ovos Pokémon com segurança."
+    },
+    "egg-chart": {
+        "name": "Gráfico de Ovos",
+        "description": "Um gráfico que mostra os padrões de diferentes Ovos Pokémon."
+    },
+    "egg-money": {
+        "name": "Dinheiro de Ovo",
+        "description": "Uma moeda especial para ser trocada por Ovos raros."
+    },
+    "eiscue-ice": {
+        "name": "Gelo de Eiscue",
+        "description": "Pedaço de gelo gelado que cobre a cabeça de um Eiscue. Usado como material."
+    },
+    "eject-button": {
+        "name": "Botão de Ejeção",
+        "description": "O portador troca de lugar imediatamente se for atingido por um ataque."
+    },
+    "eject-pack": {
+        "name": "Pacote de Ejeção",
+        "description": "O portador troca imediatamente se qualquer um de seus atributos cair."
+    },
+    "ekans-fang": {
+        "name": "Presa de Ekans",
+        "description": "Uma presa venenosa de uma Ekans. Usada como material."
+    },
+    "electirizer": {
+        "name": "Eletrizador",
+        "description": "Um dispositivo carregado com eletricidade. Evolui Electabuzz."
+    },
+    "electric-gem": {
+        "name": "Gema Elétrica",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Elétrico."
+    },
+    "electric-memory": {
+        "name": "Memória Elétrica",
+        "description": "Um drive de memória com dados do tipo Elétrico para Silvally."
+    },
+    "electric-seed": {
+        "name": "Semente Elétrica",
+        "description": "Aumenta a Defesa do Pokémon em um Campo Elétrico. Consumível."
+    },
+    "electric-tera-shard": {
+        "name": "Estilhaço Tera Elétrico",
+        "description": "Cristal com energia Tera Elétrica. Muda o Tera Tipo de um Pokémon."
+    },
+    "electric-z": {
+        "name": "Electric Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Elétrico."
+    },
+    "electirizer--held": {
+        "name": "Eletrizador (Segurado)",
+        "description": "Evolui Electabuzz quando trocado segurando este item."
+    },
+    "electirizer--bag": {
+        "name": "Eletrizador (Bolsa)",
+        "description": "Um dispositivo cheio de energia elétrica de alta voltagem."
+    },
+    "electrium-z--bag": {
+        "name": "Electrium Z (Bolsa)",
+        "description": "Converte golpes do tipo Elétrico em Z-Moves de Elétrico em Alola."
+    },
+    "electrium-z--held": {
+        "name": "Electrium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Elétrico: Gigavolt Havoc."
+    },
+    "elevated-cup": {
+        "name": "Copo Elevado",
+        "description": "Um copo de plástico com base alta para piqueniques."
+    },
+    "elixir": {
+        "name": "Elixir",
+        "description": "Restaura 10 PP de todos os golpes de um único Pokémon."
+    },
+    "elm-s-letter": {
+        "name": "Carta do Prof. Elm",
+        "description": "Uma carta escrita pelo Professor Elm para o Professor Oak."
+    },
+    "eloraichium-z--bag": {
+        "name": "Eloraichium Z (Bolsa)",
+        "description": "Item Pokémon: Eloraichium Z (Bolsa)."
+    },
+    "emblem-ticket": {
+        "name": "Bilhete de Emblema",
+        "description": "Um bilhete que pode ser trocado por um emblema de treinador."
+    },
+    "encrypt-card": {
+        "name": "Cartão de Criptografia",
+        "description": "Um cartão contendo códigos de segurança complexos."
+    },
+    "energy-powder": {
+        "name": "Pó de Energia",
+        "description": "Um pó medicinal amargo que recupera 60 HP de um Pokémon."
+    },
+    "energy-root": {
+        "name": "Raiz de Energia",
+        "description": "Uma raiz medicinal amarga que recupera 120 HP de um Pokémon."
+    },
+    "enigma-berry": {
+        "name": "Fruta Enigma",
+        "description": "Restaura HP se o Pokémon for atingido por um ataque superefetivo."
+    },
+    "enigma-stone": {
+        "name": "Pedra Enigma",
+        "description": "Uma pedra misteriosa que parece emitir uma energia estranha."
+    },
+    "enon-berry": {
+        "name": "Fruta Enon",
+        "description": "Item Pokémon: Fruta Enon."
+    },
+    "eon-flute": {
+        "name": "Flauta Eon",
+        "description": "Uma flauta que invoca Latios ou Latias para viajar pelo céu."
+    },
+    "eon-ticket": {
+        "name": "Bilhete Eon",
+        "description": "Um bilhete raro necessário para viajar até a Southern Island."
+    },
+    "escape-rope": {
+        "name": "Corda de Fuga",
+        "description": "Uma corda longa e resistente para escapar de cavernas ou masmorras."
+    },
+    "espathra-down": {
+        "name": "Pluma de Espathra",
+        "description": "Uma pluma elegante de uma Espathra. Usada como material."
+    },
+    "esper-wing": {
+        "name": "Asa Esper",
+        "description": "Item Pokémon: Asa Esper."
+    },
+    "ether": {
+        "name": "Éter",
+        "description": "Restaura 10 PP de um único golpe de um Pokémon."
+    },
+    "ev-reduction-berry": {
+        "name": "Fruta de Redução de EV",
+        "description": "Fruta que reduz o esforço acumulado em um atributo."
+    },
+    "everstone": {
+        "name": "Pedra Eterna",
+        "description": "Uma pedra que impede o Pokémon que a segura de evoluir."
+    },
+    "eviolite": {
+        "name": "Eviolite",
+        "description": "Aumenta Defesa e Def. Esp. em 50% se o Pokémon ainda puder evoluir."
+    },
+    "excadrill-claw": {
+        "name": "Garra de Excadrill",
+        "description": "Uma garra de metal afiada e poderosa de um Excadrill. Usada como material."
+    },
+    "exp-candy-l": {
+        "name": "Doce de Exp. G",
+        "description": "Um doce grande que concede muitos pontos de experiência ao Pokémon."
+    },
+    "exp-candy-m": {
+        "name": "Doce de Exp. M",
+        "description": "Um doce médio que concede pontos de experiência ao Pokémon."
+    },
+    "exp-candy-s": {
+        "name": "Doce de Exp. P",
+        "description": "Um doce pequeno que concede alguns pontos de experiência ao Pokémon."
+    },
+    "exp-candy-xl": {
+        "name": "Doce de Exp. GG",
+        "description": "Um doce extra grande que concede uma enorme quantidade de experiência."
+    },
+    "exp-candy-xs": {
+        "name": "Doce de Exp. PP",
+        "description": "Um doce minúsculo que concede poucos pontos de experiência."
+    },
+    "exp-share": {
+        "name": "Compartilhador de Exp.",
+        "description": "Um dispositivo que distribui a experiência ganha entre o grupo."
+    },
+    "expert-belt": {
+        "name": "Cinturão de Especialista",
+        "description": "Aumenta em 20% o dano de ataques superefetivos."
+    },
+    "explorers-kit": {
+        "name": "Kit de Explorador",
+        "description": "Um conjunto de ferramentas para explorar o subsolo da região de Sinnoh."
+    },
+    "fab-mail": {
+        "name": "Carta Fabulosa",
+        "description": "Papel de carta com estampa de joias e diamantes brilhantes."
+    },
+    "fairium-z--bag": {
+        "name": "Fairium Z (Bolsa)",
+        "description": "Converte golpes do tipo Fada em Z-Moves de Fada em Alola."
+    }
+}

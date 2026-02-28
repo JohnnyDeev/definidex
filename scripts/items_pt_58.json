@@ -1,0 +1,30 @@
+{
+    "ultra-nectar": {
+        "name": "Ultra Néctar",
+        "description": "Item Pokémon: Ultra Néctar."
+    },
+    "un-autograph": {
+        "name": "Autógrafo do Un",
+        "description": "Um autógrafo de um treinador místico de Sinnoh."
+    },
+    "unown-fragment": {
+        "name": "Fragmento de Unown",
+        "description": "Um fragmento de pedra com o formato de uma letra antiga. Usado como material."
+    },
+    "unown-report": {
+        "name": "Relatório Unown",
+        "description": "Um diário que registra todos os diferentes tipos de Unown encontrados."
+    },
+    "upgrade": {
+        "name": "Upgrade",
+        "description": "Um dispositivo transparente contendo dados peculiares. Faz Porygon evoluir."
+    },
+    "urban-monitor": {
+        "name": "Monitor Urbano",
+        "description": "Um dispositivo que exibe mapas e informações sobre áreas metropolitanas."
+    },
+    "v-create-t-pouch": {
+        "name": "Bolsa V-Create T",
+        "description": "Item Pokémon: Bolsa V-Create T."
+    }
+}

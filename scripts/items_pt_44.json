@@ -1,0 +1,54 @@
+{
+    "surf-mail": {
+        "name": "Carta de Surfe",
+        "description": "Papel de carta com estampa de um Pokémon surfando em uma crista de onda."
+    },
+    "surprise-incense": {
+        "name": "Incenso Surpresa",
+        "description": "Item Pokémon: Incenso Surpresa."
+    },
+    "suspicious-card": {
+        "name": "Cartão Suspeito",
+        "description": "Um cartão de visita preto com um símbolo estranho e um número de telefone."
+    },
+    "suspicious-card-01": {
+        "name": "Cartão Suspeito 01",
+        "description": "Um cartão de acesso misterioso com marcas vermelhas."
+    },
+    "swablu-candy": {
+        "name": "Doce de Swablu",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "sweet-apple": {
+        "name": "Maçã Doce",
+        "description": "Uma maçã muito doce que faz Applin evoluir para Appletun."
+    },
+    "swamp-pouch": {
+        "name": "Bolsa de Pântano",
+        "description": "Bolsa feita de material resistente à umidade para carregar itens de terrenos alagados."
+    },
+    "swampertite": {
+        "name": "Swampertite",
+        "description": "Uma Mega Stone que permite que Swampert Megaevolua durante a batalha."
+    },
+    "sweet-herb": {
+        "name": "Erva Doce",
+        "description": "Uma erva medicinal com aroma agradável que restaura o HP de um Pokémon."
+    },
+    "sweet-pouch": {
+        "name": "Bolsa de Doces",
+        "description": "Uma bolsa decorada com desenhos de guloseimas para guardar itens doces."
+    },
+    "sweet-scent": {
+        "name": "Perfume Doce",
+        "description": "Um spray floral que atrai Pokémon selvagens em hordas."
+    },
+    "swift-feather": {
+        "name": "Pena Veloz",
+        "description": "Uma pena que aumenta levemente a Velocidade do seu Pokémon."
+    },
+    "swirlium-z--bag": {
+        "name": "Swirlium Z (Bolsa)",
+        "description": "Item Pokémon: Swirlium Z (Bolsa)."
+    }
+}

@@ -1,0 +1,602 @@
+{
+  "heal-powder": {
+    "name": "Pó de Heal",
+    "description": "Um material coletado de um Heal selvagem. Pode ser usado para criar TMs."
+  },
+  "kings-rock": {
+    "name": "Pedra de Kings",
+    "description": "Um material coletado de um Kings selvagem. Pode ser usado para criar TMs."
+  },
+  "metal-powder": {
+    "name": "Pó de Metal",
+    "description": "Um material coletado de um Metal selvagem. Pode ser usado para criar TMs."
+  },
+  "works-key": {
+    "name": "Chave de Works",
+    "description": "Um material coletado de um Works selvagem. Pode ser usado para criar TMs."
+  },
+  "galactic-key": {
+    "name": "Chave de Galactic",
+    "description": "Um material coletado de um Galactic selvagem. Pode ser usado para criar TMs."
+  },
+  "suite-key": {
+    "name": "Chave de Suite",
+    "description": "Um material coletado de um Suite selvagem. Pode ser usado para criar TMs."
+  },
+  "rm-1-key": {
+    "name": "Chave de Rm 1",
+    "description": "Um material coletado de um Rm 1 selvagem. Pode ser usado para criar TMs."
+  },
+  "rm-2-key": {
+    "name": "Chave de Rm 2",
+    "description": "Um material coletado de um Rm 2 selvagem. Pode ser usado para criar TMs."
+  },
+  "rm-4-key": {
+    "name": "Chave de Rm 4",
+    "description": "Um material coletado de um Rm 4 selvagem. Pode ser usado para criar TMs."
+  },
+  "rm-6-key": {
+    "name": "Chave de Rm 6",
+    "description": "Um material coletado de um Rm 6 selvagem. Pode ser usado para criar TMs."
+  },
+  "lift-key": {
+    "name": "Chave de Lift",
+    "description": "Um material coletado de um Lift selvagem. Pode ser usado para criar TMs."
+  },
+  "psychic-gem": {
+    "name": "Gema de Psychic",
+    "description": "Um material coletado de um Psychic selvagem. Pode ser usado para criar TMs."
+  },
+  "dark-stone": {
+    "name": "Pedra de Dark",
+    "description": "Um material coletado de um Dark selvagem. Pode ser usado para criar TMs."
+  },
+  "elevator-key": {
+    "name": "Chave de Elevator",
+    "description": "Um material coletado de um Elevator selvagem. Pode ser usado para criar TMs."
+  },
+  "intriguing-stone": {
+    "name": "Pedra de Intriguing",
+    "description": "Um material coletado de um Intriguing selvagem. Pode ser usado para criar TMs."
+  },
+  "white-mane-hair": {
+    "name": "Cabelo de White Mane",
+    "description": "Um material coletado de um White Mane selvagem. Pode ser usado para criar TMs."
+  },
+  "venonat-fang": {
+    "name": "Presa de Venonat",
+    "description": "Um material coletado de um Venonat selvagem. Pode ser usado para criar TMs."
+  },
+  "psyduck-down": {
+    "name": "Plumagem de Psyduck",
+    "description": "Um material coletado de um Psyduck selvagem. Pode ser usado para criar TMs."
+  },
+  "grimer-toxin": {
+    "name": "Toxina de Grimer",
+    "description": "Um material coletado de um Grimer selvagem. Pode ser usado para criar TMs."
+  },
+  "drowzee-fur": {
+    "name": "Pelo de Drowzee",
+    "description": "Um material coletado de um Drowzee selvagem. Pode ser usado para criar TMs."
+  },
+  "voltorb-sparks": {
+    "name": "Faíscas de Voltorb",
+    "description": "Um material coletado de um Voltorb selvagem. Pode ser usado para criar TMs."
+  },
+  "scyther-claw": {
+    "name": "Garra de Scyther",
+    "description": "Um material coletado de um Scyther selvagem. Pode ser usado para criar TMs."
+  },
+  "ditto-goo": {
+    "name": "Gosma de Ditto",
+    "description": "Um material coletado de um Ditto selvagem. Pode ser usado para criar TMs."
+  },
+  "pichu-fur": {
+    "name": "Pelo de Pichu",
+    "description": "Um material coletado de um Pichu selvagem. Pode ser usado para criar TMs."
+  },
+  "igglybuff-fluff": {
+    "name": "Penugem de Igglybuff",
+    "description": "Um material coletado de um Igglybuff selvagem. Pode ser usado para criar TMs."
+  },
+  "mareep-wool": {
+    "name": "Lã de Mareep",
+    "description": "Um material coletado de um Mareep selvagem. Pode ser usado para criar TMs."
+  },
+  "hoppip-leaf": {
+    "name": "Folha de Hoppip",
+    "description": "Um material coletado de um Hoppip selvagem. Pode ser usado para criar TMs."
+  },
+  "sunkern-leaf": {
+    "name": "Folha de Sunkern",
+    "description": "Um material coletado de um Sunkern selvagem. Pode ser usado para criar TMs."
+  },
+  "misdreavus-tears": {
+    "name": "Lágrimas de Misdreavus",
+    "description": "Um material coletado de um Misdreavus selvagem. Pode ser usado para criar TMs."
+  },
+  "girafarig-fur": {
+    "name": "Pelo de Girafarig",
+    "description": "Um material coletado de um Girafarig selvagem. Pode ser usado para criar TMs."
+  },
+  "pineco-husk": {
+    "name": "Casca de Pineco",
+    "description": "Um material coletado de um Pineco selvagem. Pode ser usado para criar TMs."
+  },
+  "qwilfish-spines": {
+    "name": "Espinhos de Qwilfish",
+    "description": "Um material coletado de um Qwilfish selvagem. Pode ser usado para criar TMs."
+  },
+  "heracross-claw": {
+    "name": "Garra de Heracross",
+    "description": "Um material coletado de um Heracross selvagem. Pode ser usado para criar TMs."
+  },
+  "teddiursa-claw": {
+    "name": "Garra de Teddiursa",
+    "description": "Um material coletado de um Teddiursa selvagem. Pode ser usado para criar TMs."
+  },
+  "delibird-parcel": {
+    "name": "Pacote de Delibird",
+    "description": "Um material coletado de um Delibird selvagem. Pode ser usado para criar TMs."
+  },
+  "houndour-fang": {
+    "name": "Presa de Houndour",
+    "description": "Um material coletado de um Houndour selvagem. Pode ser usado para criar TMs."
+  },
+  "phanpy-nail": {
+    "name": "Unha de Phanpy",
+    "description": "Um material coletado de um Phanpy selvagem. Pode ser usado para criar TMs."
+  },
+  "stantler-hair": {
+    "name": "Cabelo de Stantler",
+    "description": "Um material coletado de um Stantler selvagem. Pode ser usado para criar TMs."
+  },
+  "larvitar-claw": {
+    "name": "Garra de Larvitar",
+    "description": "Um material coletado de um Larvitar selvagem. Pode ser usado para criar TMs."
+  },
+  "surskit-syrup": {
+    "name": "Xarope de Surskit",
+    "description": "Um material coletado de um Surskit selvagem. Pode ser usado para criar TMs."
+  },
+  "makuhita-sweat": {
+    "name": "Suor de Makuhita",
+    "description": "Um material coletado de um Makuhita selvagem. Pode ser usado para criar TMs."
+  },
+  "sableye-gem": {
+    "name": "Gema de Sableye",
+    "description": "Um material coletado de um Sableye selvagem. Pode ser usado para criar TMs."
+  },
+  "meditite-sweat": {
+    "name": "Suor de Meditite",
+    "description": "Um material coletado de um Meditite selvagem. Pode ser usado para criar TMs."
+  },
+  "gulpin-mucus": {
+    "name": "Muco de Gulpin",
+    "description": "Um material coletado de um Gulpin selvagem. Pode ser usado para criar TMs."
+  },
+  "numel-lava": {
+    "name": "Lava de Numel",
+    "description": "Um material coletado de um Numel selvagem. Pode ser usado para criar TMs."
+  },
+  "spoink-pearl": {
+    "name": "Pérola de Spoink",
+    "description": "Um material coletado de um Spoink selvagem. Pode ser usado para criar TMs."
+  },
+  "swablu-fluff": {
+    "name": "Penugem de Swablu",
+    "description": "Um material coletado de um Swablu selvagem. Pode ser usado para criar TMs."
+  },
+  "zangoose-claw": {
+    "name": "Garra de Zangoose",
+    "description": "Um material coletado de um Zangoose selvagem. Pode ser usado para criar TMs."
+  },
+  "seviper-fang": {
+    "name": "Presa de Seviper",
+    "description": "Um material coletado de um Seviper selvagem. Pode ser usado para criar TMs."
+  },
+  "shuppet-scrap": {
+    "name": "Retalho de Shuppet",
+    "description": "Um material coletado de um Shuppet selvagem. Pode ser usado para criar TMs."
+  },
+  "tropius-leaf": {
+    "name": "Folha de Tropius",
+    "description": "Um material coletado de um Tropius selvagem. Pode ser usado para criar TMs."
+  },
+  "snorunt-fur": {
+    "name": "Pelo de Snorunt",
+    "description": "Um material coletado de um Snorunt selvagem. Pode ser usado para criar TMs."
+  },
+  "luvdisc-scales": {
+    "name": "Escamas de Luvdisc",
+    "description": "Um material coletado de um Luvdisc selvagem. Pode ser usado para criar TMs."
+  },
+  "starly-feather": {
+    "name": "Pena de Starly",
+    "description": "Um material coletado de um Starly selvagem. Pode ser usado para criar TMs."
+  },
+  "shellos-mucus": {
+    "name": "Muco de Shellos",
+    "description": "Um material coletado de um Shellos selvagem. Pode ser usado para criar TMs."
+  },
+  "stunky-fur": {
+    "name": "Pelo de Stunky",
+    "description": "Um material coletado de um Stunky selvagem. Pode ser usado para criar TMs."
+  },
+  "happiny-dust": {
+    "name": "Poeira de Happiny",
+    "description": "Um material coletado de um Happiny selvagem. Pode ser usado para criar TMs."
+  },
+  "riolu-fur": {
+    "name": "Pelo de Riolu",
+    "description": "Um material coletado de um Riolu selvagem. Pode ser usado para criar TMs."
+  },
+  "croagunk-poison": {
+    "name": "Veneno de Croagunk",
+    "description": "Um material coletado de um Croagunk selvagem. Pode ser usado para criar TMs."
+  },
+  "finneon-scales": {
+    "name": "Escamas de Finneon",
+    "description": "Um material coletado de um Finneon selvagem. Pode ser usado para criar TMs."
+  },
+  "snover-berries": {
+    "name": "Frutas de Snover",
+    "description": "Um material coletado de um Snover selvagem. Pode ser usado para criar TMs."
+  },
+  "rotom-sparks": {
+    "name": "Faíscas de Rotom",
+    "description": "Um material coletado de um Rotom selvagem. Pode ser usado para criar TMs."
+  },
+  "petilil-leaf": {
+    "name": "Folha de Petilil",
+    "description": "Um material coletado de um Petilil selvagem. Pode ser usado para criar TMs."
+  },
+  "sandile-claw": {
+    "name": "Garra de Sandile",
+    "description": "Um material coletado de um Sandile selvagem. Pode ser usado para criar TMs."
+  },
+  "foongus-spores": {
+    "name": "Esporos de Foongus",
+    "description": "Um material coletado de um Foongus selvagem. Pode ser usado para criar TMs."
+  },
+  "tynamo-slime": {
+    "name": "Gosma de Tynamo",
+    "description": "Um material coletado de um Tynamo selvagem. Pode ser usado para criar TMs."
+  },
+  "cubchoo-fur": {
+    "name": "Pelo de Cubchoo",
+    "description": "Um material coletado de um Cubchoo selvagem. Pode ser usado para criar TMs."
+  },
+  "pawniard-blade": {
+    "name": "Lâmina de Pawniard",
+    "description": "Um material coletado de um Pawniard selvagem. Pode ser usado para criar TMs."
+  },
+  "deino-scales": {
+    "name": "Escamas de Deino",
+    "description": "Um material coletado de um Deino selvagem. Pode ser usado para criar TMs."
+  },
+  "larvesta-fuzz": {
+    "name": "Felpa de Larvesta",
+    "description": "Um material coletado de um Larvesta selvagem. Pode ser usado para criar TMs."
+  },
+  "scatterbug-powder": {
+    "name": "Pó de Scatterbug",
+    "description": "Um material coletado de um Scatterbug selvagem. Pode ser usado para criar TMs."
+  },
+  "litleo-tuft": {
+    "name": "Tufos de Litleo",
+    "description": "Um material coletado de um Litleo selvagem. Pode ser usado para criar TMs."
+  },
+  "flabebe-pollen": {
+    "name": "Polén de Flabebe",
+    "description": "Um material coletado de um Flabebe selvagem. Pode ser usado para criar TMs."
+  },
+  "skrelp-kelp": {
+    "name": "Alga de Skrelp",
+    "description": "Um material coletado de um Skrelp selvagem. Pode ser usado para criar TMs."
+  },
+  "clauncher-claw": {
+    "name": "Garra de Clauncher",
+    "description": "Um material coletado de um Clauncher selvagem. Pode ser usado para criar TMs."
+  },
+  "goomy-goo": {
+    "name": "Gosma de Goomy",
+    "description": "Um material coletado de um Goomy selvagem. Pode ser usado para criar TMs."
+  },
+  "klefki-key": {
+    "name": "Chave de Klefki",
+    "description": "Um material coletado de um Klefki selvagem. Pode ser usado para criar TMs."
+  },
+  "oricorio-feather": {
+    "name": "Pena de Oricorio",
+    "description": "Um material coletado de um Oricorio selvagem. Pode ser usado para criar TMs."
+  },
+  "rockruff-rock": {
+    "name": "Pedra de Rockruff",
+    "description": "Um material coletado de um Rockruff selvagem. Pode ser usado para criar TMs."
+  },
+  "oranguru-fur": {
+    "name": "Pelo de Oranguru",
+    "description": "Um material coletado de um Oranguru selvagem. Pode ser usado para criar TMs."
+  },
+  "passimian-fur": {
+    "name": "Pelo de Passimian",
+    "description": "Um material coletado de um Passimian selvagem. Pode ser usado para criar TMs."
+  },
+  "komala-claw": {
+    "name": "Garra de Komala",
+    "description": "Um material coletado de um Komala selvagem. Pode ser usado para criar TMs."
+  },
+  "bruxish-tooth": {
+    "name": "Dente de Bruxish",
+    "description": "Um material coletado de um Bruxish selvagem. Pode ser usado para criar TMs."
+  },
+  "skwovet-fur": {
+    "name": "Pelo de Skwovet",
+    "description": "Um material coletado de um Skwovet selvagem. Pode ser usado para criar TMs."
+  },
+  "rookidee-feather": {
+    "name": "Pena de Rookidee",
+    "description": "Um material coletado de um Rookidee selvagem. Pode ser usado para criar TMs."
+  },
+  "toxel-sparks": {
+    "name": "Faíscas de Toxel",
+    "description": "Um material coletado de um Toxel selvagem. Pode ser usado para criar TMs."
+  },
+  "falinks-sweat": {
+    "name": "Suor de Falinks",
+    "description": "Um material coletado de um Falinks selvagem. Pode ser usado para criar TMs."
+  },
+  "cufant-tarnish": {
+    "name": "Mancha de Cufant",
+    "description": "Um material coletado de um Cufant selvagem. Pode ser usado para criar TMs."
+  },
+  "rolycoly-coal": {
+    "name": "Carvão de Rolycoly",
+    "description": "Um material coletado de um Rolycoly selvagem. Pode ser usado para criar TMs."
+  },
+  "indeedee-fur": {
+    "name": "Pelo de Indeedee",
+    "description": "Um material coletado de um Indeedee selvagem. Pode ser usado para criar TMs."
+  },
+  "hatenna-dust": {
+    "name": "Poeira de Hatenna",
+    "description": "Um material coletado de um Hatenna selvagem. Pode ser usado para criar TMs."
+  },
+  "stonjourner-stone": {
+    "name": "Pedra de Stonjourner",
+    "description": "Um material coletado de um Stonjourner selvagem. Pode ser usado para criar TMs."
+  },
+  "eiscue-down": {
+    "name": "Plumagem de Eiscue",
+    "description": "Um material coletado de um Eiscue selvagem. Pode ser usado para criar TMs."
+  },
+  "dreepy-powder": {
+    "name": "Pó de Dreepy",
+    "description": "Um material coletado de um Dreepy selvagem. Pode ser usado para criar TMs."
+  },
+  "lechonk-hair": {
+    "name": "Cabelo de Lechonk",
+    "description": "Um material coletado de um Lechonk selvagem. Pode ser usado para criar TMs."
+  },
+  "tarountula-thread": {
+    "name": "Fio de Tarountula",
+    "description": "Um material coletado de um Tarountula selvagem. Pode ser usado para criar TMs."
+  },
+  "nymble-claw": {
+    "name": "Garra de Nymble",
+    "description": "Um material coletado de um Nymble selvagem. Pode ser usado para criar TMs."
+  },
+  "rellor-mud": {
+    "name": "Lama de Rellor",
+    "description": "Um material coletado de um Rellor selvagem. Pode ser usado para criar TMs."
+  },
+  "flittle-down": {
+    "name": "Plumagem de Flittle",
+    "description": "Um material coletado de um Flittle selvagem. Pode ser usado para criar TMs."
+  },
+  "capsakid-seed": {
+    "name": "Semente de Capsakid",
+    "description": "Um material coletado de um Capsakid selvagem. Pode ser usado para criar TMs."
+  },
+  "varoom-fume": {
+    "name": "Fumaça de Varoom",
+    "description": "Um material coletado de um Varoom selvagem. Pode ser usado para criar TMs."
+  },
+  "cetoddle-grease": {
+    "name": "Gordura de Cetoddle",
+    "description": "Um material coletado de um Cetoddle selvagem. Pode ser usado para criar TMs."
+  },
+  "frigibax-scales": {
+    "name": "Escamas de Frigibax",
+    "description": "Um material coletado de um Frigibax selvagem. Pode ser usado para criar TMs."
+  },
+  "cyclizar-scales": {
+    "name": "Escamas de Cyclizar",
+    "description": "Um material coletado de um Cyclizar selvagem. Pode ser usado para criar TMs."
+  },
+  "wattrel-feather": {
+    "name": "Pena de Wattrel",
+    "description": "Um material coletado de um Wattrel selvagem. Pode ser usado para criar TMs."
+  },
+  "bombirdier-feather": {
+    "name": "Pena de Bombirdier",
+    "description": "Um material coletado de um Bombirdier selvagem. Pode ser usado para criar TMs."
+  },
+  "squawkabilly-feather": {
+    "name": "Pena de Squawkabilly",
+    "description": "Um material coletado de um Squawkabilly selvagem. Pode ser usado para criar TMs."
+  },
+  "flamigo-down": {
+    "name": "Plumagem de Flamigo",
+    "description": "Um material coletado de um Flamigo selvagem. Pode ser usado para criar TMs."
+  },
+  "glimmet-crystal": {
+    "name": "Cristal de Glimmet",
+    "description": "Um material coletado de um Glimmet selvagem. Pode ser usado para criar TMs."
+  },
+  "shroodle-ink": {
+    "name": "Tinta de Shroodle",
+    "description": "Um material coletado de um Shroodle selvagem. Pode ser usado para criar TMs."
+  },
+  "fidough-fur": {
+    "name": "Pelo de Fidough",
+    "description": "Um material coletado de um Fidough selvagem. Pode ser usado para criar TMs."
+  },
+  "maschiff-fang": {
+    "name": "Presa de Maschiff",
+    "description": "Um material coletado de um Maschiff selvagem. Pode ser usado para criar TMs."
+  },
+  "bramblin-twig": {
+    "name": "Graveto de Bramblin",
+    "description": "Um material coletado de um Bramblin selvagem. Pode ser usado para criar TMs."
+  },
+  "charcadet-soot": {
+    "name": "Fuligem de Charcadet",
+    "description": "Um material coletado de um Charcadet selvagem. Pode ser usado para criar TMs."
+  },
+  "toedscool-flaps": {
+    "name": "Abas de Toedscool",
+    "description": "Um material coletado de um Toedscool selvagem. Pode ser usado para criar TMs."
+  },
+  "crystal-cluster": {
+    "name": "Aglomerado de Crystal",
+    "description": "Um material coletado de um Crystal selvagem. Pode ser usado para criar TMs."
+  },
+  "fairy-feather": {
+    "name": "Pena de Fairy",
+    "description": "Um material coletado de um Fairy selvagem. Pode ser usado para criar TMs."
+  },
+  "sandshrew-claw": {
+    "name": "Garra de Sandshrew",
+    "description": "Um material coletado de um Sandshrew selvagem. Pode ser usado para criar TMs."
+  },
+  "cleffa-fur": {
+    "name": "Pelo de Cleffa",
+    "description": "Um material coletado de um Cleffa selvagem. Pode ser usado para criar TMs."
+  },
+  "poliwag-slime": {
+    "name": "Gosma de Poliwag",
+    "description": "Um material coletado de um Poliwag selvagem. Pode ser usado para criar TMs."
+  },
+  "geodude-fragment": {
+    "name": "Fragmento de Geodude",
+    "description": "Um material coletado de um Geodude selvagem. Pode ser usado para criar TMs."
+  },
+  "munchlax-fang": {
+    "name": "Presa de Munchlax",
+    "description": "Um material coletado de um Munchlax selvagem. Pode ser usado para criar TMs."
+  },
+  "sentret-fur": {
+    "name": "Pelo de Sentret",
+    "description": "Um material coletado de um Sentret selvagem. Pode ser usado para criar TMs."
+  },
+  "hoothoot-feather": {
+    "name": "Pena de Hoothoot",
+    "description": "Um material coletado de um Hoothoot selvagem. Pode ser usado para criar TMs."
+  },
+  "spinarak-thread": {
+    "name": "Fio de Spinarak",
+    "description": "Um material coletado de um Spinarak selvagem. Pode ser usado para criar TMs."
+  },
+  "yanma-spike": {
+    "name": "Espinho de Yanma",
+    "description": "Um material coletado de um Yanma selvagem. Pode ser usado para criar TMs."
+  },
+  "gligar-fang": {
+    "name": "Presa de Gligar",
+    "description": "Um material coletado de um Gligar selvagem. Pode ser usado para criar TMs."
+  },
+  "slugma-lava": {
+    "name": "Lava de Slugma",
+    "description": "Um material coletado de um Slugma selvagem. Pode ser usado para criar TMs."
+  },
+  "swinub-hair": {
+    "name": "Cabelo de Swinub",
+    "description": "Um material coletado de um Swinub selvagem. Pode ser usado para criar TMs."
+  },
+  "poochyena-fang": {
+    "name": "Presa de Poochyena",
+    "description": "Um material coletado de um Poochyena selvagem. Pode ser usado para criar TMs."
+  },
+  "lotad-leaf": {
+    "name": "Folha de Lotad",
+    "description": "Um material coletado de um Lotad selvagem. Pode ser usado para criar TMs."
+  },
+  "seedot-stem": {
+    "name": "Caule de Seedot",
+    "description": "Um material coletado de um Seedot selvagem. Pode ser usado para criar TMs."
+  },
+  "nosepass-fragment": {
+    "name": "Fragmento de Nosepass",
+    "description": "Um material coletado de um Nosepass selvagem. Pode ser usado para criar TMs."
+  },
+  "volbeat-fluid": {
+    "name": "Fluido de Volbeat",
+    "description": "Um material coletado de um Volbeat selvagem. Pode ser usado para criar TMs."
+  },
+  "illumise-fluid": {
+    "name": "Fluido de Illumise",
+    "description": "Um material coletado de um Illumise selvagem. Pode ser usado para criar TMs."
+  },
+  "corphish-shell": {
+    "name": "Concha de Corphish",
+    "description": "Um material coletado de um Corphish selvagem. Pode ser usado para criar TMs."
+  },
+  "duskull-fragment": {
+    "name": "Fragmento de Duskull",
+    "description": "Um material coletado de um Duskull selvagem. Pode ser usado para criar TMs."
+  },
+  "chingling-fragment": {
+    "name": "Fragmento de Chingling",
+    "description": "Um material coletado de um Chingling selvagem. Pode ser usado para criar TMs."
+  },
+  "timburr-sweat": {
+    "name": "Suor de Timburr",
+    "description": "Um material coletado de um Timburr selvagem. Pode ser usado para criar TMs."
+  },
+  "sewaddle-leaf": {
+    "name": "Folha de Sewaddle",
+    "description": "Um material coletado de um Sewaddle selvagem. Pode ser usado para criar TMs."
+  },
+  "litwick-soot": {
+    "name": "Fuligem de Litwick",
+    "description": "Um material coletado de um Litwick selvagem. Pode ser usado para criar TMs."
+  },
+  "mienfoo-claw": {
+    "name": "Garra de Mienfoo",
+    "description": "Um material coletado de um Mienfoo selvagem. Pode ser usado para criar TMs."
+  },
+  "vullaby-feather": {
+    "name": "Pena de Vullaby",
+    "description": "Um material coletado de um Vullaby selvagem. Pode ser usado para criar TMs."
+  },
+  "phantump-twig": {
+    "name": "Graveto de Phantump",
+    "description": "Um material coletado de um Phantump selvagem. Pode ser usado para criar TMs."
+  },
+  "grubbin-thread": {
+    "name": "Fio de Grubbin",
+    "description": "Um material coletado de um Grubbin selvagem. Pode ser usado para criar TMs."
+  },
+  "cutiefly-powder": {
+    "name": "Pó de Cutiefly",
+    "description": "Um material coletado de um Cutiefly selvagem. Pode ser usado para criar TMs."
+  },
+  "jangmo-o-scales": {
+    "name": "Escamas de Jangmo O",
+    "description": "Um material coletado de um Jangmo O selvagem. Pode ser usado para criar TMs."
+  },
+  "cramorant-down": {
+    "name": "Plumagem de Cramorant",
+    "description": "Um material coletado de um Cramorant selvagem. Pode ser usado para criar TMs."
+  },
+  "morpeko-snack": {
+    "name": "Lanche de Morpeko",
+    "description": "Um material coletado de um Morpeko selvagem. Pode ser usado para criar TMs."
+  },
+  "poltchageist-powder": {
+    "name": "Pó de Poltchageist",
+    "description": "Um material coletado de um Poltchageist selvagem. Pode ser usado para criar TMs."
+  }
+}

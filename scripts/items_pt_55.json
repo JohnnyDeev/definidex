@@ -1,0 +1,10 @@
+{
+    "trainer-monitor": {
+        "name": "Monitor de Treinador",
+        "description": "Um painel que exibe informações e recordes pessoais do treinador."
+    },
+    "transition-monitor": {
+        "name": "Monitor de Transição",
+        "description": "Um dispositivo que gerencia a troca de fluxos de dados entre sistemas."
+    }
+}

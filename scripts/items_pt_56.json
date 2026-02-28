@@ -1,0 +1,38 @@
+{
+    "tri-pass": {
+        "name": "Passe Tri",
+        "description": "Um passe que permite viajar para as One, Two e Three Islands em Kento."
+    },
+    "tricky-pouch": {
+        "name": "Bolsa Trapaceira",
+        "description": "Item Pokémon: Bolsa Trapaceira."
+    },
+    "tropical-shell": {
+        "name": "Concha Tropical",
+        "description": "Uma concha bonita e colorida encontrada em praias tropicais de Alola."
+    },
+    "tr-pouch": {
+        "name": "Bolsa TR",
+        "description": "Uma bolsa prática para guardar e organizar seus Registros Técnicos (TRs)."
+    },
+    "truffle": {
+        "name": "Trufa",
+        "description": "Uma trufa rara e aromática usada como ingrediente especial em piqueniques."
+    },
+    "trupm-z--bag": {
+        "name": "Trupm Z (Bolsa)",
+        "description": "Item Pokémon: Trupm Z (Bolsa)."
+    },
+    "tsareena-candy": {
+        "name": "Doce de Tsareena",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "turtonator-candy": {
+        "name": "Doce de Turtonator",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "turtonator-shell": {
+        "name": "Casca de Turtonator",
+        "description": "Um pedaço da carapaça explosiva e resistente de um Turtonator. Usado como material."
+    }
+}

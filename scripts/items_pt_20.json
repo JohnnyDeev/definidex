@@ -1,0 +1,66 @@
+{
+    "nacli-salt": {
+        "name": "Sal de Nacli",
+        "description": "Cristal de sal pura coletado de um Nacli. Usado como material."
+    },
+    "nacli-texture": {
+        "name": "Textura de Nacli",
+        "description": "Item Pokémon: Textura de Nacli."
+    },
+    "nanab-berry": {
+        "name": "Fruta Nanab",
+        "description": "Uma fruta que o Pokémon pode segurar para acalmar seus movimentos em Alola."
+    },
+    "natural-pouch": {
+        "name": "Bolsa Natural",
+        "description": "Item Pokémon: Bolsa Natural."
+    },
+    "nature-card": {
+        "name": "Cartão da Natureza",
+        "description": "Um cartão que celebra a beleza do mundo natural Pokémon."
+    },
+    "nebula-series-pouch": {
+        "name": "Bolsa da Série Nebulosa",
+        "description": "Item Pokémon: Bolsa da Série Nebulosa."
+    },
+    "never-melt-ice": {
+        "name": "Gelo Eterno",
+        "description": "Um pedaço de gelo que nunca derrete e aumenta o poder de ataques do tipo Gelo."
+    },
+    "next-series-pouch": {
+        "name": "Bolsa da Série Próxima",
+        "description": "Item Pokémon: Bolsa da Série Próxima."
+    },
+    "nest-ball": {
+        "name": "Ninho Bola",
+        "description": "Uma Poké Bola que funciona melhor em Pokémon selvagens de nível baixo."
+    },
+    "net-ball": {
+        "name": "Rede Bola",
+        "description": "Uma Poké Bola que funciona melhor em Pokémon do tipo Água ou Inseto."
+    },
+    "nitro-pouch": {
+        "name": "Bolsa Nitro",
+        "description": "Item Pokémon: Bolsa Nitro."
+    },
+    "no-color-mail": {
+        "name": "Carta Sem Cor",
+        "description": "Papel de carta minimalista sem estampas coloridas."
+    },
+    "no-pouch": {
+        "name": "Sem Bolsa",
+        "description": "Indica a ausência de uma bolsa equipada."
+    },
+    "noblesse-series-pouch": {
+        "name": "Bolsa da Série Nobreza",
+        "description": "Item Pokémon: Bolsa da Série Nobreza."
+    },
+    "noibat-fur": {
+        "name": "Pelo de Noibat",
+        "description": "Pelo escuro e macio de uma orelha de Noibat. Usado como material."
+    },
+    "nomel-berry": {
+        "name": "Fruta Nomel",
+        "description": "Uma fruta muito azeda que atrai certos Pokémon selvagens."
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "target-card": {
+        "name": "Cartão Alvo",
+        "description": "Um cartão que marca o objetivo principal de uma missão de busca."
+    },
+    "tasug-berry": {
+        "name": "Fruta Tasug",
+        "description": "Item Pokémon: Fruta Tasug."
+    },
+    "tatsugiri-scales": {
+        "name": "Escamas de Tatsugiri",
+        "description": "Escamas pequenas e coloridas de um Tatsugiri. Usadas como material."
+    },
+    "tauros-candy": {
+        "name": "Doce de Tauros",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "tauros-hair": {
+        "name": "Pelo de Tauros",
+        "description": "Pelo rígido e resistente de um Tauros. Usado como material."
+    },
+    "tea-break-pouch": {
+        "name": "Bolsa de Hora do Chá",
+        "description": "Item Pokémon: Bolsa de Hora do Chá."
+    }
+}

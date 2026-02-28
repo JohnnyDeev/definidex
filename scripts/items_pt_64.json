@@ -1,0 +1,114 @@
+{
+    "yache-berry": {
+        "name": "Fruta Yache",
+        "description": "Enfraquece um ataque de Gelo super efetivo recebido pelo portador."
+    },
+    "yamask-candy": {
+        "name": "Doce de Yamask",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "yellow-apricorn": {
+        "name": "Apricorn Amarelo",
+        "description": "Um apricorn amarelo com uma casca rugosa e brilhante."
+    },
+    "yellow-flute": {
+        "name": "Flauta Amarela",
+        "description": "Uma flauta de vidro que cura o Pokémon do estado de confusão."
+    },
+    "yellow-nectar": {
+        "name": "Néctar Amarelo",
+        "description": "Néctar de flores amarelas. Muda Oricorio para o Estilo Pom-Pom."
+    },
+    "yellow-petal": {
+        "name": "Pétala Amarela",
+        "description": "Uma das pétalas necessárias para completar a Flor de Sete Cores."
+    },
+    "yellow-pobox": {
+        "name": "Caixa de Correio Amarela",
+        "description": "Uma caixa de correio com um design amarelo vibrante."
+    },
+    "yellow-shard": {
+        "name": "Estilhaço Amarelo",
+        "description": "Um pequeno pedaço de uma ferramenta antiga de cor amarela. Pode ser trocado."
+    },
+    "yellow-ver-monitor": {
+        "name": "Monitor Versão Amarela",
+        "description": "Um dispositivo que exibe dados temáticos da versão clássica Yellow."
+    },
+    "y-pouch": {
+        "name": "Bolsa Y",
+        "description": "Item Pokémon: Bolsa Y."
+    },
+    "yoshi-autograph": {
+        "name": "Autógrafo do Yoshi",
+        "description": "Um autógrafo de um treinador lendário especialista em dragões."
+    },
+    "yungoos-fur": {
+        "name": "Pelo de Yungoos",
+        "description": "Pelo marrom e eriçado de um Yungoos. Usado como material."
+    },
+    "zapdos-candy": {
+        "name": "Doce de Zapdos",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "zarude-candy": {
+        "name": "Doce de Zarude",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "z-crystal-pouch": {
+        "name": "Bolsa de Cristais Z",
+        "description": "Estojo especial para carregar e organizar seus Cristais Z de Alola."
+    },
+    "z-power-ring": {
+        "name": "Anel de Poder Z",
+        "description": "Um bracelete que permite usar o poder dos cristais para executar Z-Moves."
+    },
+    "z-ring": {
+        "name": "Anel Z",
+        "description": "Um bracelete que brilha com o poder de Alola. Necessário para Z-Moves."
+    },
+    "zekrom-candy": {
+        "name": "Doce de Zekrom",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "zeraora-candy": {
+        "name": "Doce de Zeraora",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "zinc": {
+        "name": "Zinco",
+        "description": "Um suplemento que aumenta permanentemente a Defesa Especial de um Pokémon."
+    },
+    "zinc-candy": {
+        "name": "Doce de Zinco",
+        "description": "Doce energético que aumenta a Defesa Especial de certos Pokémon."
+    },
+    "zo-autograph": {
+        "name": "Autógrafo da Zo",
+        "description": "Um autógrafo de uma treinadora especialista em coordenação."
+    },
+    "zoom-lens": {
+        "name": "Lente de Zoom",
+        "description": "Aumenta a precisão se o portador atacar depois do alvo."
+    },
+    "zorua-candy": {
+        "name": "Doce de Zorua",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "zorua-fur": {
+        "name": "Pelo de Zorua",
+        "description": "Pelo cinza e sombrio de um Zorua. Usado como material."
+    },
+    "z-pouch": {
+        "name": "Bolsa Z",
+        "description": "Item Pokémon: Bolsa Z."
+    },
+    "zubat-candy": {
+        "name": "Doce de Zubat",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "zubat-fang": {
+        "name": "Presa de Zubat",
+        "description": "Uma pequena presa afiada de um Zubat. Usada como material."
+    }
+}

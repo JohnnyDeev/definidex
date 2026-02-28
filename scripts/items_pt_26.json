@@ -1,0 +1,130 @@
+{
+    "pichu-candy": {
+        "name": "Doce de Pichu",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "pidgey-candy": {
+        "name": "Doce de Pidgey",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "pidgeotite": {
+        "name": "Pidgeotite",
+        "description": "Uma Mega Stone que permite que Pidgeot Megaevolua durante a batalha."
+    },
+    "pickaxe": {
+        "name": "Picareta",
+        "description": "Uma ferramenta de mineração para quebrar rochas e encontrar minérios."
+    },
+    "picnic-basket": {
+        "name": "Cesta de Piquenique",
+        "description": "Uma cesta contendo tudo o que você precisa para um piquenique com seus Pokémon."
+    },
+    "pi-mail": {
+        "name": "Carta Pi",
+        "description": "Papel de carta com estampa de fórmulas matemáticas e símbolos."
+    },
+    "pikachu-candy": {
+        "name": "Doce de Pikachu",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "pikachu-tm-case": {
+        "name": "Estojo de TMs Pikachu",
+        "description": "Um estojo de TMs com o desenho de um Pikachu sorridente."
+    },
+    "pikashunium-z--bag": {
+        "name": "Pikashunium Z (Bolsa)",
+        "description": "Converte o Thunderbolt de um Pikachu com chapéu em seu ataque Z em Alola."
+    },
+    "pikashunium-z--held": {
+        "name": "Pikashunium Z (Segurado)",
+        "description": "Permite que um Pikachu com chapéu execute o ataque Z: 10,000,000 Volt Thunderbolt."
+    },
+    "pikanium-z--bag": {
+        "name": "Pikanium Z (Bolsa)",
+        "description": "Converte o Volt Tackle de Pikachu em seu ataque Z em Alola."
+    },
+    "pikanium-z--held": {
+        "name": "Pikanium Z (Segurado)",
+        "description": "Permite que Pikachu execute seu ataque Z exclusivo: Catastropika."
+    },
+    "pinap-berry": {
+        "name": "Fruta Pinap",
+        "description": "Uma fruta que o Pokémon pode segurar para dobrar o ganho de Doces ao ser capturado."
+    },
+    "pineco-shell": {
+        "name": "Casca de Pineco",
+        "description": "Casca de árvore que cobre o corpo de um Pineco. Usada como material."
+    },
+    "pincurchin-spines": {
+        "name": "Espinhos de Pincurchin",
+        "description": "Espinhos pretos e afiados de um Pincurchin. Usados como material."
+    },
+    "pink-apricorn": {
+        "name": "Apricorn Rosa",
+        "description": "Um apricorn rosa com um aroma doce de flores."
+    },
+    "pink-balloon": {
+        "name": "Balão Rosa",
+        "description": "Um balão decorativo rosa para eventos festivos."
+    },
+    "pink-nectar": {
+        "name": "Néctar Rosa",
+        "description": "Um néctar de flores cor-de-rosa. Muda Oricorio para o Estilo Pa'u."
+    },
+    "pink-petal": {
+        "name": "Pétala Rosa",
+        "description": "Uma das pétalas necessárias para completar a Flor de Sete Cores."
+    },
+    "pink-scarf": {
+        "name": "Lenço Rosa",
+        "description": "Um lenço que aumenta a Beleza (Beauty) do Pokémon em concursos."
+    },
+    "pink-shard": {
+        "name": "Estilhaço Rosa",
+        "description": "Um pequeno pedaço de uma ferramenta antiga de cor rosa. Pode ser trocado."
+    },
+    "pinsirite": {
+        "name": "Pinsirite",
+        "description": "Uma Mega Stone que permite que Pinsir Megaevolua durante a batalha."
+    },
+    "pixie-plate": {
+        "name": "Placa de Fada",
+        "description": "Uma tábua de pedra que aumenta o poder de ataques do tipo Fada."
+    },
+    "plasma-card": {
+        "name": "Cartão Plasma",
+        "description": "Um cartão de acesso usado pelos membros da Equipe Plasma."
+    },
+    "plus-pouch": {
+        "name": "Bolsa Plus",
+        "description": "Item Pokémon: Bolsa Plus."
+    },
+    "poison-gem": {
+        "name": "Gema Venenosa",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Veneno."
+    },
+    "poison-memory": {
+        "name": "Memória Venenosa",
+        "description": "Um drive de memória com dados do tipo Venenoso para Silvally."
+    },
+    "poison-tera-shard": {
+        "name": "Estilhaço Tera Veneno",
+        "description": "Cristal com energia Tera Venenosa. Muda o Tera Tipo de um Pokémon."
+    },
+    "poison-z": {
+        "name": "Poison Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Veneno."
+    },
+    "poisonium-z--bag": {
+        "name": "Poisonium Z (Bolsa)",
+        "description": "Converte golpes do tipo Veneno em Z-Moves de Veneno em Alola."
+    },
+    "poisonium-z--held": {
+        "name": "Poisonium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Veneno: Acid Downpour."
+    },
+    "pokerus-monitor": {
+        "name": "Monitor de Pokérus",
+        "description": "Um dispositivo que detecta e monitora a presença do vírus Pokérus no seu grupo."
+    }
+}

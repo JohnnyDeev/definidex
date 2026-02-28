@@ -1,0 +1,106 @@
+{
+    "rabuta-berry": {
+        "name": "Fruta Rabuta",
+        "description": "Ingrediente para Pokébloquinhos. Tem um sabor amargo e seco."
+    },
+    "ra-autograph": {
+        "name": "Autógrafo de Ra",
+        "description": "Um autógrafo de um treinador de Pokémon solares."
+    },
+    "rad-berry": {
+        "name": "Fruta Rad",
+        "description": "Item Pokémon: Fruta Rad."
+    },
+    "radiant-petal": {
+        "name": "Pétala Radiante",
+        "description": "Uma pétala que emite um brilho suave e místico."
+    },
+    "rage-ball": {
+        "name": "Fúria Bola",
+        "description": "Uma Poké Bola que funciona melhor se o alvo tiver sofrido dano."
+    },
+    "rage-candy-bar": {
+        "name": "Barra de Fúria",
+        "description": "Especialidade de Mahogany Town. Cura todos os problemas de status."
+    },
+    "rail-pass": {
+        "name": "Passe de Trem",
+        "description": "Um passe que permite viajar de trem entre diferentes regiões."
+    },
+    "rainbow-candy": {
+        "name": "Doce Arco-Íris",
+        "description": "Um doce colorido que concede uma pequena quantidade de XP a qualquer Pokémon."
+    },
+    "rainbow-flower": {
+        "name": "Flor Arco-Íris",
+        "description": "Uma flor lendária cujas pétalas brilham em sete cores diferentes."
+    },
+    "rainbow-pass": {
+        "name": "Passe Arco-Íris",
+        "description": "Um passe que permite viajar para as One, Two e Three Islands."
+    },
+    "rainbow-wing": {
+        "name": "Asa Arco-Íris",
+        "description": "Uma asa brilhante que dizem ter caído do lendário Ho-Oh."
+    },
+    "ralts-candy": {
+        "name": "Doce de Ralts",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "ralts-dust": {
+        "name": "Poeira de Ralts",
+        "description": "Pó brilhante e fino deixado por um Ralts. Usado como material."
+    },
+    "rapid-series-pouch": {
+        "name": "Bolsa da Série Rápida",
+        "description": "Item Pokémon: Bolsa da Série Rápida."
+    },
+    "rare-bone": {
+        "name": "Osso Raro",
+        "description": "Um osso muito raro e antigo que pode ser vendido por um bom preço."
+    },
+    "rare-candy": {
+        "name": "Doce Raro",
+        "description": "Um doce energético que aumenta o nível de um Pokémon em exatamente um."
+    },
+    "rash-mint": {
+        "name": "Menta Arrojada",
+        "description": "Faz com que o Atq. Esp. cresça mais rápido, mas a Def. Esp. cresça mais devagar."
+    },
+    "rawst-berry": {
+        "name": "Fruta Rawst",
+        "description": "Uma fruta que o Pokémon pode comer para curar queimaduras."
+    },
+    "razork-claw": {
+        "name": "Garra Afiada",
+        "description": "Aumenta a taxa de acerto crítico e permite que Sneasel evolua à noite."
+    },
+    "razor-claw": {
+        "name": "Garra Afiada",
+        "description": "Aumenta a taxa de acerto crítico e permite que Sneasel evolua à noite."
+    },
+    "razor-claw--held": {
+        "name": "Garra Afiada (Segurado)",
+        "description": "Aumenta a taxa de acerto crítico do portador."
+    },
+    "razor-claw--bag": {
+        "name": "Garra Afiada (Bolsa)",
+        "description": "Uma garra afiada e curvada."
+    },
+    "razor-fang": {
+        "name": "Presa Afiada",
+        "description": "Pode causar recuo no oponente ao atacar. Evolui Gligar à noite."
+    },
+    "razor-fang--held": {
+        "name": "Presa Afiada (Segurado)",
+        "description": "Pode causar recuo no oponente se o portador atacar."
+    },
+    "razor-fang--bag": {
+        "name": "Presa Afiada (Bolsa)",
+        "description": "Uma presa afiada e temível."
+    },
+    "razz-berry": {
+        "name": "Fruta Razz",
+        "description": "Uma fruta que o Pokémon pode segurar para facilitar sua captura em Alola."
+    }
+}

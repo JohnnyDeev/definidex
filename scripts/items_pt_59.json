@@ -1,0 +1,54 @@
+{
+    "vac-monitor": {
+        "name": "Monitor de Vácuo",
+        "description": "Um painel que gerencia condições de pressão zero em laboratórios espaciais."
+    },
+    "vaporeon-candy": {
+        "name": "Doce de Vaporeon",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "vaporeon-steam": {
+        "name": "Vapor de Vaporeon",
+        "description": "Item Pokémon: Vapor de Vaporeon."
+    },
+    "veluza-fillet": {
+        "name": "Filé de Veluza",
+        "description": "Um pedaço de filé fresco e firme de um Veluza. Usado como material."
+    },
+    "venusaur-candy": {
+        "name": "Doce de Venusaur",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "venusaurite": {
+        "name": "Venusaurite",
+        "description": "Uma Mega Stone que permite que Venusaur Megaevolua durante a batalha."
+    },
+    "vial-pouch": {
+        "name": "Bolsa de Frascos",
+        "description": "Uma bolsa reforçada para carregar frascos de vidro e amostras líquidas."
+    },
+    "vincent-autograph": {
+        "name": "Autógrafo do Vincent",
+        "description": "Um autógrafo de um treinador especialista em Pokémon de metal."
+    },
+    "vinegar": {
+        "name": "Vinagre",
+        "description": "Vinagre branco usado como ingrediente em piqueniques."
+    },
+    "viole-pobox": {
+        "name": "Caixa de Correio Violeta",
+        "description": "Uma caixa de correio com um design violeta moderno."
+    },
+    "violet-apricorn": {
+        "name": "Apricorn Violeta",
+        "description": "Um apricorn violeta com uma superfície lisa e brilhante."
+    },
+    "virtue-pouch": {
+        "name": "Bolsa da Virtude",
+        "description": "Item Pokémon: Bolsa da Virtude."
+    },
+    "vital-herb": {
+        "name": "Erva Vital",
+        "description": "Uma erva medicinal potente que cura todos os problemas de status do Pokémon."
+    }
+}

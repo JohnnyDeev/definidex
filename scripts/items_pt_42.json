@@ -1,0 +1,102 @@
+{
+    "sprite-monitor": {
+        "name": "Monitor de Sprites",
+        "description": "Um dispositivo que exibe a aparência visual dos Pokémon em diferentes formas."
+    },
+    "square-cup": {
+        "name": "Copo Quadrado",
+        "description": "Um copo de plástico com design quadrado para piqueniques."
+    },
+    "ss-ticket": {
+        "name": "Bilhete do S.S.",
+        "description": "Um bilhete de embarque necessário para o cruzeiro S.S. Anne em Kanto."
+    },
+    "stacking-cup": {
+        "name": "Copo Empilhável",
+        "description": "Um copo de plástico projetado para economia de espaço em piqueniques."
+    },
+    "standard-pouch": {
+        "name": "Bolsa Padrão",
+        "description": "Uma bolsa de tamanho padrão resistente para uso diário."
+    },
+    "standard-ticket": {
+        "name": "Bilhete Padrão",
+        "description": "Um bilhete que concede acesso a áreas e serviços comuns."
+    },
+    "stan-autograph": {
+        "name": "Autógrafo do Stan",
+        "description": "Um autógrafo de um colecionador de Pokémon experiente."
+    },
+    "star-piece": {
+        "name": "Pedaço de Estrela",
+        "description": "Um fragmento de uma joia vermelha e brilhante. Pode ser vendido caro."
+    },
+    "star-series-pouch": {
+        "name": "Bolsa da Série Estrela",
+        "description": "Item Pokémon: Bolsa da Série Estrela."
+    },
+    "star-sweet": {
+        "name": "Doce de Estrela",
+        "description": "Um doce em forma de estrela. Faz Milcery girar feliz ao segurá-lo."
+    },
+    "stardust": {
+        "name": "Poeira Estelar",
+        "description": "Poeira vermelha e fina com um brilho suave. Pode ser vendida por um bom preço."
+    },
+    "starf-berry": {
+        "name": "Fruta Starf",
+        "description": "Uma fruta rara que aumenta muito um atributo aleatório em uma emergência."
+    },
+    "starmie-candy": {
+        "name": "Doce de Starmie",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "staryu-candy": {
+        "name": "Doce de Staryu",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "stationary-pouch": {
+        "name": "Bolsa de Papelaria",
+        "description": "Uma bolsa reforçada para carregar cartas, selos e canetas."
+    },
+    "stat-boost-pouch": {
+        "name": "Bolsa de Aumento de Stats",
+        "description": "Pequena bolsa para organizar itens que melhoram os atributos dos Pokémon."
+    },
+    "state-monitor": {
+        "name": "Monitor de Estado",
+        "description": "Um painel que exibe a condição atual de todos os sistemas de monitoramento."
+    },
+    "steam-series-pouch": {
+        "name": "Bolsa da Série Vapor",
+        "description": "Item Pokémon: Bolsa da Série Vapor."
+    },
+    "steel-gem": {
+        "name": "Gema de Aço",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Aço."
+    },
+    "steel-memory": {
+        "name": "Memória de Aço",
+        "description": "Um drive de memória com dados do tipo Metálico para Silvally."
+    },
+    "steel-tera-shard": {
+        "name": "Estilhaço Tera Aço",
+        "description": "Cristal com energia Tera de Aço. Muda o Tera Tipo de um Pokémon."
+    },
+    "steel-z": {
+        "name": "Steel Z",
+        "description": "Cristal que converte o poder Z em ataques do tipo Aço."
+    },
+    "steelium-z--bag": {
+        "name": "Steelium Z (Bolsa)",
+        "description": "Converte golpes do tipo Aço em Z-Moves de Aço em Alola."
+    },
+    "steelium-z--held": {
+        "name": "Steelium Z (Segurado)",
+        "description": "Permite que o Pokémon use o ataque Z do tipo Aço: Corkscrew Crash."
+    },
+    "steelixite": {
+        "name": "Steelixite",
+        "description": "Uma Mega Stone que permite que Steelix Megaevolua durante a batalha."
+    }
+}

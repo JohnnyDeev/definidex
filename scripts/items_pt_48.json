@@ -1,0 +1,30 @@
+{
+    "terrain-extender": {
+        "name": "Extensor de Campo",
+        "description": "Aumenta a duração dos efeitos de campo (como Electric Terrain) para 8 turnos."
+    },
+    "teru-sama": {
+        "name": "Teru-sama",
+        "description": "Um item misterioso e sem uso programado. Parece ser um resquício de desenvolvimento."
+    },
+    "test-card": {
+        "name": "Cartão de Teste",
+        "description": "Um cartão usado para calibrar sistemas de leitura eletrônica."
+    },
+    "thanks-mail": {
+        "name": "Carta de Agradecimento",
+        "description": "Papel de carta com estampa de flores e a palavra 'Obrigado' em destaque."
+    },
+    "thick-club": {
+        "name": "Clava Grossa",
+        "description": "Um osso duro e pesado que dobra o Ataque de Cubone e Marowak quando segurado."
+    },
+    "thick-monitor": {
+        "name": "Monitor Pesado",
+        "description": "Um monitor industrial feito de materiais muito resistentes."
+    },
+    "therian-pouch": {
+        "name": "Bolsa Therian",
+        "description": "Item Pokémon: Bolsa Therian."
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "poke-ball": {
+        "name": "Poké Bola",
+        "description": "Um dispositivo de captura de Pokémon básico. Serve para capturar Pokémon selvagens."
+    },
+    "poke-doll": {
+        "name": "Boneco Pokémon",
+        "description": "Um boneco fofinho que permite fugir com certeza de uma batalha selvagem."
+    },
+    "poke-flute": {
+        "name": "Poké Flauta",
+        "description": "Uma flauta que emite um som agudo capaz de acordar qualquer Pokémon dormindo."
+    },
+    "poke-radar": {
+        "name": "Poké Radar",
+        "description": "Um dispositivo que detecta Pokémon escondidos na grama alta."
+    },
+    "poke-toy": {
+        "name": "Brinquedo Pokémon",
+        "description": "Um item básico para distrair Pokémon selvagens e fugir da batalha."
+    },
+    "pokedex": {
+        "name": "Pokédex",
+        "description": "Uma enciclopédia eletrônica que registra automaticamente dados de Pokémon vistos ou capturados."
+    },
+    "pokemon-box-link": {
+        "name": "Link da Pokébox",
+        "description": "Um dispositivo que permite acessar seus boxes de Pokémon de quase qualquer lugar."
+    },
+    "polkadot-cup": {
+        "name": "Copo de Bolinhas",
+        "description": "Um copo de plástico com estampa de bolinhas coloridas para piqueniques."
+    },
+    "polteageist-chip": {
+        "name": "Lasca de Polteageist",
+        "description": "Uma lasca de cerâmica de um bule de Polteageist. Usada como material."
+    },
+    "pomeg-berry": {
+        "name": "Fruta Pomeg",
+        "description": "Torna o Pokémon mais amigável, mas reduz os pontos base de HP."
+    },
+    "ponyta-candy": {
+        "name": "Doce de Ponyta",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "poochyena-candy": {
+        "name": "Doce de Poochyena",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "pop-series-pouch": {
+        "name": "Bolsa da Série Pop",
+        "description": "Item Pokémon: Bolsa da Série Pop."
+    },
+    "porygon-candy": {
+        "name": "Doce de Porygon",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "potion": {
+        "name": "Poção",
+        "description": "Um spray medicinal que recupera 20 pontos de HP de um Pokémon."
+    },
+    "pouch": {
+        "name": "Bolsa",
+        "description": "Uma bolsa de tamanho médio para carregar itens diversos."
+    }
+}

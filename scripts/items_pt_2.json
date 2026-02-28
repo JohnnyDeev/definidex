@@ -1,0 +1,226 @@
+{
+    "berry-sweet": {
+        "name": "Doce de Fruta",
+        "description": "Um doce em forma de fruta. Faz Milcery girar feliz ao segurá-lo."
+    },
+    "bicycle": {
+        "name": "Bicicleta",
+        "description": "Uma bicicleta dobrável que permite mover-se muito mais rápido."
+    },
+    "big-bamboo-shoot": {
+        "name": "Broto de Bambu Grande",
+        "description": "Um broto de bambu grande e nutritivo usado em piqueniques."
+    },
+    "big-malasada": {
+        "name": "Big Malasada",
+        "description": "Especialidade de Alola. Cura todos os problemas de status."
+    },
+    "big-mushroom": {
+        "name": "Cogumelo Grande",
+        "description": "Um cogumelo raro que pode ser vendido por um bom preço."
+    },
+    "big-nugget": {
+        "name": "Pepita Grande",
+        "description": "Uma pepita de ouro puro e brilhante. Vendida por um preço muito alto."
+    },
+    "big-pearl": {
+        "name": "Pérola Grande",
+        "description": "Uma pérola grande e bonita que pode ser vendida caro."
+    },
+    "big-root": {
+        "name": "Raiz Grande",
+        "description": "Aumenta a quantidade de HP recuperado por golpes de drenagem."
+    },
+    "bike--green": {
+        "name": "Bicicleta (Verde)",
+        "description": "Uma bicicleta dobrável verde para viajar rápido."
+    },
+    "bike--yellow": {
+        "name": "Bicicleta (Amarela)",
+        "description": "Uma bicicleta dobrável amarela para viajar rápido."
+    },
+    "bike-voucher": {
+        "name": "Cupom de Bicicleta",
+        "description": "Um cupom que pode ser trocado por uma bicicleta em uma loja."
+    },
+    "binding-band": {
+        "name": "Faixa de Ligação",
+        "description": "Uma faixa que aumenta o dano de golpes que prendem o oponente."
+    },
+    "bitter-herba-mystica": {
+        "name": "Erva Mística Amarga",
+        "description": "Uma erva mística amarga usada em sanduíches especiais."
+    },
+    "black-apricorn": {
+        "name": "Apricorn Preto",
+        "description": "Um apricorn preto com um cheiro indescritível."
+    },
+    "black-augurite": {
+        "name": "Augurite Preta",
+        "description": "Uma pedra vítrea que faz certos Pokémon evoluírem."
+    },
+    "black-belt": {
+        "name": "Faixa Preta",
+        "description": "Uma faixa que ajuda na determinação, aumentando o poder de golpes Lutador."
+    },
+    "black-flute": {
+        "name": "Flauta Preta",
+        "description": "Uma flauta de vidro preto que afasta Pokémon selvagens."
+    },
+    "black-glasses": {
+        "name": "Óculos Pretos",
+        "description": "Óculos escuros de aparência suspeita que aumentam golpes Sombrios."
+    },
+    "black-mane-hair": {
+        "name": "Pelo de Crina Preta",
+        "description": "Pelo de uma crina preta e sombria. Usado como material."
+    },
+    "black-muck": {
+        "name": "Lodo Preto",
+        "description": "Recupera HP de venenosos, mas fere outros tipos a cada turno."
+    },
+    "black-sludge": {
+        "name": "Lodo Preto",
+        "description": "Recupera HP de tipo Veneno a cada turno, mas causa dano em outros tipos."
+    },
+    "blastoisinite": {
+        "name": "Blastoisinite",
+        "description": "Uma Mega Stone que permite que Blastoise Megaevolua durante a batalha."
+    },
+    "blazikenite": {
+        "name": "Blazikenite",
+        "description": "Uma Mega Stone que permite que Blaziken Megaevolua durante a batalha."
+    },
+    "blue-apricorn": {
+        "name": "Apricorn Azul",
+        "description": "Um apricorn azul com um aroma agradável."
+    },
+    "blue-flute": {
+        "name": "Flauta Azul",
+        "description": "Uma flauta de vidro azul que acorda Pokémon dormindo."
+    },
+    "blue-orb": {
+        "name": "Orbe Azul",
+        "description": "Um orbe antigo que emite um brilho azul profundo para Kyogre."
+    },
+    "blue-petal": {
+        "name": "Pétala Azul",
+        "description": "Uma das pétalas necessárias para completar a Flor de Sete Cores."
+    },
+    "blue-scarf": {
+        "name": "Lenço Azul",
+        "description": "Um lenço que aumenta a Beleza do Pokémon em concursos."
+    },
+    "blue-shard": {
+        "name": "Estilhaço Azul",
+        "description": "Um pequeno pedaço de uma ferramenta antiga. Pode ser trocado."
+    },
+    "bluk-berry": {
+        "name": "Fruta Bluk",
+        "description": "Ingrediente para Pokébloquinhos. Tem polpa escura que mancha."
+    },
+    "blunder-policy": {
+        "name": "Seguro de Falha",
+        "description": "Aumenta bruscamente a Velocidade se o Pokémon errar um golpe."
+    },
+    "bob-s-food-tin": {
+        "name": "Lata de Comida do Bob",
+        "description": "Ingrediente de Galar usado para cozinhar curry no acampamento."
+    },
+    "bonsly-tears": {
+        "name": "Lágrimas de Bonsly",
+        "description": "Pequenas gotas de choro de um Bonsly. Usadas como material."
+    },
+    "booster-energy": {
+        "name": "Cápsula de Energia",
+        "description": "Ativa a habilidade Paradoxal do Pokémon ao entrar em batalha."
+    },
+    "booty-mail": {
+        "name": "Carta do Tesouro",
+        "description": "Papel de carta com estampa de tesouro e moedas marinha."
+    },
+    "bottle-cap": {
+        "name": "Tampa de Garrafa",
+        "description": "Uma tampa prateada que pode ser usada para o Treinamento Hiper."
+    },
+    "bounsweet-sweat": {
+        "name": "Suor de Bounsweet",
+        "description": "Gotículas doces colhidas de um Bounsweet. Usado como material."
+    },
+    "brave-mint": {
+        "name": "Menta Brava",
+        "description": "Aumenta o Ataque, mas diminui a Velocidade."
+    },
+    "breakneck-blitz--physical": {
+        "name": "Ataque Turbulento (Físico)",
+        "description": "Z-Move do tipo Normal com poder total."
+    },
+    "breakneck-blitz--special": {
+        "name": "Ataque Turbulento (Especial)",
+        "description": "Dados de teste."
+    },
+    "brick-piece": {
+        "name": "Pedaço de Tijolo",
+        "description": "Um pedaço de tijolo de construção muito duro. Pode ser vendido."
+    },
+    "bridge-mail-d": {
+        "name": "Carta da Ponte (D)",
+        "description": "Papel de carta com a imagem da Ponte de Driftveil."
+    },
+    "bridge-mail-m": {
+        "name": "Carta da Ponte (M)",
+        "description": "Papel de carta com a imagem da Ponte Marvelous."
+    },
+    "bridge-mail-s": {
+        "name": "Carta da Ponte (S)",
+        "description": "Papel de carta com a imagem da Ponte Skyarrow."
+    },
+    "bridge-mail-t": {
+        "name": "Carta da Ponte (T)",
+        "description": "Papel de carta com a imagem da Ponte Tubeline."
+    },
+    "bridge-mail-v": {
+        "name": "Carta da Ponte (V)",
+        "description": "Papel de carta com a imagem da Ponte de Village."
+    },
+    "bright-powder": {
+        "name": "Pó Brilhante",
+        "description": "Uma poeira reluzente que diminui a precisão dos oponentes."
+    },
+    "bromhexine": {
+        "name": "Bromexina",
+        "description": "Suplemento que aumenta o atributo base de Defesa de um Pokémon."
+    },
+    "bronzer-texture": {
+        "name": "Textura de Bronze",
+        "description": "Item Pokémon: Textura de Bronze."
+    },
+    "bronze-cup": {
+        "name": "Copa de Bronze",
+        "description": "Uma taça de bronze dada a vencedores de torneios."
+    },
+    "bronzor-fragment": {
+        "name": "Fragmento de Bronzor",
+        "description": "Fragmento metálico de um Bronzor. Usado como material."
+    },
+    "buber-pouch": {
+        "name": "Bolsa Buber",
+        "description": "Item Pokémon: Bolsa Buber."
+    },
+    "bubble-mail": {
+        "name": "Carta de Bolhas",
+        "description": "Papel de carta com estampa de bolhas flutuantes."
+    },
+    "budew-seed": {
+        "name": "Semente de Budew",
+        "description": "Pequena muda de um Budew. Usada como material."
+    },
+    "bug-gem": {
+        "name": "Gema de Inseto",
+        "description": "Uma gema consumível que fortalece um golpe do tipo Inseto."
+    },
+    "bug-memory": {
+        "name": "Memória de Inseto",
+        "description": "Um drive de memória com dados do tipo Inseto para Silvally."
+    }
+}

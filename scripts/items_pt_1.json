@@ -1,0 +1,342 @@
+{
+    "ability-capsule": {
+        "name": "Cápsula de Habilidade",
+        "description": "Uma cápsula que permite a um Pokémon com duas Habilidades alternar entre elas."
+    },
+    "ability-patch": {
+        "name": "Patch de Habilidade",
+        "description": "Um patch que permite a um Pokémon trocar sua Habilidade comum por uma Habilidade Rara."
+    },
+    "ability-shield": {
+        "name": "Escudo de Habilidade",
+        "description": "Um escudo que impede que a Habilidade do portador seja alterada por outros Pokémon."
+    },
+    "ability-urge": {
+        "name": "Impulso de Habilidade",
+        "description": "Quando usado, ativa a Habilidade de um Pokémon aliado."
+    },
+    "abomasite": {
+        "name": "Abomasite",
+        "description": "Uma Mega Stone misteriosa. Permite que Abomasnow Megaevolua durante a batalha."
+    },
+    "abra-candy": {
+        "name": "Doce de Abra",
+        "description": "Um doce energético. Aumenta todos os atributos de certos Pokémon de uma vez."
+    },
+    "absolite": {
+        "name": "Absolite",
+        "description": "Uma Mega Stone misteriosa. Permite que Absol Megaevolua durante a batalha."
+    },
+    "absorb-bulb": {
+        "name": "Bulbo de Absorção",
+        "description": "Um bulbo consumível. Se atingido por Água, aumenta o Atq. Esp. do portador."
+    },
+    "academy-ball": {
+        "name": "Bola da Academia",
+        "description": "Uma Poké Bola especial da Academia feita para capturar Pokémon."
+    },
+    "academy-bottle": {
+        "name": "Garrafa da Academia",
+        "description": "Uma garrafa elegante com o logo da Academia."
+    },
+    "academy-cup": {
+        "name": "Copo da Academia",
+        "description": "Um copo de plástico resistente com o emblema da Academia."
+    },
+    "academy-tablecloth": {
+        "name": "Toalha da Academia",
+        "description": "Uma toalha de mesa de piquenique com as cores da Academia."
+    },
+    "acro-bike": {
+        "name": "Bicicleta de Acrobacia",
+        "description": "Uma bicicleta dobrável capaz de realizar saltos e empinar."
+    },
+    "adamant-crystal": {
+        "name": "Cristal de Adamante",
+        "description": "Um cristal brilhante que permite a Dialga mudar para sua Forma Origem."
+    },
+    "adamant-mint": {
+        "name": "Menta de Adamante",
+        "description": "Faz com que o Ataque cresça mais rápido, mas o Atq. Esp. cresça mais devagar."
+    },
+    "adamant-orb": {
+        "name": "Orbe de Adamante",
+        "description": "Um orbe brilhante para Dialga. Aumenta o poder de golpes Dragão e Aço."
+    },
+    "adrenaline-orb": {
+        "name": "Orbe de Adrenalina",
+        "description": "Faz Pokémon selvagens chamarem ajuda mais fácil. Aumenta Velocidade se intimidado."
+    },
+    "adventure-rules": {
+        "name": "Regras de Aventura",
+        "description": "Um livro com dicas essenciais para novos Treinadores em sua jornada."
+    },
+    "aerodactyl-candy": {
+        "name": "Doce de Aerodactyl",
+        "description": "Um doce energético. Aumenta todos os atributos de certos Pokémon de uma vez."
+    },
+    "aerodactylite": {
+        "name": "Aerodactylite",
+        "description": "Uma Mega Stone que permite que Aerodactyl Megaevolua durante a batalha."
+    },
+    "aggronite": {
+        "name": "Aggronite",
+        "description": "Uma Mega Stone que permite que Aggron Megaevolua durante a batalha."
+    },
+    "aguav-berry": {
+        "name": "Fruta Aguav",
+        "description": "Restaura HP quando baixo, mas pode causar confusão se o Pokémon não gostar."
+    },
+    "aipom-hair": {
+        "name": "Pelo de Aipom",
+        "description": "Um tufo de pelo macio deixado por um Aipom. Usado como material."
+    },
+    "air-balloon": {
+        "name": "Balão de Ar",
+        "description": "Faz o portador flutuar, ficando imune a golpes Terrestres até o balão estourar."
+    },
+    "air-mail": {
+        "name": "Carta Aérea",
+        "description": "Papel de carta para mensagens. Pode ser entregue por um Pokémon."
+    },
+    "alakazite": {
+        "name": "Alakazite",
+        "description": "Uma Mega Stone que permite que Alakazam Megaevolua durante a batalha."
+    },
+    "alomomola-mucus": {
+        "name": "Muco de Alomomola",
+        "description": "Muco viscoso deixado por uma Alomomola. Usado como material."
+    },
+    "aloraichium-z--bag": {
+        "name": "Aloraichium Z (Bolsa)",
+        "description": "Cristal que converte o Thunderbolt do Raichu de Alola em seu Z-Move exclusivo."
+    },
+    "aloraichium-z--held": {
+        "name": "Aloraichium Z (Segurado)",
+        "description": "Cristal para Raichu de Alola usar seu ataque Z exclusivo: Stoked Sparksurfer."
+    },
+    "altarianite": {
+        "name": "Altarianite",
+        "description": "Uma Mega Stone que permite que Altaria Megaevolua durante a batalha."
+    },
+    "amaze-mulch": {
+        "name": "Adubo Incrível",
+        "description": "Adubo para Berries que combina os efeitos de crescimento, surpresa e fartura."
+    },
+    "ampharosite": {
+        "name": "Ampharosite",
+        "description": "Uma Mega Stone que permite que Ampharos Megaevolua durante a batalha."
+    },
+    "amulet-coin": {
+        "name": "Moeda de Amuleto",
+        "description": "Dobra o dinheiro recebido na batalha se o portador participar dela."
+    },
+    "antidote": {
+        "name": "Antídoto",
+        "description": "Um spray para curar o envenenamento de um único Pokémon."
+    },
+    "apicot-berry": {
+        "name": "Fruta Apicot",
+        "description": "Uma fruta que aumenta a Def. Esp. do portador em uma emergência."
+    },
+    "apple": {
+        "name": "Maçã",
+        "description": "Uma maçã vermelha e suculenta usada como ingrediente em piqueniques."
+    },
+    "applin-juice": {
+        "name": "Suco de Applin",
+        "description": "Suco doce extraído de um Applin. Usado como material."
+    },
+    "apricorn-box": {
+        "name": "Caixa de Apricorns",
+        "description": "Uma caixa prática para guardar até 99 unidades de cada tipo de Apricorn."
+    },
+    "aqua-suit": {
+        "name": "Traje Aqua",
+        "description": "Um traje tecnológico da Equipe Aqua feito para resistir a grandes impactos."
+    },
+    "armor-fossil": {
+        "name": "Fóssil de Armadura",
+        "description": "Um fóssil de um Pokémon pré-histórico. Pode ser regenerado em Shieldon."
+    },
+    "armor-pass": {
+        "name": "Passe da Armadura",
+        "description": "Passe para viajar até a Isle of Armor. Mostre-o na Estação de Wedgehurst."
+    },
+    "armorite-ore": {
+        "name": "Minério de Armofosforo",
+        "description": "Minério raro da Isle of Armor. Pode ser trocado por serviços especiais."
+    },
+    "arrokuda-scales": {
+        "name": "Escamas de Arrokuda",
+        "description": "Escamas brilhantes de um Arrokuda. Usadas como material."
+    },
+    "articuno-candy": {
+        "name": "Doce de Articuno",
+        "description": "Um doce energético. Aumenta todos os atributos de certos Pokémon de uma vez."
+    },
+    "aspear-berry": {
+        "name": "Fruta Aspear",
+        "description": "Uma fruta que o Pokémon pode comer para se descongelar instantaneamente."
+    },
+    "assault-vest": {
+        "name": "Colete de Assalto",
+        "description": "Aumenta a Def. Esp. em 50%, mas impede o uso de golpes de status."
+    },
+    "audinite": {
+        "name": "Audinite",
+        "description": "Uma Mega Stone que permite que Audino Megaevolua durante a batalha."
+    },
+    "auroraticket": {
+        "name": "Bilhete Aurora",
+        "description": "Um bilhete necessário para embarcar no navio rumo à Birth Island."
+    },
+    "auspicious-armor": {
+        "name": "Armadura Auspiciosa",
+        "description": "Uma armadura que faz certos Pokémon evoluírem. Irradia energia positiva."
+    },
+    "autograph": {
+        "name": "Autógrafo",
+        "description": "Um autógrafo de Lt. Surge com a mensagem \"Boa sorte!\"."
+    },
+    "avocado": {
+        "name": "Abacate",
+        "description": "Um abacate maduro usado como ingrediente em piqueniques."
+    },
+    "awakening": {
+        "name": "Despertador",
+        "description": "Um spray usado para acordar um Pokémon que esteja dormindo."
+    },
+    "axew-scales": {
+        "name": "Escamas de Axew",
+        "description": "Escamas de um Axew. Usadas como material."
+    },
+    "azure-flute": {
+        "name": "Flauta de Azure",
+        "description": "Uma flauta que emite sons de outro mundo. Dizem que invoca o Pokémon original."
+    },
+    "azurill-fur": {
+        "name": "Pelo de Azurill",
+        "description": "Pelo fofinho de um Azurill. Usado como material."
+    },
+    "b&w-grass-tablecloth": {
+        "name": "Toalha Grama P&B",
+        "description": "Uma toalha de piquenique com padrão de grama em preto e branco."
+    },
+    "babiri-berry": {
+        "name": "Fruta Babiri",
+        "description": "Enfraquece um ataque de Aço super efetivo recebido pelo portador."
+    },
+    "bachs-food-tin": {
+        "name": "Lata de Comida do Bach",
+        "description": "Ingrediente para curry. Uma lata de comida muito popular em Galar."
+    },
+    "bacon": {
+        "name": "Bacon",
+        "description": "Fatias de bacon suculentas usadas como ingrediente em piqueniques."
+    },
+    "bagon-scales": {
+        "name": "Escamas de Bagon",
+        "description": "Escamas duras de um Bagon. Usadas como material."
+    },
+    "baguette": {
+        "name": "Baguete",
+        "description": "Um pão longo e crocante usado como ingrediente em piqueniques."
+    },
+    "balm-mushroom": {
+        "name": "Cogumelo de Bálsamo",
+        "description": "Um cogumelo raro com fragrância agradável. Pode ser vendido caro."
+    },
+    "banana": {
+        "name": "Banana",
+        "description": "Uma banana doce usada como ingrediente em piqueniques."
+    },
+    "band-autograph": {
+        "name": "Autógrafo da Banda",
+        "description": "Autógrafo dos Maximizers, a banda mais carismática de Galar."
+    },
+    "banettite": {
+        "name": "Banettite",
+        "description": "Uma Mega Stone que permite que Banette Megaevolua durante a batalha."
+    },
+    "barboach-slime": {
+        "name": "Lama de Barboach",
+        "description": "Lama viscosa coletada de um Barboach. Usada como material."
+    },
+    "barred-cup": {
+        "name": "Copo Listrado",
+        "description": "Um copo de plástico com design de listras para piqueniques."
+    },
+    "basculin-fang": {
+        "name": "Presa de Basculin",
+        "description": "Uma presa afiada de um Basculin. Usada como material."
+    },
+    "basement-key": {
+        "name": "Chave do Porão",
+        "description": "A chave para entrar em New Mauville, sob a cidade de Mauville."
+    },
+    "basement-key--goldenrod": {
+        "name": "Chave do Porão (Goldenrod)",
+        "description": "Uma chave que abre uma porta no túnel de Goldenrod."
+    },
+    "basement-key--new-mauville": {
+        "name": "Chave de New Mauville",
+        "description": "A chave para abrir as instalações de New Mauville."
+    },
+    "basil": {
+        "name": "Manjericão",
+        "description": "Folhas frescas de manjericão usadas como ingrediente em piqueniques."
+    },
+    "battle-pocket": {
+        "name": "Bolso de Batalha",
+        "description": "Um bolso da mochila para itens usados em batalha."
+    },
+    "battle-tablecloth": {
+        "name": "Toalha de Batalha",
+        "description": "Uma toalha de piquenique com tema de arenas de batalha."
+    },
+    "beach-glass": {
+        "name": "Vidro de Praia",
+        "description": "Vidro colorido arredondado pelas ondas do mar. Áspero ao toque."
+    },
+    "bead-mail": {
+        "name": "Carta de Miçangas",
+        "description": "Papel de carta com um desenho do Pokémon que a entrega."
+    },
+    "beast-ball": {
+        "name": "Ultra Bola",
+        "description": "Uma Poké Bola especial feita para capturar as Ultra Beasts."
+    },
+    "beedrillite": {
+        "name": "Beedrillite",
+        "description": "Uma Mega Stone que permite que Beedrill Megaevolua durante a batalha."
+    },
+    "bellsprout-candy": {
+        "name": "Doce de Bellsprout",
+        "description": "Doce energético que aumenta os atributos de certos Pokémon."
+    },
+    "bellsprout-vine": {
+        "name": "Vinha de Bellsprout",
+        "description": "Uma vinha resistente de um Bellsprout. Usada como material."
+    },
+    "belue-berry": {
+        "name": "Fruta Belue",
+        "description": "Ingrediente para Pokébloquinhos. Dá uma fruta Belue se plantada."
+    },
+    "bergmite-ice": {
+        "name": "Gelo de Bergmite",
+        "description": "Pedaço de gelo gelado de um Bergmite. Usado como material."
+    },
+    "berry-juice": {
+        "name": "Suco de Fruta",
+        "description": "Suco 100% natural que recupera 20 pontos de HP."
+    },
+    "berry-pots": {
+        "name": "Vasos de Fruta",
+        "description": "Vasos práticos para cultivar frutas onde quer que você vá."
+    },
+    "berry-pouch": {
+        "name": "Bolsa de Frutas",
+        "description": "Um recipiente conveniente que guarda todas as suas frutas."
+    }
+}
