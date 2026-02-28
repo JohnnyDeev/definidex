@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, Activity, Swords, Map, Gamepad2, Zap, Layers, TrendingUp } from 'lucide-react';
 import { BasicPokemon, EvolutionNode } from '../types';
-import { TypeBadge, typeColors } from './TypeBadge';
+import { TypeBadge, typeColors, typeHexColors } from './TypeBadge';
 import { usePokemonDetails } from '../hooks/usePokemonDetails';
 import { calculateEffectiveness } from '../utils/typeEffectiveness';
 import { MoveCard } from './MoveCard';
@@ -12,6 +12,14 @@ export function PokemonModal({ pokemon, onClose }: { pokemon: BasicPokemon, onCl
   const { language, t } = useLanguage();
   const { details, encounters, loading } = usePokemonDetails(pokemon.id, language);
   const [activeTab, setActiveTab] = useState<'stats' | 'moves' | 'competitive' | 'forms' | 'encounters' | 'games' | 'evolution'>('stats');
+
+  const getGradient = () => {
+    const colors = pokemon.types.map(t => typeHexColors[t] || '#A8A77A');
+    if (colors.length === 1) {
+      return `linear-gradient(135deg, ${colors[0]} 0%, ${colors[0]}dd 100%)`;
+    }
+    return `linear-gradient(135deg, ${colors[0]} 0%, ${colors[1]} 100%)`;
+  };
 
   useEffect(() => {
     document.body.style.overflow = 'hidden';
@@ -65,7 +73,10 @@ export function PokemonModal({ pokemon, onClose }: { pokemon: BasicPokemon, onCl
         </button>
 
         {/* Left side: Image & Basic Info */}
-        <div className="bg-red-600 p-6 md:p-8 flex flex-col items-center relative md:w-[35%] shrink-0 md:overflow-y-auto scrollbar-hide">
+        <div
+          style={{ background: getGradient() }}
+          className="p-6 md:p-8 flex flex-col items-center relative md:w-[35%] shrink-0 md:overflow-y-auto scrollbar-hide"
+        >
           <span className="text-red-200 font-mono font-bold text-xl mb-2">
             #{String(pokemon.id).padStart(4, '0')}
           </span>

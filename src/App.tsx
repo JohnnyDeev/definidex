@@ -11,11 +11,13 @@ import { ItemsView } from './components/ItemsView';
 import { BerriesView } from './components/BerriesView';
 import { BattleView } from './components/BattleView';
 import { CalculatorView } from './components/CalculatorView';
+import { NewsView } from './components/NewsView';
+import { TcgDeckBuilder } from './components/TcgDeckBuilder';
 import { Calculator } from 'lucide-react';
 import { ALL_TYPES, GENERATIONS } from './constants';
 import { useLanguage } from './contexts/LanguageContext';
 
-type ViewType = 'dex' | 'teambuilder' | 'items' | 'berries' | 'battle' | 'calculator';
+type ViewType = 'news' | 'dex' | 'tcg' | 'teambuilder' | 'items' | 'berries' | 'battle' | 'calculator';
 
 export default function App() {
   const { pokemon, loading, error } = usePokemonList();
@@ -24,7 +26,7 @@ export default function App() {
   const [selectedGen, setSelectedGen] = useState<number | null>(null);
   const [selectedPokemon, setSelectedPokemon] = useState<BasicPokemon | null>(null);
   const [displayCount, setDisplayCount] = useState(40);
-  const [currentView, setCurrentView] = useState<ViewType>('dex');
+  const [currentView, setCurrentView] = useState<ViewType>('news');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { language, setLanguage, t } = useLanguage();
 
@@ -58,11 +60,11 @@ export default function App() {
   }, [search, selectedType, selectedGen]);
 
   return (
-    <div className="min-h-screen bg-zinc-100 font-sans text-zinc-900 selection:bg-red-200 selection:text-red-900">
+    <div className="min-h-screen font-sans text-zinc-900 selection:bg-red-200 selection:text-red-900">
       {/* Header */}
       <header className="bg-red-600 text-white shadow-md sticky top-0 z-30">
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3 cursor-pointer group" onClick={() => setCurrentView('dex')}>
+          <div className="flex items-center gap-3 cursor-pointer group" onClick={() => setCurrentView('news')}>
             {/* Pokedex Lens Logo */}
             <div className="relative w-10 h-10 rounded-full bg-blue-500 border-4 border-white shadow-[0_0_15px_rgba(59,130,246,0.8)] flex items-center justify-center overflow-hidden group-hover:scale-105 transition-transform">
               <div className="absolute top-1 left-1 w-3 h-3 bg-white/60 rounded-full blur-[1px]"></div>
@@ -106,12 +108,20 @@ export default function App() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-2">
+
             <button
               onClick={() => setCurrentView('dex')}
               className={`px-4 py-2 rounded-full font-bold text-sm transition-colors flex items-center gap-2 whitespace-nowrap ${currentView === 'dex' ? 'bg-white text-red-600 shadow-sm' : 'bg-red-700 text-white hover:bg-red-800'}`}
             >
               <Book size={16} />
               {t.dex}
+            </button>
+            <button
+              onClick={() => setCurrentView('tcg')}
+              className={`px-4 py-2 rounded-full font-bold text-sm transition-colors flex items-center gap-2 whitespace-nowrap ${currentView === 'tcg' ? 'bg-white text-red-600 shadow-sm' : 'bg-red-700 text-white hover:bg-red-800'}`}
+            >
+              <Layers size={16} />
+              TCG
             </button>
             <button
               onClick={() => setCurrentView('teambuilder')}
@@ -174,12 +184,20 @@ export default function App() {
               className="md:hidden bg-red-700 border-t border-red-800 overflow-hidden"
             >
               <div className="flex flex-col p-4 gap-2">
+
                 <button
                   onClick={() => setCurrentView('dex')}
                   className={`px-4 py-3 rounded-xl font-bold text-left transition-colors flex items-center gap-3 ${currentView === 'dex' ? 'bg-white text-red-600' : 'text-white hover:bg-red-800'}`}
                 >
                   <Book size={20} />
                   {t.dex}
+                </button>
+                <button
+                  onClick={() => setCurrentView('tcg')}
+                  className={`px-4 py-3 rounded-xl font-bold text-left transition-colors flex items-center gap-3 ${currentView === 'tcg' ? 'bg-white text-red-600' : 'text-white hover:bg-red-800'}`}
+                >
+                  <Layers size={20} />
+                  TCG
                 </button>
                 <button
                   onClick={() => setCurrentView('teambuilder')}
@@ -241,7 +259,11 @@ export default function App() {
         <CalculatorView />
       ) : (
         <main className="max-w-7xl mx-auto px-4 py-8">
-          {currentView === 'teambuilder' ? (
+          {currentView === 'news' ? (
+            <NewsView />
+          ) : currentView === 'tcg' ? (
+            <TcgDeckBuilder />
+          ) : currentView === 'teambuilder' ? (
             <TeamBuilder />
           ) : currentView === 'items' ? (
             <ItemsView />
@@ -358,6 +380,15 @@ export default function App() {
           )}
         </main>
       )}
+
+      {/* Footer / Legal Disclaimer */}
+      <footer className="max-w-7xl mx-auto px-4 py-8 mt-8 border-t border-zinc-200">
+        <p className="text-zinc-500 text-xs text-center leading-relaxed">
+          DefiniDEX é um projeto de fã, sem fins lucrativos, e não é afiliado, endossado ou apoiado pela Nintendo, Game Freak ou The Pokémon Company de nenhuma forma.
+          Pokémon e os nomes dos personagens Pokémon são marcas registradas da Nintendo. Todas as imagens e dados relacionados a Pokémon são propriedade intelectual de seus respectivos donos.
+          Este site utiliza a <a href="https://pokeapi.co/" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline font-medium">PokéAPI</a>.
+        </p>
+      </footer>
 
       {/* Modal */}
       <AnimatePresence>

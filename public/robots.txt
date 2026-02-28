@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://definidex.netlify.app/sitemap.xml

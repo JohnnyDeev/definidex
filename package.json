@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "update-vgc": "tsx scripts/update-vgc.ts"
+    "update-vgc": "tsx scripts/update-vgc.ts",
+    "fetch-news": "tsx scripts/fetch-news.ts"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
@@ -31,6 +32,7 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.4.21",
+    "netlify-cli": "^24.0.1",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",

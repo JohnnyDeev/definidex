@@ -1,13 +1,45 @@
 <!doctype html>
 <html lang="en" class="max-md:scrollbar-hide">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DefiniDEX</title>
-  </head>
-  <body class="max-md:scrollbar-hide bg-zinc-50">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DefiniDEX | The Definitive Pokémon Encyclopedia</title>
+  <meta name="description"
+    content="A Pokédex mais completa e visualmente incrível. Explore todos os 1025 Pokémon com gradientes dinâmicos, dados detalhados e ferramentas para Pokémon Champions!" />
+  <meta name="keywords" content="pokedex, pokemon, pokemon champions, pokemon database, pokemon stats, definidex" />
+  <link rel="canonical" href="https://definidex.netlify.app" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://definidex.netlify.app/" />
+  <meta property="og:title" content="DefiniDEX | The Definitive Pokémon Encyclopedia" />
+  <meta property="og:description"
+    content="Explore todos os 1025 Pokémon em uma interface moderna e rápida. Dados completos e visual dinâmico!" />
+  <meta property="og:image" content="https://definidex.netlify.app/og-image.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://definidex.netlify.app/" />
+  <meta property="twitter:title" content="DefiniDEX | The Definitive Pokémon Encyclopedia" />
+  <meta property="twitter:description"
+    content="A Pokédex definitiva para o lançamento de Pokémon Champions. Rápida, bonita e completa!" />
+  <meta property="twitter:image" content="https://definidex.netlify.app/og-image.png" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=%VITE_GA_MEASUREMENT_ID%"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', '%VITE_GA_MEASUREMENT_ID%');
+  </script>
+</head>
+
+<body class="max-md:scrollbar-hide">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

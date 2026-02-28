@@ -1,11 +1,22 @@
 @import "tailwindcss";
 
+body {
+  background-color: #f8fafc;
+  background-image: url("/pokemon-bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 @media (max-width: 768px) {
-  html, body {
+
+  html,
+  body {
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
-  html::-webkit-scrollbar, body::-webkit-scrollbar {
+
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
     display: none;
   }
 }
@@ -14,6 +25,7 @@
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
+
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
