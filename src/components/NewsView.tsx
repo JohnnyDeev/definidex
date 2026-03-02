@@ -276,7 +276,7 @@ export function NewsView() {
                     {newsData.articles
                         .map((article, i) => (
                             <a
-                                key={article.id}
+                                key={`${article.id}-${i}`}
                                 href={article.link}
                                 target="_blank"
                                 rel="noopener noreferrer"

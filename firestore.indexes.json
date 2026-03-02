@@ -11,10 +11,6 @@
         {
           "fieldPath": "likesCount",
           "order": "DESCENDING"
-        },
-        {
-          "fieldPath": "createdAt",
-          "order": "DESCENDING"
         }
       ]
     },
@@ -28,10 +24,6 @@
         },
         {
           "fieldPath": "likesCount",
-          "order": "DESCENDING"
-        },
-        {
-          "fieldPath": "createdAt",
           "order": "DESCENDING"
         }
       ]
