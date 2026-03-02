@@ -67,7 +67,10 @@ export function TcgDeckBuilder({ onNavigateToProfile }: TcgDeckBuilderProps) {
             setLoadingPrice(true);
             try {
                 // Try from local cache first
-                const cacheRes = await fetch('/data/tcg-prices.json', { cache: 'force-cache' });
+                const cacheRes = await fetch('/data/tcg-prices.json', {
+                    cache: 'force-cache',
+                    signal: controller.signal
+                });
                 if (cacheRes.ok) {
                     const cachedPrices = await cacheRes.json();
                     if (cachedPrices[zoomedCard.id] !== undefined) {

@@ -9,6 +9,10 @@
           "order": "ASCENDING"
         },
         {
+          "fieldPath": "likesCount",
+          "order": "DESCENDING"
+        },
+        {
           "fieldPath": "createdAt",
           "order": "DESCENDING"
         }
@@ -21,6 +25,10 @@
         {
           "fieldPath": "isPublic",
           "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "likesCount",
+          "order": "DESCENDING"
         },
         {
           "fieldPath": "createdAt",
