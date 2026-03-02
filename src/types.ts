@@ -34,6 +34,7 @@ export interface BasicPokemon {
   name: string;
   types: string[];
   sprite: string;
+  spriteShiny: string;
 }
 
 export interface PokemonMove {
@@ -98,5 +99,18 @@ export interface PokemonEncounter {
     max_chance: number;
     version: { name: string };
   }[];
+}
+
+export type TrainerRank = 'Pokéball' | 'Great Ball' | 'Ultra Ball' | 'Master Ball';
+
+export interface UserProfile {
+  uid: string;
+  displayName: string | null;
+  email: string | null;
+  photoURL: string | null;
+  contributionCount: number;
+  rank: TrainerRank;
+  createdAt: any;
+  updatedAt: any;
 }
 

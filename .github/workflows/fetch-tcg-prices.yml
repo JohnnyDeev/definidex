@@ -1,16 +1,16 @@
-name: Fetch Pokémon News
+name: Fetch TCG Prices
 
 on:
   schedule:
-    # Runs daily at 13:00 UTC (10:00 AM BRT)
-    - cron: '0 13 * * *'
-  workflow_dispatch: # Allow manual trigger
+    # Runs at 09:00 UTC (06:00 AM BRT) every 3 days
+    - cron: '0 9 */3 * *'
+  workflow_dispatch: # Allow manual trigger via UI
 
 permissions:
   contents: write
 
 jobs:
-  fetch-news:
+  fetch-tcg-prices:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,12 +26,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Fetch news
-        run: npm run fetch-news
+      - name: Fetch TCG Prices
+        run: npm run update-tcg-prices
+        env:
+          VITE_POKEMON_TCG_API_KEY: ${{ secrets.POKEMON_TCG_API_KEY }}
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/news.json
-          git diff --staged --quiet || git commit -m "chore: update news feed [skip ci]" && git push
+          git add public/data/tcg-prices.json
+          git diff --staged --quiet || git commit -m "chore: update cached TCG prices [skip ci]" && git push

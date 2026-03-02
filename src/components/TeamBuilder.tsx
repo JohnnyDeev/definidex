@@ -1,13 +1,16 @@
-import React, { useState, useRef } from 'react';
-import { useTeamStore, Team, TeamPokemon } from '../hooks/useTeamStore';
-import { BasicPokemon } from '../types';
-import { Plus, Trash2, Save, X, Search, Download, Upload, Filter, Layers, ChevronDown } from 'lucide-react';
+import React, { useState, useRef, useEffect } from 'react';
+import { Team, TeamPokemon } from '../hooks/useTeamStore';
+import { Plus, Trash2, Save, X, Search, Download, Upload, Filter, Layers, ChevronDown, Globe, Lock, Check, Loader2, AlertCircle } from 'lucide-react';
 import { usePokemonList } from '../hooks/usePokemonList';
 import { usePokemonDetails } from '../hooks/usePokemonDetails';
 import { useItemsList } from '../hooks/useItemsList';
 import { ALL_TYPES, GENERATIONS } from '../constants';
 import { typeColors } from './TypeBadge';
 import { VGCStats } from './VGCStats';
+import { useAuth } from '../contexts/AuthContext';
+import { saveTeam, subscribeToUserTeams, deleteTeam as deleteTeamFirestore } from '../lib/firestoreUtils';
+import { motion, AnimatePresence } from 'motion/react';
+import { SocialFeed } from './SocialFeed';
 
 // Helper to parse Showdown text format
 function parseShowdown(text: string): Partial<TeamPokemon> | null {
@@ -27,9 +30,6 @@ function parseShowdown(text: string): Partial<TeamPokemon> | null {
     });
 
     return {
-      // In a real app, we'd need to resolve the name to an ID. 
-      // For this prototype, we'll use a placeholder or the name itself if the hook supports it.
-      // But since we need an ID for PokeAPI, we'll try to guess or use 0.
       pokemonId: 0,
       item,
       moves: moves.slice(0, 4)
@@ -39,22 +39,112 @@ function parseShowdown(text: string): Partial<TeamPokemon> | null {
   }
 }
 
-export function TeamBuilder() {
-  const { user, teams, login, logout, saveTeam, deleteTeam, importTeams } = useTeamStore();
-  const [usernameInput, setUsernameInput] = useState('');
+interface TeamBuilderProps {
+  onNavigateToProfile?: (uid: string) => void;
+}
+
+export function TeamBuilder({ onNavigateToProfile }: TeamBuilderProps) {
+  const { user, profile, setShowAuthModal } = useAuth();
+  const [teams, setTeams] = useState<Team[]>([]);
+  const [loading, setLoading] = useState(true);
   const [editingTeam, setEditingTeam] = useState<Team | null>(null);
-  const fileInputRef = useRef<HTMLInputElement>(null);
+  const [showSaveModal, setShowSaveModal] = useState(false);
+  const [isPublic, setIsPublic] = useState(true);
+  const [saving, setSaving] = useState(false);
+  const [saveSuccess, setSaveSuccess] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null) as any;
+
+  useEffect(() => {
+    if (!user) {
+      setLoading(false);
+      setTeams([]);
+      return;
+    }
+
+    setLoading(true);
+    const unsubscribe = subscribeToUserTeams(user.uid, (updatedTeams) => {
+      setTeams(updatedTeams as Team[]);
+      setLoading(false);
+    });
+
+    return () => unsubscribe();
+  }, [user]);
+
+  // loadTeams is now obsolete, but we keep the name for SocialFeed compatibility if needed, 
+  // though onSnapshot handles it automatically.
+  const loadTeams = () => {
+    // No-op because subscription handles updates
+    console.log('Real-time subscription is active. Manual reload skipped.');
+  };
+
+  const handleSaveTeam = async () => {
+    if (!user || !editingTeam) {
+      console.warn('Save team attempt blocked:', { hasUser: !!user, hasEditingTeam: !!editingTeam });
+      return;
+    }
+
+    setSaving(true);
+    console.log('Initiating team save...', { uid: user.uid, teamName: editingTeam.name });
+
+    try {
+      // Check if it's a real Firestore ID or a temporary timestamp string
+      const isExistingTeam = editingTeam.id && !/^\d+$/.test(editingTeam.id);
+
+      const teamData = {
+        name: editingTeam.name,
+        pokemons: editingTeam.pokemons,
+        isPublic
+      };
+
+      const resultId = await saveTeam(
+        user.uid,
+        teamData,
+        isExistingTeam ? editingTeam.id : undefined,
+        profile?.displayName || user.displayName || user.email?.split('@')[0],
+        profile?.photoURL || user.photoURL || undefined
+      );
+      console.log('Team saved successfully. Doc ID:', resultId);
+
+      setSaveSuccess(true);
+      // No manual loadTeams needed
+      setTimeout(() => {
+        setSaveSuccess(false);
+        setShowSaveModal(false);
+        setEditingTeam(null);
+      }, 1500);
+    } catch (error: any) {
+      console.error('Error saving team:', error);
+      alert(`Erro ao salvar o time: ${error.message || 'Tente novamente.'}`);
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  const handleDeleteTeam = async (teamId: string) => {
+    if (!user || !window.confirm('Excluir este time permanentemente?')) return;
+    try {
+      console.log(`[Diagnostic] UI: Initiating deletion for team ${teamId}`);
+      await deleteTeamFirestore(teamId);
+
+      // Clear editing state if the deleted team was being edited
+      if (editingTeam && editingTeam.id === teamId) {
+        setEditingTeam(null);
+      }
+
+      // No manual loadTeams needed thanks to subscription
+      alert('Time excluído com sucesso. Se o time ainda aparecer, verifique o console (F12) para os logs [Diagnostic].');
+    } catch (error: any) {
+      console.error('[Diagnostic] UI: Error deleting team:', error);
+      alert(`Erro ao excluir o time: ${error.message || 'Tente novamente.'}`);
+    }
+  };
 
   const handleExport = () => {
     if (!teams || teams.length === 0) return;
-
-    let showdownText = '';
     const currentTeam = editingTeam || teams[0];
+    let showdownText = '';
 
     currentTeam.pokemons.forEach(p => {
-      const pokemonName = p.pokemonId.toString(); // Fallback to ID if name not found in editor
-      // Note: Real name fetching would happen here if we had synchronous access to all names
-      // For now we'll format what we have:
       showdownText += `${p.pokemonId}\n`;
       if (p.item) showdownText += `Item: ${p.item}\n`;
       p.moves.forEach(m => {
@@ -64,49 +154,14 @@ export function TeamBuilder() {
     });
 
     navigator.clipboard.writeText(showdownText);
-    alert('Time copiado no formato Showdown! Cole no Teambuilder do Showdown.');
+    alert('Time copiado no formato Showdown!');
   };
 
-  const handleImport = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (event) => {
-      try {
-        const imported = JSON.parse(event.target?.result as string);
-        if (Array.isArray(imported)) {
-          importTeams(imported);
-          alert('Times importados com sucesso!');
-        }
-      } catch (err) {
-        alert('Erro ao importar arquivo. Verifique se é um JSON válido.');
-      }
-    };
-    reader.readAsText(file);
-    if (fileInputRef.current) fileInputRef.current.value = '';
-  };
-
-  if (!user) {
+  if (loading) {
     return (
-      <div className="flex flex-col items-center justify-center py-20">
-        <div className="bg-white p-8 rounded-3xl shadow-md max-w-md w-full text-center border border-zinc-200">
-          <h2 className="text-2xl font-bold mb-2">Qual o seu nome?</h2>
-          <p className="text-zinc-500 mb-6">Identifique-se para criar e salvar seus times competitivos.</p>
-          <input
-            type="text"
-            placeholder="Seu nome..."
-            value={usernameInput}
-            onChange={e => setUsernameInput(e.target.value)}
-            className="w-full px-4 py-3 rounded-xl border-2 border-zinc-200 mb-4 focus:border-red-500 outline-none font-medium text-lg"
-            onKeyDown={e => e.key === 'Enter' && usernameInput.trim() && login(usernameInput.trim())}
-          />
-          <button
-            onClick={() => usernameInput.trim() && login(usernameInput.trim())}
-            className="w-full bg-red-600 text-white font-bold py-3 rounded-xl hover:bg-red-700 transition-colors text-lg"
-          >
-            Continuar
-          </button>
-        </div>
+      <div className="flex flex-col items-center justify-center py-24">
+        <Loader2 size={40} className="text-red-600 animate-spin mb-4" />
+        <p className="text-zinc-500 font-semibold">Carregando seus times...</p>
       </div>
     );
   }
@@ -115,80 +170,91 @@ export function TeamBuilder() {
     <div className="py-8">
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-6 mb-8 mt-2">
         <div>
-          <h2 className="text-3xl font-bold text-zinc-900">Your Teams</h2>
-          <p className="text-zinc-500">Logged in as <span className="font-bold text-zinc-800">{user.username}</span></p>
+          <h2 className="text-3xl font-black italic uppercase tracking-tighter text-zinc-900">Meus Times VGC</h2>
+          <p className="text-zinc-500 font-medium">
+            {user ? (
+              <>Treinando como <span className="text-red-600 font-bold">{user.displayName}</span></>
+            ) : (
+              'Monte seu time e salve no seu perfil'
+            )}
+          </p>
         </div>
-        <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-center gap-2 sm:gap-4 w-full sm:w-auto">
-          <input
-            type="file"
-            accept=".json"
-            ref={fileInputRef}
-            onChange={handleImport}
-            className="hidden"
-          />
+        <div className="flex items-center gap-3">
           <button
-            onClick={() => fileInputRef.current?.click()}
-            className="flex items-center justify-center gap-2 bg-zinc-100 text-zinc-700 px-4 py-2.5 rounded-xl font-bold hover:bg-zinc-200 transition-colors text-sm"
-            title="Importar Times"
+            onClick={() => setEditingTeam({ id: Date.now().toString(), name: 'Novo Time', pokemons: [] })}
+            className="bg-red-600 text-white px-6 py-3 rounded-2xl font-black uppercase text-xs tracking-widest hover:bg-red-700 transition-all flex items-center justify-center gap-2 shadow-lg shadow-red-600/20 active:scale-95"
           >
-            <Upload size={18} /> Import
-          </button>
-          <button
-            onClick={handleExport}
-            className="flex items-center justify-center gap-2 bg-zinc-100 text-zinc-700 px-4 py-2.5 rounded-xl font-bold hover:bg-zinc-200 transition-colors text-sm"
-            title="Exportar Times"
-          >
-            <Download size={18} /> Export
-          </button>
-          <button
-            onClick={() => setEditingTeam({ id: Date.now().toString(), name: 'New Team', pokemons: [] })}
-            className="col-span-2 sm:col-auto bg-red-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-red-700 transition-colors flex items-center justify-center gap-2 shadow-md"
-          >
-            <Plus size={20} /> Create Team
-          </button>
-          <button
-            onClick={logout}
-            className="col-span-2 sm:col-auto bg-zinc-50 text-zinc-400 px-6 py-2 rounded-xl font-bold hover:bg-zinc-100 transition-colors text-xs sm:text-sm"
-          >
-            Logout
+            <Plus size={18} strokeWidth={3} /> Criar Time
           </button>
         </div>
       </div>
 
       <div className="flex flex-col lg:flex-row gap-8">
-        <div className="flex-1 order-2 lg:order-1">
+        <div className="flex-1 order-1">
           {editingTeam ? (
             <TeamEditor
               team={editingTeam}
-              onSave={(t) => { saveTeam(t); setEditingTeam(null); }}
+              onSave={(t) => {
+                setEditingTeam(t);
+                if (user) {
+                  setShowSaveModal(true);
+                } else {
+                  setShowAuthModal(true);
+                }
+              }}
               onCancel={() => setEditingTeam(null)}
             />
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {teams.length === 0 ? (
-                <div className="col-span-full text-center py-20 bg-white rounded-3xl border border-zinc-200 border-dashed">
-                  <p className="text-zinc-400 text-lg font-medium">You haven't created any teams yet.</p>
+                <div className="col-span-full text-center py-20 bg-white rounded-[2rem] border-2 border-dashed border-zinc-100 flex flex-col items-center">
+                  <div className="w-16 h-16 bg-zinc-50 rounded-full flex items-center justify-center mb-4 text-zinc-300">
+                    <Layers size={32} />
+                  </div>
+                  <p className="text-zinc-400 font-bold tracking-tight">Nenhum time criado ainda.</p>
+                  <p className="text-zinc-400 text-sm">Use o botão acima para começar seu primeiro esquadrão.</p>
                 </div>
               ) : (
                 teams.map(team => (
-                  <div key={team.id} className="bg-white p-6 rounded-3xl shadow-sm border border-zinc-200">
-                    <div className="flex justify-between items-center mb-4">
-                      <h3 className="text-xl font-bold">{team.name}</h3>
-                      <div className="flex gap-2">
-                        <button onClick={() => setEditingTeam(team)} className="text-blue-500 hover:text-blue-700 font-medium text-sm">Edit</button>
-                        <button onClick={() => deleteTeam(team.id)} className="text-red-500 hover:text-red-700 font-medium text-sm">Delete</button>
+                  <motion.div
+                    layout
+                    key={team.id}
+                    className="bg-white p-6 rounded-[2rem] shadow-sm border border-zinc-100 hover:shadow-xl hover:shadow-zinc-200/50 transition-all group"
+                  >
+                    <div className="flex justify-between items-center mb-6">
+                      <div>
+                        <h3 className="text-xl font-black text-zinc-800 tracking-tight">{team.name}</h3>
+                        <div className="flex flex-wrap items-center gap-2 mt-1">
+                          {team.isPublic ? (
+                            <span className="text-[10px] font-black uppercase tracking-widest text-zinc-400 flex items-center gap-1">
+                              <Globe size={10} /> Público
+                            </span>
+                          ) : (
+                            <span className="text-[10px] font-black uppercase tracking-widest text-red-400 flex items-center gap-1">
+                              <Lock size={10} /> Privado
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                      <div className="flex gap-1 opacity-0 group-hover:opacity-100 transition-all">
+                        <button onClick={() => setEditingTeam(team)} className="p-2 bg-blue-50 text-blue-600 rounded-xl hover:bg-blue-600 hover:text-white transition-all">
+                          <Plus size={16} />
+                        </button>
+                        <button onClick={() => handleDeleteTeam(team.id)} className="p-2 bg-red-50 text-red-600 rounded-xl hover:bg-red-600 hover:text-white transition-all">
+                          <Trash2 size={16} />
+                        </button>
                       </div>
                     </div>
-                    <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
+                    <div className="grid grid-cols-3 gap-2">
                       {team.pokemons.map((p, i) => (
-                        <div key={i} className="aspect-square bg-zinc-50 rounded-xl border border-zinc-100 flex items-center justify-center overflow-hidden relative">
+                        <div key={i} className="aspect-square bg-zinc-50 rounded-2xl border border-zinc-100 flex items-center justify-center overflow-hidden relative group/mon">
                           <img
                             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.pokemonId}.png`}
                             alt="pokemon"
-                            className="w-full h-full object-contain"
+                            className="w-full h-full object-contain drop-shadow-sm group-hover/mon:scale-110 transition-transform"
                           />
                           {p.item && (
-                            <div className="absolute bottom-0 right-0 w-7 h-7 bg-white/95 backdrop-blur-sm rounded-lg border border-zinc-200 flex items-center justify-center p-1 shadow-md z-10">
+                            <div className="absolute bottom-1 right-1 w-6 h-6 bg-white rounded-lg border border-zinc-100 flex items-center justify-center p-1 shadow-sm">
                               <img
                                 src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/${p.item}.png`}
                                 alt={p.item}
@@ -199,19 +265,19 @@ export function TeamBuilder() {
                         </div>
                       ))}
                       {Array.from({ length: 6 - team.pokemons.length }).map((_, i) => (
-                        <div key={`empty-${i}`} className="aspect-square bg-zinc-50 rounded-xl border border-zinc-200 border-dashed" />
+                        <div key={`empty-${i}`} className="aspect-square bg-zinc-50 rounded-2xl border border-zinc-100 border-dashed" />
                       ))}
                     </div>
-                  </div>
+                  </motion.div>
                 ))
               )}
             </div>
           )}
         </div>
 
-        <div className="lg:w-80 order-1 lg:order-2">
+        <div className="lg:w-80 order-2">
           <VGCStats onSelect={(pokemonData) => {
-            const newPokemon = {
+            const newPokemon: TeamPokemon = {
               pokemonId: pokemonData.id,
               moves: pokemonData.moves,
               item: pokemonData.item
@@ -220,7 +286,7 @@ export function TeamBuilder() {
             if (!editingTeam) {
               setEditingTeam({
                 id: Date.now().toString(),
-                name: 'New Team',
+                name: 'Novo Time',
                 pokemons: [newPokemon]
               });
             } else {
@@ -233,8 +299,80 @@ export function TeamBuilder() {
               }
             }
           }} />
+
+          {/* Social Feed - Integrated below stats */}
+          <div className="mt-8">
+            <SocialFeed
+              type="vgc"
+              onNavigateToProfile={onNavigateToProfile || (() => { })}
+              onImportSuccess={loadTeams}
+            />
+          </div>
         </div>
       </div>
+
+      {/* ─── Save Team Modal ─── */}
+      <AnimatePresence>
+        {showSaveModal && (
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[60] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+            <motion.div initial={{ scale: 0.9, opacity: 0, y: 20 }} animate={{ scale: 1, opacity: 1, y: 0 }} exit={{ scale: 0.9, opacity: 0, y: 20 }}
+              onClick={e => e.stopPropagation()} className="bg-white rounded-[2.5rem] shadow-2xl w-full max-w-md overflow-hidden flex flex-col">
+              <div className="bg-gradient-to-br from-red-600 to-red-800 p-8 text-white text-center">
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 backdrop-blur-md">
+                  <Save size={32} />
+                </div>
+                <h3 className="text-2xl font-black italic uppercase tracking-tighter">Salvar Time</h3>
+                <p className="text-red-100 text-xs font-bold uppercase tracking-widest mt-1 opacity-80">Persistência na Cloud</p>
+              </div>
+
+              <div className="p-8 space-y-6">
+                <div className="flex items-center justify-between p-5 bg-zinc-50 rounded-3xl border border-zinc-100">
+                  <div className="flex items-center gap-4">
+                    <div className={`p-3 rounded-2xl ${isPublic ? 'bg-zinc-800 text-white' : 'bg-red-100 text-red-600'}`}>
+                      {isPublic ? <Globe size={20} /> : <Lock size={20} />}
+                    </div>
+                    <div>
+                      <p className="text-sm font-black text-zinc-800 uppercase tracking-tight">{isPublic ? 'Time Público' : 'Time Privado'}</p>
+                      <p className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Exibir no perfil?</p>
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => setIsPublic(!isPublic)}
+                    className={`w-14 h-7 rounded-full relative transition-all ${isPublic ? 'bg-green-500 shadow-inner' : 'bg-zinc-300'}`}
+                  >
+                    <div className={`absolute top-1 w-5 h-5 bg-white rounded-full transition-all shadow-md ${isPublic ? 'left-8' : 'left-1'}`} />
+                  </button>
+                </div>
+
+                <div className="p-4 bg-amber-50 rounded-2xl border border-amber-100 flex gap-3 italic">
+                  <AlertCircle size={16} className="text-amber-600 shrink-0 mt-0.5" />
+                  <p className="text-[10px] text-amber-700 font-bold leading-tight uppercase tracking-wider">
+                    Salvar o time aumentará sua pontuação de contribuidor e seu Rank na plataforma!
+                  </p>
+                </div>
+              </div>
+
+              <div className="p-8 bg-zinc-50 border-t border-zinc-100 flex gap-4">
+                <button
+                  onClick={() => setShowSaveModal(false)}
+                  className="flex-1 py-4 bg-white border-2 border-zinc-200 text-zinc-500 rounded-2xl font-black uppercase text-xs tracking-widest hover:bg-zinc-100 transition-colors"
+                >
+                  Cancelar
+                </button>
+                <button
+                  onClick={handleSaveTeam}
+                  disabled={saving || saveSuccess}
+                  className="flex-[2] py-4 bg-red-600 text-white rounded-2xl font-black uppercase text-xs tracking-widest hover:bg-red-700 transition-all shadow-lg shadow-red-600/30 flex items-center justify-center gap-2 disabled:opacity-50"
+                >
+                  {saving ? <Loader2 size={16} className="animate-spin" /> : saveSuccess ? <Check size={16} /> : <Save size={16} />}
+                  {saving ? 'Salvando...' : saveSuccess ? 'Sucesso!' : 'Confirmar'}
+                </button>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
@@ -245,8 +383,7 @@ function TeamEditor({ team, onSave, onCancel }: { team: Team, onSave: (t: Team) 
   const [selectingSlot, setSelectingSlot] = useState<number | null>(null);
   const [pendingPaste, setPendingPaste] = useState<Partial<TeamPokemon> | null>(null);
 
-  // Sync with external updates (like VGC selection)
-  React.useEffect(() => {
+  useEffect(() => {
     if (team.pokemons.length !== pokemons.length) {
       setPokemons(team.pokemons);
     }
@@ -257,23 +394,29 @@ function TeamEditor({ team, onSave, onCancel }: { team: Team, onSave: (t: Team) 
   };
 
   return (
-    <div className="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-zinc-200">
-      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-8">
-        <input
-          type="text"
-          value={name}
-          onChange={e => setName(e.target.value)}
-          className="text-xl sm:text-2xl font-bold bg-transparent border-b-2 border-zinc-200 focus:border-red-500 outline-none px-2 py-1 w-full"
-        />
-        <div className="flex gap-2 sm:gap-3 shrink-0">
-          <button onClick={onCancel} className="flex-1 sm:flex-none px-4 py-2 text-zinc-500 hover:bg-zinc-100 rounded-xl font-medium transition-colors border border-zinc-200 sm:border-transparent">Cancel</button>
-          <button onClick={handleSave} className="flex-1 sm:flex-none px-6 py-2 bg-red-600 text-white rounded-xl font-bold hover:bg-red-700 transition-colors flex items-center justify-center gap-2">
-            <Save size={18} /> Save Team
+    <div className="bg-white p-6 md:p-10 rounded-[2.5rem] shadow-sm border border-zinc-100 mb-8 relative overflow-hidden">
+      <div className="absolute top-0 right-0 w-32 h-32 bg-red-50 rounded-bl-[5rem] -mr-16 -mt-16 opacity-50" />
+
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-6 mb-10 relative z-10">
+        <div className="flex-1 max-w-md">
+          <label className="text-[10px] font-black uppercase tracking-widest text-zinc-400 ml-1 mb-1 block">Nome do Esquadrão</label>
+          <input
+            type="text"
+            value={name}
+            onChange={e => setName(e.target.value)}
+            placeholder="Ex: Rain Team, Trick Room..."
+            className="text-2xl font-black italic uppercase tracking-tighter bg-transparent border-b-4 border-zinc-100 focus:border-red-600 outline-none px-1 py-2 w-full transition-all"
+          />
+        </div>
+        <div className="flex gap-3 shrink-0">
+          <button onClick={onCancel} className="px-6 py-3 text-zinc-400 hover:text-zinc-600 font-black uppercase text-xs tracking-widest transition-colors">Voltar</button>
+          <button onClick={handleSave} className="px-8 py-3 bg-red-600 text-white rounded-2xl font-black uppercase text-xs tracking-widest hover:bg-red-700 transition-all flex items-center gap-2 shadow-lg shadow-red-600/20 active:scale-95">
+            <Save size={18} /> Salvar Time
           </button>
         </div>
       </div>
 
-      <div className="mb-6 flex flex-wrap gap-4">
+      <div className="mb-10 flex flex-wrap gap-4">
         <button
           onClick={() => {
             const text = prompt('Cole o texto do Showdown aqui (Ex: Miraidon @ Choice Specs...):');
@@ -281,22 +424,22 @@ function TeamEditor({ team, onSave, onCancel }: { team: Team, onSave: (t: Team) 
               const imported = parseShowdown(text);
               if (imported) {
                 setPendingPaste(imported);
-                alert('Pronto! Agora clique em um slot vazio (+) para aplicar este set.');
+                alert('Pronto! Agora clique em um slot (+) para aplicar este set.');
               } else {
                 alert('Não foi possível detectar o Pokémon. Verifique se o formato está correto.');
               }
             }
           }}
-          className="text-xs font-bold text-red-600 bg-red-50 border border-red-100 px-4 py-2.5 rounded-xl hover:bg-red-100 transition-all flex items-center gap-2"
+          className="text-[10px] font-black uppercase tracking-widest text-zinc-500 bg-zinc-50 border border-zinc-100 px-5 py-3 rounded-2xl hover:bg-zinc-100 transition-all flex items-center gap-2"
         >
-          <Upload size={14} /> Paste from Showdown
+          <Upload size={14} /> Importar Showdown
         </button>
         {pendingPaste && (
           <button
             onClick={() => setPendingPaste(null)}
-            className="text-xs font-bold text-zinc-400 hover:text-red-500 px-2 flex items-center gap-1"
+            className="text-[10px] font-black uppercase tracking-widest text-red-400 hover:text-red-500 px-2 flex items-center gap-1"
           >
-            <X size={14} /> Cancel Paste
+            <X size={14} /> Cancelar Colagem
           </button>
         )}
       </div>
@@ -305,17 +448,14 @@ function TeamEditor({ team, onSave, onCancel }: { team: Team, onSave: (t: Team) 
         {Array.from({ length: 6 }).map((_, i) => {
           const p = pokemons[i];
           return (
-            <div key={i} className="bg-zinc-50 rounded-2xl border border-zinc-200 p-4 relative min-h-[200px] flex flex-col group/slot">
+            <div key={i} className={`rounded-3xl border-2 p-5 relative min-h-[220px] flex flex-col transition-all overflow-hidden ${p ? 'bg-zinc-50 border-zinc-100' : 'bg-zinc-50/50 border-dashed border-zinc-200 hover:border-red-200 hover:bg-red-50/30'}`}>
               {pendingPaste && !p && (
                 <button
-                  onClick={() => {
-                    setSelectingSlot(i);
-                    // The actual application of moves/item will happen in PokemonSelector onSelect
-                  }}
-                  className="absolute inset-0 z-20 bg-red-600/10 backdrop-blur-[2px] rounded-2xl flex flex-col items-center justify-center border-2 border-red-500 border-dashed animate-pulse"
+                  onClick={() => setSelectingSlot(i)}
+                  className="absolute inset-0 z-20 bg-red-600/5 backdrop-blur-[1px] rounded-3xl flex flex-col items-center justify-center border-2 border-red-500 border-dashed animate-pulse"
                 >
                   <Plus size={32} className="text-red-600 mb-2" />
-                  <span className="text-red-600 font-bold text-sm">Apply Pasted Set</span>
+                  <span className="text-red-600 font-black uppercase text-[10px] tracking-widest">Aplicar Set</span>
                 </button>
               )}
               {p ? (
@@ -335,10 +475,10 @@ function TeamEditor({ team, onSave, onCancel }: { team: Team, onSave: (t: Team) 
               ) : (
                 <button
                   onClick={() => setSelectingSlot(i)}
-                  className="flex-1 flex flex-col items-center justify-center text-zinc-400 hover:text-red-500 hover:bg-red-50 transition-colors rounded-xl border-2 border-dashed border-zinc-300 hover:border-red-300"
+                  className="flex-1 flex flex-col items-center justify-center text-zinc-300 hover:text-red-500 transition-colors"
                 >
-                  <Plus size={32} className="mb-2" />
-                  <span className="font-semibold">Add Pokémon</span>
+                  <Plus size={40} className="mb-2 transition-transform hover:rotate-90 duration-300" />
+                  <span className="font-black uppercase text-[10px] tracking-widest">Adicionar Pokémon</span>
                 </button>
               )}
             </div>
@@ -348,7 +488,7 @@ function TeamEditor({ team, onSave, onCancel }: { team: Team, onSave: (t: Team) 
 
       {selectingSlot !== null && (
         <PokemonSelector
-          onSelect={(id) => {
+          onSelect={(id: number) => {
             const newPokemons = [...pokemons];
             const basePokemon = { pokemonId: id, moves: [] as string[] };
 
@@ -380,54 +520,56 @@ function PokemonSlotEditor({ pokemon, onChange, onRemove }: { pokemon: TeamPokem
   const { details } = usePokemonDetails(pokemon.pokemonId);
   const { items } = useItemsList();
 
-  if (!details) return <div className="animate-pulse flex-1 bg-zinc-200 rounded-xl" />;
+  if (!details) return (
+    <div className="flex-1 flex items-center justify-center">
+      <Loader2 size={24} className="text-zinc-200 animate-spin" />
+    </div>
+  );
 
   const selectedItemData = items.find(i => i.name === pokemon.item);
 
   return (
     <>
-      <button onClick={onRemove} className="absolute top-3 right-3 text-zinc-400 hover:text-red-500">
-        <X size={20} />
+      <button onClick={onRemove} className="absolute top-4 right-4 text-zinc-300 hover:text-red-600 transition-colors">
+        <X size={18} strokeWidth={3} />
       </button>
-      <div className="flex items-center gap-4 mb-4">
-        <div className="relative">
-          <img src={details.sprite} alt={details.name} className="w-16 h-16 object-contain drop-shadow-md" />
-          {pokemon.item && (
-            <div className="absolute -bottom-1 -right-1 w-10 h-10 bg-white/95 backdrop-blur-md rounded-xl border border-zinc-200 flex items-center justify-center p-1.5 shadow-md z-10">
-              <img
-                src={selectedItemData?.id
-                  ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/${selectedItemData.id}.png`
-                  : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/${pokemon.item}.png`
-                }
-                alt={pokemon.item}
-                className="w-full h-full object-contain"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png';
-                }}
-              />
-            </div>
-          )}
+      <div className="flex items-start gap-4 mb-6">
+        <div className="relative group/sprite">
+          <img src={details.sprite} alt={details.name} className="w-20 h-20 object-contain drop-shadow-xl group-hover/sprite:scale-110 transition-transform" />
+          <div className="absolute -bottom-1 -right-1 w-11 h-11 bg-white rounded-2xl border-2 border-zinc-50 flex items-center justify-center p-2 shadow-lg z-10 transition-transform hover:scale-110">
+            <img
+              src={selectedItemData?.id
+                ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/${selectedItemData.id}.png`
+                : pokemon.item ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/${pokemon.item}.png` : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png'
+              }
+              alt={pokemon.item || 'no item'}
+              className={`w-full h-full object-contain ${!pokemon.item ? 'opacity-20 grayscale' : ''}`}
+              onError={(e) => {
+                (e.target as HTMLImageElement).src = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png';
+              }}
+            />
+          </div>
         </div>
-        <div className="flex-1">
-          <h4 className="font-bold capitalize text-lg leading-tight mb-1">{details.name.replace('-', ' ')}</h4>
-          <div className="flex gap-1 mb-2">
+        <div className="flex-1 min-w-0">
+          <h4 className="font-black italic uppercase tracking-tighter text-zinc-800 text-lg truncate mb-1">{details.name.replace('-', ' ')}</h4>
+          <div className="flex gap-1 mb-3">
             {details.types.map(t => (
-              <span key={t} className="text-[10px] font-bold uppercase bg-zinc-200 px-1.5 py-0.5 rounded">{t}</span>
+              <span key={t} className={`text-[8px] font-black uppercase tracking-widest px-2 py-1 rounded-lg text-white ${typeColors[t]?.split(' ')[0] || 'bg-zinc-400'}`}>{t}</span>
             ))}
           </div>
           <select
             value={pokemon.item || ''}
             onChange={(e) => onChange({ ...pokemon, item: e.target.value })}
-            className="w-full bg-white border border-zinc-200 rounded-md px-2 py-1 text-xs outline-none focus:border-red-500 capitalize text-zinc-600"
+            className="w-full bg-white border border-zinc-100 rounded-xl px-2 py-1.5 text-[10px] font-black uppercase tracking-wider outline-none focus:border-red-600 transition-all text-zinc-500"
           >
-            <option value="">No Item</option>
+            <option value="">Sem Item</option>
             {items.map(item => (
               <option key={item.name} value={item.name}>{item.name.replace(/-/g, ' ')}</option>
             ))}
           </select>
         </div>
       </div>
-      <div className="flex-1 flex flex-col gap-2">
+      <div className="space-y-1.5">
         {Array.from({ length: 4 }).map((_, i) => (
           <select
             key={i}
@@ -437,9 +579,9 @@ function PokemonSlotEditor({ pokemon, onChange, onRemove }: { pokemon: TeamPokem
               newMoves[i] = e.target.value;
               onChange({ ...pokemon, moves: newMoves });
             }}
-            className="w-full bg-white border border-zinc-200 rounded-lg px-2 py-1.5 text-sm outline-none focus:border-red-500 capitalize"
+            className="w-full bg-white border border-zinc-100 rounded-xl px-3 py-2 text-[10px] font-bold uppercase tracking-wide outline-none focus:border-red-600 transition-all text-zinc-700 hover:bg-zinc-50"
           >
-            <option value="">Select Move...</option>
+            <option value="">Selecionar Golpe...</option>
             {details.moves.map(m => (
               <option key={m.move.name} value={m.move.name}>{m.move.name.replace('-', ' ')}</option>
             ))}
@@ -475,103 +617,99 @@ function PokemonSelector({ onSelect, onClose }: { onSelect: (id: number) => void
   const displayed = filtered.slice(0, displayCount);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
-      <div className="bg-white rounded-3xl shadow-2xl w-full max-w-4xl overflow-hidden flex flex-col max-h-[90vh]">
-        <div className="p-4 border-b border-zinc-200 flex flex-col gap-4">
-          <div className="flex items-center gap-4">
-            <Search className="text-zinc-400" />
-            <input
-              autoFocus
-              type="text"
-              placeholder="Search Pokémon..."
-              value={search}
-              onChange={e => { setSearch(e.target.value); setDisplayCount(30); }}
-              className="flex-1 outline-none text-lg"
-            />
-            <button onClick={onClose} className="p-2 hover:bg-zinc-100 rounded-full"><X size={20} /></button>
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-md">
+      <motion.div
+        initial={{ scale: 0.9, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        className="bg-white rounded-[3rem] shadow-2xl w-full max-w-5xl overflow-hidden flex flex-col max-h-[90vh]"
+      >
+        <div className="p-8 border-b border-zinc-100 bg-zinc-50/50">
+          <div className="flex items-center gap-6 mb-6">
+            <div className="flex-1 relative group">
+              <Search className="absolute left-6 top-1/2 -translate-y-1/2 text-zinc-300 group-focus-within:text-red-600 transition-colors" size={24} />
+              <input
+                autoFocus
+                type="text"
+                placeholder="Procurar Pokémon..."
+                value={search}
+                onChange={e => { setSearch(e.target.value); setDisplayCount(30); }}
+                className="w-full bg-white pl-16 pr-8 py-5 rounded-3xl border-2 border-zinc-100 focus:border-red-600 outline-none text-xl font-black italic uppercase tracking-tighter transition-all"
+              />
+            </div>
+            <button onClick={onClose} className="p-4 bg-zinc-100 text-zinc-400 hover:bg-red-600 hover:text-white rounded-full transition-all active:scale-90 flex items-center justify-center"><X size={28} /></button>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
+          <div className="flex flex-col sm:flex-row gap-4">
             <div className="flex-1 relative">
-              <div className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-400 pointer-events-none">
-                <Filter size={16} />
-              </div>
               <select
                 value={selectedType || ''}
                 onChange={e => { setSelectedType(e.target.value || null); setDisplayCount(30); }}
-                className="w-full pl-10 pr-8 py-2.5 rounded-xl border border-zinc-200 bg-zinc-50 focus:border-red-500 outline-none appearance-none font-medium text-sm text-zinc-700 capitalize cursor-pointer transition-all"
+                className="w-full pl-6 pr-10 py-4 rounded-[1.5rem] border-2 border-zinc-100 bg-white focus:border-red-600 outline-none appearance-none font-black text-xs uppercase tracking-widest text-zinc-500 cursor-pointer transition-all"
               >
-                <option value="">All Types</option>
+                <option value="">Todos os Tipos</option>
                 {ALL_TYPES.map(type => (
                   <option key={type} value={type}>{type}</option>
                 ))}
               </select>
-              <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none">
-                <ChevronDown size={16} className="text-zinc-400" />
+              <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
+                <ChevronDown size={20} className="text-zinc-300" />
               </div>
-              {selectedType && (
-                <div className={`absolute right-8 top-1/2 -translate-y-1/2 w-3 h-3 rounded-full ${typeColors[selectedType].split(' ')[0]}`} />
-              )}
             </div>
 
             <div className="flex-1 relative">
-              <div className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-400 pointer-events-none">
-                <Layers size={16} />
-              </div>
               <select
                 value={selectedGen || ''}
                 onChange={e => { setSelectedGen(e.target.value ? Number(e.target.value) : null); setDisplayCount(30); }}
-                className="w-full pl-10 pr-8 py-2.5 rounded-xl border border-zinc-200 bg-zinc-50 focus:border-red-500 outline-none appearance-none font-medium text-sm text-zinc-700 cursor-pointer transition-all"
+                className="w-full pl-6 pr-10 py-4 rounded-[1.5rem] border-2 border-zinc-100 bg-white focus:border-red-600 outline-none appearance-none font-black text-xs uppercase tracking-widest text-zinc-500 cursor-pointer transition-all"
               >
-                <option value="">All Generations</option>
+                <option value="">Todas as Gerações</option>
                 {GENERATIONS.map(gen => (
                   <option key={gen.id} value={gen.id}>{gen.name}</option>
                 ))}
               </select>
-              <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none">
-                <ChevronDown size={16} className="text-zinc-400" />
+              <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
+                <ChevronDown size={20} className="text-zinc-300" />
               </div>
             </div>
           </div>
         </div>
 
-        <div className="flex-1 overflow-y-auto p-4">
-          {(!search && !selectedType && !selectedGen) ? (
-            <div className="flex flex-col items-center justify-center h-full text-zinc-400 py-10">
-              <Search size={48} className="mb-4 opacity-20" />
-              <p className="text-lg font-medium">Search or filter to find Pokémon</p>
+        <div className="flex-1 overflow-y-auto p-8 bg-zinc-50/20">
+          {displayed.length === 0 ? (
+            <div className="flex flex-col items-center justify-center h-full py-20 text-zinc-300">
+              <Search size={64} className="mb-6 opacity-10" />
+              <p className="text-2xl font-black uppercase italic tracking-tighter">Nenhum Pokémon encontrado</p>
+              <p className="font-bold tracking-widest text-xs mt-2">Tente mudar os filtros ou a busca</p>
             </div>
-          ) : displayed.length === 0 ? (
-            <div className="text-center py-10 text-zinc-400 font-medium">No Pokémon found.</div>
           ) : (
             <>
-              <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-4">
+              <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-6">
                 {displayed.map(p => (
                   <button
                     key={p.id}
                     onClick={() => onSelect(p.id)}
-                    className="flex flex-col items-center p-4 bg-zinc-50 rounded-xl hover:bg-red-50 hover:border-red-200 border border-zinc-100 transition-colors"
+                    className="flex flex-col items-center p-6 bg-white rounded-[2rem] hover:ring-4 hover:ring-red-100 hover:border-red-400 border border-zinc-100 transition-all group scale-100 active:scale-95 shadow-sm hover:shadow-xl"
                   >
-                    <img src={p.sprite} alt={p.name} className="w-16 h-16 object-contain mb-2" loading="lazy" />
-                    <span className="font-semibold capitalize text-sm">{p.name.replace('-', ' ')}</span>
+                    <img src={p.sprite} alt={p.name} className="w-20 h-20 object-contain mb-3 group-hover:scale-110 transition-transform" loading="lazy" />
+                    <span className="font-black italic uppercase tracking-tighter text-zinc-800 text-sm truncate w-full text-center">{p.name.replace('-', ' ')}</span>
                   </button>
                 ))}
               </div>
               {displayCount < filtered.length && (
-                <div className="flex justify-center mt-6 mb-2">
+                <div className="flex justify-center mt-12 mb-4">
                   <button
                     onClick={() => setDisplayCount(c => c + 30)}
-                    className="flex items-center gap-2 bg-white border border-zinc-200 text-zinc-700 hover:border-red-500 hover:text-red-600 px-6 py-2 rounded-full font-bold transition-all shadow-sm"
+                    className="flex items-center gap-3 bg-zinc-900 text-white px-10 py-4 rounded-full font-black uppercase text-xs tracking-widest hover:bg-red-600 transition-all shadow-xl active:scale-95"
                   >
-                    Load More
-                    <ChevronDown size={16} />
+                    Ver Mais Resultados
+                    <ChevronDown size={18} />
                   </button>
                 </div>
               )}
             </>
           )}
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

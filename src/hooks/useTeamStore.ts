@@ -10,6 +10,7 @@ export interface Team {
   id: string;
   name: string;
   pokemons: TeamPokemon[];
+  isPublic?: boolean;
 }
 
 export interface User {

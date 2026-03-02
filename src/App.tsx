@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
-import { Search, Filter, ChevronDown, Layers, Users, Briefcase, Cherry, Globe, Menu, X, Book } from 'lucide-react';
+import { Search, Filter, ChevronDown, Layers, Users, Briefcase, Cherry, Globe, Menu, X, Book, LogIn, LogOut } from 'lucide-react';
 import { usePokemonList } from './hooks/usePokemonList';
 import { PokemonCard } from './components/PokemonCard';
 import { PokemonModal } from './components/PokemonModal';
@@ -16,8 +16,12 @@ import { TcgDeckBuilder } from './components/TcgDeckBuilder';
 import { Calculator } from 'lucide-react';
 import { ALL_TYPES, GENERATIONS } from './constants';
 import { useLanguage } from './contexts/LanguageContext';
+import { useAuth } from './contexts/AuthContext';
+import { AuthModal } from './components/AuthModal';
+import { ProfilePage } from './pages/ProfilePage';
+import { RankAvatar } from './components/RankAvatar';
 
-type ViewType = 'news' | 'dex' | 'tcg' | 'teambuilder' | 'items' | 'berries' | 'battle' | 'calculator';
+type ViewType = 'news' | 'dex' | 'tcg' | 'teambuilder' | 'items' | 'berries' | 'battle' | 'calculator' | 'profile';
 
 export default function App() {
   const { pokemon, loading, error } = usePokemonList();
@@ -27,8 +31,10 @@ export default function App() {
   const [selectedPokemon, setSelectedPokemon] = useState<BasicPokemon | null>(null);
   const [displayCount, setDisplayCount] = useState(40);
   const [currentView, setCurrentView] = useState<ViewType>('news');
+  const [selectedProfileUid, setSelectedProfileUid] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { language, setLanguage, t } = useLanguage();
+  const { user, profile, showAuthModal, setShowAuthModal, signOut } = useAuth();
 
   // Close mobile menu when view changes
   useEffect(() => {
@@ -88,78 +94,74 @@ export default function App() {
             </div>
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="flex items-center gap-2 md:hidden">
-            <button
-              className="p-2 hover:bg-red-700 rounded-lg transition-colors flex flex-col gap-[5px] items-center justify-center w-10 h-10"
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            >
-              {isMobileMenuOpen ? (
-                <X size={24} className="text-white" />
-              ) : (
-                <>
-                  <div className="w-6 h-1 bg-red-400 rounded-full border border-black/40 shadow-sm" />
-                  <div className="w-6 h-1 bg-yellow-400 rounded-full border border-black/40 shadow-sm" />
-                  <div className="w-6 h-1 bg-green-400 rounded-full border border-black/40 shadow-sm" />
-                </>
+          {/* Navigation - Burger Menu always visible */}
+          <div className="flex items-center gap-2">
+
+            {/* Auth Button Group */}
+            {user ? (
+              <div className="flex items-center gap-2 bg-red-700 rounded-full p-1 border-2 border-white/20">
+                <button
+                  onClick={() => {
+                    setSelectedProfileUid(user.uid);
+                    setCurrentView('profile');
+                  }}
+                  className="flex items-center gap-2 pl-1 pr-2 hover:bg-white/10 rounded-full transition-colors"
+                  title="Ver Perfil"
+                >
+                  <RankAvatar
+                    photoURL={user.photoURL}
+                    displayName={user.displayName}
+                    contributionCount={profile?.contributionCount || 0}
+                    size="sm"
+                  />
+                  <span className="hidden sm:block text-white text-xs font-bold max-w-[80px] truncate leading-tight">
+                    {user.displayName?.split(' ')[0] ?? user.email?.split('@')[0]}
+                  </span>
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={() => setShowAuthModal(true)}
+                className="flex items-center gap-2 bg-white text-red-600 hover:bg-red-50 font-bold text-sm px-4 py-2 rounded-full transition-colors shadow-sm"
+              >
+                <LogIn size={16} />
+                <span className="hidden sm:block">Entrar</span>
+              </button>
+            )}
+
+            {/* Burger Menu Button with Tooltip/Incentive */}
+            <div className="relative group">
+              <button
+                className="p-2 bg-red-800 hover:bg-red-700 rounded-2xl transition-all border-2 border-white/10 flex items-center gap-3 px-3 min-w-[50px] sm:min-w-[120px] justify-center"
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              >
+                <span className="hidden sm:block text-white text-[10px] font-black uppercase tracking-widest opacity-80 group-hover:opacity-100">
+                  {isMobileMenuOpen ? 'Fechar' : 'Ferramentas'}
+                </span>
+                <div className="flex flex-col gap-[4px] items-center justify-center">
+                  {isMobileMenuOpen ? (
+                    <X size={20} className="text-white" />
+                  ) : (
+                    <>
+                      <div className="w-5 h-[3px] bg-red-400 rounded-full" />
+                      <div className="w-5 h-[3px] bg-yellow-400 rounded-full" />
+                      <div className="w-5 h-[3px] bg-green-400 rounded-full" />
+                    </>
+                  )}
+                </div>
+              </button>
+
+              {!isMobileMenuOpen && (
+                <div className="absolute top-full right-0 mt-3 hidden group-hover:block z-50">
+                  <div className="bg-white text-red-600 text-[10px] font-bold px-3 py-1.5 rounded-full shadow-lg border border-red-100 whitespace-nowrap animate-bounce">
+                    Explorar Ferramentas ✨
+                  </div>
+                </div>
               )}
-            </button>
-          </div>
+            </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-2">
-
-            <button
-              onClick={() => setCurrentView('dex')}
-              className={`px-4 py-2 rounded-full font-bold text-sm transition-colors flex items-center gap-2 whitespace-nowrap ${currentView === 'dex' ? 'bg-white text-red-600 shadow-sm' : 'bg-red-700 text-white hover:bg-red-800'}`}
-            >
-              <Book size={16} />
-              {t.dex}
-            </button>
-            <button
-              onClick={() => setCurrentView('tcg')}
-              className={`px-4 py-2 rounded-full font-bold text-sm transition-colors flex items-center gap-2 whitespace-nowrap ${currentView === 'tcg' ? 'bg-white text-red-600 shadow-sm' : 'bg-red-700 text-white hover:bg-red-800'}`}
-            >
-              <Layers size={16} />
-              TCG
-            </button>
-            <button
-              onClick={() => setCurrentView('teambuilder')}
-              className={`px-4 py-2 rounded-full font-bold text-sm transition-colors flex items-center gap-2 whitespace-nowrap ${currentView === 'teambuilder' ? 'bg-white text-red-600 shadow-sm' : 'bg-red-700 text-white hover:bg-red-800'}`}
-            >
-              <Users size={16} />
-              {t.teamBuilder}
-            </button>
-            <button
-              onClick={() => setCurrentView('items')}
-              className={`px-4 py-2 rounded-full font-bold text-sm transition-colors flex items-center gap-2 whitespace-nowrap ${currentView === 'items' ? 'bg-white text-red-600 shadow-sm' : 'bg-red-700 text-white hover:bg-red-800'}`}
-            >
-              <Briefcase size={16} />
-              {t.items}
-            </button>
-            <button
-              onClick={() => setCurrentView('berries')}
-              className={`px-4 py-2 rounded-full font-bold text-sm transition-colors flex items-center gap-2 whitespace-nowrap ${currentView === 'berries' ? 'bg-white text-red-600 shadow-sm' : 'bg-red-700 text-white hover:bg-red-800'}`}
-            >
-              <Cherry size={16} />
-              {t.berries}
-            </button>
-            <button
-              onClick={() => setCurrentView('battle')}
-              className={`px-4 py-2 rounded-full font-bold text-sm transition-colors flex items-center gap-2 whitespace-nowrap ${currentView === 'battle' ? 'bg-white text-red-600 shadow-sm' : 'bg-red-700 text-white hover:bg-red-800'}`}
-            >
-              <Globe size={16} />
-              {t.battle || 'Battle'}
-            </button>
-            <button
-              onClick={() => setCurrentView('calculator')}
-              className={`px-4 py-2 rounded-full font-bold text-sm transition-colors flex items-center gap-2 whitespace-nowrap ${currentView === 'calculator' ? 'bg-white text-red-600 shadow-sm' : 'bg-red-700 text-white hover:bg-red-800'}`}
-            >
-              <Calculator size={16} />
-              {t.calculator || 'Calculadora'}
-            </button>
-
-            <div className="ml-2 relative flex items-center bg-red-700 rounded-lg p-1 hover:bg-red-800 transition-colors">
+            {/* Language Select (Hidden on small mobile) */}
+            <div className="hidden xs:flex ml-1 relative items-center bg-red-700 rounded-lg p-1 hover:bg-red-800 transition-colors">
               <select
                 value={language}
                 onChange={e => setLanguage(e.target.value as any)}
@@ -174,16 +176,16 @@ export default function App() {
           </div>
         </div>
 
-        {/* Mobile Navigation Menu */}
+        {/* Unified Navigation Menu (Overlay) */}
         <AnimatePresence>
           {isMobileMenuOpen && (
             <motion.div
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: 'auto', opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
-              className="md:hidden bg-red-700 border-t border-red-800 overflow-hidden"
+              className="bg-red-700 border-t border-red-800 overflow-hidden shadow-xl"
             >
-              <div className="flex flex-col p-4 gap-2">
+              <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 p-6 gap-3">
 
                 <button
                   onClick={() => setCurrentView('dex')}
@@ -234,19 +236,27 @@ export default function App() {
                   <Calculator size={20} />
                   {t.calculator || 'Calculadora'}
                 </button>
-                <div className="px-4 py-3 flex items-center justify-center border-t border-red-800 mt-2 pt-4">
-                  <div className="relative flex items-center bg-red-800 rounded-lg p-1">
-                    <select
-                      value={language}
-                      onChange={e => setLanguage(e.target.value as any)}
-                      className="bg-transparent text-white border-none outline-none rounded px-4 py-2 text-sm font-bold appearance-none cursor-pointer pr-8 text-center"
-                    >
-                      <option value="en" className="text-black">English</option>
-                      <option value="es" className="text-black">Español</option>
-                      <option value="pt-BR" className="text-black">Português</option>
-                    </select>
-                    <ChevronDown size={14} className="text-white/70 absolute right-3 pointer-events-none" />
-                  </div>
+
+                {/* Language Switcher at the bottom of the tools menu */}
+                <div className="sm:col-span-2 md:col-span-4 mt-2 pt-4 border-t border-red-800/50 flex flex-wrap gap-2">
+                  <button
+                    onClick={() => setLanguage('en')}
+                    className={`px-3 py-1.5 rounded-lg text-[10px] font-black tracking-widest transition-all ${language === 'en' ? 'bg-white text-red-600' : 'bg-red-800/50 text-white/70 hover:text-white hover:bg-red-800'}`}
+                  >
+                    ENGLISH
+                  </button>
+                  <button
+                    onClick={() => setLanguage('pt-BR')}
+                    className={`px-3 py-1.5 rounded-lg text-[10px] font-black tracking-widest transition-all ${language === 'pt-BR' ? 'bg-white text-red-600' : 'bg-red-800/50 text-white/70 hover:text-white hover:bg-red-800'}`}
+                  >
+                    PORTUGUÊS
+                  </button>
+                  <button
+                    onClick={() => setLanguage('es')}
+                    className={`px-3 py-1.5 rounded-lg text-[10px] font-black tracking-widest transition-all ${language === 'es' ? 'bg-white text-red-600' : 'bg-red-800/50 text-white/70 hover:text-white hover:bg-red-800'}`}
+                  >
+                    ESPAÑOL
+                  </button>
                 </div>
               </div>
             </motion.div>
@@ -254,17 +264,25 @@ export default function App() {
         </AnimatePresence>
       </header>
 
-      {/* Calculator renders OUTSIDE main for full-width */}
-      {currentView === 'calculator' ? (
-        <CalculatorView />
-      ) : (
+      {/* Calculator and Profile renders OUTSIDE main for full-width */}
+      {currentView === 'calculator' && <CalculatorView />}
+      {currentView === 'profile' && selectedProfileUid && (
+        <ProfilePage uid={selectedProfileUid} onBack={() => setCurrentView('news')} />
+      )}
+      {currentView !== 'calculator' && currentView !== 'profile' && (
         <main className="max-w-7xl mx-auto px-4 py-8">
           {currentView === 'news' ? (
             <NewsView />
           ) : currentView === 'tcg' ? (
-            <TcgDeckBuilder />
+            <TcgDeckBuilder onNavigateToProfile={(uid) => {
+              setSelectedProfileUid(uid);
+              setCurrentView('profile');
+            }} />
           ) : currentView === 'teambuilder' ? (
-            <TeamBuilder />
+            <TeamBuilder onNavigateToProfile={(uid) => {
+              setSelectedProfileUid(uid);
+              setCurrentView('profile');
+            }} />
           ) : currentView === 'items' ? (
             <ItemsView />
           ) : currentView === 'berries' ? (
@@ -390,7 +408,7 @@ export default function App() {
         </p>
       </footer>
 
-      {/* Modal */}
+      {/* Pokemon Modal */}
       <AnimatePresence>
         {selectedPokemon && (
           <PokemonModal
@@ -399,6 +417,9 @@ export default function App() {
           />
         )}
       </AnimatePresence>
-    </div >
+
+      {/* Auth Modal */}
+      {showAuthModal && <AuthModal onClose={() => setShowAuthModal(false)} />}
+    </div>
   );
 }

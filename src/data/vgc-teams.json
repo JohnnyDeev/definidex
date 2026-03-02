@@ -1,0 +1,236 @@
+[
+  {
+    "id": "meta-auto-1",
+    "name": "Meta Tier 1 Core",
+    "pokemons": [
+      {
+        "pokemonId": 987,
+        "name": "flutter mane",
+        "types": [],
+        "item": "boosterenergy",
+        "moves": [
+          "moonblast",
+          "shadowball",
+          "dazzlinggleam",
+          "icywind"
+        ]
+      },
+      {
+        "pokemonId": 727,
+        "name": "incineroar",
+        "types": [],
+        "item": "safetygoggles",
+        "moves": [
+          "fakeout",
+          "flareblitz",
+          "knockoff",
+          "partingshot"
+        ]
+      },
+      {
+        "pokemonId": 10191,
+        "name": "urshifu-rapid-strike",
+        "types": [],
+        "item": "mysticwater",
+        "moves": [
+          "surgingstrikes",
+          "closecombat",
+          "aquajet",
+          "uturn"
+        ]
+      },
+      {
+        "pokemonId": 1021,
+        "name": "raging bolt",
+        "types": [],
+        "item": "assaultvest",
+        "moves": [
+          "thunderclap",
+          "dragonpulse",
+          "protect",
+          "thunderbolt"
+        ]
+      },
+      {
+        "pokemonId": 641,
+        "name": "tornadus",
+        "types": [],
+        "item": "covertcloak",
+        "moves": [
+          "tailwind",
+          "bleakwindstorm",
+          "protect",
+          "raindance"
+        ]
+      },
+      {
+        "pokemonId": 812,
+        "name": "rillaboom",
+        "types": [],
+        "item": "assaultvest",
+        "moves": [
+          "grassyglide",
+          "fakeout",
+          "woodhammer",
+          "highhorsepower"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "meta-auto-2",
+    "name": "Meta Tier 2 Core",
+    "pokemons": [
+      {
+        "pokemonId": 10273,
+        "name": "ogerpon-wellspring",
+        "types": [],
+        "item": "wellspringmask",
+        "moves": [
+          "ivycudgel",
+          "spikyshield",
+          "followme",
+          "hornleech"
+        ]
+      },
+      {
+        "pokemonId": 591,
+        "name": "amoonguss",
+        "types": [],
+        "item": "rockyhelmet",
+        "moves": [
+          "spore",
+          "ragepowder",
+          "protect",
+          "sludgebomb"
+        ]
+      },
+      {
+        "pokemonId": 645,
+        "name": "landorus",
+        "types": [],
+        "item": "lifeorb",
+        "moves": [
+          "sludgebomb",
+          "earthpower",
+          "protect",
+          "sandsearstorm"
+        ]
+      },
+      {
+        "pokemonId": 981,
+        "name": "farigiraf",
+        "types": [],
+        "item": "throatspray",
+        "moves": [
+          "trickroom",
+          "hypervoice",
+          "psychic",
+          "protect"
+        ]
+      },
+      {
+        "pokemonId": 1002,
+        "name": "chien-pao",
+        "types": [],
+        "item": "focussash",
+        "moves": [
+          "protect",
+          "suckerpunch",
+          "sacredsword",
+          "icespinner"
+        ]
+      },
+      {
+        "pokemonId": 10274,
+        "name": "ogerpon-hearthflame",
+        "types": [],
+        "item": "hearthflamemask",
+        "moves": [
+          "ivycudgel",
+          "spikyshield",
+          "followme",
+          "grassyglide"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "meta-auto-3",
+    "name": "Meta Tier 3 Core",
+    "pokemons": [
+      {
+        "pokemonId": 1000,
+        "name": "gholdengo",
+        "types": [],
+        "item": "choicespecs",
+        "moves": [
+          "makeitrain",
+          "shadowball",
+          "protect",
+          "nastyplot"
+        ]
+      },
+      {
+        "pokemonId": 10186,
+        "name": "indeedee-f",
+        "types": [],
+        "item": "rockyhelmet",
+        "moves": [
+          "followme",
+          "helpinghand",
+          "trickroom",
+          "dazzlinggleam"
+        ]
+      },
+      {
+        "pokemonId": 324,
+        "name": "torkoal",
+        "types": [],
+        "item": "choicespecs",
+        "moves": [
+          "eruption",
+          "heatwave",
+          "protect",
+          "helpinghand"
+        ]
+      },
+      {
+        "pokemonId": 892,
+        "name": "urshifu",
+        "types": [],
+        "item": "focussash",
+        "moves": [
+          "wickedblow",
+          "closecombat",
+          "suckerpunch",
+          "detect"
+        ]
+      },
+      {
+        "pokemonId": 149,
+        "name": "dragonite",
+        "types": [],
+        "item": "choiceband",
+        "moves": [
+          "extremespeed",
+          "ironhead",
+          "outrage",
+          "protect"
+        ]
+      },
+      {
+        "pokemonId": 547,
+        "name": "whimsicott",
+        "types": [],
+        "item": "covertcloak",
+        "moves": [
+          "tailwind",
+          "moonblast",
+          "encore",
+          "faketears"
+        ]
+      }
+    ]
+  }
+]

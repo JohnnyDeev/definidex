@@ -1,16 +1,16 @@
-name: Fetch Pokémon News
+name: Fetch VGC Meta Teams
 
 on:
   schedule:
-    # Runs daily at 13:00 UTC (10:00 AM BRT)
-    - cron: '0 13 * * *'
-  workflow_dispatch: # Allow manual trigger
+    # Runs at 10:00 UTC (07:00 AM BRT) every 2 days
+    - cron: '0 10 */2 * *'
+  workflow_dispatch: # Allow manual trigger via UI
 
 permissions:
   contents: write
 
 jobs:
-  fetch-news:
+  fetch-vgc-teams:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,12 +26,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Fetch news
-        run: npm run fetch-news
+      - name: Fetch VGC Teams
+        run: npm run update-vgc-teams
+        env:
+            PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
+            PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/news.json
-          git diff --staged --quiet || git commit -m "chore: update news feed [skip ci]" && git push
+          git add src/data/vgc-teams.json
+          git diff --staged --quiet || git commit -m "chore: update vgc meta teams [skip ci]" && git push

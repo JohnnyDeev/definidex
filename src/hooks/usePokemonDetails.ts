@@ -14,7 +14,7 @@ export function usePokemonDetails(id: number | null, language: string = 'en') {
     }
 
     let isMounted = true;
-    
+
     async function fetchDetails() {
       setLoading(true);
       try {
@@ -23,7 +23,7 @@ export function usePokemonDetails(id: number | null, language: string = 'en') {
           fetch(`https://pokeapi.co/api/v2/pokemon/${id}/encounters`),
           fetch(`https://pokeapi.co/api/v2/pokemon-species/${id}`).catch(() => null)
         ]);
-        
+
         const pData = await pRes.json();
         const eData = await eRes.json();
         let varieties: PokemonVariety[] = [];
@@ -32,7 +32,7 @@ export function usePokemonDetails(id: number | null, language: string = 'en') {
         if (sRes && sRes.ok) {
           const sData = await sRes.json();
           const nonDefaultVarieties = sData.varieties.filter((v: any) => !v.is_default);
-          
+
           if (sData.evolution_chain?.url) {
             try {
               const evoRes = await fetch(sData.evolution_chain.url);
@@ -44,7 +44,7 @@ export function usePokemonDetails(id: number | null, language: string = 'en') {
               console.error('Failed to fetch evolution chain', e);
             }
           }
-          
+
           // Fetch details for each variety
           varieties = await Promise.all(nonDefaultVarieties.map(async (v: any) => {
             try {
@@ -64,7 +64,7 @@ export function usePokemonDetails(id: number | null, language: string = 'en') {
             }
           }));
         }
-        
+
         // Fetch ability details
         const abilitiesWithDetails: PokemonAbility[] = await Promise.all(
           pData.abilities.map(async (a: any) => {
@@ -87,13 +87,14 @@ export function usePokemonDetails(id: number | null, language: string = 'en') {
             return a;
           })
         );
-        
+
         if (isMounted) {
           setDetails({
             id: pData.id,
             name: pData.name,
             types: pData.types.map((t: any) => t.type.name),
-            sprite: pData.sprites.other['official-artwork'].front_default,
+            sprite: pData.sprites.other['official-artwork'].front_default || pData.sprites.front_default,
+            spriteShiny: pData.sprites.other['official-artwork'].front_shiny || pData.sprites.front_shiny,
             stats: pData.stats,
             abilities: abilitiesWithDetails,
             height: pData.height,
@@ -111,9 +112,9 @@ export function usePokemonDetails(id: number | null, language: string = 'en') {
         if (isMounted) setLoading(false);
       }
     }
-    
+
     fetchDetails();
-    
+
     return () => { isMounted = false; };
   }, [id]);
 

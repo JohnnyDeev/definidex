@@ -1,0 +1,61 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    match /users/{userId} {
+      // Allow any authenticated user to read profiles (needed for rank/contributions)
+      allow read: if isAuthenticated();
+      // Only the user can update their own profile
+      allow write: if isOwner(userId);
+    }
+
+    match /decks/{deckId} {
+      allow read: if resource.data.isPublic == true || (isAuthenticated() && request.auth.uid == resource.data.uid);
+      allow create: if isAuthenticated() && request.auth.uid == request.resource.data.uid;
+      allow update: if isAuthenticated() && (
+        isOwner(resource.data.uid) || 
+        (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['likesCount', 'commentsCount']))
+      );
+      allow delete: if isOwner(resource.data.uid);
+
+      // Likes subcollection
+      match /likes/{userId} {
+        allow read: if isAuthenticated();
+        // A user can only manage their own like
+        allow create, delete: if isOwner(userId);
+      }
+    }
+
+    match /teams/{teamId} {
+      allow read: if resource.data.isPublic == true || (isAuthenticated() && request.auth.uid == resource.data.uid);
+      allow create: if isAuthenticated() && request.auth.uid == request.resource.data.uid;
+      allow update: if isAuthenticated() && (
+        isOwner(resource.data.uid) || 
+        (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['likesCount', 'commentsCount']))
+      );
+      allow delete: if isOwner(resource.data.uid);
+
+      // Likes subcollection
+      match /likes/{userId} {
+        allow read: if isAuthenticated();
+        // A user can only manage their own like
+        allow create, delete: if isOwner(userId);
+      }
+    }
+
+    match /comments/{commentId} {
+      allow read: if true;
+      allow create: if isAuthenticated() && request.auth.uid == request.resource.data.uid;
+      allow update: if isAuthenticated() && request.auth.uid == resource.data.uid;
+      allow delete: if isAuthenticated() && request.auth.uid == resource.data.uid;
+    }
+  }
+}

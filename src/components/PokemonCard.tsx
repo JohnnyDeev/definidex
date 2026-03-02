@@ -1,8 +1,12 @@
+import { useState } from 'react';
 import { motion } from 'motion/react';
 import { BasicPokemon } from '../types';
 import { TypeBadge, typeHexColors } from './TypeBadge';
+import { Sparkles } from 'lucide-react';
 
 export function PokemonCard({ pokemon, onClick }: { pokemon: BasicPokemon, onClick: () => void }) {
+  const [isShiny, setIsShiny] = useState(false);
+
   const getGradient = () => {
     const colors = pokemon.types.map(t => typeHexColors[t] || '#A8A77A');
     if (colors.length === 1) {
@@ -23,10 +27,24 @@ export function PokemonCard({ pokemon, onClick }: { pokemon: BasicPokemon, onCli
         <span className="absolute top-3 left-3 text-zinc-400 font-mono font-bold text-sm">
           #{String(pokemon.id).padStart(4, '0')}
         </span>
+
+        {/* Shiny Toggle */}
+        <button
+          onClick={(e) => { e.stopPropagation(); setIsShiny(!isShiny); }}
+          className={`absolute top-2.5 right-2.5 z-10 flex items-center gap-1 px-2 py-1 rounded-full text-[10px] font-bold transition-all duration-200 border ${isShiny
+              ? 'bg-yellow-400 text-yellow-900 border-yellow-500 shadow-md shadow-yellow-200'
+              : 'bg-white/80 text-zinc-400 border-zinc-200 hover:bg-yellow-50 hover:text-yellow-600 hover:border-yellow-300'
+            }`}
+          title={isShiny ? 'View normal' : 'View shiny'}
+        >
+          <Sparkles size={12} strokeWidth={2.5} />
+          <span className="hidden sm:inline">Shiny</span>
+        </button>
+
         <img
-          src={pokemon.sprite}
-          alt={pokemon.name}
-          className="w-32 h-32 object-contain drop-shadow-lg group-hover:scale-110 transition-transform duration-300"
+          src={isShiny ? pokemon.spriteShiny : pokemon.sprite}
+          alt={`${pokemon.name}${isShiny ? ' (Shiny)' : ''}`}
+          className={`w-32 h-32 object-contain drop-shadow-lg group-hover:scale-110 transition-transform duration-300 ${isShiny ? 'drop-shadow-[0_0_12px_rgba(250,204,21,0.4)]' : ''}`}
           referrerPolicy="no-referrer"
           loading="lazy"
         />

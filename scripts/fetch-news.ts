@@ -19,7 +19,7 @@ interface NewsArticle {
     pubDate: string;
     snippet: string;
     source: string;
-    category: 'vgc' | 'tcg' | 'general';
+    category: 'vgc' | 'tcg' | 'games-anime';
 }
 
 interface NewsData {
@@ -29,22 +29,39 @@ interface NewsData {
 
 // ─── RSS Feed Sources ────────────────────────────
 const RSS_FEEDS = [
-    { url: 'https://pokemondb.net/news/feed', source: 'PokémonDB' },
-    { url: 'https://pokemonblog.com/feed', source: 'Pokémon Blog' },
+    { url: 'https://www.pokebeach.com/category/tcg/feed', source: 'PokeBeach', category: 'tcg' },
+    { url: 'https://pokeballer.com/feed', source: 'Pokéballer', category: 'tcg' },
+    { url: 'https://victoryroadvgc.com/feed/', source: 'Victory Road', category: 'vgc' },
+    { url: 'https://www.smogon.com/forums/forums/smogon-news.26/index.rss', source: 'Smogon News', category: 'vgc' },
+    { url: 'https://pokemonblog.com/feed', source: 'Pokémon Blog', category: 'games-anime' },
+    { url: 'https://www.nintendolife.com/feeds/latest', source: 'Nintendo Life', category: 'games-anime' },
 ];
 
-// ─── Category Keywords ───────────────────────────
-const VGC_KEYWORDS = [
-    'vgc', 'competitive', 'tournament', 'battle', 'regulation',
-    'worlds', 'regional', 'ranked', 'series', 'metagame',
-    'smogon', 'ou tier', 'uber', 'doubles',
-];
+/** Categorize article by keyword matching OR source category */
+function categorize(title: string, description: string, feedCategory?: string): 'vgc' | 'tcg' | 'games-anime' {
+    const text = `${title} ${description}`.toLowerCase();
 
-const TCG_KEYWORDS = [
-    'tcg', 'card', 'cards', 'expansion', 'deck', 'booster',
-    'collection', 'trading card', 'pocket', 'set list',
-    'rare card', 'promo', 'elite trainer',
-];
+    // 1. Games & Anime Rules (Priority if explicitly games/anime keywords)
+    if (text.includes('episode') || text.includes('trailer') || text.includes('leaks') || text.includes('anime')) {
+        return 'games-anime';
+    }
+
+    // 2. TCG Rules
+    if (text.includes('deck') || text.includes('booster') || text.includes('card') || text.includes('tcg') || text.includes('pokebeach')) {
+        return 'tcg';
+    }
+
+    // 3. VGC Rules
+    if (text.includes('vgc') || text.includes('doubles battle') || text.includes('victory road') || text.includes('competitive')) {
+        return 'vgc';
+    }
+
+    // Fallback to feed category if available
+    if (feedCategory === 'vgc') return 'vgc';
+    if (feedCategory === 'tcg') return 'tcg';
+
+    return 'games-anime';
+}
 
 // ─── Helpers ─────────────────────────────────────
 
@@ -111,23 +128,10 @@ function urlToId(url: string): string {
         .substring(0, 80);
 }
 
-/** Categorize article by keyword matching */
-function categorize(title: string, description: string): 'vgc' | 'tcg' | 'general' {
-    const text = `${title} ${description}`.toLowerCase();
-
-    for (const kw of VGC_KEYWORDS) {
-        if (text.includes(kw)) return 'vgc';
-    }
-    for (const kw of TCG_KEYWORDS) {
-        if (text.includes(kw)) return 'tcg';
-    }
-    return 'general';
-}
-
 // ─── Feed Fetcher ────────────────────────────────
 
-async function fetchFeed(feedUrl: string, sourceName: string): Promise<NewsArticle[]> {
-    console.log(`  📡 Fetching: ${feedUrl}`);
+async function fetchFeed(feedUrl: string, sourceName: string, feedCategory: string): Promise<NewsArticle[]> {
+    console.log(`  📡 Fetching: ${feedUrl} (${feedCategory})`);
 
     try {
         const res = await fetch(feedUrl, {
@@ -161,7 +165,7 @@ async function fetchFeed(feedUrl: string, sourceName: string): Promise<NewsArtic
                 pubDate: pubDate ? new Date(pubDate).toISOString() : new Date().toISOString(),
                 snippet,
                 source: sourceName,
-                category: categorize(title, rawDesc),
+                category: categorize(title, rawDesc, feedCategory),
             };
         });
     } catch (err) {
@@ -177,7 +181,7 @@ async function main() {
 
     // Fetch all feeds in parallel
     const results = await Promise.all(
-        RSS_FEEDS.map(feed => fetchFeed(feed.url, feed.source))
+        RSS_FEEDS.map(feed => fetchFeed(feed.url, feed.source, feed.category))
     );
 
     // Flatten and deduplicate by link
@@ -216,11 +220,11 @@ async function main() {
     // Stats
     const vgcCount = finalArticles.filter(a => a.category === 'vgc').length;
     const tcgCount = finalArticles.filter(a => a.category === 'tcg').length;
-    const generalCount = finalArticles.filter(a => a.category === 'general').length;
+    const generalCount = finalArticles.filter(a => a.category === 'games-anime').length;
 
     console.log(`\n📊 Results:`);
     console.log(`   Total: ${finalArticles.length} articles`);
-    console.log(`   VGC: ${vgcCount} | TCG: ${tcgCount} | General: ${generalCount}`);
+    console.log(`   VGC: ${vgcCount} | TCG: ${tcgCount} | Apps/Anime: ${generalCount}`);
     console.log(`   Saved to: ${outputPath}`);
     console.log('✅ Done!');
 }

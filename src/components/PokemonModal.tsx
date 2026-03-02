@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X, Activity, Swords, Map, Gamepad2, Zap, Layers, TrendingUp } from 'lucide-react';
+import { X, Activity, Swords, Map, Gamepad2, Zap, Layers, TrendingUp, ChevronDown } from 'lucide-react';
 import { BasicPokemon, EvolutionNode } from '../types';
 import { TypeBadge, typeColors, typeHexColors } from './TypeBadge';
 import { usePokemonDetails } from '../hooks/usePokemonDetails';
@@ -12,6 +12,7 @@ export function PokemonModal({ pokemon, onClose }: { pokemon: BasicPokemon, onCl
   const { language, t } = useLanguage();
   const { details, encounters, loading } = usePokemonDetails(pokemon.id, language);
   const [activeTab, setActiveTab] = useState<'stats' | 'moves' | 'competitive' | 'forms' | 'encounters' | 'games' | 'evolution'>('stats');
+  const [expandedForm, setExpandedForm] = useState<string | null>(null);
 
   const getGradient = () => {
     const colors = pokemon.types.map(t => typeHexColors[t] || '#A8A77A');
@@ -292,40 +293,105 @@ export function PokemonModal({ pokemon, onClose }: { pokemon: BasicPokemon, onCl
                   {activeTab === 'forms' && details.varieties && (
                     <div>
                       <h3 className="text-lg font-bold text-zinc-900 mb-4">{t.altForms}</h3>
-                      <div className="space-y-6">
-                        {details.varieties.map(v => (
-                          <div key={v.pokemon.name} className="bg-white p-6 rounded-2xl border border-zinc-200 shadow-sm">
-                            <div className="flex flex-col sm:flex-row items-center gap-6">
-                              {v.details?.sprite && (
-                                <img src={v.details.sprite} alt={v.pokemon.name} className="w-32 h-32 object-contain drop-shadow-md" />
-                              )}
-                              <div className="flex-1 w-full">
-                                <h4 className="text-xl font-bold capitalize text-zinc-900 mb-2">{v.pokemon.name.replace(/-/g, ' ')}</h4>
-                                <div className="flex gap-2 mb-4">
-                                  {v.details?.types.map((t, index) => (
-                                    <TypeBadge key={`${t}-${index}`} type={t} />
-                                  ))}
-                                </div>
-
-                                {v.details?.stats && (
-                                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-                                    {v.details.stats.map(s => {
-                                      const statName = s.stat.name === 'special-attack' ? 'SpA' :
-                                        s.stat.name === 'special-defense' ? 'SpD' :
-                                          s.stat.name.substring(0, 3).toUpperCase();
-                                      return (
-                                        <div key={s.stat.name} className="bg-zinc-50 px-2 py-1 rounded border border-zinc-100 flex justify-between text-xs">
-                                          <span className="text-zinc-500 font-semibold">{statName}</span>
-                                          <span className="font-mono font-bold">{s.base_stat}</span>
-                                        </div>
-                                      );
-                                    })}
-                                  </div>
+                      <div className="space-y-4">
+                        {details.varieties.map(v => {
+                          const isExpanded = expandedForm === v.pokemon.name;
+                          const isDefault = v.is_default;
+                          return (
+                            <div
+                              key={v.pokemon.name}
+                              className={`bg-white rounded-2xl border shadow-sm overflow-hidden transition-all cursor-pointer ${isExpanded ? 'border-red-300 shadow-md' : 'border-zinc-200 hover:border-red-200 hover:shadow-md'}`}
+                              onClick={() => setExpandedForm(isExpanded ? null : v.pokemon.name)}
+                            >
+                              {/* Collapsed header */}
+                              <div className="flex items-center gap-4 p-4">
+                                {v.details?.sprite && (
+                                  <img src={v.details.sprite} alt={v.pokemon.name} className={`w-20 h-20 object-contain drop-shadow-md transition-transform duration-300 ${isExpanded ? 'scale-110' : ''}`} />
                                 )}
+                                <div className="flex-1 min-w-0">
+                                  <div className="flex items-center gap-2 mb-1">
+                                    <h4 className="text-base font-bold capitalize text-zinc-900 truncate">{v.pokemon.name.replace(/-/g, ' ')}</h4>
+                                    {isDefault && (
+                                      <span className="text-[9px] font-bold bg-zinc-100 text-zinc-500 px-1.5 py-0.5 rounded-md uppercase tracking-wider shrink-0">Default</span>
+                                    )}
+                                  </div>
+                                  <div className="flex gap-1.5 flex-wrap">
+                                    {v.details?.types.map((tp, index) => (
+                                      <TypeBadge key={`${tp}-${index}`} type={tp} />
+                                    ))}
+                                  </div>
+                                </div>
+                                <ChevronDown size={18} className={`text-zinc-400 transition-transform duration-300 shrink-0 ${isExpanded ? 'rotate-180' : ''}`} />
                               </div>
+
+                              {/* Expanded details */}
+                              <AnimatePresence>
+                                {isExpanded && v.details && (
+                                  <motion.div
+                                    initial={{ height: 0, opacity: 0 }}
+                                    animate={{ height: 'auto', opacity: 1 }}
+                                    exit={{ height: 0, opacity: 0 }}
+                                    transition={{ duration: 0.25 }}
+                                    className="overflow-hidden"
+                                  >
+                                    <div className="px-4 pb-4 pt-1 border-t border-zinc-100 space-y-4">
+                                      {/* Stats with bars */}
+                                      {v.details.stats && (
+                                        <div className="space-y-2">
+                                          <p className="text-xs font-bold text-zinc-500 uppercase tracking-wider">Stats</p>
+                                          {v.details.stats.map(s => {
+                                            const statNames: Record<string, string> = {
+                                              'hp': 'HP', 'attack': 'ATK', 'defense': 'DEF',
+                                              'special-attack': 'SpA', 'special-defense': 'SpD', 'speed': 'SPD',
+                                            };
+                                            const statColors: Record<string, string> = {
+                                              'hp': '#ef4444', 'attack': '#f97316', 'defense': '#eab308',
+                                              'special-attack': '#3b82f6', 'special-defense': '#22c55e', 'speed': '#ec4899',
+                                            };
+                                            const label = statNames[s.stat.name] || s.stat.name.substring(0, 3).toUpperCase();
+                                            const color = statColors[s.stat.name] || '#71717a';
+                                            const pct = Math.min((s.base_stat / 255) * 100, 100);
+                                            return (
+                                              <div key={s.stat.name} className="flex items-center gap-2">
+                                                <span className="text-[10px] font-bold text-zinc-500 w-7 text-right">{label}</span>
+                                                <span className="text-xs font-mono font-bold w-8 text-right">{s.base_stat}</span>
+                                                <div className="flex-1 h-2.5 bg-zinc-100 rounded-full overflow-hidden">
+                                                  <div className="h-full rounded-full transition-all duration-500" style={{ width: `${pct}%`, backgroundColor: color }} />
+                                                </div>
+                                              </div>
+                                            );
+                                          })}
+                                          <div className="flex items-center gap-2 mt-1 pt-1 border-t border-zinc-100">
+                                            <span className="text-[10px] font-bold text-zinc-500 w-7 text-right">TOT</span>
+                                            <span className="text-xs font-mono font-bold w-8 text-right text-red-600">
+                                              {v.details.stats.reduce((sum, s) => sum + s.base_stat, 0)}
+                                            </span>
+                                          </div>
+                                        </div>
+                                      )}
+
+                                      {/* Abilities */}
+                                      {v.details.abilities && v.details.abilities.length > 0 && (
+                                        <div>
+                                          <p className="text-xs font-bold text-zinc-500 uppercase tracking-wider mb-2">Abilities</p>
+                                          <div className="flex flex-wrap gap-2">
+                                            {v.details.abilities.map(a => (
+                                              <span key={a.ability.name}
+                                                className={`text-xs font-semibold capitalize px-2.5 py-1 rounded-lg border ${a.is_hidden ? 'bg-purple-50 text-purple-700 border-purple-200' : 'bg-zinc-50 text-zinc-700 border-zinc-200'}`}>
+                                                {a.ability.name.replace(/-/g, ' ')}
+                                                {a.is_hidden && <span className="text-[8px] ml-1 text-purple-400">(HA)</span>}
+                                              </span>
+                                            ))}
+                                          </div>
+                                        </div>
+                                      )}
+                                    </div>
+                                  </motion.div>
+                                )}
+                              </AnimatePresence>
                             </div>
-                          </div>
-                        ))}
+                          );
+                        })}
                       </div>
                     </div>
                   )}
