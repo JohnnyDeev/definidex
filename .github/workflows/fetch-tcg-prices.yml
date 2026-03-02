@@ -28,8 +28,6 @@ jobs:
 
       - name: Fetch TCG Prices
         run: npm run update-tcg-prices
-        env:
-          VITE_POKEMON_TCG_API_KEY: ${{ secrets.POKEMON_TCG_API_KEY }}
 
       - name: Commit and push if changed
         run: |

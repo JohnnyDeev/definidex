@@ -52,7 +52,17 @@ export function TcgDeckBuilder({ onNavigateToProfile }: TcgDeckBuilderProps) {
     const [loadingPrice, setLoadingPrice] = useState(false);
     const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-    // Fetch Card Price Live when Zoomed
+    // Load prices from local cache (populated by TCGCSV script every 3 days)
+    const [priceCache, setPriceCache] = useState<Record<string, number> | null>(null);
+
+    useEffect(() => {
+        fetch('/data/tcg-prices.json')
+            .then(res => res.ok ? res.json() : {})
+            .then(data => setPriceCache(data))
+            .catch(() => setPriceCache({}));
+    }, []);
+
+    // Show price instantly when card is zoomed (from cache)
     useEffect(() => {
         if (!zoomedCard) {
             setZoomedCardPrice(null);
@@ -60,77 +70,15 @@ export function TcgDeckBuilder({ onNavigateToProfile }: TcgDeckBuilderProps) {
             return;
         }
 
-        const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 6000); // 6s timeout
+        setLoadingPrice(true);
 
-        const getPrice = async () => {
-            setLoadingPrice(true);
-            try {
-                // Try from local cache first
-                const cacheRes = await fetch('/data/tcg-prices.json', {
-                    cache: 'force-cache',
-                    signal: controller.signal
-                });
-                if (cacheRes.ok) {
-                    const cachedPrices = await cacheRes.json();
-                    if (cachedPrices[zoomedCard.id] !== undefined) {
-                        setZoomedCardPrice({ usd: cachedPrices[zoomedCard.id], lastUpdated: 'Cached' });
-                        setLoadingPrice(false);
-                        return; // Done
-                    }
-                }
-            } catch (e) {
-                // cache unavailable, no big deal
-            }
-
-            // Fallback to Live API
-            try {
-                const res = await fetch(`https://api.pokemontcg.io/v2/cards/${zoomedCard.id}`, {
-                    headers: { 'X-Api-Key': '14f09d18-3a9d-4c31-8975-d143c0817346' },
-                    signal: controller.signal
-                });
-                const data = await res.json();
-                const cardData = data.data;
-                const prices = cardData?.tcgplayer?.prices;
-                if (!prices) {
-                    setZoomedCardPrice({ usd: 0 });
-                    return;
-                }
-
-                // Try to find any price in priority order
-                const getBestPrice = (p: any) => {
-                    return p?.market || p?.mid || p?.low || p?.directLow;
-                };
-
-                const marketPrice = getBestPrice(prices.normal) ||
-                    getBestPrice(prices.holofoil) ||
-                    getBestPrice(prices.reverseHolofoil) ||
-                    getBestPrice(prices.unlimitedHolofoil) ||
-                    getBestPrice(prices['1stEditionHolofoil']);
-
-                if (marketPrice) {
-                    setZoomedCardPrice({ usd: marketPrice, lastUpdated: cardData.tcgplayer?.updatedAt });
-                } else {
-                    setZoomedCardPrice({ usd: 0 }); // price unavailable
-                }
-            } catch (err: any) {
-                if (err.name !== 'AbortError') {
-                    console.error("Error fetching card price:", err);
-                }
-                setZoomedCardPrice(null);
-            } finally {
-                clearTimeout(timeoutId);
-                setLoadingPrice(false);
-            }
-        };
-
-        getPrice();
-
-        return () => {
-            clearTimeout(timeoutId);
-            controller.abort();
-        };
-    }, [zoomedCard]);
+        if (priceCache && priceCache[zoomedCard.id] !== undefined) {
+            setZoomedCardPrice({ usd: priceCache[zoomedCard.id], lastUpdated: 'TCGPlayer' });
+        } else {
+            setZoomedCardPrice({ usd: 0 }); // Not in cache
+        }
+        setLoadingPrice(false);
+    }, [zoomedCard, priceCache]);
 
     // Save Modal
     const [showSaveModal, setShowSaveModal] = useState(false);
