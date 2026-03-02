@@ -241,22 +241,28 @@ export async function getCommunityHighlight() {
         const qDecks = query(
             decksRef,
             where('isPublic', '==', true),
-            orderBy('likesCount', 'desc'),
-            limit(2)
+            limit(50)
         );
         const snapshotDecks = await getDocs(qDecks);
-        const topDecks = snapshotDecks.docs.map(doc => ({ id: doc.id, ...doc.data() } as SavedDeck));
+        let topDecks = snapshotDecks.docs.map(doc => ({ id: doc.id, ...doc.data() } as SavedDeck));
+
+        // Sort in memory and take top 2
+        topDecks.sort((a, b) => (b.likesCount || 0) - (a.likesCount || 0));
+        topDecks = topDecks.slice(0, 2);
 
         // Fetch top 2 public VGC Teams by likes
         const teamsRef = collection(db, 'teams');
         const qTeams = query(
             teamsRef,
             where('isPublic', '==', true),
-            orderBy('likesCount', 'desc'),
-            limit(2)
+            limit(50)
         );
         const snapshotTeams = await getDocs(qTeams);
-        const topTeams = snapshotTeams.docs.map(doc => ({ id: doc.id, ...doc.data() } as SavedTeam));
+        let topTeams = snapshotTeams.docs.map(doc => ({ id: doc.id, ...doc.data() } as SavedTeam));
+
+        // Sort in memory and take top 2
+        topTeams.sort((a, b) => (b.likesCount || 0) - (a.likesCount || 0));
+        topTeams = topTeams.slice(0, 2);
 
         // Enrich with up-to-date user profile data (Rank, Photo)
         const enrichWithUserProfile = async (item: any) => {

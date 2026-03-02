@@ -92,10 +92,21 @@ export function TcgDeckBuilder({ onNavigateToProfile }: TcgDeckBuilderProps) {
                 const data = await res.json();
                 const cardData = data.data;
                 const prices = cardData?.tcgplayer?.prices;
-                const marketPrice = prices?.normal?.market ||
-                    prices?.holofoil?.market ||
-                    prices?.reverseHolofoil?.market ||
-                    prices?.['1stEditionHolofoil']?.market;
+                if (!prices) {
+                    setZoomedCardPrice({ usd: 0 });
+                    return;
+                }
+
+                // Try to find any price in priority order
+                const getBestPrice = (p: any) => {
+                    return p?.market || p?.mid || p?.low || p?.directLow;
+                };
+
+                const marketPrice = getBestPrice(prices.normal) ||
+                    getBestPrice(prices.holofoil) ||
+                    getBestPrice(prices.reverseHolofoil) ||
+                    getBestPrice(prices.unlimitedHolofoil) ||
+                    getBestPrice(prices['1stEditionHolofoil']);
 
                 if (marketPrice) {
                     setZoomedCardPrice({ usd: marketPrice, lastUpdated: cardData.tcgplayer?.updatedAt });

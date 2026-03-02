@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Team, TeamPokemon } from '../hooks/useTeamStore';
-import { Plus, Trash2, Save, X, Search, Download, Upload, Filter, Layers, ChevronDown, Globe, Lock, Check, Loader2, AlertCircle } from 'lucide-react';
+import { Plus, Trash2, Save, X, Search, Download, Upload, Filter, Layers, ChevronDown, Globe, Lock, Check, Loader2, AlertCircle, Edit2 } from 'lucide-react';
 import { usePokemonList } from '../hooks/usePokemonList';
 import { usePokemonDetails } from '../hooks/usePokemonDetails';
 import { useItemsList } from '../hooks/useItemsList';
@@ -114,7 +114,7 @@ export function TeamBuilder({ onNavigateToProfile }: TeamBuilderProps) {
       }, 1500);
     } catch (error: any) {
       console.error('Error saving team:', error);
-      alert(`Erro ao salvar o time: ${error.message || 'Tente novamente.'}`);
+      alert(`Erro ao salvar o time: ${error.message || 'Tente novamente.'} `);
     } finally {
       setSaving(false);
     }
@@ -135,7 +135,7 @@ export function TeamBuilder({ onNavigateToProfile }: TeamBuilderProps) {
       alert('Time excluído com sucesso. Se o time ainda aparecer, verifique o console (F12) para os logs [Diagnostic].');
     } catch (error: any) {
       console.error('[Diagnostic] UI: Error deleting team:', error);
-      alert(`Erro ao excluir o time: ${error.message || 'Tente novamente.'}`);
+      alert(`Erro ao excluir o time: ${error.message || 'Tente novamente.'} `);
     }
   };
 
@@ -145,10 +145,10 @@ export function TeamBuilder({ onNavigateToProfile }: TeamBuilderProps) {
     let showdownText = '';
 
     currentTeam.pokemons.forEach(p => {
-      showdownText += `${p.pokemonId}\n`;
-      if (p.item) showdownText += `Item: ${p.item}\n`;
+      showdownText += `${p.pokemonId} \n`;
+      if (p.item) showdownText += `Item: ${p.item} \n`;
       p.moves.forEach(m => {
-        if (m) showdownText += `- ${m}\n`;
+        if (m) showdownText += `- ${m} \n`;
       });
       showdownText += '\n';
     });
@@ -237,8 +237,9 @@ export function TeamBuilder({ onNavigateToProfile }: TeamBuilderProps) {
                         </div>
                       </div>
                       <div className="flex gap-1 opacity-0 group-hover:opacity-100 transition-all">
-                        <button onClick={() => setEditingTeam(team)} className="p-2 bg-blue-50 text-blue-600 rounded-xl hover:bg-blue-600 hover:text-white transition-all">
-                          <Plus size={16} />
+                        <button onClick={() => setEditingTeam(team)} className="flex items-center gap-1.5 px-3 py-2 bg-blue-50 text-blue-600 rounded-xl hover:bg-blue-600 hover:text-white transition-all group/edit">
+                          <Edit2 size={12} />
+                          <span className="text-[10px] font-black uppercase tracking-widest">Editar</span>
                         </button>
                         <button onClick={() => handleDeleteTeam(team.id)} className="p-2 bg-red-50 text-red-600 rounded-xl hover:bg-red-600 hover:text-white transition-all">
                           <Trash2 size={16} />
@@ -253,27 +254,31 @@ export function TeamBuilder({ onNavigateToProfile }: TeamBuilderProps) {
                             alt="pokemon"
                             className="w-full h-full object-contain drop-shadow-sm group-hover/mon:scale-110 transition-transform"
                           />
-                          {p.item && (
-                            <div className="absolute bottom-1 right-1 w-6 h-6 bg-white rounded-lg border border-zinc-100 flex items-center justify-center p-1 shadow-sm">
-                              <img
-                                src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/${p.item}.png`}
-                                alt={p.item}
-                                className="w-full h-full object-contain"
-                              />
-                            </div>
-                          )}
-                        </div>
+                          {
+                            p.item && (
+                              <div className="absolute bottom-1 right-1 w-6 h-6 bg-white rounded-lg border border-zinc-100 flex items-center justify-center p-1 shadow-sm">
+                                <img
+                                  src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/${p.item}.png`}
+                                  alt={p.item}
+                                  className="w-full h-full object-contain"
+                                />
+                              </div>
+                            )
+                          }
+                        </div >
                       ))}
-                      {Array.from({ length: 6 - team.pokemons.length }).map((_, i) => (
-                        <div key={`empty-${i}`} className="aspect-square bg-zinc-50 rounded-2xl border border-zinc-100 border-dashed" />
-                      ))}
-                    </div>
-                  </motion.div>
+                      {
+                        Array.from({ length: 6 - team.pokemons.length }).map((_, i) => (
+                          <div key={`empty-${i}`} className="aspect-square bg-zinc-50 rounded-2xl border border-zinc-100 border-dashed" />
+                        ))
+                      }
+                    </div >
+                  </motion.div >
                 ))
               )}
-            </div>
+            </div >
           )}
-        </div>
+        </div >
 
         <div className="lg:w-80 order-2">
           <VGCStats onSelect={(pokemonData) => {
@@ -309,71 +314,73 @@ export function TeamBuilder({ onNavigateToProfile }: TeamBuilderProps) {
             />
           </div>
         </div>
-      </div>
+      </div >
 
       {/* ─── Save Team Modal ─── */}
       <AnimatePresence>
-        {showSaveModal && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[60] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
-            <motion.div initial={{ scale: 0.9, opacity: 0, y: 20 }} animate={{ scale: 1, opacity: 1, y: 0 }} exit={{ scale: 0.9, opacity: 0, y: 20 }}
-              onClick={e => e.stopPropagation()} className="bg-white rounded-[2.5rem] shadow-2xl w-full max-w-md overflow-hidden flex flex-col">
-              <div className="bg-gradient-to-br from-red-600 to-red-800 p-8 text-white text-center">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 backdrop-blur-md">
-                  <Save size={32} />
-                </div>
-                <h3 className="text-2xl font-black italic uppercase tracking-tighter">Salvar Time</h3>
-                <p className="text-red-100 text-xs font-bold uppercase tracking-widest mt-1 opacity-80">Persistência na Cloud</p>
-              </div>
-
-              <div className="p-8 space-y-6">
-                <div className="flex items-center justify-between p-5 bg-zinc-50 rounded-3xl border border-zinc-100">
-                  <div className="flex items-center gap-4">
-                    <div className={`p-3 rounded-2xl ${isPublic ? 'bg-zinc-800 text-white' : 'bg-red-100 text-red-600'}`}>
-                      {isPublic ? <Globe size={20} /> : <Lock size={20} />}
-                    </div>
-                    <div>
-                      <p className="text-sm font-black text-zinc-800 uppercase tracking-tight">{isPublic ? 'Time Público' : 'Time Privado'}</p>
-                      <p className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Exibir no perfil?</p>
-                    </div>
+        {
+          showSaveModal && (
+            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+              className="fixed inset-0 z-[60] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+              <motion.div initial={{ scale: 0.9, opacity: 0, y: 20 }} animate={{ scale: 1, opacity: 1, y: 0 }} exit={{ scale: 0.9, opacity: 0, y: 20 }}
+                onClick={e => e.stopPropagation()} className="bg-white rounded-[2.5rem] shadow-2xl w-full max-w-md overflow-hidden flex flex-col">
+                <div className="bg-gradient-to-br from-red-600 to-red-800 p-8 text-white text-center">
+                  <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 backdrop-blur-md">
+                    <Save size={32} />
                   </div>
+                  <h3 className="text-2xl font-black italic uppercase tracking-tighter">Salvar Time</h3>
+                  <p className="text-red-100 text-xs font-bold uppercase tracking-widest mt-1 opacity-80">Persistência na Cloud</p>
+                </div>
+
+                <div className="p-8 space-y-6">
+                  <div className="flex items-center justify-between p-5 bg-zinc-50 rounded-3xl border border-zinc-100">
+                    <div className="flex items-center gap-4">
+                      <div className={`p-3 rounded-2xl ${isPublic ? 'bg-zinc-800 text-white' : 'bg-red-100 text-red-600'}`}>
+                        {isPublic ? <Globe size={20} /> : <Lock size={20} />}
+                      </div>
+                      <div>
+                        <p className="text-sm font-black text-zinc-800 uppercase tracking-tight">{isPublic ? 'Time Público' : 'Time Privado'}</p>
+                        <p className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Exibir no perfil?</p>
+                      </div>
+                    </div>
+                    <button
+                      onClick={() => setIsPublic(!isPublic)}
+                      className={`w-14 h-7 rounded-full relative transition-all ${isPublic ? 'bg-green-500 shadow-inner' : 'bg-zinc-300'}`}
+                    >
+                      <div className={`absolute top-1 w-5 h-5 bg-white rounded-full transition-all shadow-md ${isPublic ? 'left-8' : 'left-1'}`} />
+                    </button>
+                  </div>
+
+                  <div className="p-4 bg-amber-50 rounded-2xl border border-amber-100 flex gap-3 italic">
+                    <AlertCircle size={16} className="text-amber-600 shrink-0 mt-0.5" />
+                    <p className="text-[10px] text-amber-700 font-bold leading-tight uppercase tracking-wider">
+                      Salvar o time aumentará sua pontuação de contribuidor e seu Rank na plataforma!
+                    </p>
+                  </div>
+                </div>
+
+                <div className="p-8 bg-zinc-50 border-t border-zinc-100 flex gap-4">
                   <button
-                    onClick={() => setIsPublic(!isPublic)}
-                    className={`w-14 h-7 rounded-full relative transition-all ${isPublic ? 'bg-green-500 shadow-inner' : 'bg-zinc-300'}`}
+                    onClick={() => setShowSaveModal(false)}
+                    className="flex-1 py-4 bg-white border-2 border-zinc-200 text-zinc-500 rounded-2xl font-black uppercase text-xs tracking-widest hover:bg-zinc-100 transition-colors"
                   >
-                    <div className={`absolute top-1 w-5 h-5 bg-white rounded-full transition-all shadow-md ${isPublic ? 'left-8' : 'left-1'}`} />
+                    Cancelar
+                  </button>
+                  <button
+                    onClick={handleSaveTeam}
+                    disabled={saving || saveSuccess}
+                    className="flex-[2] py-4 bg-red-600 text-white rounded-2xl font-black uppercase text-xs tracking-widest hover:bg-red-700 transition-all shadow-lg shadow-red-600/30 flex items-center justify-center gap-2 disabled:opacity-50"
+                  >
+                    {saving ? <Loader2 size={16} className="animate-spin" /> : saveSuccess ? <Check size={16} /> : <Save size={16} />}
+                    {saving ? 'Salvando...' : saveSuccess ? 'Sucesso!' : 'Confirmar'}
                   </button>
                 </div>
-
-                <div className="p-4 bg-amber-50 rounded-2xl border border-amber-100 flex gap-3 italic">
-                  <AlertCircle size={16} className="text-amber-600 shrink-0 mt-0.5" />
-                  <p className="text-[10px] text-amber-700 font-bold leading-tight uppercase tracking-wider">
-                    Salvar o time aumentará sua pontuação de contribuidor e seu Rank na plataforma!
-                  </p>
-                </div>
-              </div>
-
-              <div className="p-8 bg-zinc-50 border-t border-zinc-100 flex gap-4">
-                <button
-                  onClick={() => setShowSaveModal(false)}
-                  className="flex-1 py-4 bg-white border-2 border-zinc-200 text-zinc-500 rounded-2xl font-black uppercase text-xs tracking-widest hover:bg-zinc-100 transition-colors"
-                >
-                  Cancelar
-                </button>
-                <button
-                  onClick={handleSaveTeam}
-                  disabled={saving || saveSuccess}
-                  className="flex-[2] py-4 bg-red-600 text-white rounded-2xl font-black uppercase text-xs tracking-widest hover:bg-red-700 transition-all shadow-lg shadow-red-600/30 flex items-center justify-center gap-2 disabled:opacity-50"
-                >
-                  {saving ? <Loader2 size={16} className="animate-spin" /> : saveSuccess ? <Check size={16} /> : <Save size={16} />}
-                  {saving ? 'Salvando...' : saveSuccess ? 'Sucesso!' : 'Confirmar'}
-                </button>
-              </div>
+              </motion.div>
             </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </div>
+          )
+        }
+      </AnimatePresence >
+    </div >
   );
 }
 

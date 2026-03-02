@@ -67,15 +67,25 @@ export function MarketRadar() {
                 const data = await res.json();
                 const tcgplayer = data?.data?.tcgplayer;
 
-                if (tcgplayer?.prices) {
-                    const priceData = tcgplayer.prices.holofoil ||
-                        tcgplayer.prices.reverseHolofoil ||
-                        tcgplayer.prices.normal ||
-                        tcgplayer.prices['1stEditionHolofoil'];
+                const prices = tcgplayer.prices;
+                if (!prices) {
+                    setLoadingPrice(false);
+                    return;
+                }
 
-                    if (priceData && priceData.market) {
-                        setZoomedCardPrice(priceData.market);
-                    }
+                // Try to find any price in priority order
+                const getBestPrice = (p: any) => {
+                    return p?.market || p?.mid || p?.low || p?.directLow;
+                };
+
+                const marketPrice = getBestPrice(prices.normal) ||
+                    getBestPrice(prices.holofoil) ||
+                    getBestPrice(prices.reverseHolofoil) ||
+                    getBestPrice(prices.unlimitedHolofoil) ||
+                    getBestPrice(prices['1stEditionHolofoil']);
+
+                if (marketPrice) {
+                    setZoomedCardPrice(marketPrice);
                 }
             } catch (err: any) {
                 if (err.name !== 'AbortError') {

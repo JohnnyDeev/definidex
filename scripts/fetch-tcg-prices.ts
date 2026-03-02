@@ -22,18 +22,19 @@ async function fetchAllPrices() {
         while (retries > 0 && !success) {
             try {
                 console.log(`Fetching page ${page}...`);
-                const res = await fetch(`https://api.pokemontcg.io/v2/cards?select=id,tcgplayer&page=${page}&pageSize=${pageSize}`, {
+                const res = await fetch(`https://api.pokemontcg.io/v2/cards?page=${page}&pageSize=${pageSize}`, {
                     headers: { 'X-Api-Key': API_KEY }
                 });
 
                 if (!res.ok) {
-                    if (res.status === 504 || res.status === 502 || res.status === 429) {
-                        console.error(`Page ${page} failed: ${res.status}. Retrying...`);
-                        await sleep(5000);
+                    const errorText = await res.text();
+                    console.error(`Page ${page} failed: ${res.status} ${res.statusText}. Response: ${errorText.substring(0, 200)}`);
+                    if (res.status === 504 || res.status === 502 || res.status === 429 || res.status === 503) {
+                        console.log(`Retrying page ${page} in 10s...`);
+                        await sleep(10000);
                         retries--;
                         continue;
                     }
-                    console.error(`Failed to fetch page ${page}: ${res.status} ${res.statusText}`);
                     hasMore = false; // abort all
                     break;
                 }
