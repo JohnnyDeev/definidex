@@ -2,83 +2,99 @@ import fs from 'fs';
 import path from 'path';
 
 /**
- * fetch-tcg-prices.ts — Fetch TCG card market prices using TCGCSV.com
+ * fetch-tcg-prices.ts — Fetch TCG card market prices from TCGCSV.com
  * 
- * TCGCSV.com provides free, daily-updated TCGPlayer price data.
- * This script maps prices to our card IDs from tcg-cards.json.
+ * This is the definitive version. Strategy:
+ * 1. Process ALL TCGCSV groups
+ * 2. For each group, try to match it to one of our sets using multiple strategies
+ * 3. Within matched sets, match by CARD NUMBER first, then by name
+ * 4. Includes hardcoded mappings for sets with naming differences
  * 
  * Run: npm run update-tcg-prices
- * Scheduled: Every 3 days via GitHub Actions
  */
 
 const OUTPUT_PATH = path.join(process.cwd(), 'public/data/tcg-prices.json');
 const CARDS_PATH = path.join(process.cwd(), 'public/data/tcg-cards.json');
-
-// TCGCSV Category ID for Pokémon
 const POKEMON_CATEGORY_ID = 3;
 const TCGCSV_BASE = 'https://tcgcsv.com/tcgplayer';
 
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
-interface TcgCard {
-    id: string;
-    name: string;
-    set: string;
-    setName: string;
-    number: string;
-}
+interface TcgCard { id: string; name: string; set: string; setName: string; number: string; }
+interface TcgCsvGroup { groupId: number; name: string; abbreviation: string; }
+interface TcgCsvPrice { productId: number; lowPrice: number | null; midPrice: number | null; highPrice: number | null; marketPrice: number | null; directLowPrice: number | null; subTypeName: string; }
+interface TcgCsvProduct { productId: number; name: string; cleanName: string; extendedData?: Array<{ name: string; value: string }>; }
 
-interface TcgCsvGroup {
-    groupId: number;
-    name: string;
-    abbreviation: string;
-}
+function norm(s: string): string { return s.toLowerCase().replace(/[^a-z0-9]/g, ''); }
+function normNum(n: string): string { return n.toLowerCase().replace(/^0+/, '') || '0'; }
 
-interface TcgCsvPrice {
-    productId: number;
-    lowPrice: number | null;
-    midPrice: number | null;
-    highPrice: number | null;
-    marketPrice: number | null;
-    directLowPrice: number | null;
-    subTypeName: string;
-}
-
-interface TcgCsvProduct {
-    productId: number;
-    name: string;
-    cleanName: string;
-    number?: string;
-    extendedData?: Array<{ name: string; value: string }>;
-}
-
-// ─── Set name mapping: our set names → TCGCSV group names ───
-// This maps our static card data set names to TCGCSV group names
-// Only needed when names differ significantly
-function normalizeSetName(name: string): string {
+function stripPrefix(name: string): string {
     return name
-        .toLowerCase()
-        .replace(/[^a-z0-9]/g, '')
+        .replace(/^[A-Z]{2,}\d*:\s*/i, '')
+        .replace(/^[A-Z]{2,}\d*\s*-\s*/i, '')
         .trim();
 }
+
+// Hardcoded TCGCSV group name → our set name for difficult matches
+const MANUAL_MAP: Record<string, string> = {
+    'SV: Scarlet & Violet 151': '151',
+    'SV01: Scarlet & Violet Base Set': 'Scarlet & Violet',
+    'SV: Scarlet & Violet Promo Cards': 'Scarlet & Violet Black Star Promos',
+    'SVE: Scarlet & Violet Energies': 'Scarlet & Violet Energies',
+    'SM Base Set': 'Sun & Moon',
+    'SM Promos': 'SM Black Star Promos',
+    'Diamond and Pearl': 'Diamond & Pearl',
+    'Diamond and Pearl Promos': 'DP Black Star Promos',
+    'Ruby and Sapphire': 'Ruby & Sapphire',
+    'Expedition': 'Expedition Base Set',
+    'Black and White Promos': 'BW Black Star Promos',
+    'XY Promos': 'XY Black Star Promos',
+    'HGSS Promos': 'HGSS Black Star Promos',
+    'WoTC Promo': 'Wizards Black Star Promos',
+    'Nintendo Promos': 'Nintendo Black Star Promos',
+    'SWSH: Sword & Shield Promo Cards': 'SWSH Black Star Promos',
+    'Best of Promos': 'Best of Game',
+    'ME01: Mega Evolution': 'Mega Evolution',
+    'ME: Mega Evolution Promo': 'Mega Evolution',
+    'ME: Ascended Heroes': 'Ascended Heroes',
+    'ME02: Phantasmal Flames': 'Phantasmal Flames',
+    'MEE: Mega Evolution Energies': 'Mega Evolution',
+    'SV10: Destined Rivals': 'Destined Rivals',
+    'SV09: Journey Together': 'Journey Together',
+    'SV: Prismatic Evolutions': 'Prismatic Evolutions',
+    'SV08: Surging Sparks': 'Surging Sparks',
+    'SV07: Stellar Crown': 'Stellar Crown',
+    'SV: Shrouded Fable': 'Shrouded Fable',
+    'SV06: Twilight Masquerade': 'Twilight Masquerade',
+    'SV05: Temporal Forces': 'Temporal Forces',
+    'SV: Paldean Fates': 'Paldean Fates',
+    'SV04: Paradox Rift': 'Paradox Rift',
+    'SV03: Obsidian Flames': 'Obsidian Flames',
+    'SV02: Paldea Evolved': 'Paldea Evolved',
+    'SV: Black Bolt': 'Black Bolt',
+    'SV: White Flare': 'White Flare',
+    'McDonald\'s Promos 2022': 'McDonald\'s Collection 2022',
+    'McDonald\'s 25th Anniversary Promos': 'McDonald\'s Collection 2021',
+    'Pokemon GO': 'Pokémon GO',
+    'McDonald\'s Promos 2019': 'McDonald\'s Collection 2019',
+    'McDonald\'s Promos 2018': 'McDonald\'s Collection 2018',
+    'McDonald\'s Promos 2017': 'McDonald\'s Collection 2017',
+    'McDonald\'s Promos 2016': 'McDonald\'s Collection 2016',
+    'McDonald\'s Promos 2015': 'McDonald\'s Collection 2015',
+    'McDonald\'s Promos 2014': 'McDonald\'s Collection 2014',
+    'McDonald\'s Promos 2012': 'McDonald\'s Collection 2012',
+    'McDonald\'s Promos 2011': 'McDonald\'s Collection 2011',
+    'Team Magma vs Team Aqua': 'EX Team Magma vs Team Aqua',
+    'Rumble': 'Pokémon Rumble',
+};
 
 async function fetchJson(url: string, retries = 3): Promise<any> {
     for (let i = 0; i < retries; i++) {
         try {
             const res = await fetch(url);
-            if (!res.ok) {
-                console.error(`  HTTP ${res.status} for ${url}`);
-                if (i < retries - 1) {
-                    await sleep(2000);
-                    continue;
-                }
-                return null;
-            }
+            if (!res.ok) { if (i < retries - 1) { await sleep(2000); continue; } return null; }
             return await res.json();
-        } catch (err) {
-            console.error(`  Network error for ${url}:`, err);
-            if (i < retries - 1) await sleep(2000);
-        }
+        } catch { if (i < retries - 1) await sleep(2000); }
     }
     return null;
 }
@@ -86,173 +102,189 @@ async function fetchJson(url: string, retries = 3): Promise<any> {
 async function fetchAllPrices() {
     console.log('Starting TCG price fetch using TCGCSV.com...\n');
 
-    // 1. Load our local card database
-    if (!fs.existsSync(CARDS_PATH)) {
-        console.error(`Card database not found at ${CARDS_PATH}`);
-        process.exit(1);
-    }
+    if (!fs.existsSync(CARDS_PATH)) { console.error('Card database not found.'); process.exit(1); }
 
     const allCards: TcgCard[] = JSON.parse(fs.readFileSync(CARDS_PATH, 'utf-8'));
-    console.log(`Loaded ${allCards.length} cards from local database.`);
+    console.log(`Loaded ${allCards.length} cards.`);
 
-    // 2. Build a lookup: setName → cards in that set
-    const cardsBySet = new Map<string, TcgCard[]>();
+    // Index cards by set → number → cards[]
+    const cardsBySetNum = new Map<string, Map<string, TcgCard[]>>();
+    // Also index by set → name → cards[]
+    const cardsBySetName = new Map<string, Map<string, TcgCard[]>>();
+
     for (const card of allCards) {
-        const key = normalizeSetName(card.setName);
-        if (!cardsBySet.has(key)) cardsBySet.set(key, []);
-        cardsBySet.get(key)!.push(card);
+        // By set+number
+        if (!cardsBySetNum.has(card.setName)) cardsBySetNum.set(card.setName, new Map());
+        const numMap = cardsBySetNum.get(card.setName)!;
+        const nn = normNum(card.number);
+        if (!numMap.has(nn)) numMap.set(nn, []);
+        numMap.get(nn)!.push(card);
+
+        // By set+name
+        if (!cardsBySetName.has(card.setName)) cardsBySetName.set(card.setName, new Map());
+        const nameMap = cardsBySetName.get(card.setName)!;
+        const nname = norm(card.name);
+        if (!nameMap.has(nname)) nameMap.set(nname, []);
+        nameMap.get(nname)!.push(card);
     }
 
-    // Also index by name+number for cross-matching
-    const cardByNameNumber = new Map<string, TcgCard>();
-    for (const card of allCards) {
-        const key = `${card.name.toLowerCase()}|${card.number}`;
-        cardByNameNumber.set(key, card);
-    }
+    const uniqueSets = [...new Set(allCards.map(c => c.setName))];
+    console.log(`Found ${uniqueSets.length} unique sets.\n`);
 
-    console.log(`Found ${cardsBySet.size} unique sets in our database.\n`);
+    // Norm → original set name lookup
+    const setNormLookup = new Map<string, string>();
+    for (const s of uniqueSets) setNormLookup.set(norm(s), s);
 
-    // 3. Fetch all TCGCSV groups (sets) for Pokémon
+    // Fetch groups
     console.log('Fetching TCGCSV groups...');
     const groupsData = await fetchJson(`${TCGCSV_BASE}/${POKEMON_CATEGORY_ID}/groups`);
-    if (!groupsData?.results) {
-        console.error('Failed to fetch groups from TCGCSV.');
-        process.exit(1);
-    }
+    if (!groupsData?.results) { console.error('Failed to fetch groups.'); process.exit(1); }
+    const groups: TcgCsvGroup[] = groupsData.results;
+    console.log(`${groups.length} groups available.\n`);
 
-    const tcgcsvGroups: TcgCsvGroup[] = groupsData.results;
-    console.log(`TCGCSV has ${tcgcsvGroups.length} groups.\n`);
-
-    // 4. Match our sets to TCGCSV groups
-    const matchedGroups: { group: TcgCsvGroup; ourCards: TcgCard[] }[] = [];
-
-    for (const group of tcgcsvGroups) {
-        const normalizedName = normalizeSetName(group.name);
-        if (cardsBySet.has(normalizedName)) {
-            matchedGroups.push({ group, ourCards: cardsBySet.get(normalizedName)! });
+    // Match each TCGCSV group to our set(s)
+    function resolveSet(groupName: string): string | null {
+        // 1. Manual mapping
+        if (MANUAL_MAP[groupName]) {
+            const target = MANUAL_MAP[groupName];
+            if (cardsBySetNum.has(target)) return target;
         }
+
+        // 2. Exact normalized match
+        let k = norm(groupName);
+        if (setNormLookup.has(k)) return setNormLookup.get(k)!;
+
+        // 3. Strip prefix
+        const stripped = stripPrefix(groupName);
+        k = norm(stripped);
+        if (setNormLookup.has(k)) return setNormLookup.get(k)!;
+
+        // 4. Strip "Base Set" suffix
+        k = norm(stripped.replace(/\s*base\s*set$/i, ''));
+        if (setNormLookup.has(k)) return setNormLookup.get(k)!;
+
+        // 5. Substring containment (min 5 chars to avoid false matches)
+        const normStripped = norm(stripped);
+        for (const [normSet, original] of setNormLookup) {
+            if (normSet.length >= 5 && normStripped.length >= 5) {
+                if (normStripped.includes(normSet) || normSet.includes(normStripped)) {
+                    return original;
+                }
+            }
+        }
+
+        return null;
     }
 
-    console.log(`Matched ${matchedGroups.length} sets between our data and TCGCSV.\n`);
-
-    // 5. For each matched group, fetch prices and products, then map
+    // Process all groups
     const priceMap: { [cardId: string]: number } = {};
-    let processedGroups = 0;
-    let totalMatches = 0;
+    let processed = 0;
+    let groupsMatched = 0;
 
-    for (const { group, ourCards } of matchedGroups) {
-        processedGroups++;
-        process.stdout.write(`[${processedGroups}/${matchedGroups.length}] ${group.name}... `);
+    for (const group of groups) {
+        processed++;
+        const ourSet = resolveSet(group.name);
 
-        // Fetch prices for this group
-        const pricesData = await fetchJson(
-            `${TCGCSV_BASE}/${POKEMON_CATEGORY_ID}/${group.groupId}/prices`
-        );
+        process.stdout.write(`[${processed}/${groups.length}] ${group.name}`);
+        if (ourSet) process.stdout.write(` → "${ourSet}"`);
+        process.stdout.write('... ');
 
-        if (!pricesData?.results) {
-            console.log('skip (no prices)');
-            await sleep(300);
+        if (!ourSet) {
+            console.log('skip (no set match)');
+            await sleep(200);
             continue;
         }
 
-        const prices: TcgCsvPrice[] = pricesData.results;
+        // Fetch prices
+        const pricesData = await fetchJson(`${TCGCSV_BASE}/${POKEMON_CATEGORY_ID}/${group.groupId}/prices`);
+        if (!pricesData?.results) { console.log('skip (no prices)'); await sleep(200); continue; }
 
-        // Build productId → best market price (prefer Normal, then Holofoil, etc.)
         const priceByProduct = new Map<number, number>();
-        for (const p of prices) {
+        for (const p of pricesData.results as TcgCsvPrice[]) {
             const price = p.marketPrice || p.midPrice || p.lowPrice;
-            if (price && price > 0) {
-                // Keep the first valid price we find per product (Normal is usually first)
-                if (!priceByProduct.has(p.productId)) {
-                    priceByProduct.set(p.productId, price);
+            if (price && price > 0 && !priceByProduct.has(p.productId)) {
+                priceByProduct.set(p.productId, price);
+            }
+        }
+
+        // Fetch products
+        const productsData = await fetchJson(`${TCGCSV_BASE}/${POKEMON_CATEGORY_ID}/${group.groupId}/products`);
+        if (!productsData?.results) { console.log('skip (no products)'); await sleep(200); continue; }
+
+        const products: TcgCsvProduct[] = productsData.results;
+        const numMap = cardsBySetNum.get(ourSet);
+        const nameMap = cardsBySetName.get(ourSet);
+        if (!numMap) { console.log('skip'); continue; }
+
+        let matched = 0;
+
+        for (const prod of products) {
+            const price = priceByProduct.get(prod.productId);
+            if (!price) continue;
+
+            // Get card number from extended data
+            let prodNum = '';
+            if (prod.extendedData) {
+                const nf = prod.extendedData.find(d => d.name === 'Number');
+                if (nf) prodNum = nf.value;
+            }
+
+            let didMatch = false;
+
+            // Strategy 1: Match by number (most reliable)
+            if (prodNum) {
+                const cards = numMap.get(normNum(prodNum));
+                if (cards) {
+                    for (const card of cards) {
+                        if (!priceMap[card.id]) { priceMap[card.id] = price; matched++; didMatch = true; }
+                    }
+                }
+            }
+
+            // Strategy 2: Match by name within set
+            if (!didMatch && nameMap) {
+                const prodName = norm(prod.cleanName || prod.name);
+                const cards = nameMap.get(prodName);
+                if (cards) {
+                    for (const card of cards) {
+                        if (!priceMap[card.id]) { priceMap[card.id] = price; matched++; didMatch = true; }
+                    }
                 }
             }
         }
 
-        // Try matching our cards by name  
-        // For this, we need to fetch the products to get names
-        const productsData = await fetchJson(
-            `${TCGCSV_BASE}/${POKEMON_CATEGORY_ID}/${group.groupId}/products`
-        );
-
-        if (productsData?.results) {
-            const products: TcgCsvProduct[] = productsData.results;
-
-            // Build name lookup from products
-            const productByName = new Map<string, TcgCsvProduct>();
-            for (const prod of products) {
-                const cleanName = (prod.cleanName || prod.name).toLowerCase();
-                // Get the card number from extended data
-                let cardNumber = '';
-                if (prod.extendedData) {
-                    const numField = prod.extendedData.find((d: any) => d.name === 'Number');
-                    if (numField) cardNumber = numField.value;
-                }
-                const key = `${cleanName}|${cardNumber}`;
-                productByName.set(key, prod);
-
-                // Also try just by name (less precise but catches more)
-                if (!productByName.has(cleanName)) {
-                    productByName.set(cleanName, prod);
-                }
-            }
-
-            // Match our cards to products
-            let groupMatches = 0;
-            for (const card of ourCards) {
-                const cardNameLower = card.name.toLowerCase();
-                const nameNumKey = `${cardNameLower}|${card.number}`;
-
-                // Try name+number first (most precise)
-                let product = productByName.get(nameNumKey);
-
-                // Fallback to just name
-                if (!product) {
-                    product = productByName.get(cardNameLower);
-                }
-
-                if (product && priceByProduct.has(product.productId)) {
-                    priceMap[card.id] = priceByProduct.get(product.productId)!;
-                    groupMatches++;
-                }
-            }
-
-            totalMatches += groupMatches;
-            console.log(`${groupMatches}/${ourCards.length} matched`);
+        if (matched > 0) {
+            groupsMatched++;
+            const total = [...numMap.values()].reduce((s, a) => s + a.length, 0);
+            console.log(`${matched}/${total}`);
         } else {
-            console.log('skip (no products)');
+            console.log('0');
         }
 
-        // Be polite — rate limit
-        await sleep(400);
+        await sleep(300);
     }
 
-    // 6. For unmatched sets, try direct name matching across all cards
-    console.log('\nAttempting direct name matching for remaining cards...');
-    let directMatches = 0;
-
-    // Now handle unmatched groups — match by looking at ALL products across ALL groups
-    // This is done by checking if any card without a price can be matched
-    const unmatchedCards = allCards.filter(c => !priceMap[c.id]);
-    console.log(`${unmatchedCards.length} cards still without prices.`);
-
-    console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
-    console.log(`Total cards with prices: ${Object.keys(priceMap).length}/${allCards.length}`);
+    // Summary
+    console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
+    console.log(`Groups matched: ${groupsMatched} / ${groups.length}`);
+    console.log(`Cards with prices: ${Object.keys(priceMap).length} / ${allCards.length}`);
     console.log(`Match rate: ${((Object.keys(priceMap).length / allCards.length) * 100).toFixed(1)}%`);
-    console.log(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`);
+    console.log(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`);
 
-    // 7. Save to file
-    const dir = path.dirname(OUTPUT_PATH);
-    if (!fs.existsSync(dir)) {
-        fs.mkdirSync(dir, { recursive: true });
+    const missing = allCards.filter(c => !priceMap[c.id]);
+    const bySet: Record<string, number> = {};
+    missing.forEach(c => { bySet[c.setName] = (bySet[c.setName] || 0) + 1; });
+    const gaps = Object.entries(bySet).sort((a, b) => b[1] - a[1]);
+    if (gaps.length > 0) {
+        console.log('Remaining gaps (top 15):');
+        gaps.slice(0, 15).forEach(([s, n]) => console.log(`  ${n} - ${s}`));
     }
 
+    // Save
+    const dir = path.dirname(OUTPUT_PATH);
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(priceMap));
-    console.log(`Prices cached to ${OUTPUT_PATH}`);
-    console.log(`File size: ${(fs.statSync(OUTPUT_PATH).size / 1024).toFixed(1)} KB`);
+    console.log(`\nSaved to ${OUTPUT_PATH} (${(fs.statSync(OUTPUT_PATH).size / 1024).toFixed(1)} KB)`);
 }
 
-fetchAllPrices().catch(err => {
-    console.error('Fatal error:', err);
-    process.exit(1);
-});
+fetchAllPrices().catch(err => { console.error('Fatal:', err); process.exit(1); });

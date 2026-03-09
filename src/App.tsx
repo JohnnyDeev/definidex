@@ -36,7 +36,7 @@ export default function App() {
   const { language, setLanguage, t } = useLanguage();
   const { user, profile, showAuthModal, setShowAuthModal, signOut } = useAuth();
 
-  // Close mobile menu when view changes
+  // fecha menu mobile ao mudar de tela
   useEffect(() => {
     setIsMobileMenuOpen(false);
   }, [currentView]);
@@ -60,7 +60,7 @@ export default function App() {
 
   const displayedPokemon = filteredPokemon.slice(0, displayCount);
 
-  // Reset display count when filters change
+  // reseta contador ao filtrar
   useMemo(() => {
     setDisplayCount(40);
   }, [search, selectedType, selectedGen]);
@@ -71,7 +71,6 @@ export default function App() {
       <header className="bg-red-600 text-white shadow-md sticky top-0 z-30">
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer group" onClick={() => setCurrentView('news')}>
-            {/* Pokedex Lens Logo */}
             <div className="relative w-10 h-10 rounded-full bg-blue-500 border-4 border-white shadow-[0_0_15px_rgba(59,130,246,0.8)] flex items-center justify-center overflow-hidden group-hover:scale-105 transition-transform">
               <div className="absolute top-1 left-1 w-3 h-3 bg-white/60 rounded-full blur-[1px]"></div>
               <div className="absolute bottom-1 right-1 w-4 h-4 bg-blue-900/40 rounded-full blur-[2px]"></div>
@@ -94,7 +93,6 @@ export default function App() {
             </div>
           </div>
 
-          {/* Navigation - Burger Menu always visible */}
           <div className="flex items-center gap-2">
 
             {/* Auth Button Group */}
@@ -129,7 +127,6 @@ export default function App() {
               </button>
             )}
 
-            {/* Burger Menu Button with Tooltip/Incentive */}
             <div className="relative group">
               <button
                 className="p-2 bg-red-800 hover:bg-red-700 rounded-2xl transition-all border-2 border-white/10 flex items-center gap-3 px-3 min-w-[50px] sm:min-w-[120px] justify-center"
@@ -160,7 +157,6 @@ export default function App() {
               )}
             </div>
 
-            {/* Language Select (Hidden on small mobile) */}
             <div className="hidden xs:flex ml-1 relative items-center bg-red-700 rounded-lg p-1 hover:bg-red-800 transition-colors">
               <select
                 value={language}
@@ -237,7 +233,6 @@ export default function App() {
                   {t.calculator || 'Calculadora'}
                 </button>
 
-                {/* Language Switcher at the bottom of the tools menu */}
                 <div className="sm:col-span-2 md:col-span-4 mt-2 pt-4 border-t border-red-800/50 flex flex-wrap gap-2">
                   <button
                     onClick={() => setLanguage('en')}
@@ -264,11 +259,6 @@ export default function App() {
         </AnimatePresence>
       </header>
 
-      {/* Calculator and Profile renders OUTSIDE main for full-width */}
-      {currentView === 'calculator' && <CalculatorView />}
-      {currentView === 'profile' && selectedProfileUid && (
-        <ProfilePage uid={selectedProfileUid} onBack={() => setCurrentView('news')} />
-      )}
       {currentView !== 'calculator' && currentView !== 'profile' && (
         <main className="max-w-7xl mx-auto px-4 py-8">
           {currentView === 'news' ? (
@@ -399,7 +389,6 @@ export default function App() {
         </main>
       )}
 
-      {/* Footer / Legal Disclaimer */}
       <footer className="max-w-7xl mx-auto px-4 py-8 mt-8 border-t border-zinc-200">
         <p className="text-zinc-500 text-xs text-center leading-relaxed">
           DefiniDEX é um projeto de fã, sem fins lucrativos, e não é afiliado, endossado ou apoiado pela Nintendo, Game Freak ou The Pokémon Company de nenhuma forma.
