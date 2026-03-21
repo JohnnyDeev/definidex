@@ -1,6 +1,87 @@
 {
-  "lastUpdated": "2026-03-20T14:03:04.756Z",
+  "lastUpdated": "2026-03-21T13:46:12.569Z",
   "articles": [
+    {
+      "id": "www-nintendolife-com-guides-50-best-game-boy-advance-games-of-all-time",
+      "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
+      "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
+      "pubDate": "2026-03-21T12:00:00.000Z",
+      "snippet": "Your essential guide to the very best GBA games.21st March 2026 marks the 25th anniversary of the Game Boy Advance's Japanese launch. In honour of this little 32-bit system, we're republishing our…",
+      "source": "Nintendo Life",
+      "category": "games-anime"
+    },
+    {
+      "id": "www-nintendolife-com-features-talking-point-what-are-you-playing-this-weekend-21",
+      "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
+      "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
+      "pubDate": "2026-03-21T10:00:00.000Z",
+      "snippet": "Pokémoar?It's Saturday, lovely people, and we're back after another packed week in the world of video games!Well, it wasn't too packed, Nintendo-wise, but it still felt busy as Pokopia continues to…",
+      "source": "Nintendo Life",
+      "category": "games-anime"
+    },
+    {
+      "id": "www-nintendolife-com-news-2026-03-nintendo-remains-tight-lipped-about-animal-cro",
+      "title": "Nintendo Remains Tight-Lipped About Animal Crossing: New Horizons' Future",
+      "link": "https://www.nintendolife.com/news/2026/03/nintendo-remains-tight-lipped-about-animal-crossing-new-horizons-future",
+      "pubDate": "2026-03-21T08:05:00.000Z",
+      "snippet": "Can we borrow your crystal ball, Katrina?Although Animal Crossing: New Horizons got a major update and Switch 2 Edition at the start of 2026, questions are once again being asked about its…",
+      "source": "Nintendo Life",
+      "category": "games-anime"
+    },
+    {
+      "id": "www-nintendolife-com-news-2026-03-psa-switch-2s-gamechat-welcome-offer-ends-this",
+      "title": "PSA: Switch 2's \"GameChat Welcome Offer\" Ends This Month, Try It Out For Free While You Still Can",
+      "link": "https://www.nintendolife.com/news/2026/03/psa-switch-2s-gamechat-welcome-offer-ends-this-month-try-it-out-for-free-while-you-still-can",
+      "pubDate": "2026-03-21T05:55:00.000Z",
+      "snippet": "Have you used it yet?When the Switch 2 arrived last June, Nintendo introduced a special \"Welcome Offer\" for GameChat, which allowed users to access these features for free for a \"limited-time\".As we…",
+      "source": "Nintendo Life",
+      "category": "games-anime"
+    },
+    {
+      "id": "www-nintendolife-com-news-2026-03-mario-tennis-fever-takes-out-top-spot-in-febru",
+      "title": "Mario Tennis Fever Takes Out Top Spot In February 2026 Nintendo Charts (US)",
+      "link": "https://www.nintendolife.com/news/2026/03/mario-tennis-fever-takes-out-top-spot-in-february-2026-nintendo-charts-us",
+      "pubDate": "2026-03-21T03:55:00.000Z",
+      "snippet": "And Requiem debuted as the best-selling game of the year.It's been quite a busy start to the year with a lot of major games releasing on not only the Switch 2, but across all platforms. Now that…",
+      "source": "Nintendo Life",
+      "category": "games-anime"
+    },
+    {
+      "id": "www-nintendolife-com-news-2026-03-investor-who-urged-nintendo-to-monetise-marios",
+      "title": "Investor Who Urged Nintendo To Monetise Mario's Jumps Acquires Shares In Kadokawa",
+      "link": "https://www.nintendolife.com/news/2026/03/investor-who-urged-nintendo-to-monetise-marios-jumps-acquires-shares-in-kadokawa",
+      "pubDate": "2026-03-20T16:45:00.000Z",
+      "snippet": "“Just think of paying 99 cents just to get Mario to jump a little higher\".Oasis Management Company, a Hong Kong-based investment firm, has reportedly acquired a significant stake in Japanese media…",
+      "source": "Nintendo Life",
+      "category": "games-anime"
+    },
+    {
+      "id": "www-nintendolife-com-features-opinion-is-winds-and-waves-just-pokemon-tears-of-t",
+      "title": "Opinion: Is Winds & Waves Just 'Pokémon: Tears Of The Kingdom'?",
+      "link": "https://www.nintendolife.com/features/opinion-is-winds-and-waves-just-pokemon-tears-of-the-kingdom",
+      "pubDate": "2026-03-20T16:00:00.000Z",
+      "snippet": "Gequa used Bubbul Beam!If you’re reading this, then you’ve probably already seen the Pokémon: Winds and Waves trailer with its underwater exploration and probably-important cloud. You’ve marvelled at…",
+      "source": "Nintendo Life",
+      "category": "games-anime"
+    },
+    {
+      "id": "www-nintendolife-com-news-2026-03-europe-might-be-forcing-nintendo-to-revise-the",
+      "title": "Europe Might Be Forcing Nintendo To Revise The Switch 2",
+      "link": "https://www.nintendolife.com/news/2026/03/europe-might-be-forcing-nintendo-to-revise-the-switch-2",
+      "pubDate": "2026-03-20T15:05:00.000Z",
+      "snippet": "A revision with a replaceable battery, according to Nikkei.Nintendo is working on a new Switch 2 revision to comply with European Union rules around the ability for owners to replace batteries in…",
+      "source": "Nintendo Life",
+      "category": "games-anime"
+    },
+    {
+      "id": "www-nintendolife-com-news-2026-03-nintendo-download-19th-march-north-america",
+      "title": "Nintendo Download: 19th March (North America)",
+      "link": "https://www.nintendolife.com/news/2026/03/nintendo-download-19th-march-north-america",
+      "pubDate": "2026-03-20T14:00:00.000Z",
+      "snippet": "MLB! Rushing Beat! Bang Bang Bandits!The latest Nintendo Download update for North America arrived yesterday, and it's brought new games galore to the eShop in your region. As always, be sure to drop…",
+      "source": "Nintendo Life",
+      "category": "games-anime"
+    },
     {
       "id": "www-nintendolife-com-news-2026-03-system-shock-2-1-update-brings-massive-improve",
       "title": "System Shock 2.1 Update Brings Massive Improvements To Performance",
@@ -236,78 +317,6 @@
       "category": "games-anime"
     },
     {
-      "id": "www-nintendolife-com-news-2026-03-human-fall-flat-brings-the-chaos-in-new-ninten",
-      "title": "Human Fall Flat Brings The Chaos In New Nintendo Switch 2 Edition",
-      "link": "https://www.nintendolife.com/news/2026/03/human-fall-flat-brings-the-chaos-in-new-nintendo-switch-2-edition",
-      "pubDate": "2026-03-19T14:00:00.000Z",
-      "snippet": "Wibbly Wobbly.No Brakes Games and Curve Games have today announced that the 2017 indie hit Human Fall Flat is wobbling our way once again in a new Nintendo Switch 2 Edition.This fresh version of the…",
-      "source": "Nintendo Life",
-      "category": "games-anime"
-    },
-    {
-      "id": "www-nintendolife-com-news-2026-03-splatoon-3s-spring-splatfest-returns-next-mont",
-      "title": "Splatoon 3's Spring Splatfest Returns Next Month",
-      "link": "https://www.nintendolife.com/news/2026/03/splatoon-3s-spring-splatfest-returns-next-month",
-      "pubDate": "2026-03-19T13:15:00.000Z",
-      "snippet": "Who gets your vote?Splatoon 3's seasonal events are still alive and kicking, and next month, it's time for another Spring Splatfest.The event is set to kick off on 11th April at 1am BST (10th April…",
-      "source": "Nintendo Life",
-      "category": "games-anime"
-    },
-    {
-      "id": "www-nintendolife-com-news-2026-03-tomb-raider-i-iii-remastered-publisher-respond",
-      "title": "Tomb Raider I-III Remastered Publisher Responds To AI Outfit Allegations",
-      "link": "https://www.nintendolife.com/news/2026/03/tomb-raider-i-iii-remastered-publisher-responds-to-ai-outfit-allegations",
-      "pubDate": "2026-03-19T10:30:00.000Z",
-      "snippet": "Wardrobe malfunction.Last week, Aspyr released a free upgrade for Tomb Raider I-III Remastered, throwing in a new 'Challenge Mode' and a bunch of fresh outfits to anyone who downloaded. Despite being…",
-      "source": "Nintendo Life",
-      "category": "games-anime"
-    },
-    {
-      "id": "www-nintendolife-com-news-2026-03-switch-2s-gamecube-app-has-been-updated-versio",
-      "title": "Switch 2's GameCube App Has Been Updated (Version 1.6.0)",
-      "link": "https://www.nintendolife.com/news/2026/03/switch-2s-gamecube-app-has-been-updated-version-1-6-0",
-      "pubDate": "2026-03-19T03:45:00.000Z",
-      "snippet": "Here are the reported improvements.Switch Online's 'Nintendo Classics' service has improved each retro game library over time, and alongside the release of Pokémon XD: Gale of Darkness yesterday, the…",
-      "source": "Nintendo Life",
-      "category": "games-anime"
-    },
-    {
-      "id": "www-nintendolife-com-news-2026-03-sonic-racing-crossworlds-adds-mega-man-next-we",
-      "title": "Sonic Racing: CrossWorlds Adds Mega Man Next Week, New Update Out Today",
-      "link": "https://www.nintendolife.com/news/2026/03/sonic-racing-crossworlds-adds-mega-man-next-week-new-update-out-today",
-      "pubDate": "2026-03-19T03:05:00.000Z",
-      "snippet": "Game changer.After announcing a trio of new DLC characters for Sonic Racing: CrossWorlds, Sega has now released a new major update for the title.Before we get into this, it's also confirmed the…",
-      "source": "Nintendo Life",
-      "category": "games-anime"
-    },
-    {
-      "id": "www-nintendolife-com-news-2026-03-pokemon-legends-z-a-has-received-a-small-patch",
-      "title": "Pokémon Legends Z-A Has Received A Small Patch Today",
-      "link": "https://www.nintendolife.com/news/2026/03/pokemon-legends-z-a-has-received-a-small-patch-today",
-      "pubDate": "2026-03-19T02:05:00.000Z",
-      "snippet": "Update: Version 2.0.2 is out now, just don't expect much.:Pokémon Legends: Z-A has received its first update of the year today for the Switch and Switch 2. When you download it, your copy will be…",
-      "source": "Nintendo Life",
-      "category": "games-anime"
-    },
-    {
-      "id": "www-nintendolife-com-news-2026-03-toby-fox-shares-another-deltarune-chapter-5-de",
-      "title": "Toby Fox Shares Another Deltarune Chapter 5 Development Update",
-      "link": "https://www.nintendolife.com/news/2026/03/toby-fox-shares-another-deltarune-chapter-5-development-update",
-      "pubDate": "2026-03-19T01:05:00.000Z",
-      "snippet": "The dev team is mostly done.Deltarune developer Toby Fox recently provided an update about the progress of Chapter 5, and now he's shared another update via social media.Fox notes how outside of bugs…",
-      "source": "Nintendo Life",
-      "category": "games-anime"
-    },
-    {
-      "id": "www-nintendolife-com-news-2026-03-super-mario-bros-wonder-has-been-updated-to-ve",
-      "title": "Super Mario Bros. Wonder Has Been Updated To Version 1.1.0, Here Are The Full Patch Notes",
-      "link": "https://www.nintendolife.com/news/2026/03/super-mario-bros-wonder-has-been-updated-to-version-1-1-0-here-are-the-full-patch-notes",
-      "pubDate": "2026-03-19T00:05:00.000Z",
-      "snippet": "Get ready for the Switch 2 Edition.Nintendo's wonderful Switch platformer Super Mario Bros. Wonder has today received a new update, bumping the game up to Version 1.1.0.This update gets the game…",
-      "source": "Nintendo Life",
-      "category": "games-anime"
-    },
-    {
       "id": "victoryroad-pro-2026-campinas-utm-source-rss-utm-medium-rss-utm-campaign-sign-up",
       "title": "Sign-ups for the Campinas Regional are open!",
       "link": "https://victoryroad.pro/2026-campinas/?utm_source=rss&utm_medium=rss&utm_campaign=sign-ups-for-the-campinas-regional-are-open",
@@ -315,15 +324,6 @@
       "snippet": "All you need to know about the 2026 Campinas Regional Championships, one of the major VGC events in Latin America, held on 16–17 May 2026!",
       "source": "Victory Road",
       "category": "vgc"
-    },
-    {
-      "id": "www-nintendolife-com-news-2026-03-devolvers-new-dungeon-scroller-dark-scrolls-is",
-      "title": "Devolver's New 'Dungeon Scroller', Dark Scrolls, Is Packed With Retro Fantasy Goodness",
-      "link": "https://www.nintendolife.com/news/2026/03/devolvers-new-dungeon-scroller-dark-scrolls-is-packed-with-retro-fantasy-goodness",
-      "pubDate": "2026-03-18T19:00:00.000Z",
-      "snippet": "Scrolling onto Switch this year.If last year's Absolum put you in the mood for more fantasy roguelike action, then Dark Scrolls is here to fit the bill with a retro twist.From Gato Roboto and…",
-      "source": "Nintendo Life",
-      "category": "games-anime"
     },
     {
       "id": "victoryroad-pro-2026-utrecht-utm-source-rss-utm-medium-rss-utm-campaign-sign-ups",
