@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
-import { Swords, Info, Download } from 'lucide-react';
+import { Swords, Info, Download, Clock } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { typeColors } from './TypeBadge';
 import { HighlightModal } from './HighlightModal';
@@ -10,16 +10,51 @@ import metaTeamsData from '../data/vgc-teams.json';
 export function VgcRadar() {
     const { t } = useLanguage();
     const [selectedTeam, setSelectedTeam] = useState<any>(null);
+    const [lastUpdated, setLastUpdated] = useState<string>('');
+
+    useEffect(() => {
+        fetch('/data/metadata.json')
+            .then(res => res.json())
+            .then(data => {
+                if (data?.vgc?.lastUpdated) {
+                    setLastUpdated(data.vgc.lastUpdated);
+                }
+            })
+            .catch(() => { });
+    }, []);
+
+    const getRelativeTime = (dateStr: string) => {
+        if (!dateStr) return '';
+        const date = new Date(dateStr);
+        const now = new Date();
+        const diffMs = now.getTime() - date.getTime();
+        const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+        if (diffDays === 0) return 'Atualizado hoje';
+        if (diffDays === 1) return 'Atualizado ontem';
+        if (diffDays < 7) return `Atualizado há ${diffDays} dias`;
+        return `Atualizado em ${date.toLocaleDateString('pt-BR')}`;
+    };
 
     const getItemSpriteUrl = (itemName: string) => `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/${itemName}.png`;
 
     return (
         <div className="bg-zinc-900 rounded-3xl p-6 border border-zinc-800 flex flex-col h-full">
-            <div className="flex items-center gap-2 mb-6">
-                <Swords className="text-purple-500" size={24} />
-                <h3 className="text-white font-black italic uppercase tracking-tighter text-xl">
-                    {(t as any).vgcRadar || 'VGC Radar'}
-                </h3>
+            <div className="flex items-center justify-between mb-6">
+                <div className="flex items-center gap-2">
+                    <Swords className="text-purple-500" size={24} />
+                    <h3 className="text-white font-black italic uppercase tracking-tighter text-xl">
+                        {(t as any).vgcRadar || 'VGC Radar'}
+                    </h3>
+                </div>
+                {lastUpdated && (
+                    <div className="flex items-center gap-1.5 px-2.5 py-1 bg-zinc-950 rounded-full border border-zinc-800">
+                        <Clock size={10} className="text-purple-500" />
+                        <span className="text-[9px] font-bold text-zinc-500 uppercase tracking-wider">
+                            {getRelativeTime(lastUpdated)}
+                        </span>
+                    </div>
+                )}
             </div>
 
             <div className="flex items-center justify-between mb-4">

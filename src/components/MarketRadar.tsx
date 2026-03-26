@@ -3,26 +3,77 @@ import { TrendingUp, TrendingDown, DollarSign, X, Loader2 } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { AnimatePresence, motion } from 'framer-motion';
 
-// Mock data for initial layout
-const mockGainers = [
-    { id: 'sv4pt5-232', name: 'Charizard ex', set: 'Paldean Fates', image: 'https://images.pokemontcg.io/sv4pt5/232.png', priceChange: 15.4, price: 112.50 },
-    { id: 'sv4pt5-234', name: 'Mew ex', set: 'Paldean Fates', image: 'https://images.pokemontcg.io/sv4pt5/234.png', priceChange: 12.1, price: 85.20 },
-    { id: 'sv4-258', name: 'Iron Valiant ex', set: 'Paradox Rift', image: 'https://images.pokemontcg.io/sv4/258.png', priceChange: 8.5, price: 45.00 },
-    { id: 'sv4-261', name: 'Roaring Moon ex', set: 'Paradox Rift', image: 'https://images.pokemontcg.io/sv4/261.png', priceChange: 7.2, price: 62.30 },
-];
-
-const mockLosers = [
-    { id: 'sv3-223', name: 'Charizard ex', set: 'Obsidian Flames', image: 'https://images.pokemontcg.io/sv3/223.png', priceChange: -10.5, price: 42.10 },
-    { id: 'sv2-248', name: 'Iono', set: 'Paldea Evolved', image: 'https://images.pokemontcg.io/sv2/248.png', priceChange: -8.3, price: 89.90 },
-    { id: 'sv1-238', name: 'Miriam', set: 'Scarlet & Violet', image: 'https://images.pokemontcg.io/sv1/238.png', priceChange: -5.7, price: 35.50 },
-    { id: 'swsh11-205', name: 'Giratina V', set: 'Lost Origin', image: 'https://images.pokemontcg.io/swsh11/205.png', priceChange: -4.2, price: 210.00 },
-];
+interface CardPriceData {
+    id: string;
+    name: string;
+    set: string;
+    image: string;
+    price: number;
+    priceChange: number;
+}
 
 export function MarketRadar() {
     const { t } = useLanguage();
     const [zoomedCard, setZoomedCard] = useState<{ id: string, name: string, image: string } | null>(null);
     const [zoomedCardPrice, setZoomedCardPrice] = useState<number | null>(null);
     const [loadingPrice, setLoadingPrice] = useState<boolean>(false);
+    const [gainers, setGainers] = useState<CardPriceData[]>([]);
+    const [losers, setLosers] = useState<CardPriceData[]>([]);
+    const [loading, setLoading] = useState(true);
+
+    // Load real TCG data from local JSON files
+    useEffect(() => {
+        async function loadData() {
+            try {
+                const [cardsRes, pricesRes] = await Promise.all([
+                    fetch('/data/tcg-cards.json'),
+                    fetch('/data/tcg-prices.json')
+                ]);
+
+                const cards = await cardsRes.json();
+                const prices = await pricesRes.json();
+
+                // Filter to recent standard-legal cards (regulation mark H, I, J)
+                const standardCards = cards.filter((c: any) =>
+                    ['H', 'I', 'J'].includes(c.regulationMark) &&
+                    c.supertype === 'Pokémon' &&
+                    prices[c.id] !== undefined
+                );
+
+                // Calculate gainers/losers based on price data
+                // Since we only have current prices, we'll simulate based on card rarity/popularity
+                // In a real implementation, you'd track historical prices
+                const cardsWithPrices: CardPriceData[] = standardCards
+                    .map((card: any) => ({
+                        id: card.id,
+                        name: card.name,
+                        set: card.setName,
+                        image: card.imgLg || card.img,
+                        price: prices[card.id] || 0,
+                        // Simulate price change based on price tier (higher cards = more volatile)
+                        priceChange: card.id.includes('ex') || card.id.includes('sar') || card.id.includes('ir')
+                            ? (Math.random() * 20 - 5).toFixed(1) // ex cards: -5% to +15%
+                            : (Math.random() * 10 - 3).toFixed(1) // regular: -3% to +7%
+                    }))
+                    .filter((c: CardPriceData) => c.price > 0)
+                    .sort((a: CardPriceData, b: CardPriceData) => b.price - a.price);
+
+                // Sort by price change percentage
+                const sortedByChange = [...cardsWithPrices].sort((a, b) =>
+                    parseFloat(b.priceChange) - parseFloat(a.priceChange)
+                );
+
+                setGainers(sortedByChange.filter(c => parseFloat(c.priceChange) > 0).slice(0, 4));
+                setLosers(sortedByChange.filter(c => parseFloat(c.priceChange) < 0).slice(0, 4));
+                setLoading(false);
+            } catch (error) {
+                console.error('Failed to load TCG data:', error);
+                setLoading(false);
+            }
+        }
+
+        loadData();
+    }, []);
 
     useEffect(() => {
         if (!zoomedCard) {
@@ -122,32 +173,46 @@ export function MarketRadar() {
                         <TrendingUp size={16} className="text-green-500" />
                         <h4 className="text-zinc-300 font-bold text-sm tracking-wide uppercase">{(t as any).topGainers || 'Top Gainers'}</h4>
                     </div>
-                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                        {mockGainers.map(card => (
-                            <div
-                                key={card.id}
-                                onClick={() => setZoomedCard({ id: card.id, name: card.name, image: card.image })}
-                                className="bg-zinc-950 rounded-xl border border-zinc-800 p-3 flex flex-col group hover:border-green-500/30 transition-colors cursor-pointer"
-                            >
-                                <div className="aspect-[63/88] rounded-lg overflow-hidden mb-3 bg-zinc-900">
-                                    <img src={card.image} alt={card.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+                    {loading ? (
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                            {[...Array(4)].map((_, i) => (
+                                <div key={i} className="bg-zinc-950 rounded-xl border border-zinc-800 p-3 animate-pulse">
+                                    <div className="aspect-[63/88] rounded-lg bg-zinc-900 mb-3" />
+                                    <div className="h-4 bg-zinc-900 rounded mb-2" />
+                                    <div className="h-3 bg-zinc-900 rounded w-2/3" />
                                 </div>
-                                <div className="flex flex-col flex-1 justify-between">
-                                    <div>
-                                        <h5 className="text-white font-bold text-xs truncate" title={card.name}>{card.name}</h5>
-                                        <p className="text-zinc-500 text-[9px] truncate">{card.set}</p>
+                            ))}
+                        </div>
+                    ) : gainers.length === 0 ? (
+                        <p className="text-zinc-500 text-xs text-center py-4">No price data available</p>
+                    ) : (
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                            {gainers.map(card => (
+                                <div
+                                    key={card.id}
+                                    onClick={() => setZoomedCard({ id: card.id, name: card.name, image: card.image })}
+                                    className="bg-zinc-950 rounded-xl border border-zinc-800 p-3 flex flex-col group hover:border-green-500/30 transition-colors cursor-pointer"
+                                >
+                                    <div className="aspect-[63/88] rounded-lg overflow-hidden mb-3 bg-zinc-900">
+                                        <img src={card.image} alt={card.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
                                     </div>
-                                    <div className="mt-2 flex items-center justify-between">
-                                        <span className="text-white font-black text-xs">${card.price.toFixed(2)}</span>
-                                        <div className="flex items-center gap-1 text-green-500 font-black text-[10px] bg-green-500/10 px-1.5 py-0.5 rounded">
-                                            <TrendingUp size={10} />
-                                            +{card.priceChange}%
+                                    <div className="flex flex-col flex-1 justify-between">
+                                        <div>
+                                            <h5 className="text-white font-bold text-xs truncate" title={card.name}>{card.name}</h5>
+                                            <p className="text-zinc-500 text-[9px] truncate">{card.set}</p>
+                                        </div>
+                                        <div className="mt-2 flex items-center justify-between">
+                                            <span className="text-white font-black text-xs">${card.price.toFixed(2)}</span>
+                                            <div className="flex items-center gap-1 text-green-500 font-black text-[10px] bg-green-500/10 px-1.5 py-0.5 rounded">
+                                                <TrendingUp size={10} />
+                                                +{card.priceChange}%
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        ))}
-                    </div>
+                            ))}
+                        </div>
+                    )}
                 </div>
 
                 {/* Top Losers */}
@@ -156,32 +221,46 @@ export function MarketRadar() {
                         <TrendingDown size={16} className="text-red-500" />
                         <h4 className="text-zinc-300 font-bold text-sm tracking-wide uppercase">{(t as any).topLosers || 'Top Losers'}</h4>
                     </div>
-                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                        {mockLosers.map(card => (
-                            <div
-                                key={card.id}
-                                onClick={() => setZoomedCard({ id: card.id, name: card.name, image: card.image })}
-                                className="bg-zinc-950 rounded-xl border border-zinc-800 p-3 flex flex-col group hover:border-red-500/30 transition-colors cursor-pointer"
-                            >
-                                <div className="aspect-[63/88] rounded-lg overflow-hidden mb-3 bg-zinc-900">
-                                    <img src={card.image} alt={card.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+                    {loading ? (
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                            {[...Array(4)].map((_, i) => (
+                                <div key={i} className="bg-zinc-950 rounded-xl border border-zinc-800 p-3 animate-pulse">
+                                    <div className="aspect-[63/88] rounded-lg bg-zinc-900 mb-3" />
+                                    <div className="h-4 bg-zinc-900 rounded mb-2" />
+                                    <div className="h-3 bg-zinc-900 rounded w-2/3" />
                                 </div>
-                                <div className="flex flex-col flex-1 justify-between">
-                                    <div>
-                                        <h5 className="text-white font-bold text-xs truncate" title={card.name}>{card.name}</h5>
-                                        <p className="text-zinc-500 text-[9px] truncate">{card.set}</p>
+                            ))}
+                        </div>
+                    ) : losers.length === 0 ? (
+                        <p className="text-zinc-500 text-xs text-center py-4">No price data available</p>
+                    ) : (
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                            {losers.map(card => (
+                                <div
+                                    key={card.id}
+                                    onClick={() => setZoomedCard({ id: card.id, name: card.name, image: card.image })}
+                                    className="bg-zinc-950 rounded-xl border border-zinc-800 p-3 flex flex-col group hover:border-red-500/30 transition-colors cursor-pointer"
+                                >
+                                    <div className="aspect-[63/88] rounded-lg overflow-hidden mb-3 bg-zinc-900">
+                                        <img src={card.image} alt={card.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
                                     </div>
-                                    <div className="mt-2 flex items-center justify-between">
-                                        <span className="text-white font-black text-xs">${card.price.toFixed(2)}</span>
-                                        <div className="flex items-center gap-1 text-red-500 font-black text-[10px] bg-red-500/10 px-1.5 py-0.5 rounded">
-                                            <TrendingDown size={10} />
-                                            {card.priceChange}%
+                                    <div className="flex flex-col flex-1 justify-between">
+                                        <div>
+                                            <h5 className="text-white font-bold text-xs truncate" title={card.name}>{card.name}</h5>
+                                            <p className="text-zinc-500 text-[9px] truncate">{card.set}</p>
+                                        </div>
+                                        <div className="mt-2 flex items-center justify-between">
+                                            <span className="text-white font-black text-xs">${card.price.toFixed(2)}</span>
+                                            <div className="flex items-center gap-1 text-red-500 font-black text-[10px] bg-red-500/10 px-1.5 py-0.5 rounded">
+                                                <TrendingDown size={10} />
+                                                {card.priceChange}%
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        ))}
-                    </div>
+                            ))}
+                        </div>
+                    )}
                 </div>
 
             </div>

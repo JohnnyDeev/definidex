@@ -259,7 +259,11 @@ export default function App() {
         </AnimatePresence>
       </header>
 
-      {currentView !== 'calculator' && currentView !== 'profile' && (
+      {currentView === 'calculator' ? (
+        <CalculatorView />
+      ) : currentView === 'profile' && selectedProfileUid ? (
+        <ProfilePage uid={selectedProfileUid} onBack={() => setCurrentView('news')} />
+      ) : (
         <main className="max-w-7xl mx-auto px-4 py-8">
           {currentView === 'news' ? (
             <NewsView />
