@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-03T14:12:19.739Z",
+  "lastUpdated": "2026-05-04T15:12:00.714Z",
   "articles": [
+    {
+      "id": "victoryroad-pro-vr-may26-2-utm-source-rss-utm-medium-rss-utm-campaign-the-vr-may",
+      "title": "The VR May Challenge #2 has been announced, and sign-ups are open!",
+      "link": "https://victoryroad.pro/vr-may26-2/?utm_source=rss&utm_medium=rss&utm_campaign=the-vr-may-challenge-2-has-been-announced-and-sign-ups-are-open",
+      "pubDate": "2026-05-04T11:30:00.000Z",
+      "snippet": "All you need to know about the VR May Challenge, our next Pokémon Champions tournament, held online on 9–10 May 2026!",
+      "source": "VGC Vortex",
+      "category": "vgc"
+    },
+    {
+      "id": "victoryroad-pro-vr-may26-utm-source-rss-utm-medium-rss-utm-campaign-teams-result",
+      "title": "Teams, results and all info from the VR May Challenge #1!",
+      "link": "https://victoryroad.pro/vr-may26/?utm_source=rss&utm_medium=rss&utm_campaign=teams-results-and-all-info-from-the-vr-may-challenge-2",
+      "pubDate": "2026-05-03T17:50:00.000Z",
+      "snippet": "2023 EUIC quarterfinalist Giulio Tarlao has won his second VR tournament! Giulio defeated 2023 EUIC Champion in the Senior division Mattia Cognetta in the finals of our latest Pokémon Champions…",
+      "source": "VGC Vortex",
+      "category": "vgc"
+    },
+    {
+      "id": "victoryroad-pro-2026-hong-kong-utm-source-rss-utm-medium-rss-utm-campaign-ng-shi",
+      "title": "Ng Shiu Chung is the 2026 Hong Kong Master Ball League Champion!",
+      "link": "https://victoryroad.pro/2026-hong-kong/?utm_source=rss&utm_medium=rss&utm_campaign=ng-shiu-chung-is-the-2026-hong-kong-master-ball-league-champion",
+      "pubDate": "2026-05-03T07:45:00.000Z",
+      "snippet": "2025 Hong Kong Premier Ball League finalist Ng Shiu Chung has won his first major title! Shiu Chung defeated American Edward Fan in the finals of Hong Kong's most important tournament of the year,…",
+      "source": "VGC Vortex",
+      "category": "vgc"
+    },
     {
       "id": "victoryroad-pro-2026-global-challenge-utm-source-rss-utm-medium-rss-utm-campaign",
       "title": "Battles in the Global Challenge are live!",
@@ -16,33 +43,6 @@
       "link": "https://victoryroad.pro/sv-events/?utm_source=rss&utm_medium=rss&utm_campaign=a-new-wave-of-the-delphox-the-unrivaled-7%25e2%2598%2585-tera-raid-battle-event-is-live",
       "pubDate": "2026-05-01T00:00:00.000Z",
       "snippet": "This Tera Raid Battle event lasts until 7 May. Delphox the Unrivaled was last featured in July 2023, so take this chance to catch it if you didn't back then!",
-      "source": "VGC Vortex",
-      "category": "vgc"
-    },
-    {
-      "id": "victoryroad-pro-2026-campinas-utm-source-rss-utm-medium-rss-utm-campaign-sign-up",
-      "title": "Sign-ups for the Campinas Regional are open again!",
-      "link": "https://victoryroad.pro/2026-campinas/?utm_source=rss&utm_medium=rss&utm_campaign=sign-ups-for-the-campinas-regional-are-open-again-2",
-      "pubDate": "2026-04-30T22:00:00.000Z",
-      "snippet": "All you need to know about the 2026 Campinas Regional Championships, one of the major VGC events in Latin America, held on 16–17 May 2026!",
-      "source": "VGC Vortex",
-      "category": "vgc"
-    },
-    {
-      "id": "victoryroad-pro-vr-may26-utm-source-rss-utm-medium-rss-utm-campaign-the-vr-may-c",
-      "title": "The VR May Challenge has been announced, and sign-ups are open!",
-      "link": "https://victoryroad.pro/vr-may26/?utm_source=rss&utm_medium=rss&utm_campaign=the-vr-may-challenge-has-been-announced-and-sign-ups-are-open-2",
-      "pubDate": "2026-04-28T20:00:00.000Z",
-      "snippet": "All you need to know about the VR May Challenge, our next Pokémon Champions tournament, held online on 2–3 May 2026!",
-      "source": "VGC Vortex",
-      "category": "vgc"
-    },
-    {
-      "id": "victoryroad-pro-home-events-utm-source-rss-utm-medium-rss-utm-campaign-receive-a",
-      "title": "Receive a shiny Volcanion via Pokémon HOME!",
-      "link": "https://victoryroad.pro/home-events/?utm_source=rss&utm_medium=rss&utm_campaign=receive-a-shiny-volcanion-via-pokemon-home",
-      "pubDate": "2026-04-27T06:00:00.000Z",
-      "snippet": "Complete the Lumiose, Hyperspace and Mega Evolution Pokédexes in the mobile app of Pokémon HOME to redeem a shiny Volcanion! It is the first time ever Volcanion is available as shiny!",
       "source": "VGC Vortex",
       "category": "vgc"
     },
