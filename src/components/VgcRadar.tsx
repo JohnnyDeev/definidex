@@ -25,7 +25,7 @@ export function VgcRadar() {
     const totalPages = Math.ceil(totalPokemon / perPage);
 
     useEffect(() => {
-        fetch('/data/metadata.json')
+        fetch(`/data/metadata.json?t=${Date.now()}`, { cache: 'no-store' })
             .then(res => res.json())
             .then(data => {
                 if (data?.vgc?.lastUpdated) {

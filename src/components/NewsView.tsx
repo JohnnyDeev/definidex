@@ -124,7 +124,7 @@ export function NewsView() {
 
     useEffect(() => {
         // Fetch metadata for last updated info
-        fetch('/data/metadata.json')
+        fetch(`/data/metadata.json?t=${Date.now()}`, { cache: 'no-store' })
             .then(res => res.json())
             .then(data => {
                 if (data?.news?.lastUpdated) {
@@ -134,7 +134,7 @@ export function NewsView() {
             .catch(() => { });
 
         // Fetch News
-        fetch('/data/news.json')
+        fetch(`/data/news.json?t=${Date.now()}`, { cache: 'no-store' })
             .then(res => res.json())
             .then((data: NewsData) => {
                 setNewsData(data);
