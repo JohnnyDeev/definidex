@@ -1,17 +1,15 @@
 {
-  "lastUpdated": "2026-06-28T02:55:23.336Z",
+  "lastUpdated": "2026-06-28T06:17:35.239Z",
   "vgc": {
-    "lastUpdated": "2026-06-28T02:55:23.337Z",
-    "source": "smogon",
-    "format": "gen9vgc2026regf"
+    "lastUpdated": "2026-06-28T06:17:35.239Z",
+    "source": "smogon"
   },
   "tcg": {
-    "lastUpdated": "2026-03-26T00:00:00.000Z",
-    "source": "pokemontcg",
-    "priceProvider": "tcgplayer"
+    "lastUpdated": "2026-06-28T06:17:35.239Z",
+    "source": "pokemontcg"
   },
   "news": {
-    "lastUpdated": "2026-06-28T02:55:23.337Z",
+    "lastUpdated": "2026-06-28T06:17:35.239Z",
     "source": "rss"
   }
 }
