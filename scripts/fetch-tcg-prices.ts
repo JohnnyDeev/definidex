@@ -91,7 +91,11 @@ const MANUAL_MAP: Record<string, string> = {
 async function fetchJson(url: string, retries = 3): Promise<any> {
     for (let i = 0; i < retries; i++) {
         try {
-            const res = await fetch(url);
+            const res = await fetch(url, {
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+                }
+            });
             if (!res.ok) { if (i < retries - 1) { await sleep(2000); continue; } return null; }
             return await res.json();
         } catch { if (i < retries - 1) await sleep(2000); }

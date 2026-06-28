@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sword, Shield, Zap, Heart, Activity, Sparkles, Star } from 'lucide-react';
+import { Sword, Shield, Zap, Heart, Activity, Sparkles, Star, Plus } from 'lucide-react';
 import { motion } from 'motion/react';
 import type { PokemonState } from '../../hooks/useDamageCalculator';
 import { PokemonSelector, MoveSelector, StatSlider, Select, Toggle } from './CalculatorControls';
@@ -141,49 +141,141 @@ export function CalculatorPokemonCard({
             value={pokemon.evs.hp}
             onChange={v => onChange({ evs: { ...pokemon.evs, hp: v } })}
             color="red"
+            type="EV"
           />
           <StatSlider
             label="ATK"
             value={pokemon.evs.atk}
             onChange={v => onChange({ evs: { ...pokemon.evs, atk: v } })}
             color="red"
+            type="EV"
           />
           <StatSlider
             label="DEF"
             value={pokemon.evs.def}
             onChange={v => onChange({ evs: { ...pokemon.evs, def: v } })}
             color="blue"
+            type="EV"
           />
           <StatSlider
             label="SPA"
             value={pokemon.evs.spa}
             onChange={v => onChange({ evs: { ...pokemon.evs, spa: v } })}
             color="blue"
+            type="EV"
           />
           <StatSlider
             label="SPD"
             value={pokemon.evs.spd}
             onChange={v => onChange({ evs: { ...pokemon.evs, spd: v } })}
             color="green"
+            type="EV"
           />
           <StatSlider
             label="SPE"
             value={pokemon.evs.spe}
             onChange={v => onChange({ evs: { ...pokemon.evs, spe: v } })}
             color="green"
+            type="EV"
           />
         </div>
       </div>
 
-      {/* Move (only for attacker) */}
+      {/* IVs */}
+      <div className="space-y-3">
+        <div className="flex items-center gap-2">
+          <Star size={16} className="text-yellow-500" />
+          <span className="text-xs font-black text-zinc-600 uppercase tracking-wider">IVs</span>
+        </div>
+        <div className="grid grid-cols-3 gap-3">
+          <StatSlider
+            label="HP"
+            value={pokemon.ivs.hp}
+            onChange={v => onChange({ ivs: { ...pokemon.ivs, hp: v } })}
+            color="red"
+            type="IV"
+            min={0}
+            max={31}
+            step={1}
+          />
+          <StatSlider
+            label="ATK"
+            value={pokemon.ivs.atk}
+            onChange={v => onChange({ ivs: { ...pokemon.ivs, atk: v } })}
+            color="red"
+            type="IV"
+            min={0}
+            max={31}
+            step={1}
+          />
+          <StatSlider
+            label="DEF"
+            value={pokemon.ivs.def}
+            onChange={v => onChange({ ivs: { ...pokemon.ivs, def: v } })}
+            color="blue"
+            type="IV"
+            min={0}
+            max={31}
+            step={1}
+          />
+          <StatSlider
+            label="SPA"
+            value={pokemon.ivs.spa}
+            onChange={v => onChange({ ivs: { ...pokemon.ivs, spa: v } })}
+            color="blue"
+            type="IV"
+            min={0}
+            max={31}
+            step={1}
+          />
+          <StatSlider
+            label="SPD"
+            value={pokemon.ivs.spd}
+            onChange={v => onChange({ ivs: { ...pokemon.ivs, spd: v } })}
+            color="green"
+            type="IV"
+            min={0}
+            max={31}
+            step={1}
+          />
+          <StatSlider
+            label="SPE"
+            value={pokemon.ivs.spe}
+            onChange={v => onChange({ ivs: { ...pokemon.ivs, spe: v } })}
+            color="green"
+            type="IV"
+            min={0}
+            max={31}
+            step={1}
+          />
+        </div>
+      </div>
+
+      {/* Moves (only for attacker) - 4 slots */}
       {isAttacker && (
-        <MoveSelector
-          value={pokemon.selectedMove}
-          onChange={v => onChange({ selectedMove: v as any })}
-          movesList={pokemonMoves}
-          label="Movimento"
-          placeholder="Buscar movimento..."
-        />
+        <div className="space-y-3">
+          <div className="flex items-center gap-2 mb-2">
+            <Sword size={16} className="text-orange-500" />
+            <span className="text-xs font-black text-zinc-600 uppercase tracking-wider">
+              Moves (até 4)
+            </span>
+          </div>
+
+          {[0, 1, 2, 3].map((index) => (
+            <MoveSelector
+              key={index}
+              value={pokemon.moves[index] || ''}
+              onChange={(v) => {
+                const newMoves = [...pokemon.moves] as [string | null, string | null, string | null, string | null];
+                newMoves[index] = v || null;
+                onChange({ moves: newMoves });
+              }}
+              movesList={pokemonMoves}
+              placeholder={`Move ${index + 1}`}
+              label={`Slot ${index + 1}`}
+            />
+          ))}
+        </div>
       )}
 
       {/* Status */}

@@ -238,6 +238,7 @@ interface StatSliderProps {
   max?: number;
   step?: number;
   color?: 'red' | 'blue' | 'green';
+  type?: 'EV' | 'IV';
 }
 
 export function StatSlider({
@@ -248,14 +249,66 @@ export function StatSlider({
   max = 252,
   step = 4,
   color = 'red',
+  type = 'EV',
 }: StatSliderProps) {
+  const [inputValue, setInputValue] = useState(String(value));
+
+  // Sync input value when external value changes
+  useEffect(() => {
+    setInputValue(String(value));
+  }, [value]);
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newValue = e.target.value;
+    setInputValue(newValue);
+
+    // Only update if it's a valid number
+    const numValue = parseInt(newValue, 10);
+    if (!isNaN(numValue)) {
+      const clampedValue = Math.max(min, Math.min(max, numValue));
+      onChange(clampedValue);
+    } else if (newValue === '') {
+      onChange(0);
+    }
+  };
+
+  const handleInputBlur = () => {
+    const numValue = parseInt(inputValue, 10);
+    if (isNaN(numValue)) {
+      setInputValue(String(min));
+      onChange(min);
+    } else {
+      const clampedValue = Math.max(min, Math.min(max, numValue));
+      setInputValue(String(clampedValue));
+      onChange(clampedValue);
+    }
+  };
+
+  const handleSliderChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newValue = Number(e.target.value);
+    setInputValue(String(newValue));
+    onChange(newValue);
+  };
+
   return (
     <div className="space-y-1.5">
       <div className="flex items-center justify-between">
         <span className="text-xs font-bold text-zinc-500 uppercase tracking-wider">{label}</span>
-        <span className={`text-xs font-black ${color === 'red' ? 'text-red-600' : color === 'blue' ? 'text-blue-600' : 'text-green-600'}`}>
-          {value}
-        </span>
+        <div className="flex items-center gap-1">
+          <input
+            type="text"
+            value={inputValue}
+            onChange={handleInputChange}
+            onBlur={handleInputBlur}
+            className={`w-14 px-2 py-1 text-right text-xs font-black rounded-lg border-2 focus:outline-none focus:ring-2 transition-all ${color === 'red'
+                ? 'border-red-200 text-red-600 focus:border-red-500 focus:ring-red-500/20'
+                : color === 'blue'
+                  ? 'border-blue-200 text-blue-600 focus:border-blue-500 focus:ring-blue-500/20'
+                  : 'border-green-200 text-green-600 focus:border-green-500 focus:ring-green-500/20'
+              }`}
+          />
+          <span className="text-[10px] font-bold text-zinc-400 w-6">{type === 'EV' ? `/${max}` : ''}</span>
+        </div>
       </div>
       <input
         type="range"
@@ -263,7 +316,7 @@ export function StatSlider({
         max={max}
         step={step}
         value={value}
-        onChange={e => onChange(Number(e.target.value))}
+        onChange={handleSliderChange}
         className={`w-full h-2 rounded-full appearance-none cursor-pointer ${color === 'red' ? 'bg-red-100' : color === 'blue' ? 'bg-blue-100' : 'bg-green-100'
           }`}
         style={{

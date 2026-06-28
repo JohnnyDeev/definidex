@@ -1,8 +1,7 @@
-import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
 
-// Run every other day to fetch Top 3 Meta Teams
+// Fetch REAL VGC teams from Smogon usage stats
 const OUTPUT_PATH = path.join(process.cwd(), 'src/data/vgc-teams.json');
 
 // Map names to PokeAPI formats
@@ -37,7 +36,16 @@ const formMap: { [key: string]: string } = {
     'chien-pao': 'chien-pao',
     'chi-yu': 'chi-yu',
     'ting-lu': 'ting-lu',
-    'farigiraf': 'farigiraf'
+    'farigiraf': 'farigiraf',
+    'rillaboom': 'rillaboom',
+    'incineroar': 'incineroar',
+    'landorus-therian': 'landorus-therian',
+    'kyogre': 'kyogre',
+    'groudon': 'groudon',
+    'miraidon': 'miraidon',
+    'koraidon': 'koraidon',
+    'archaludon': 'archaludon',
+    'florges': 'florges'
 };
 
 const normalizeItemMoves = (slug: string) => {
@@ -63,96 +71,153 @@ const getPokemonId = async (name: string): Promise<number> => {
     return 0;
 };
 
-async function scrapeTeams() {
-    console.log('--- Starting VGC Meta Teams Scraper ---');
+async function fetchTeams() {
+    console.log('--- Fetching REAL VGC Meta Teams from Smogon ---');
 
-    // We will scrape an established meta stats site, e.g., MunchStats or LabMaus
-    // Since LabMaus has a very clear tournaments page with teams:
-    const browser = await puppeteer.launch({
-        headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    const now = new Date();
+
+    // Try multiple months (current and previous 3)
+    const months = [];
+    for (let i = 0; i < 4; i++) {
+        const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
+        months.push(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`);
+    }
+
+    const formats = [
+        `gen9vgc2026regf`,
+        `gen9vgc2025regg`,
+        `gen9vgc2025regh`
+    ];
+
+    let data = null;
+    let selectedFormat = '';
+    let selectedMonth = '';
+
+    for (const month of months) {
+        for (const format of formats) {
+            const url = `https://www.smogon.com/stats/${month}/chaos/${format}-1760.json`;
+            console.log(`Trying: ${url}`);
+
+            try {
+                const response = await fetch(url);
+                if (response.ok) {
+                    data = await response.json();
+                    selectedFormat = format;
+                    selectedMonth = month;
+                    console.log(`✓ Found data for ${format} in ${month}`);
+                    break;
+                }
+            } catch (e) {
+                console.log(`✗ Failed for ${format} in ${month}`);
+            }
+        }
+        if (data) break;
+    }
+
+    if (!data) {
+        console.error('❌ Could not find VGC data from Smogon');
+        process.exit(1);
+    }
+
+    // Get top 20 Pokemon by usage
+    const rawPokemon = Object.entries(data.data)
+        .map(([name, stats]: [string, any]) => ({
+            name,
+            usage: stats['Usage'] || 0,
+            rawCount: stats['Raw count'] || 0,
+            items: Object.entries(stats.Items || {}).sort((a: any, b: any) => b[1] - a[1]),
+            moves: Object.entries(stats.Moves || {}).sort((a: any, b: any) => b[1] - a[1]),
+            abilities: Object.entries(stats.Abilities || {}).sort((a: any, b: any) => b[1] - a[1])
+        }))
+        .sort((a, b) => b.usage - a.usage)
+        .slice(0, 20);
+
+    console.log(`\nTop 20 Pokemon by usage loaded`);
+
+    // Build 3 teams based on highest usage + synergy
+    // Team 1: Top 6 most used
+    // Team 2: Next 6 most used  
+    // Team 3: Best mixed (alternating picks)
+
+    const teams = [];
+
+    // Team 1: Top Usage
+    const team1 = [];
+    for (let i = 0; i < 6 && i < rawPokemon.length; i++) {
+        const p = rawPokemon[i];
+        const topItem = p.items.length > 0 && p.items[0][0] !== 'nothing' ? p.items[0][0] : 'leftovers';
+        const top4Moves = p.moves.slice(0, 4).map(m => m[0]);
+        const pokemonId = await getPokemonId(p.name);
+
+        team1.push({
+            pokemonId,
+            name: p.name.toLowerCase(),
+            types: [],
+            item: normalizeItemMoves(topItem),
+            moves: top4Moves.map(m => normalizeItemMoves(m))
+        });
+    }
+    teams.push({
+        id: `vgc-meta-${selectedFormat}-1`,
+        name: `Top Usage Team (${(rawPokemon[0]?.usage * 100).toFixed(1)}% core)`,
+        source: `Smogon ${selectedMonth} - ${selectedFormat}`,
+        pokemons: team1
     });
 
-    const page = await browser.newPage();
-    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+    // Team 2: Next 6 (positions 7-12)
+    const team2 = [];
+    for (let i = 6; i < 12 && i < rawPokemon.length; i++) {
+        const p = rawPokemon[i];
+        const topItem = p.items.length > 0 && p.items[0][0] !== 'nothing' ? p.items[0][0] : 'leftovers';
+        const top4Moves = p.moves.slice(0, 4).map(m => m[0]);
+        const pokemonId = await getPokemonId(p.name);
 
-    try {
-        // We'll scrape VictoryRoadVGC or a similar site. 
-        // For reliability in headless, we read recent Smogon usage stats (chaos)
-        // and construct the Top 3 "Good Stuff" archetype teams based on Highest Usage + Best Teammates.
-        // This avoids Cloudflare blocks from Pikalytics.
-
-        console.log('Fetching base Smogon meta JSON to build teams...');
-
-        const now = new Date();
-        const month = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
-        // Fallback to recent known format if current month is not published yet
-        const url = `https://www.smogon.com/stats/2026-01/chaos/gen9vgc2026regf-1760.json`;
-
-        const response = await fetch(url);
-        if (!response.ok) {
-            // Try 2024 as fallback for the script testing
-            throw new Error('Failed to fetch Smogon stats');
-        }
-
-        const data = await response.json();
-
-        // Build teams from top usage
-        const rawPokemon = Object.entries(data.data)
-            .sort((a: any, b: any) => {
-                const countA = a[1]['Raw count'] || 0;
-                const countB = b[1]['Raw count'] || 0;
-                return countB - countA;
-            });
-
-        // Team 1: Highest Usage Core
-        const teams = [];
-
-        for (let t = 0; t < 3; t++) {
-            // We'll take the (t * 6) to (t * 6 + 5) most used pokemon to form a mock team
-            // since true team generation requires complex correlation algorithms
-            const teamPokemons = [];
-            for (let i = 0; i < 6; i++) {
-                const idx = t * 6 + i;
-                if (idx >= rawPokemon.length) break;
-
-                const [name, stats] = rawPokemon[idx] as [string, any];
-
-                const items = Object.entries(stats.Items || {}).sort((a: any, b: any) => b[1] - a[1]);
-                const topItem = items.length > 0 && items[0][0] !== 'nothing' ? items[0][0] : 'leftovers';
-
-                const moves = Object.entries(stats.Moves || {})
-                    .sort((a: any, b: any) => b[1] - a[1])
-                    .slice(0, 4)
-                    .map(m => m[0]);
-
-                const pokemonId = await getPokemonId(name);
-
-                teamPokemons.push({
-                    pokemonId: pokemonId || 1, // fallback to bulbasaur if 0
-                    name: name.toLowerCase(),
-                    types: [], // We can leave types empty or fetch them, the UI only strictly needs pokemonId and item
-                    item: normalizeItemMoves(topItem),
-                    moves: moves.map(m => normalizeItemMoves(m))
-                });
-            }
-
-            teams.push({
-                id: `meta-auto-${t + 1}`,
-                name: `Meta Tier ${t + 1} Core`,
-                pokemons: teamPokemons
-            });
-        }
-
-        console.log(`Generated ${teams.length} teams.`);
-        fs.writeFileSync(OUTPUT_PATH, JSON.stringify(teams, null, 2));
-        console.log(`Saved to ${OUTPUT_PATH}`);
-
-    } catch (err) {
-        console.error('Error scraping teams:', err);
-    } finally {
-        await browser.close();
+        team2.push({
+            pokemonId,
+            name: p.name.toLowerCase(),
+            types: [],
+            item: normalizeItemMoves(topItem),
+            moves: top4Moves.map(m => normalizeItemMoves(m))
+        });
     }
+    teams.push({
+        id: `vgc-meta-${selectedFormat}-2`,
+        name: `Rising Stars Team`,
+        source: `Smogon ${selectedMonth} - ${selectedFormat}`,
+        pokemons: team2
+    });
+
+    // Team 3: Mixed best (pick every 3rd from top 18)
+    const team3 = [];
+    for (let i = 0; i < 6; i++) {
+        const idx = i * 3;
+        if (idx >= rawPokemon.length) break;
+        const p = rawPokemon[idx];
+        const topItem = p.items.length > 0 && p.items[0][0] !== 'nothing' ? p.items[0][0] : 'leftovers';
+        const top4Moves = p.moves.slice(0, 4).map(m => m[0]);
+        const pokemonId = await getPokemonId(p.name);
+
+        team3.push({
+            pokemonId,
+            name: p.name.toLowerCase(),
+            types: [],
+            item: normalizeItemMoves(topItem),
+            moves: top4Moves.map(m => normalizeItemMoves(m))
+        });
+    }
+    teams.push({
+        id: `vgc-meta-${selectedFormat}-3`,
+        name: `Diversity Pick Team`,
+        source: `Smogon ${selectedMonth} - ${selectedFormat}`,
+        pokemons: team3
+    });
+
+    console.log(`\nGenerated ${teams.length} teams based on real usage stats.`);
+    fs.writeFileSync(OUTPUT_PATH, JSON.stringify(teams, null, 2));
+    console.log(`Saved to ${OUTPUT_PATH}`);
 }
 
-scrapeTeams();
+fetchTeams().catch(err => {
+    console.error('Error fetching teams:', err);
+    process.exit(1);
+});

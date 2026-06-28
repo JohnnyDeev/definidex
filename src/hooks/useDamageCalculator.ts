@@ -14,13 +14,13 @@ export interface PokemonState {
   status: string;
   teraType?: string;
   isDynamaxed?: boolean;
-  moves: string[];
-  selectedMove?: string;
+  moves: [string | null, string | null, string | null, string | null];
 }
 
 export interface FieldState {
   weather: 'Sun' | 'Rain' | 'Sand' | 'Hail' | 'Snow' | 'Harsh Sunshine' | 'Heavy Rain' | 'Strong Winds' | null;
   terrain: 'Electric' | 'Grassy' | 'Psychic' | 'Misty' | null;
+  isDoubles: boolean;
   attackerSide: {
     isTailwind: boolean;
     isHelpingHand: boolean;
@@ -54,13 +54,13 @@ const DEFAULT_POKEMON: PokemonState = {
   evs: { ...DEFAULT_EVS },
   boosts: { ...DEFAULT_BOOSTS },
   status: '',
-  moves: [],
-  selectedMove: undefined,
+  moves: [null, null, null, null],
 };
 
 const DEFAULT_FIELD: FieldState = {
   weather: null,
   terrain: null,
+  isDoubles: false,
   attackerSide: {
     isTailwind: false,
     isHelpingHand: false,
@@ -122,9 +122,9 @@ export function useDamageCalculator() {
     return movesList;
   }, [movesList]);
 
-  // Calculate damage
-  const result = useMemo(() => {
-    if (!attacker.species || !defender.species || !attacker.selectedMove) {
+  // Calculate damage for all 4 moves
+  const results = useMemo(() => {
+    if (!attacker.species || !defender.species) {
       return null;
     }
 
@@ -157,11 +157,10 @@ export function useDamageCalculator() {
         isDynamaxed: defender.isDynamaxed,
       });
 
-      const move = new Move(gen, attacker.selectedMove);
-
       const fieldObj = new Field({
         weather: field.weather || undefined,
         terrain: field.terrain || undefined,
+        isDoubles: field.isDoubles,
         attackerSide: {
           isTailwind: field.attackerSide.isTailwind,
           isHelpingHand: field.attackerSide.isHelpingHand,
@@ -182,7 +181,18 @@ export function useDamageCalculator() {
         },
       });
 
-      return calculate(gen, attackerPokemon, defenderPokemon, move, fieldObj);
+      // Calculate for each of the 4 moves
+      const moveResults: { moveName: string; result: Result | null; index: number }[] = [];
+
+      attacker.moves.forEach((moveName, index) => {
+        if (moveName) {
+          const move = new Move(gen, moveName);
+          const result = calculate(gen, attackerPokemon, defenderPokemon, move, fieldObj);
+          moveResults.push({ moveName, result, index });
+        }
+      });
+
+      return moveResults;
     } catch (error) {
       console.error('Error calculating damage:', error);
       return null;
@@ -234,7 +244,7 @@ export function useDamageCalculator() {
     attacker,
     defender,
     field,
-    result,
+    results,
 
     // Lists
     speciesList,
