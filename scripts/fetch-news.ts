@@ -32,6 +32,9 @@ interface NewsData {
 const RSS_FEEDS = [
     // VGC Sources (most reliable - actually works!)
     { url: 'https://victoryroadvgc.com/feed/', source: 'VGC Vortex', category: 'vgc' },
+    // General / TCG / Games Sources
+    { url: 'https://www.dexerto.com/pokemon/feed', source: 'Dexerto', category: 'tcg' },
+    { url: 'https://nintendoeverything.com/feed/', source: 'Nintendo', category: 'games-anime' },
 ];
 
 // Curated real Pokemon news (updated manually when RSS feeds fail)
