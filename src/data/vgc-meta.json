@@ -1,39 +1,52 @@
 {
   "lastUpdated": "2026-06-28",
-  "month": "2026-04",
-  "format": "gen9vgc2026regf",
+  "month": "2026-05",
+  "format": "gen9vgc2026regi",
   "pokemon": [
     {
       "id": 727,
       "name": "Incineroar",
-      "usage": "73.4%",
-      "item": "sitrus-berry",
+      "usage": "79.8%",
+      "item": "assault-vest",
       "ability": "intimidate",
       "moves": [
         "fake-out",
-        "flare-blitz",
         "knock-off",
+        "flare-blitz",
         "parting-shot"
       ]
     },
     {
-      "id": 987,
-      "name": "Flutter Mane",
-      "usage": "61.5%",
-      "item": "booster-energy",
-      "ability": "protosynthesis",
+      "id": 1008,
+      "name": "Miraidon",
+      "usage": "47.9%",
+      "item": "choice-scarf",
+      "ability": "hadronengine",
       "moves": [
-        "moonblast",
-        "icy-wind",
-        "shadow-ball",
-        "protect"
+        "electrodrift",
+        "volt-switch",
+        "dracometeor",
+        "snarl"
+      ]
+    },
+    {
+      "id": 10194,
+      "name": "Calyrex-Shadow",
+      "usage": "45.7%",
+      "item": "life-orb",
+      "ability": "asonespectrier",
+      "moves": [
+        "astralbarrage",
+        "protect",
+        "psychic",
+        "pollen-puff"
       ]
     },
     {
       "id": 10191,
       "name": "Urshifu-Rapid-Strike",
-      "usage": "53.5%",
-      "item": "choice-scarf",
+      "usage": "41.0%",
+      "item": "choice-band",
       "ability": "unseen-fist",
       "moves": [
         "surging-strikes",
@@ -43,62 +56,140 @@
       ]
     },
     {
-      "id": 812,
-      "name": "Rillaboom",
-      "usage": "38.2%",
-      "item": "assault-vest",
-      "ability": "grassy-surge",
+      "id": 10193,
+      "name": "Calyrex-Ice",
+      "usage": "38.4%",
+      "item": "clear-amulet",
+      "ability": "asoneglastrier",
       "moves": [
-        "grassy-glide",
-        "fake-out",
-        "wood-hammer",
-        "u-turn"
+        "glaciallance",
+        "trick-room",
+        "protect",
+        "high-horsepower"
       ]
     },
     {
       "id": 591,
       "name": "Amoonguss",
-      "usage": "38.2%",
-      "item": "sitrus-berry",
+      "usage": "36.1%",
+      "item": "rocky-helmet",
       "ability": "regenerator",
       "moves": [
         "spore",
         "rage-powder",
-        "sludge-bomb",
+        "pollen-puff",
         "protect"
+      ]
+    },
+    {
+      "id": 812,
+      "name": "Rillaboom",
+      "usage": "34.0%",
+      "item": "assault-vest",
+      "ability": "grassy-surge",
+      "moves": [
+        "fake-out",
+        "grassy-glide",
+        "wood-hammer",
+        "u-turn"
+      ]
+    },
+    {
+      "id": 987,
+      "name": "Flutter Mane",
+      "usage": "32.3%",
+      "item": "focus-sash",
+      "ability": "protosynthesis",
+      "moves": [
+        "moonblast",
+        "icy-wind",
+        "shadow-ball",
+        "protect"
+      ]
+    },
+    {
+      "id": 547,
+      "name": "Whimsicott",
+      "usage": "31.8%",
+      "item": "covert-cloak",
+      "ability": "prankster",
+      "moves": [
+        "tailwind",
+        "encore",
+        "moonblast",
+        "faketears"
+      ]
+    },
+    {
+      "id": 382,
+      "name": "Kyogre",
+      "usage": "30.0%",
+      "item": "mystic-water",
+      "ability": "drizzle",
+      "moves": [
+        "waterspout",
+        "originpulse",
+        "thunder",
+        "icebeam"
+      ]
+    },
+    {
+      "id": 1007,
+      "name": "Koraidon",
+      "usage": "27.3%",
+      "item": "clear-amulet",
+      "ability": "orichalcumpulse",
+      "moves": [
+        "flare-blitz",
+        "protect",
+        "flamecharge",
+        "close-combat"
+      ]
+    },
+    {
+      "id": 10189,
+      "name": "Zamazenta-Crowned",
+      "usage": "26.1%",
+      "item": "rustedshield",
+      "ability": "dauntlessshield",
+      "moves": [
+        "bodypress",
+        "wideguard",
+        "protect",
+        "ironhead"
+      ]
+    },
+    {
+      "id": 981,
+      "name": "Farigiraf",
+      "usage": "25.7%",
+      "item": "electricseed",
+      "ability": "armor-tail",
+      "moves": [
+        "trick-room",
+        "helping-hand",
+        "foulplay",
+        "psychic"
       ]
     },
     {
       "id": 641,
       "name": "Tornadus",
-      "usage": "37.3%",
+      "usage": "23.3%",
       "item": "covert-cloak",
       "ability": "prankster",
       "moves": [
         "tailwind",
         "bleakwind-storm",
-        "protect",
-        "rain-dance"
-      ]
-    },
-    {
-      "id": 1021,
-      "name": "Raging Bolt",
-      "usage": "33.7%",
-      "item": "leftovers",
-      "ability": "protosynthesis",
-      "moves": [
-        "thunderclap",
-        "dragon-pulse",
-        "protect",
-        "calm-mind"
+        "rain-dance",
+        "protect"
       ]
     },
     {
       "id": 10186,
       "name": "Indeedee-F",
-      "usage": "27.5%",
-      "item": "rocky-helmet",
+      "usage": "21.8%",
+      "item": "safety-goggles",
       "ability": "psychicsurge",
       "moves": [
         "follow-me",
@@ -108,139 +199,22 @@
       ]
     },
     {
-      "id": 981,
-      "name": "Farigiraf",
-      "usage": "24.4%",
-      "item": "throat-spray",
-      "ability": "armor-tail",
+      "id": 792,
+      "name": "Lunala",
+      "usage": "20.3%",
+      "item": "leftovers",
+      "ability": "shadowshield",
       "moves": [
-        "trick-room",
-        "hyper-voice",
-        "psychic",
-        "protect"
-      ]
-    },
-    {
-      "id": 10274,
-      "name": "Ogerpon-Hearthflame",
-      "usage": "23.9%",
-      "item": "hearthflame-mask",
-      "ability": "moldbreaker",
-      "moves": [
-        "ivy-cudgel",
-        "spiky-shield",
-        "wood-hammer",
-        "follow-me"
-      ]
-    },
-    {
-      "id": 324,
-      "name": "Torkoal",
-      "usage": "23.3%",
-      "item": "charcoal",
-      "ability": "drought",
-      "moves": [
-        "eruption",
-        "protect",
-        "heatwave",
-        "earth-power"
-      ]
-    },
-    {
-      "id": 645,
-      "name": "Landorus",
-      "usage": "22.1%",
-      "item": "life-orb",
-      "ability": "sheer-force",
-      "moves": [
-        "sludge-bomb",
-        "protect",
-        "earth-power",
-        "substitute"
-      ]
-    },
-    {
-      "id": 10273,
-      "name": "Ogerpon-Wellspring",
-      "usage": "21.5%",
-      "item": "wellspring-mask",
-      "ability": "water-absorb",
-      "moves": [
-        "ivy-cudgel",
-        "spiky-shield",
-        "follow-me",
-        "horn-leech"
-      ]
-    },
-    {
-      "id": 1018,
-      "name": "Archaludon",
-      "usage": "20.6%",
-      "item": "assault-vest",
-      "ability": "stamina",
-      "moves": [
-        "electroshot",
-        "flashcannon",
-        "bodypress",
-        "dracometeor"
-      ]
-    },
-    {
-      "id": 1002,
-      "name": "Chien-Pao",
-      "usage": "19.9%",
-      "item": "focus-sash",
-      "ability": "sword-of-ruin",
-      "moves": [
-        "protect",
-        "sucker-punch",
-        "iciclecrash",
-        "ice-spinner"
-      ]
-    },
-    {
-      "id": 1000,
-      "name": "Gholdengo",
-      "usage": "19.9%",
-      "item": "choice-scarf",
-      "ability": "goodasgold",
-      "moves": [
-        "make-it-rain",
-        "shadow-ball",
-        "trick",
-        "thunderbolt"
-      ]
-    },
-    {
-      "id": 547,
-      "name": "Whimsicott",
-      "usage": "19.0%",
-      "item": "covert-cloak",
-      "ability": "prankster",
-      "moves": [
-        "tailwind",
+        "moongeistbeam",
         "moonblast",
-        "encore",
-        "endeavor"
-      ]
-    },
-    {
-      "id": 279,
-      "name": "Pelipper",
-      "usage": "17.9%",
-      "item": "rocky-helmet",
-      "ability": "drizzle",
-      "moves": [
-        "hurricane",
-        "weatherball",
-        "tailwind",
+        "trick-room",
         "wideguard"
       ]
     },
     {
       "id": 901,
       "name": "Ursaluna",
-      "usage": "17.3%",
+      "usage": "18.7%",
       "item": "flameorb",
       "ability": "guts",
       "moves": [
@@ -251,22 +225,269 @@
       ]
     },
     {
+      "id": 992,
+      "name": "Iron Hands",
+      "usage": "16.2%",
+      "item": "assault-vest",
+      "ability": "quarkdrive",
+      "moves": [
+        "fake-out",
+        "wild-charge",
+        "lowkick",
+        "drainpunch"
+      ]
+    },
+    {
+      "id": 1021,
+      "name": "Raging Bolt",
+      "usage": "16.2%",
+      "item": "booster-energy",
+      "ability": "protosynthesis",
+      "moves": [
+        "thunderclap",
+        "protect",
+        "thunderbolt",
+        "dragon-pulse"
+      ]
+    },
+    {
+      "id": 1002,
+      "name": "Chien-Pao",
+      "usage": "16.0%",
+      "item": "focus-sash",
+      "ability": "sword-of-ruin",
+      "moves": [
+        "sucker-punch",
+        "protect",
+        "ice-spinner",
+        "taunt"
+      ]
+    },
+    {
+      "id": 861,
+      "name": "Grimmsnarl",
+      "usage": "15.8%",
+      "item": "lightclay",
+      "ability": "prankster",
+      "moves": [
+        "lightscreen",
+        "reflect",
+        "thunderwave",
+        "spiritbreak"
+      ]
+    },
+    {
+      "id": 1004,
+      "name": "Chi-Yu",
+      "usage": "13.9%",
+      "item": "choice-scarf",
+      "ability": "beads-of-ruin",
+      "moves": [
+        "heatwave",
+        "snarl",
+        "darkpulse",
+        "overheat"
+      ]
+    },
+    {
+      "id": 1018,
+      "name": "Archaludon",
+      "usage": "13.4%",
+      "item": "assault-vest",
+      "ability": "stamina",
+      "moves": [
+        "electroshot",
+        "flashcannon",
+        "bodypress",
+        "dracometeor"
+      ]
+    },
+    {
+      "id": 235,
+      "name": "Smeargle",
+      "usage": "12.7%",
+      "item": "focus-sash",
+      "ability": "moody",
+      "moves": [
+        "spore",
+        "follow-me",
+        "fake-out",
+        "decorate"
+      ]
+    },
+    {
+      "id": 1013,
+      "name": "Sinistcha",
+      "usage": "11.3%",
+      "item": "rocky-helmet",
+      "ability": "hospitality",
+      "moves": [
+        "rage-powder",
+        "shadow-ball",
+        "trick-room",
+        "matchagotcha"
+      ]
+    },
+    {
+      "id": 383,
+      "name": "Groudon",
+      "usage": "10.9%",
+      "item": "assault-vest",
+      "ability": "drought",
+      "moves": [
+        "precipiceblades",
+        "heatcrash",
+        "high-horsepower",
+        "protect"
+      ]
+    },
+    {
+      "id": 324,
+      "name": "Torkoal",
+      "usage": "10.7%",
+      "item": "choice-specs",
+      "ability": "drought",
+      "moves": [
+        "eruption",
+        "earth-power",
+        "weatherball",
+        "heatwave"
+      ]
+    },
+    {
+      "id": 10188,
+      "name": "Zacian-Crowned",
+      "usage": "10.2%",
+      "item": "rustedsword",
+      "ability": "intrepidsword",
+      "moves": [
+        "ironhead",
+        "protect",
+        "playrough",
+        "swords-dance"
+      ]
+    },
+    {
+      "id": 645,
+      "name": "Landorus",
+      "usage": "10.1%",
+      "item": "life-orb",
+      "ability": "sheer-force",
+      "moves": [
+        "sludge-bomb",
+        "earth-power",
+        "protect",
+        "sandsear-storm"
+      ]
+    },
+    {
       "id": 149,
       "name": "Dragonite",
-      "usage": "16.7%",
+      "usage": "9.6%",
       "item": "choice-band",
       "ability": "innerfocus",
       "moves": [
         "extreme-speed",
-        "outrage",
-        "ice-spinner",
-        "stompingtantrum"
+        "aqua-jet",
+        "lowkick",
+        "outrage"
+      ]
+    },
+    {
+      "id": 1024,
+      "name": "Terapagos",
+      "usage": "9.5%",
+      "item": "electricseed",
+      "ability": "terashift",
+      "moves": [
+        "terastarstorm",
+        "earth-power",
+        "protect",
+        "calm-mind"
+      ]
+    },
+    {
+      "id": 279,
+      "name": "Pelipper",
+      "usage": "9.5%",
+      "item": "focus-sash",
+      "ability": "drizzle",
+      "moves": [
+        "hurricane",
+        "weatherball",
+        "wideguard",
+        "protect"
+      ]
+    },
+    {
+      "id": 10272,
+      "name": "Ursaluna-Bloodmoon",
+      "usage": "9.4%",
+      "item": "life-orb",
+      "ability": "mindseye",
+      "moves": [
+        "blood-moon",
+        "earth-power",
+        "hyper-voice",
+        "protect"
+      ]
+    },
+    {
+      "id": 986,
+      "name": "Brute Bonnet",
+      "usage": "9.1%",
+      "item": "sitrus-berry",
+      "ability": "protosynthesis",
+      "moves": [
+        "spore",
+        "rage-powder",
+        "sucker-punch",
+        "seedbomb"
+      ]
+    },
+    {
+      "id": 983,
+      "name": "Kingambit",
+      "usage": "8.7%",
+      "item": "assault-vest",
+      "ability": "defiant",
+      "moves": [
+        "sucker-punch",
+        "kowtowcleave",
+        "ironhead",
+        "protect"
+      ]
+    },
+    {
+      "id": 10274,
+      "name": "Ogerpon-Hearthflame",
+      "usage": "8.7%",
+      "item": "hearthflame-mask",
+      "ability": "moldbreaker",
+      "moves": [
+        "ivy-cudgel",
+        "spiky-shield",
+        "follow-me",
+        "grassy-glide"
+      ]
+    },
+    {
+      "id": 0,
+      "name": "Basculegion",
+      "usage": "8.6%",
+      "item": "life-orb",
+      "ability": "swiftswim",
+      "moves": [
+        "lastrespects",
+        "wavecrash",
+        "aqua-jet",
+        "protect"
       ]
     },
     {
       "id": 892,
       "name": "Urshifu",
-      "usage": "13.4%",
+      "usage": "8.4%",
       "item": "focus-sash",
       "ability": "unseen-fist",
       "moves": [
@@ -277,380 +498,159 @@
       ]
     },
     {
-      "id": 10272,
-      "name": "Ursaluna-Bloodmoon",
-      "usage": "13.3%",
-      "item": "life-orb",
-      "ability": "mindseye",
+      "id": 10273,
+      "name": "Ogerpon-Wellspring",
+      "usage": "8.0%",
+      "item": "wellspring-mask",
+      "ability": "water-absorb",
       "moves": [
-        "hyper-voice",
-        "earth-power",
-        "blood-moon",
+        "ivy-cudgel",
+        "follow-me",
+        "spiky-shield",
+        "horn-leech"
+      ]
+    },
+    {
+      "id": 903,
+      "name": "Sneasler",
+      "usage": "7.3%",
+      "item": "electricseed",
+      "ability": "unburden",
+      "moves": [
+        "direclaw",
+        "close-combat",
+        "protect",
+        "fake-out"
+      ]
+    },
+    {
+      "id": 637,
+      "name": "Volcarona",
+      "usage": "7.0%",
+      "item": "electricseed",
+      "ability": "flamebody",
+      "moves": [
+        "protect",
+        "fierydance",
+        "rage-powder",
+        "strugglebug"
+      ]
+    },
+    {
+      "id": 1000,
+      "name": "Gholdengo",
+      "usage": "6.4%",
+      "item": "life-orb",
+      "ability": "goodasgold",
+      "moves": [
+        "make-it-rain",
+        "shadow-ball",
+        "nasty-plot",
         "protect"
+      ]
+    },
+    {
+      "id": 10275,
+      "name": "Ogerpon-Cornerstone",
+      "usage": "6.1%",
+      "item": "cornerstone-mask",
+      "ability": "sturdy",
+      "moves": [
+        "ivy-cudgel",
+        "follow-me",
+        "spiky-shield",
+        "powerwhip"
+      ]
+    },
+    {
+      "id": 979,
+      "name": "Annihilape",
+      "usage": "5.6%",
+      "item": "choice-scarf",
+      "ability": "defiant",
+      "moves": [
+        "finalgambit",
+        "coaching",
+        "close-combat",
+        "ragefist"
+      ]
+    },
+    {
+      "id": 445,
+      "name": "Garchomp",
+      "usage": "5.3%",
+      "item": "life-orb",
+      "ability": "roughskin",
+      "moves": [
+        "earthquake",
+        "dragonclaw",
+        "protect",
+        "rockslide"
+      ]
+    },
+    {
+      "id": 1009,
+      "name": "Walking Wake",
+      "usage": "5.2%",
+      "item": "assault-vest",
+      "ability": "protosynthesis",
+      "moves": [
+        "hydrosteam",
+        "dracometeor",
+        "snarl",
+        "flamethrower"
       ]
     },
     {
       "id": 10104,
       "name": "Ninetales-Alola",
-      "usage": "11.3%",
+      "usage": "4.9%",
       "item": "lightclay",
       "ability": "snowwarning",
       "moves": [
         "auroraveil",
         "blizzard",
         "moonblast",
-        "helping-hand"
+        "encore"
       ]
     },
     {
-      "id": 979,
-      "name": "Annihilape",
-      "usage": "11.2%",
-      "item": "sitrus-berry",
-      "ability": "defiant",
-      "moves": [
-        "ragefist",
-        "drainpunch",
-        "bulkup",
-        "protect"
-      ]
-    },
-    {
-      "id": 1004,
-      "name": "Chi-Yu",
-      "usage": "10.9%",
-      "item": "choice-specs",
-      "ability": "beads-of-ruin",
-      "moves": [
-        "darkpulse",
-        "heatwave",
-        "overheat",
-        "flamethrower"
-      ]
-    },
-    {
-      "id": 1023,
-      "name": "Iron Crown",
-      "usage": "10.4%",
-      "item": "booster-energy",
-      "ability": "quarkdrive",
-      "moves": [
-        "tachyoncutter",
-        "expanding-force",
-        "protect",
-        "terablast"
-      ]
-    },
-    {
-      "id": 895,
-      "name": "Regidrago",
-      "usage": "10.0%",
-      "item": "dragonfang",
-      "ability": "dragonsmaw",
-      "moves": [
-        "dragonenergy",
-        "protect",
-        "earth-power",
-        "dracometeor"
-      ]
-    },
-    {
-      "id": 1013,
-      "name": "Sinistcha",
-      "usage": "9.7%",
-      "item": "sitrus-berry",
-      "ability": "hospitality",
-      "moves": [
-        "rage-powder",
-        "matchagotcha",
-        "trick-room",
-        "lifedew"
-      ]
-    },
-    {
-      "id": 977,
-      "name": "Dondozo",
-      "usage": "9.7%",
-      "item": "leftovers",
-      "ability": "unaware",
-      "moves": [
-        "protect",
-        "orderup",
-        "earthquake",
-        "wavecrash"
-      ]
-    },
-    {
-      "id": 10230,
-      "name": "Arcanine-Hisui",
-      "usage": "9.5%",
-      "item": "choice-band",
-      "ability": "intimidate",
-      "moves": [
-        "flare-blitz",
-        "extreme-speed",
-        "rockslide",
-        "headsmash"
-      ]
-    },
-    {
-      "id": 992,
-      "name": "Iron Hands",
-      "usage": "9.4%",
-      "item": "assault-vest",
-      "ability": "quarkdrive",
-      "moves": [
-        "fake-out",
-        "wild-charge",
-        "drainpunch",
-        "heavyslam"
-      ]
-    },
-    {
-      "id": 858,
-      "name": "Hatterene",
-      "usage": "9.2%",
-      "item": "life-orb",
-      "ability": "magicbounce",
-      "moves": [
-        "dazzling-gleam",
-        "trick-room",
-        "expanding-force",
-        "protect"
-      ]
-    },
-    {
-      "id": 0,
-      "name": "Tatsugiri",
-      "usage": "9.1%",
-      "item": "focus-sash",
-      "ability": "commander",
-      "moves": [
-        "dracometeor",
-        "muddywater",
-        "icy-wind",
-        "protect"
-      ]
-    },
-    {
-      "id": 248,
-      "name": "Tyranitar",
-      "usage": "8.8%",
-      "item": "rocky-helmet",
-      "ability": "sandstream",
-      "moves": [
-        "knock-off",
-        "rockslide",
-        "protect",
-        "sandstorm"
-      ]
-    },
-    {
-      "id": 983,
-      "name": "Kingambit",
-      "usage": "8.7%",
-      "item": "blackglasses",
-      "ability": "defiant",
-      "moves": [
-        "sucker-punch",
-        "kowtowcleave",
-        "swords-dance",
-        "ironhead"
-      ]
-    },
-    {
-      "id": 730,
-      "name": "Primarina",
-      "usage": "8.2%",
-      "item": "throat-spray",
-      "ability": "liquidvoice",
-      "moves": [
-        "hyper-voice",
-        "moonblast",
-        "protect",
-        "haze"
-      ]
-    },
-    {
-      "id": 488,
-      "name": "Cresselia",
-      "usage": "8.1%",
-      "item": "mental-herb",
-      "ability": "levitate",
-      "moves": [
-        "trick-room",
-        "lunarblessing",
-        "moonblast",
-        "helping-hand"
-      ]
-    },
-    {
-      "id": 861,
-      "name": "Grimmsnarl",
-      "usage": "7.2%",
+      "id": 302,
+      "name": "Sableye",
+      "usage": "4.9%",
       "item": "lightclay",
       "ability": "prankster",
       "moves": [
-        "spiritbreak",
+        "encore",
+        "disable",
         "lightscreen",
-        "reflect",
-        "thunderwave"
+        "fake-out"
       ]
     },
     {
-      "id": 1020,
-      "name": "Gouging Fire",
-      "usage": "7.1%",
-      "item": "booster-energy",
-      "ability": "protosynthesis",
+      "id": 35,
+      "name": "Clefairy",
+      "usage": "4.9%",
+      "item": "eviolite",
+      "ability": "friendguard",
       "moves": [
-        "heatcrash",
-        "breakingswipe",
-        "howl",
-        "protect"
-      ]
-    },
-    {
-      "id": 903,
-      "name": "Sneasler",
-      "usage": "6.9%",
-      "item": "white-herb",
-      "ability": "unburden",
-      "moves": [
-        "direclaw",
-        "close-combat",
-        "fake-out",
-        "acrobatics"
-      ]
-    },
-    {
-      "id": 10021,
-      "name": "Landorus-Therian",
-      "usage": "6.7%",
-      "item": "choice-band",
-      "ability": "intimidate",
-      "moves": [
-        "rockslide",
-        "stompingtantrum",
-        "u-turn",
-        "earthquake"
-      ]
-    },
-    {
-      "id": 1009,
-      "name": "Walking Wake",
-      "usage": "6.6%",
-      "item": "covert-cloak",
-      "ability": "protosynthesis",
-      "moves": [
-        "hydrosteam",
+        "follow-me",
+        "helping-hand",
         "protect",
-        "weatherball",
-        "dragon-pulse"
-      ]
-    },
-    {
-      "id": 445,
-      "name": "Garchomp",
-      "usage": "6.3%",
-      "item": "life-orb",
-      "ability": "roughskin",
-      "moves": [
-        "protect",
-        "earthquake",
-        "dragonclaw",
-        "stompingtantrum"
-      ]
-    },
-    {
-      "id": 10167,
-      "name": "Weezing-Galar",
-      "usage": "6.3%",
-      "item": "covert-cloak",
-      "ability": "neutralizinggas",
-      "moves": [
-        "dazzling-gleam",
-        "protect",
-        "toxicspikes",
-        "poisongas"
-      ]
-    },
-    {
-      "id": 0,
-      "name": "Basculegion",
-      "usage": "6.1%",
-      "item": "choice-band",
-      "ability": "swiftswim",
-      "moves": [
-        "wavecrash",
-        "lastrespects",
-        "flipturn",
-        "aqua-jet"
-      ]
-    },
-    {
-      "id": 936,
-      "name": "Armarouge",
-      "usage": "6.0%",
-      "item": "weakness-policy",
-      "ability": "flashfire",
-      "moves": [
-        "expanding-force",
-        "armorcannon",
-        "protect",
-        "trick-room"
-      ]
-    },
-    {
-      "id": 144,
-      "name": "Articuno",
-      "usage": "5.9%",
-      "item": "choice-specs",
-      "ability": "snowcloak",
-      "moves": [
-        "blizzard",
-        "freezedry",
-        "sheercold",
-        "icebeam"
+        "encore"
       ]
     },
     {
       "id": 0,
       "name": "Maushold",
-      "usage": "5.9%",
-      "item": "safety-goggles",
+      "usage": "4.6%",
+      "item": "focus-sash",
       "ability": "friendguard",
       "moves": [
         "follow-me",
-        "beatup",
-        "protect",
-        "taunt"
-      ]
-    },
-    {
-      "id": 10237,
-      "name": "Lilligant-Hisui",
-      "usage": "5.5%",
-      "item": "focus-sash",
-      "ability": "chlorophyll",
-      "moves": [
-        "afteryou",
-        "close-combat",
-        "sleeppowder",
-        "solarblade"
-      ]
-    },
-    {
-      "id": 235,
-      "name": "Smeargle",
-      "usage": "5.4%",
-      "item": "ejectpack",
-      "ability": "moody",
-      "moves": [
-        "follow-me",
-        "fake-out",
-        "wideguard",
-        "whirlwind"
+        "helping-hand",
+        "taunt",
+        "feint"
       ]
     }
   ]

@@ -83,10 +83,10 @@ async function fetchTeams() {
         months.push(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`);
     }
 
+    // Search for latest regulations first
     const formats = [
-        `gen9vgc2026regf`,
-        `gen9vgc2025regg`,
-        `gen9vgc2025regh`
+        { year: '2026', regs: ['regz', 'regy', 'regx', 'regw', 'regv', 'regu', 'regt', 'regs', 'regr', 'regq', 'regp', 'rego', 'regn', 'regm', 'regl', 'regk', 'regj', 'regi', 'regh', 'regg', 'regf', 'rege'] },
+        { year: '2025', regs: ['regj', 'regi', 'regh', 'regg'] }
     ];
 
     let data = null;
@@ -94,22 +94,26 @@ async function fetchTeams() {
     let selectedMonth = '';
 
     for (const month of months) {
-        for (const format of formats) {
-            const url = `https://www.smogon.com/stats/${month}/chaos/${format}-1760.json`;
-            console.log(`Trying: ${url}`);
+        for (const config of formats) {
+            for (const reg of config.regs) {
+                const formatName = `gen9vgc${config.year}${reg}`;
+                const url = `https://www.smogon.com/stats/${month}/chaos/${formatName}-1760.json`;
+                console.log(`Trying: ${url}`);
 
-            try {
-                const response = await fetch(url);
-                if (response.ok) {
-                    data = await response.json();
-                    selectedFormat = format;
-                    selectedMonth = month;
-                    console.log(`✓ Found data for ${format} in ${month}`);
-                    break;
+                try {
+                    const response = await fetch(url);
+                    if (response.ok) {
+                        data = await response.json();
+                        selectedFormat = formatName;
+                        selectedMonth = month;
+                        console.log(`✓ Found data for ${formatName} in ${month}`);
+                        break;
+                    }
+                } catch (e) {
+                    console.log(`✗ Failed for ${formatName} in ${month}`);
                 }
-            } catch (e) {
-                console.log(`✗ Failed for ${format} in ${month}`);
             }
+            if (data) break;
         }
         if (data) break;
     }

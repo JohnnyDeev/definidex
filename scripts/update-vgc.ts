@@ -19,9 +19,9 @@ async function updateVGCData() {
     let selectedMonth = '';
     let selectedFormat = '';
 
-    // Search for 2026 formats first, then 2025 as fallback
+    // Search for latest regulations first
     const formats = [
-        { year: '2026', regs: ['regf', 'rege'] },
+        { year: '2026', regs: ['regz', 'regy', 'regx', 'regw', 'regv', 'regu', 'regt', 'regs', 'regr', 'regq', 'regp', 'rego', 'regn', 'regm', 'regl', 'regk', 'regj', 'regi', 'regh', 'regg', 'regf', 'rege'] },
         { year: '2025', regs: ['regj', 'regi', 'regh', 'regg'] }
     ];
 

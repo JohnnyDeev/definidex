@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-03-26T00:00:00.000Z",
+  "lastUpdated": "2026-06-28T02:55:23.336Z",
   "vgc": {
-    "lastUpdated": "2026-03-26T00:00:00.000Z",
+    "lastUpdated": "2026-06-28T02:55:23.337Z",
     "source": "smogon",
     "format": "gen9vgc2026regf"
   },
@@ -11,7 +11,7 @@
     "priceProvider": "tcgplayer"
   },
   "news": {
-    "lastUpdated": "2026-03-26T00:00:00.000Z",
+    "lastUpdated": "2026-06-28T02:55:23.337Z",
     "source": "rss"
   }
 }

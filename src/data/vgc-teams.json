@@ -1,110 +1,122 @@
 [
   {
-    "id": "vgc-meta-gen9vgc2026regf-1",
+    "id": "vgc-meta-gen9vgc2026regi-1",
     "name": "Top Usage Team (0.0% core)",
-    "source": "Smogon 2026-04 - gen9vgc2026regf",
+    "source": "Smogon 2026-05 - gen9vgc2026regi",
     "pokemons": [
-      {
-        "pokemonId": 987,
-        "name": "flutter mane",
-        "types": [],
-        "item": "boosterenergy",
-        "moves": [
-          "moonblast",
-          "icywind",
-          "shadowball",
-          "protect"
-        ]
-      },
-      {
-        "pokemonId": 977,
-        "name": "dondozo",
-        "types": [],
-        "item": "leftovers",
-        "moves": [
-          "protect",
-          "orderup",
-          "earthquake",
-          "wavecrash"
-        ]
-      },
-      {
-        "pokemonId": 0,
-        "name": "tatsugiri",
-        "types": [],
-        "item": "focussash",
-        "moves": [
-          "dracometeor",
-          "muddywater",
-          "icywind",
-          "protect"
-        ]
-      },
-      {
-        "pokemonId": 1004,
-        "name": "chi-yu",
-        "types": [],
-        "item": "choicespecs",
-        "moves": [
-          "darkpulse",
-          "heatwave",
-          "overheat",
-          "flamethrower"
-        ]
-      },
-      {
-        "pokemonId": 727,
-        "name": "incineroar",
-        "types": [],
-        "item": "sitrusberry",
-        "moves": [
-          "fakeout",
-          "flareblitz",
-          "knockoff",
-          "partingshot"
-        ]
-      },
       {
         "pokemonId": 10191,
         "name": "urshifu-rapid-strike",
         "types": [],
-        "item": "choicescarf",
+        "item": "choiceband",
         "moves": [
           "surgingstrikes",
           "closecombat",
           "aquajet",
           "uturn"
         ]
+      },
+      {
+        "pokemonId": 727,
+        "name": "incineroar",
+        "types": [],
+        "item": "assaultvest",
+        "moves": [
+          "fakeout",
+          "knockoff",
+          "flareblitz",
+          "partingshot"
+        ]
+      },
+      {
+        "pokemonId": 1008,
+        "name": "miraidon",
+        "types": [],
+        "item": "choicescarf",
+        "moves": [
+          "electrodrift",
+          "voltswitch",
+          "dracometeor",
+          "snarl"
+        ]
+      },
+      {
+        "pokemonId": 10193,
+        "name": "calyrex-ice",
+        "types": [],
+        "item": "clearamulet",
+        "moves": [
+          "glaciallance",
+          "trickroom",
+          "protect",
+          "highhorsepower"
+        ]
+      },
+      {
+        "pokemonId": 10194,
+        "name": "calyrex-shadow",
+        "types": [],
+        "item": "lifeorb",
+        "moves": [
+          "astralbarrage",
+          "protect",
+          "psychic",
+          "pollenpuff"
+        ]
+      },
+      {
+        "pokemonId": 10189,
+        "name": "zamazenta-crowned",
+        "types": [],
+        "item": "rustedshield",
+        "moves": [
+          "bodypress",
+          "wideguard",
+          "protect",
+          "ironhead"
+        ]
       }
     ]
   },
   {
-    "id": "vgc-meta-gen9vgc2026regf-2",
+    "id": "vgc-meta-gen9vgc2026regi-2",
     "name": "Rising Stars Team",
-    "source": "Smogon 2026-04 - gen9vgc2026regf",
+    "source": "Smogon 2026-05 - gen9vgc2026regi",
     "pokemons": [
       {
-        "pokemonId": 641,
-        "name": "tornadus",
+        "pokemonId": 1002,
+        "name": "chien-pao",
+        "types": [],
+        "item": "focussash",
+        "moves": [
+          "suckerpunch",
+          "protect",
+          "icespinner",
+          "taunt"
+        ]
+      },
+      {
+        "pokemonId": 591,
+        "name": "amoonguss",
+        "types": [],
+        "item": "rockyhelmet",
+        "moves": [
+          "spore",
+          "ragepowder",
+          "pollenpuff",
+          "protect"
+        ]
+      },
+      {
+        "pokemonId": 547,
+        "name": "whimsicott",
         "types": [],
         "item": "covertcloak",
         "moves": [
           "tailwind",
-          "bleakwindstorm",
-          "protect",
-          "raindance"
-        ]
-      },
-      {
-        "pokemonId": 970,
-        "name": "glimmora",
-        "types": [],
-        "item": "assaultvest",
-        "moves": [
-          "earthpower",
-          "sludgebomb",
-          "powergem",
-          "mortalspin"
+          "encore",
+          "moonblast",
+          "faketears"
         ]
       },
       {
@@ -113,8 +125,8 @@
         "types": [],
         "item": "assaultvest",
         "moves": [
-          "grassyglide",
           "fakeout",
+          "grassyglide",
           "woodhammer",
           "uturn"
         ]
@@ -123,91 +135,55 @@
         "pokemonId": 1021,
         "name": "raging bolt",
         "types": [],
-        "item": "leftovers",
+        "item": "boosterenergy",
         "moves": [
           "thunderclap",
-          "dragonpulse",
           "protect",
-          "calmmind"
+          "thunderbolt",
+          "dragonpulse"
         ]
       },
       {
-        "pokemonId": 992,
-        "name": "iron hands",
+        "pokemonId": 382,
+        "name": "kyogre",
         "types": [],
-        "item": "assaultvest",
+        "item": "mysticwater",
         "moves": [
-          "fakeout",
-          "wildcharge",
-          "drainpunch",
-          "heavyslam"
-        ]
-      },
-      {
-        "pokemonId": 10167,
-        "name": "weezing-galar",
-        "types": [],
-        "item": "covertcloak",
-        "moves": [
-          "dazzlinggleam",
-          "protect",
-          "toxicspikes",
-          "poisongas"
+          "waterspout",
+          "originpulse",
+          "thunder",
+          "icebeam"
         ]
       }
     ]
   },
   {
-    "id": "vgc-meta-gen9vgc2026regf-3",
+    "id": "vgc-meta-gen9vgc2026regi-3",
     "name": "Diversity Pick Team",
-    "source": "Smogon 2026-04 - gen9vgc2026regf",
+    "source": "Smogon 2026-05 - gen9vgc2026regi",
     "pokemons": [
       {
-        "pokemonId": 987,
-        "name": "flutter mane",
+        "pokemonId": 10191,
+        "name": "urshifu-rapid-strike",
         "types": [],
-        "item": "boosterenergy",
+        "item": "choiceband",
         "moves": [
-          "moonblast",
-          "icywind",
-          "shadowball",
-          "protect"
+          "surgingstrikes",
+          "closecombat",
+          "aquajet",
+          "uturn"
         ]
       },
       {
-        "pokemonId": 1004,
-        "name": "chi-yu",
+        "pokemonId": 10193,
+        "name": "calyrex-ice",
         "types": [],
-        "item": "choicespecs",
+        "item": "clearamulet",
         "moves": [
-          "darkpulse",
-          "heatwave",
-          "overheat",
-          "flamethrower"
-        ]
-      },
-      {
-        "pokemonId": 641,
-        "name": "tornadus",
-        "types": [],
-        "item": "covertcloak",
-        "moves": [
-          "tailwind",
-          "bleakwindstorm",
+          "glaciallance",
+          "trickroom",
           "protect",
-          "raindance"
-        ]
-      },
-      {
-        "pokemonId": 1021,
-        "name": "raging bolt",
-        "types": [],
-        "item": "leftovers",
-        "moves": [
-          "thunderclap",
-          "dragonpulse",
-          "protect",
-          "calmmind"
+          "highhorsepower"
         ]
       },
       {
@@ -216,22 +192,46 @@
         "types": [],
         "item": "focussash",
         "moves": [
-          "protect",
           "suckerpunch",
-          "iciclecrash",
-          "icespinner"
+          "protect",
+          "icespinner",
+          "taunt"
         ]
       },
       {
-        "pokemonId": 894,
-        "name": "regieleki",
+        "pokemonId": 812,
+        "name": "rillaboom",
         "types": [],
-        "item": "choicescarf",
+        "item": "assaultvest",
         "moves": [
-          "voltswitch",
-          "thunderbolt",
-          "electroweb",
-          "hyperbeam"
+          "fakeout",
+          "grassyglide",
+          "woodhammer",
+          "uturn"
+        ]
+      },
+      {
+        "pokemonId": 861,
+        "name": "grimmsnarl",
+        "types": [],
+        "item": "lightclay",
+        "moves": [
+          "lightscreen",
+          "reflect",
+          "thunderwave",
+          "spiritbreak"
+        ]
+      },
+      {
+        "pokemonId": 792,
+        "name": "lunala",
+        "types": [],
+        "item": "leftovers",
+        "moves": [
+          "moongeistbeam",
+          "moonblast",
+          "trickroom",
+          "wideguard"
         ]
       }
     ]
