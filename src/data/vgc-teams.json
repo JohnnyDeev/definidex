@@ -2,7 +2,7 @@
   {
     "id": "vgc-meta-gen9vgc2026regi-1",
     "name": "Top Usage Team (0.0% core)",
-    "source": "Smogon 2026-05 - gen9vgc2026regi",
+    "source": "Smogon 2026-06 - gen9vgc2026regi",
     "pokemons": [
       {
         "pokemonId": 10191,
@@ -25,55 +25,55 @@
           "fakeout",
           "knockoff",
           "flareblitz",
-          "partingshot"
+          "uturn"
         ]
       },
       {
         "pokemonId": 1008,
         "name": "miraidon",
         "types": [],
-        "item": "choicescarf",
+        "item": "covertcloak",
         "moves": [
           "electrodrift",
           "voltswitch",
           "dracometeor",
-          "snarl"
+          "protect"
         ]
       },
       {
         "pokemonId": 10193,
         "name": "calyrex-ice",
         "types": [],
-        "item": "clearamulet",
+        "item": "nevermeltice",
         "moves": [
           "glaciallance",
-          "trickroom",
           "protect",
-          "highhorsepower"
+          "highhorsepower",
+          "trickroom"
         ]
       },
       {
-        "pokemonId": 10194,
-        "name": "calyrex-shadow",
+        "pokemonId": 645,
+        "name": "landorus",
         "types": [],
         "item": "lifeorb",
         "moves": [
-          "astralbarrage",
+          "earthpower",
+          "sludgebomb",
           "protect",
-          "psychic",
-          "pollenpuff"
+          "sandsearstorm"
         ]
       },
       {
-        "pokemonId": 10189,
-        "name": "zamazenta-crowned",
+        "pokemonId": 547,
+        "name": "whimsicott",
         "types": [],
-        "item": "rustedshield",
+        "item": "focussash",
         "moves": [
-          "bodypress",
-          "wideguard",
-          "protect",
-          "ironhead"
+          "tailwind",
+          "moonblast",
+          "endeavor",
+          "trickroom"
         ]
       }
     ]
@@ -81,42 +81,18 @@
   {
     "id": "vgc-meta-gen9vgc2026regi-2",
     "name": "Rising Stars Team",
-    "source": "Smogon 2026-05 - gen9vgc2026regi",
+    "source": "Smogon 2026-06 - gen9vgc2026regi",
     "pokemons": [
       {
-        "pokemonId": 1002,
-        "name": "chien-pao",
+        "pokemonId": 10194,
+        "name": "calyrex-shadow",
         "types": [],
         "item": "focussash",
         "moves": [
-          "suckerpunch",
+          "astralbarrage",
           "protect",
-          "icespinner",
-          "taunt"
-        ]
-      },
-      {
-        "pokemonId": 591,
-        "name": "amoonguss",
-        "types": [],
-        "item": "rockyhelmet",
-        "moves": [
-          "spore",
-          "ragepowder",
-          "pollenpuff",
-          "protect"
-        ]
-      },
-      {
-        "pokemonId": 547,
-        "name": "whimsicott",
-        "types": [],
-        "item": "covertcloak",
-        "moves": [
-          "tailwind",
-          "encore",
-          "moonblast",
-          "faketears"
+          "psychic",
+          "nastyplot"
         ]
       },
       {
@@ -132,18 +108,6 @@
         ]
       },
       {
-        "pokemonId": 1021,
-        "name": "raging bolt",
-        "types": [],
-        "item": "boosterenergy",
-        "moves": [
-          "thunderclap",
-          "protect",
-          "thunderbolt",
-          "dragonpulse"
-        ]
-      },
-      {
         "pokemonId": 382,
         "name": "kyogre",
         "types": [],
@@ -151,8 +115,44 @@
         "moves": [
           "waterspout",
           "originpulse",
-          "thunder",
-          "icebeam"
+          "protect",
+          "hydropump"
+        ]
+      },
+      {
+        "pokemonId": 10189,
+        "name": "zamazenta-crowned",
+        "types": [],
+        "item": "rustedshield",
+        "moves": [
+          "bodypress",
+          "wideguard",
+          "protect",
+          "heavyslam"
+        ]
+      },
+      {
+        "pokemonId": 591,
+        "name": "amoonguss",
+        "types": [],
+        "item": "rockyhelmet",
+        "moves": [
+          "ragepowder",
+          "spore",
+          "protect",
+          "pollenpuff"
+        ]
+      },
+      {
+        "pokemonId": 235,
+        "name": "smeargle",
+        "types": [],
+        "item": "focussash",
+        "moves": [
+          "followme",
+          "spore",
+          "fakeout",
+          "decorate"
         ]
       }
     ]
@@ -160,7 +160,7 @@
   {
     "id": "vgc-meta-gen9vgc2026regi-3",
     "name": "Diversity Pick Team",
-    "source": "Smogon 2026-05 - gen9vgc2026regi",
+    "source": "Smogon 2026-06 - gen9vgc2026regi",
     "pokemons": [
       {
         "pokemonId": 10191,
@@ -178,60 +178,60 @@
         "pokemonId": 10193,
         "name": "calyrex-ice",
         "types": [],
-        "item": "clearamulet",
+        "item": "nevermeltice",
         "moves": [
           "glaciallance",
-          "trickroom",
           "protect",
-          "highhorsepower"
+          "highhorsepower",
+          "trickroom"
         ]
       },
       {
-        "pokemonId": 1002,
-        "name": "chien-pao",
+        "pokemonId": 10194,
+        "name": "calyrex-shadow",
         "types": [],
         "item": "focussash",
         "moves": [
-          "suckerpunch",
+          "astralbarrage",
           "protect",
-          "icespinner",
-          "taunt"
+          "psychic",
+          "nastyplot"
         ]
       },
       {
-        "pokemonId": 812,
-        "name": "rillaboom",
+        "pokemonId": 10189,
+        "name": "zamazenta-crowned",
         "types": [],
-        "item": "assaultvest",
+        "item": "rustedshield",
         "moves": [
-          "fakeout",
-          "grassyglide",
-          "woodhammer",
-          "uturn"
-        ]
-      },
-      {
-        "pokemonId": 861,
-        "name": "grimmsnarl",
-        "types": [],
-        "item": "lightclay",
-        "moves": [
-          "lightscreen",
-          "reflect",
-          "thunderwave",
-          "spiritbreak"
+          "bodypress",
+          "wideguard",
+          "protect",
+          "heavyslam"
         ]
       },
       {
         "pokemonId": 792,
         "name": "lunala",
         "types": [],
-        "item": "leftovers",
+        "item": "electricseed",
         "moves": [
           "moongeistbeam",
           "moonblast",
           "trickroom",
           "wideguard"
+        ]
+      },
+      {
+        "pokemonId": 981,
+        "name": "farigiraf",
+        "types": [],
+        "item": "electricseed",
+        "moves": [
+          "trickroom",
+          "helpinghand",
+          "foulplay",
+          "psychic"
         ]
       }
     ]
