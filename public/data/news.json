@@ -1,35 +1,95 @@
 {
-  "lastUpdated": "2026-07-10T07:39:17.476Z",
+  "lastUpdated": "2026-07-11T05:13:25.311Z",
   "articles": [
     {
-      "id": "nintendoeverything-com-famitsu-software-sales-6-29-26-7-5-26-top-30-",
-      "title": "Famitsu software sales (6/29/26 – 7/5/26) – Top 30",
-      "link": "https://nintendoeverything.com/famitsu-software-sales-6-29-26-7-5-26-top-30/",
-      "pubDate": "2026-07-10T05:00:31.000Z",
-      "snippet": "The latest expanded Japanese software sales for the week of June 29, 2026 are as follows: 1. [NSW] Rhythm Heaven Groove – 393,378 / NEW 2. [NSW] Ganbare Goemon Daishuugou – 60,428 / NEW 3. [NSW]…",
+      "id": "nintendoeverything-com-nintendos-worst-games-ever-",
+      "title": "These are the worst Nintendo games ever released",
+      "link": "https://nintendoeverything.com/nintendos-worst-games-ever/",
+      "pubDate": "2026-07-11T04:00:09.000Z",
+      "snippet": "Today, we’re going over some of the worst games Nintendo has ever released. Usually, when we write ranking lists like these, they’re meant to be positive. It’s always “the best games from this…",
       "source": "Nintendo",
       "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Groove.jpg"
+      "image": "https://nintendoeverything.com/wp-content/uploads/Nintendos-worst-games-ever.jpg"
     },
     {
-      "id": "nintendoeverything-com-digimon-story-time-stranger-review-for-nintendo-switch-2-",
-      "title": "Digimon Story: Time Stranger review for Nintendo Switch 2 and Switch",
-      "link": "https://nintendoeverything.com/digimon-story-time-stranger-review-for-nintendo-switch-2-and-switch/",
-      "pubDate": "2026-07-10T02:08:57.000Z",
-      "snippet": "System: Switch 2 (reviewed), Switch Release date: July 10, 2026 Developer: Media.Vision Publisher: Bandai Namco When the original Digimon Story arrived on Nintendo DS nearly two decades ago, it…",
+      "id": "nintendoeverything-com-denshattack-dev-talks-bringing-the-game-to-nintendo-switc",
+      "title": "Denshattack dev talks bringing the game to Nintendo Switch 2, and decision to skip Switch 1",
+      "link": "https://nintendoeverything.com/denshattack-dev-talks-bringing-the-game-to-nintendo-switch-2-and-decision-to-skip-switch-1/",
+      "pubDate": "2026-07-11T01:00:41.000Z",
+      "snippet": "Denshattack will be on Nintendo Switch 2 when it comes out in just a few days, but we won’t be seeing it on Switch 1. Undercoders has now shared a bit of insight into the situation. Speaking with…",
       "source": "Nintendo",
       "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Digimon-Story-Time-Stranger-review.jpg"
+      "image": "https://nintendoeverything.com/wp-content/uploads/Denshattack-Switch-2-why-not-Switch-1.jpg"
     },
     {
-      "id": "nintendoeverything-com-nintendo-music-list-of-all-games-included-",
-      "title": "Nintendo Music – list of all games included",
-      "link": "https://nintendoeverything.com/nintendo-music-list-of-all-games-included/",
-      "pubDate": "2026-07-10T01:00:55.000Z",
-      "snippet": "For those looking for a complete list of all games included and supported in Nintendo Music, that’s where this post comes in. Nintendo Music only came with a few songs at launch. However, since then,…",
+      "id": "nintendoeverything-com-rpg-adventure-game-horrorvale-announced-for-nintendo-swit",
+      "title": "RPG adventure game HorrorVale announced for Nintendo Switch 2, Switch",
+      "link": "https://nintendoeverything.com/rpg-adventure-game-horrorvale-announced-for-nintendo-switch-2-switch/",
+      "pubDate": "2026-07-10T18:59:31.000Z",
+      "snippet": "Electric Airship and BatWorks Software have announced HorrorVale for multiple consoles, including Nintendo Switch 2 and Switch. The game will launch on these platforms in the future. HorrorVale is an…",
       "source": "Nintendo",
       "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Nintendo-Music-list-of-all-games.jpg"
+      "image": "https://nintendoeverything.com/wp-content/uploads/HorrorVale.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-leak-reveals-lego-donkey-kong-arcade-set-",
+      "title": "Leak reveals LEGO Donkey Kong Arcade Set",
+      "link": "https://nintendoeverything.com/leak-reveals-lego-donkey-kong-arcade-set/",
+      "pubDate": "2026-07-10T17:06:21.000Z",
+      "snippet": "A LEGO Donkey Kong Arcade Set is on the way, and we now have our first look. Leaks have started up for this one which typically happens for LEGO products. You may recall that a LEGO Donkey Kong set…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/LEGO-Donkey-Kong-Arcade-Set.jpg"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-ravensburger-reveals-colossal-pokemon-puzzle-with-over-4",
+      "title": "Ravensburger reveals colossal Pokemon puzzle with over 40,000 pieces",
+      "link": "https://www.dexerto.com/pokemon/ravensburger-reveals-colossal-pokemon-puzzle-with-over-40000-pieces-3385139/",
+      "pubDate": "2026-07-10T15:20:16.000Z",
+      "snippet": "Pokemon fans looking for their next challenge will soon have one of the biggest jigsaw puzzles ever released, as Ravensburger has unveiled a massive 40,320-piece set that, when completed, measures…",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/10/ravensburgerpuzzle.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "nintendoeverything-com-the-green-light-a-first-person-psychological-horror-game-",
+      "title": "The Green Light, a first-person psychological horror game, coming to Nintendo Switch",
+      "link": "https://nintendoeverything.com/the-green-light-a-first-person-psychological-horror-game-coming-to-nintendo-switch/",
+      "pubDate": "2026-07-10T13:30:20.000Z",
+      "snippet": "Today, Take It Studio announced that it’s porting The Green Light to consoles, including Nintendo Switch. Release timing will be shared later. The Green Light is a first-person psychological horror…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/The-Green-Light-trailer.jpg"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-pokemon-jewelry-collab-includes-gold-snorlax-necklace-wo",
+      "title": "Pokemon jewelry collab includes gold Snorlax necklace worth over $6,000",
+      "link": "https://www.dexerto.com/pokemon/pokemon-jewelry-collab-includes-gold-snorlax-necklace-worth-over-6000-3385058/",
+      "pubDate": "2026-07-10T13:11:44.000Z",
+      "snippet": "Pokemon is releasing an 18-karat gold Snorlax necklace that costs over $6,000, and it looks absolutely incredible.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/10/Pokemon-jewelry-collab-includes-gold-Snorlax-necklace-worth-over-6000.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "nintendoeverything-com-atelier-yumia-1-6-1-update-out-now-patch-notes-nintendo-s",
+      "title": "Atelier Yumia 1.6.1 update out now, patch notes – Nintendo Switch 2 performance settings option, frame rate improvements, more",
+      "link": "https://nintendoeverything.com/atelier-yumia-1-6-1-update-out-now-patch-notes-nintendo-switch-2-performance-settings-option-frame-rate-improvements-more/",
+      "pubDate": "2026-07-10T11:43:57.000Z",
+      "snippet": "Starting today, Koei Tecmo is making a version 1.6.1 update available for Atelier Yumia: The Alchemist of Memories & the Envisioned Land. It can be downloaded on Nintendo Switch 2 and Switch. There…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Atelier-Yumia-1.6.1-update.jpg"
+    },
+    {
+      "id": "www-dexerto-com-food-mcdonalds-pokemon-collab-comes-with-adorable-pikachu-french",
+      "title": "McDonald’s Pokemon collab comes with adorable Pikachu French fries timer",
+      "link": "https://www.dexerto.com/food/mcdonalds-pokemon-collab-comes-with-adorable-pikachu-french-fries-timer-3385019/",
+      "pubDate": "2026-07-10T11:13:02.000Z",
+      "snippet": "McDonald’s Japan is celebrating Pokemon’s 30th anniversary with color-changing cups, free food coupons, and an adorable Pikachu French fries timer.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/10/Pokemon-mcdonalds-collab-2026.jpg?width=1080&amp;quality=75&amp;format=auto"
     },
     {
       "id": "www-dexerto-com-pokemon-pokemon-go-battle-league-best-fantasy-cup-ultra-league-e",
@@ -40,76 +100,6 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/09/pokemon-go-battle-league-best-team-for-the-fantasy-cup-ultra-league-edition-forever-forward-season-july-2026.jpg?width=1080&amp;quality=75&amp;format=auto"
-    },
-    {
-      "id": "nintendoeverything-com-hell-is-us-confirmed-for-nintendo-switch-2-",
-      "title": "Hell is Us confirmed for Nintendo Switch 2 [update: delay]",
-      "link": "https://nintendoeverything.com/hell-is-us-confirmed-for-nintendo-switch-2/",
-      "pubDate": "2026-07-09T21:24:06.000Z",
-      "snippet": "May 7: Nacon and Rogue Factor made it officially today that Hell is Us is in the works for Nintendo Switch 2. Expect to see it on September 24, 2026. Hell is Us is a third-person action adventure…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Hell-is-Us-Switch-2-announcement.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-moonlight-peaks-romanceable-characters-complete-list-and-",
-      "title": "Moonlight Peaks romanceable characters – complete list and full details",
-      "link": "https://nintendoeverything.com/moonlight-peaks-romanceable-characters-complete-list-and-full-details/",
-      "pubDate": "2026-07-09T19:30:21.000Z",
-      "snippet": "Moonlight Peaks just came to Nintendo Switch 2 and Switch, and for those starting the life sim, we have a complete list of romanceable characters plus details about each one. There are about two…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Moonlight-Peaks-romanceable-characters.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-skatesterre-a-fast-paced-arcade-skating-game-announced-fo",
-      "title": "Skatesterre, a fast-paced arcade skating game, announced for Nintendo Switch 2",
-      "link": "https://nintendoeverything.com/skatesterre-a-fast-paced-arcade-skating-game-announced-for-nintendo-switch-2/",
-      "pubDate": "2026-07-09T18:25:10.000Z",
-      "snippet": "June 6: Headup, along with Good Squad, have announced Skatesterre for Nintendo Switch 2. Expect it on the console this summer. Skatesterre is a a fast-paced arcade skating game. Players will be able…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Skatesterre.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-montabi-announced-for-nintendo-switch-and-switch-2-",
-      "title": "Montabi announced for Nintendo Switch and Switch 2",
-      "link": "https://nintendoeverything.com/montabi-announced-for-nintendo-switch-and-switch-2/",
-      "pubDate": "2026-07-09T17:15:16.000Z",
-      "snippet": "Akupara Games and developer Mankibo have announced that Montabi will launch for Nintendo Switch and Nintendo Switch 2 on August 6. Montabi is a creature-collector roguelike deckbuilder in which…",
-      "source": "Nintendo",
-      "category": "tcg",
-      "image": "https://nintendoeverything.com/wp-content/uploads/montabi.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-disgaea-mayhem-demo-now-available-on-nintendo-switch-and-",
-      "title": "Disgaea Mayhem demo now available on Nintendo Switch and Switch 2, new trailer",
-      "link": "https://nintendoeverything.com/disgaea-mayhem-demo-now-available-on-nintendo-switch-and-switch-2-new-trailer/",
-      "pubDate": "2026-07-09T16:30:11.000Z",
-      "snippet": "NIS America has announced that Disgaea Mayhem has received a demo on both Nintendo Switch and Nintendo Switch 2. Players can download and try it starting today ahead of the full launch on July 23.…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/disgaea_mayhem.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-1000xresist-has-now-been-rated-for-nintendo-switch-2-",
-      "title": "1000xResist has now been rated for Nintendo Switch 2",
-      "link": "https://nintendoeverything.com/1000xresist-has-now-been-rated-for-nintendo-switch-2/",
-      "pubDate": "2026-07-09T15:55:00.000Z",
-      "snippet": "Originally released for Nintendo Switch in March 2024, 1000xResist appears to be heading to Nintendo Switch 2. The thrilling sci-fi adventure from publisher Fellow Traveller and developer Sunset…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/1000xResist-switch2.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-mouse-p-i-for-hire-1-2-0-update-out-now-patch-notes-uncap",
-      "title": "Mouse: P.I. for Hire 1.2.0 update out now, patch notes – uncapped VRR, 40 FPS mode, Level Revisit, more",
-      "link": "https://nintendoeverything.com/mouse-p-i-for-hire-1-2-0-update-out-now-patch-notes-uncapped-vrr-40-fps-mode-level-revisit-more/",
-      "pubDate": "2026-07-09T13:08:42.000Z",
-      "snippet": "A pretty major update has just arrived for Mouse: P.I. for Hire with version 1.2.0. On the technical front, the team is offering a new Uncapped Variable Refresh Rate (VRR) and a new “Balanced”…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Mouse-P.I.-for-Hire-1.2.0-update.jpg"
     },
     {
       "id": "www-dexerto-com-roblox-robloxs-catch-a-brainrot-is-pokemon-meets-tung-tung-tung-",
@@ -500,6 +490,16 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/05/29/San-Francisco-Giants-unveil-Pokemon-Worlds-Night-with-exclusive-Pikachu-jersey.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-pokemon-reveals-first-look-at-new-red-green-themed-plane",
+      "title": "Pokemon reveals first look at new Red & Green-themed planes for 30th anniversary",
+      "link": "https://www.dexerto.com/pokemon/pokemon-reveals-first-look-at-new-red-green-themed-planes-for-30th-anniversary-3368983/",
+      "pubDate": "2026-05-28T09:58:40.000Z",
+      "snippet": "Pokemon’s 30th anniversary airline crossover is finally taking shape, as Japanese airliner ANA has revealed both its Jet Red and Jet Green aircraft.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/05/28/Pokemon-fans-get-first-look-at-30th-anniversary-Red-Green-themed-jets.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
