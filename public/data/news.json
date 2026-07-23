@@ -1,75 +1,105 @@
 {
-  "lastUpdated": "2026-07-22T06:31:52.717Z",
+  "lastUpdated": "2026-07-23T05:24:16.485Z",
   "articles": [
     {
-      "id": "nintendoeverything-com-two-point-hospital-full-health-collection-announced-for-n",
-      "title": "Two Point Hospital: Full Health Collection announced for Nintendo Switch 2 [update: release date]",
-      "link": "https://nintendoeverything.com/two-point-hospital-full-health-collection-announced-for-nintendo-switch-2/",
-      "pubDate": "2026-07-22T03:00:07.000Z",
-      "snippet": "June 19: SEGA and Two Point Studios are planning Two Point Hospital: Full Health Collection for Nintendo Switch 2, they’ve just announced. Release timing will be provided at a later date – stay tuned…",
+      "id": "nintendoeverything-com-lego-donkey-kong-arcade-set-gets-proper-reveal-with-first",
+      "title": "LEGO Donkey Kong Arcade set gets proper reveal with first official images, full details [update: pre-orders live]",
+      "link": "https://nintendoeverything.com/lego-donkey-kong-arcade-set-gets-proper-reveal-with-first-official-images-full-details/",
+      "pubDate": "2026-07-23T02:10:34.000Z",
+      "snippet": "A now-removed listing from Argos UK has given a proper reveal at the LEGO Donkey Kong Arcade with a bunch of images and full details with a lengthy product description. The set first leaked earlier…",
       "source": "Nintendo",
       "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Two-Point-Hospital-Full-Health-Collection.jpg"
+      "image": "https://nintendoeverything.com/wp-content/uploads/LEGO-Donkey-Kong-arcade-reveal-shot.jpg"
     },
     {
-      "id": "nintendoeverything-com-farlands-launch-trailer-new-farming-sim-for-nintendo-swit",
-      "title": "Farlands launch trailer – new farming sim for Nintendo Switch",
-      "link": "https://nintendoeverything.com/farlands-launch-trailer-new-farming-sim-for-nintendo-switch/",
-      "pubDate": "2026-07-21T23:23:09.000Z",
-      "snippet": "Farlands recently made it to Nintendo Switch, and we’ve got the launch trailer. This new farming sim comes from JanduSoft. A bunch of information can be found in the following description: Seeking a…",
+      "id": "nintendoeverything-com-bokura-planet-out-on-nintendo-switch-2-and-switch-today-b",
+      "title": "Bokura: Planet out on Nintendo Switch 2 and Switch today, Bokura also coming to Switch 2 [update: Bokura release date]",
+      "link": "https://nintendoeverything.com/bokura-planet-out-on-nintendo-switch-2-and-switch-today-bokura-also-coming-to-switch-2/",
+      "pubDate": "2026-07-23T02:10:17.000Z",
+      "snippet": "August 7: Nintendo Switch 2 and Switch have received some news about Bokura: Planet and Bokura. Bokura: Planet is actually launching on both platforms today. On top of that, the game’s prequel –…",
       "source": "Nintendo",
       "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Farlands-launch-trailer.jpg"
+      "image": "https://nintendoeverything.com/wp-content/uploads/Bokura-Planet.jpg"
     },
     {
-      "id": "nintendoeverything-com-list-of-all-nintendo-switch-2-games-with-a-game-key-card-",
-      "title": "List of all Nintendo Switch 2 games with a game-key card release",
-      "link": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
-      "pubDate": "2026-07-21T20:00:16.000Z",
-      "snippet": "Following the launch of Nintendo Switch 2, we’re putting together a complete list of Nintendo Switch 2 games with a game-key card release. This is a new approach to physical media, which has seen a…",
+      "id": "nintendoeverything-com-tomodachi-life-living-the-dream-1-0-4-update-out-now-patc",
+      "title": "Tomodachi Life: Living the Dream 1.0.4 update out now, patch notes",
+      "link": "https://nintendoeverything.com/tomodachi-life-living-the-dream-1-0-4-update-out-now-patch-notes/",
+      "pubDate": "2026-07-23T01:21:52.000Z",
+      "snippet": "Nintendo just put out the latest update for Tomodachi Life: Living the Dream, and with it, players can get their hands on version 1.0.4. The past few patches have centered around bug fixes. No…",
       "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Tomodachi-Life-Living-the-Dream-1.0.4-update.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-rhythm-heaven-groove-icons-added-to-nintendo-switch-onlin",
+      "title": "Rhythm Heaven Groove icons added to Nintendo Switch Online",
+      "link": "https://nintendoeverything.com/rhythm-heaven-groove-icons-added-to-nintendo-switch-online/",
+      "pubDate": "2026-07-23T01:01:01.000Z",
+      "snippet": "July 1: Rhythm Heaven Groove fans can now celebrate the game’s release with new icons on Nintendo Switch Online. They’re available now for both Nintendo Switch 2 and Switch. You can claim designs for…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Rhythm-Heaven-Groove-icons.jpeg"
+    },
+    {
+      "id": "nintendoeverything-com-nintendo-music-list-of-all-games-included-",
+      "title": "Nintendo Music – list of all games included",
+      "link": "https://nintendoeverything.com/nintendo-music-list-of-all-games-included/",
+      "pubDate": "2026-07-23T01:00:55.000Z",
+      "snippet": "For those looking for a complete list of all games included and supported in Nintendo Music, that’s where this post comes in. Nintendo Music only came with a few songs at launch. However, since then,…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Nintendo-Music-list-of-all-games.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-miyamoto-says-nintendo-receives-global-support-because-it",
+      "title": "Miyamoto says Nintendo receives global support because it thinks of fun and its fans first instead of what’s trending, not interested in terms like ‘recouping costs’",
+      "link": "https://nintendoeverything.com/miyamoto-says-nintendo-receives-global-support-because-it-thinks-of-its-fans-first-instead-of-whats-trending-not-interested-in-terms-like-recouping-costs/",
+      "pubDate": "2026-07-22T21:42:37.000Z",
+      "snippet": "Nintendo has had massive staying power, and you could argue that the company is more popular than ever. Nintendo Switch has ended up as one of the best-selling consoles of all time while Switch 2 is…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Why-Nintendo-is-successful-Miyamoto.webp"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-lost-pokemon-documentary-reveals-over-100-scrapped-diamo",
+      "title": "Lost Pokemon documentary reveals over 100 scrapped Diamond & Pearl designs",
+      "link": "https://www.dexerto.com/pokemon/lost-pokemon-documentary-reveals-over-100-scrapped-diamond-pearl-designs-3390336/",
+      "pubDate": "2026-07-22T19:50:49.000Z",
+      "snippet": "A private Game Freak documentary preserved by Pokemon historian Lewtwo has revealed over 100 early and scrapped designs.",
+      "source": "Dexerto",
       "category": "tcg",
-      "image": "https://nintendoeverything.com/wp-content/uploads/All-Nintendo-Switch-2-game-key-card-games.jpg"
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/22/pokemon-diamond-pearl-beta-pokemon.jpg?width=1080&amp;quality=75&amp;format=auto"
     },
     {
-      "id": "nintendoeverything-com-darkest-dungeon-announces-fires-edge-update-first-new-dlc",
-      "title": "Darkest Dungeon announces “Fire’s Edge” update, first new DLC since 2020",
-      "link": "https://nintendoeverything.com/darkest-dungeon-announces-fires-edge-update-first-new-dlc-since-2020/",
-      "pubDate": "2026-07-21T15:13:50.000Z",
-      "snippet": "Red Hook Studios just unveiled a brand new update for Darkest Dungeon known as “Fire’s Edge”. It will begin to reach players on August 18, 2026. This is the first major content update for Darkest…",
+      "id": "nintendoeverything-com-new-pokemon-diamond-and-pearl-leak-surfaces-reveal-scrapp",
+      "title": "New Pokemon Diamond and Pearl DVD surfaces, reveals scrapped Pokemon and beta designs",
+      "link": "https://nintendoeverything.com/new-pokemon-diamond-and-pearl-leak-surfaces-reveal-scrapped-pokemon-and-beta-designs/",
+      "pubDate": "2026-07-22T18:31:33.000Z",
+      "snippet": "Footage from an internal Game Freak documentary disc surfaced today for Pokemon Diamond and Pearl, and it’s brought along a whole slew of scrapped Pokemon and beta designs. The footage comes from the…",
       "source": "Nintendo",
       "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Darkest-Dungeon-Fires-Edge.jpg"
+      "image": "https://nintendoeverything.com/wp-content/uploads/Pokemon-Diamond-Pearl-beta-Pokemon.jpg"
     },
     {
-      "id": "nintendoeverything-com-broken-sword-the-smoking-mirror-reforged-getting-nintendo",
-      "title": "Broken Sword – The Smoking Mirror: Reforged getting Nintendo Switch physical release",
-      "link": "https://nintendoeverything.com/broken-sword-the-smoking-mirror-reforged-getting-nintendo-switch-physical-release/",
-      "pubDate": "2026-07-21T15:00:23.000Z",
-      "snippet": "Red Art Games is preparing a physical release of Broken Sword – The Smoking Mirror: Reforged on Nintendo Switch, the company announced today. We’ll be seeing it on February 19, 2026. Broken Sword –…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Broken-Sword-The-Smoking-Mirror-Reforged-physical.jpg"
+      "id": "www-dexerto-com-gaming-pokemon-shiny-hunter-builds-insane-58-console-rig-for-one",
+      "title": "Pokemon shiny hunter builds insane 58-console rig for “one-in-nine-million” Golduck",
+      "link": "https://www.dexerto.com/gaming/pokemon-shiny-hunter-builds-insane-58-console-rig-for-one-in-nine-million-golduck-3390101/",
+      "pubDate": "2026-07-22T13:57:17.000Z",
+      "snippet": "Pokemon shiny hunter Professor Rex is controlling 58 consoles at once in an attempt to encounter an exceptionally rare level 25 Shiny Golduck.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/22/professor-rex-shiny-setup.jpg?width=1080&amp;quality=75&amp;format=auto"
     },
     {
-      "id": "nintendoeverything-com-maestro-a-game-that-lets-you-conduct-an-orchestra-with-jo",
-      "title": "Maestro, a game that lets you conduct an orchestra with Joy-Con, coming to Nintendo Switch 2 and Switch",
-      "link": "https://nintendoeverything.com/maestro-a-game-that-lets-you-conduct-an-orchestra-with-joy-con-coming-to-nintendo-switch-2-switch/",
-      "pubDate": "2026-07-21T14:59:35.000Z",
-      "snippet": "Maestro is getting a brand new version for Nintendo Switch 2 and Switch, it’s been revealed. The release date is set for September 17, 2026. Maestro previously debuted at the end of 2024 as a VR…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Maestro.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-unpetrified-echoes-of-nature-coming-to-nintendo-switch-",
-      "title": "Unpetrified: Echoes of Nature coming to Nintendo Switch",
-      "link": "https://nintendoeverything.com/unpetrified-echoes-of-nature-coming-to-nintendo-switch/",
-      "pubDate": "2026-07-21T14:22:56.000Z",
-      "snippet": "After initially launching at the end of last year, it’s now been announced that Unpetrified: Echoes of Nature is appearing on Nintendo Switch. Mindscape and Dreamhunt Studio are bringing it out this…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Unpetrified-Echoes-of-Nature.jpg"
+      "id": "www-dexerto-com-gaming-japan-launches-taskforce-to-crack-down-on-trading-card-sc",
+      "title": "Japan launches taskforce to crack down on trading card scalpers and fakes",
+      "link": "https://www.dexerto.com/gaming/japan-launches-taskforce-to-crack-down-on-trading-card-scalpers-and-fakes-3390001/",
+      "pubDate": "2026-07-22T11:19:54.000Z",
+      "snippet": "Japan’s government is creating a special team to tackle ongoing scalping and counterfeits issues impacting Pokemon cards and other popular TCGs.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/22/Japan-government-launches-group-to-tackle-trading-card-scalping-and-counterfeits.jpg?width=1080&amp;quality=75&amp;format=auto"
     },
     {
       "id": "www-dexerto-com-pokemon-massive-13-acre-pikachu-maze-opens-to-celebrate-pokemons",
@@ -470,36 +500,6 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/06/03/pokemon-lego-smart-bricks.jpg?width=1080&amp;quality=75&amp;format=auto"
-    },
-    {
-      "id": "www-dexerto-com-entertainment-pokemon-scalpers-are-so-bad-target-is-now-cutting-",
-      "title": "Pokemon scalpers are so bad Target is now cutting open sealed booster boxes",
-      "link": "https://www.dexerto.com/entertainment/pokemon-scalpers-are-so-bad-target-is-now-cutting-open-sealed-booster-boxes-3370633/",
-      "pubDate": "2026-06-02T13:58:54.000Z",
-      "snippet": "Target employees are taking an unusual approach to tackle Pokemon TCG scalpers, and it’s already sparking heated debate among collectors.",
-      "source": "Dexerto",
-      "category": "tcg",
-      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2023/11/10/pokemon-anime-ash-pikachu-shocked.jpg?width=1080&amp;quality=75&amp;format=auto"
-    },
-    {
-      "id": "www-dexerto-com-pokemon-pokemon-go-forever-forward-season-guide-3370314-",
-      "title": "Pokemon Go Forever Forward season guide: Dates, rotations, Mega Evolutions & more",
-      "link": "https://www.dexerto.com/pokemon/pokemon-go-forever-forward-season-guide-3370314/",
-      "pubDate": "2026-06-01T17:19:30.000Z",
-      "snippet": "Pokemon Go’s Forever Forward season brings Mega Mewtwo, new Dynamax creatures, fresh Battle League content, and a packed schedule. Here are the details!",
-      "source": "Dexerto",
-      "category": "tcg",
-      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/06/01/pokemon-go-forever-forward-season-june-to-september-2026.jpg?width=1080&amp;quality=75&amp;format=auto"
-    },
-    {
-      "id": "www-dexerto-com-gaming-pokemon-announces-30th-anniversary-set-with-new-card-rari",
-      "title": "Pokemon announces 30th anniversary set with new card rarity",
-      "link": "https://www.dexerto.com/gaming/pokemon-announces-30th-anniversary-set-with-new-card-rarity-for-september-2026-3370227/",
-      "pubDate": "2026-06-01T14:04:30.000Z",
-      "snippet": "Pokemon TCG: 30th Celebration is the first set for the game scheduled to release worldwide on the same date.",
-      "source": "Dexerto",
-      "category": "tcg",
-      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/06/01/pokemon-30-anniversary-set.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
