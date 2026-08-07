@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T04:25:39.488Z",
+  "lastUpdated": "2026-08-07T05:43:11.719Z",
   "articles": [
     {
       "id": "nintendoeverything-com-game-freak-reveals-first-ever-prototype-footage-of-pokemo",
@@ -60,16 +60,6 @@
       "source": "Nintendo",
       "category": "games-anime",
       "image": "https://nintendoeverything.com/wp-content/uploads/Aliens-Fireteam-Elite-2.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-moomintroll-winters-warmth-gets-nintendo-switch-2-release",
-      "title": "Moomintroll: Winter’s Warmth gets Nintendo Switch 2 release date, new trailer",
-      "link": "https://nintendoeverything.com/moomintroll-winters-warmth-gets-nintendo-switch-2-release-date-new-trailer/",
-      "pubDate": "2026-08-06T17:36:28.000Z",
-      "snippet": "Hyper Games has announced that Moomintroll: Winter’s Warmth is coming to Nintendo Switch 2 later this year, with a release set for September 18. The game originally launched for Nintendo Switch on…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Moomintroll-Winters-Warmth-Sw2-release-date.jpg"
     },
     {
       "id": "www-dexerto-com-pokemon-target-is-now-opening-sealed-pokemon-boxes-to-combat-sca",
@@ -500,6 +490,16 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/06/jleague-all-pokemon-mascots.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-japans-j-league-is-partnering-with-pokemon-to-give-all-6",
+      "title": "Japan’s J.League is partnering with Pokemon to give all 60 clubs their own mascot",
+      "link": "https://www.dexerto.com/pokemon/japans-j-league-is-partnering-with-pokemon-to-give-all-60-clubs-their-own-mascot-3383218/",
+      "pubDate": "2026-07-05T10:55:28.000Z",
+      "snippet": "The J.League, has officially confirmed a collaboration with Pokemon that will see all 60 of its clubs receive a unique partner Pokemon.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/05/Jleague-pokemon.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
