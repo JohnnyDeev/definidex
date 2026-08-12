@@ -21,7 +21,7 @@ export function PokemonSelector({
   const [search, setSearch] = useState('');
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Sync search with external value when it changes (user selected a pokemon)
+  // Sincroniza a busca quando muda por fora (ex: clicou num pokémon)
   useEffect(() => {
     setSearch(value || '');
   }, [value]);
@@ -54,7 +54,7 @@ export function PokemonSelector({
           onChange={e => {
             setSearch(e.target.value);
             setIsOpen(true);
-            // Don't call onChange here - only call when user selects a pokemon
+            // Só avisa o pai quando selecionar de verdade, não a cada tecla digitada
           }}
           onFocus={() => setIsOpen(true)}
           placeholder={placeholder}
@@ -137,7 +137,7 @@ export function MoveSelector({
   const [search, setSearch] = useState('');
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Sync search with external value when it changes (user selected a move)
+  // Sincroniza a busca quando o golpe muda por fora
   useEffect(() => {
     setSearch(value || '');
   }, [value]);
@@ -170,7 +170,7 @@ export function MoveSelector({
           onChange={e => {
             setSearch(e.target.value);
             setIsOpen(true);
-            // Don't call onChange here - only call when user selects a move
+            // Só avisa o pai quando escolher o golpe real oficial
           }}
           onFocus={() => setIsOpen(true)}
           placeholder={placeholder}
@@ -253,7 +253,7 @@ export function StatSlider({
 }: StatSliderProps) {
   const [inputValue, setInputValue] = useState(String(value));
 
-  // Sync input value when external value changes
+  // Mantém o input atualizado se o valor mudar de fora
   useEffect(() => {
     setInputValue(String(value));
   }, [value]);
@@ -262,7 +262,7 @@ export function StatSlider({
     const newValue = e.target.value;
     setInputValue(newValue);
 
-    // Only update if it's a valid number
+    // Ignora se o cara digitar besteira, só aceita número
     const numValue = parseInt(newValue, 10);
     if (!isNaN(numValue)) {
       const clampedValue = Math.max(min, Math.min(max, numValue));

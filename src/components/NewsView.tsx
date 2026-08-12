@@ -8,7 +8,7 @@ import { VgcRadar } from './VgcRadar';
 import { RankAvatar } from './RankAvatar';
 import { HighlightModal } from './HighlightModal';
 
-// ─── Types ───────────────────────────────────────
+// ─── Tipos ───────────────────────────────────────
 interface NewsArticle {
     id: string;
     title: string;
@@ -27,7 +27,7 @@ interface NewsData {
 
 type NewsTab = 'vgc' | 'tcg' | 'games-anime';
 
-// ─── Category Config ─────────────────────────────
+// ─── Configuração das Categorias ─────────────────
 const categoryConfig = {
     vgc: {
         label: 'VGC',
@@ -58,7 +58,7 @@ const categoryConfig = {
     },
 };
 
-// ─── Date Formatter ──────────────────────────────
+// ─── Formatador de Data ──────────────────────────
 function formatDate(dateStr: string, lang: string): string {
     try {
         const locale = lang === 'pt-BR' ? 'pt-BR' : lang === 'es' ? 'es-ES' : 'en-US';
@@ -72,8 +72,8 @@ function formatDate(dateStr: string, lang: string): string {
     }
 }
 
-// ─── Pokemon Fallback Images ─────────────────────
-// Different Pokemon for each news card fallback
+// ─── Pokémons de Fallback ────────────────────────
+// Usa esses Pokémons se a notícia vier sem imagem
 const POKEMON_FALLBACKS = [
     '25',   // Pikachu
     '6',    // Charizard
@@ -117,13 +117,13 @@ export function NewsView() {
     const [lastUpdated, setLastUpdated] = useState<string>('');
     const [activeTab, setActiveTab] = useState<NewsTab>('vgc');
 
-    // Community Highlight State
+    // Estado dos destaques da comunidade
     const [highlight, setHighlight] = useState<{ tcg: SavedDeck[], vgc: SavedTeam[] }>({ tcg: [], vgc: [] });
     const [loadingHighlight, setLoadingHighlight] = useState(true);
     const [selectedHighlight, setSelectedHighlight] = useState<{ item: any, type: 'tcg' | 'vgc' } | null>(null);
 
     useEffect(() => {
-        // Fetch metadata for last updated info
+        // Puxa a data da última atualização
         fetch(`/data/metadata.json?t=${Date.now()}`, { cache: 'no-store' })
             .then(res => res.json())
             .then(data => {
@@ -133,7 +133,7 @@ export function NewsView() {
             })
             .catch(() => { });
 
-        // Fetch News
+        // Puxa as notícias
         fetch(`/data/news.json?t=${Date.now()}`, { cache: 'no-store' })
             .then(res => res.json())
             .then((data: NewsData) => {
@@ -145,7 +145,7 @@ export function NewsView() {
                 setLoading(false);
             });
 
-        // Fetch Community Highlight
+        // Puxa os destaques da galera
         getCommunityHighlight().then(data => {
             setHighlight(data);
             setLoadingHighlight(false);
@@ -154,7 +154,7 @@ export function NewsView() {
         });
     }, []);
 
-    // Helper to format relative time
+    // Dá aquele tapa no tempo (ex: "há 2 horas")
     const getRelativeTime = (dateStr: string) => {
         if (!dateStr) return '';
         const date = new Date(dateStr);
@@ -170,7 +170,7 @@ export function NewsView() {
         return `Atualizado em ${formatDate(dateStr, language)}`;
     };
 
-    // Filter articles by tab
+    // Filtra as notícias pela aba ativa
     const filteredArticles = useMemo(() => {
         if (!newsData) return [];
         return newsData.articles.filter(a => a.category === activeTab);
@@ -197,7 +197,7 @@ export function NewsView() {
     return (
         <div className="space-y-10 py-6">
 
-            {/* ─── Top Area: Community Highlight ─── */}
+            {/* ─── Topo: Destaques da Comunidade ─── */}
             <div className="flex flex-col">
                 <div className="bg-zinc-900 rounded-3xl p-1 relative overflow-hidden h-full flex flex-col">
                     <div className="absolute inset-0 bg-gradient-to-br from-red-600/20 to-transparent" />
@@ -221,7 +221,7 @@ export function NewsView() {
                         ) : (highlight.tcg.length > 0 || highlight.vgc.length > 0) ? (
                             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 flex-1">
 
-                                {/* TCG Highlights */}
+                                {/* Destaques TCG */}
                                 {highlight.tcg.map(deck => (
                                     <div
                                         key={deck.id}
@@ -261,7 +261,7 @@ export function NewsView() {
                                     </div>
                                 ))}
 
-                                {/* VGC Highlights */}
+                                {/* Destaques VGC */}
                                 {highlight.vgc.map(team => (
                                     <div
                                         key={team.id}
@@ -318,13 +318,13 @@ export function NewsView() {
                 </div>
             </div>
 
-            {/* ─── Middle Area: Data Radars ─── */}
+            {/* ─── Meio: Radares de Dados ─── */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pb-2">
                 <MarketRadar />
                 <VgcRadar />
             </div>
 
-            {/* ─── Bottom Area: News Grid ─── */}
+            {/* ─── Baixo: Grid de Notícias ─── */}
             <div className="mt-8">
                 <div className="flex items-center justify-between mb-6">
                     <div className="flex items-center gap-2">
@@ -373,7 +373,7 @@ export function NewsView() {
                     })}
                 </div>
 
-                {/* Featured News (First of filtered) */}
+                {/* Notícia Destaque (A primeira da lista) */}
                 {filteredArticles.length > 0 && (
                     <div className="mb-6">
                         <a
@@ -382,14 +382,14 @@ export function NewsView() {
                             rel="noopener noreferrer"
                             className="group block relative rounded-3xl overflow-hidden bg-gradient-to-r from-red-600 via-red-500 to-zinc-900 border-2 border-red-400"
                         >
-                            {/* Pokemon Background */}
+                            {/* Fundo com Pokémon */}
                             <img
                                 src={getPokemonFallback(0)}
                                 alt="Pokemon"
                                 className="absolute inset-0 w-full h-full object-contain opacity-20 p-12"
                             />
 
-                            {/* Content Container */}
+                            {/* Container do Conteúdo */}
                             <div className="relative p-6 sm:p-8 lg:p-10 flex flex-col sm:flex-row gap-6 items-start">
                                 {/* Left: Category Badge + Content */}
                                 <div className="flex-1">
@@ -421,7 +421,7 @@ export function NewsView() {
                     </div>
                 )}
 
-                {/* News Grid (Remaining articles) */}
+                {/* Resto das Notícias */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     {filteredArticles.slice(1).map((article, i) => {
                         const fallbackPokemon = getPokemonFallback(i + 1);
@@ -480,7 +480,7 @@ export function NewsView() {
                 )}
             </div>
 
-            {/* Render Highlight Modal */}
+            {/* Modal de Detalhes (Destaque) */}
             <AnimatePresence>
                 {selectedHighlight && (
                     <HighlightModal

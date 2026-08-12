@@ -15,7 +15,7 @@ export function AuthModal({ onClose }: AuthModalProps) {
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(false);
 
-    // Auto-close when user is logged in
+    // Fecha o modal sozinho quando o usuário loga
     useEffect(() => {
         if (user) {
             onClose();

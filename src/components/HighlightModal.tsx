@@ -26,14 +26,14 @@ export function HighlightModal({ item, type, onClose }: HighlightModalProps) {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isImporting, setIsImporting] = useState(false);
 
-    // Initial like check
+    // Confere se já deu like logo de cara
     useEffect(() => {
         if (user && item) {
             checkIfLiked(user.uid, item.id, type).then(liked => setIsLiked(liked));
         }
     }, [user, item, type]);
 
-    // Sub to comments
+    // Fica ouvindo os comentários em tempo real
     useEffect(() => {
         if (!item) return;
         const unsub = subscribeToComments(item.id, (newComments) => {
@@ -48,7 +48,7 @@ export function HighlightModal({ item, type, onClose }: HighlightModalProps) {
             return;
         }
         try {
-            // Optimistic update
+            // Atualiza a tela rapidão sem esperar a API (optimistic update)
             const wasLiked = isLiked;
             setIsLiked(!wasLiked);
             setLikesCount(prev => prev + (wasLiked ? -1 : 1));
@@ -61,7 +61,7 @@ export function HighlightModal({ item, type, onClose }: HighlightModalProps) {
             setIsLiked(currentLiked);
         } catch (err) {
             console.error("Error toggling like:", err);
-            // Revert on error
+            // Deu ruim, desfaz o like na tela
             setIsLiked(!isLiked);
             setLikesCount(prev => prev + (!isLiked ? -1 : 1));
         }
@@ -124,7 +124,7 @@ export function HighlightModal({ item, type, onClose }: HighlightModalProps) {
                 className="bg-zinc-950 border border-zinc-800 w-full max-w-4xl max-h-[90vh] rounded-[2.5rem] overflow-hidden flex flex-col md:flex-row shadow-2xl"
                 onClick={e => e.stopPropagation()}
             >
-                {/* Left Side: Preview area (Cards/Pokemons) - takes more space on desktop */}
+                {/* Lado Esquerdo: Preview das cartas ou Pokémons (ocupa mais espaço no PC) */}
                 <div className="flex-1 overflow-y-auto custom-scrollbar bg-black/40 flex flex-col relative">
                     <div className="p-6 border-b border-zinc-800 flex items-center justify-between shrink-0 sticky top-0 bg-black/80 backdrop-blur-md z-10">
                         <div>
@@ -215,7 +215,7 @@ export function HighlightModal({ item, type, onClose }: HighlightModalProps) {
                     </div>
                 </div>
 
-                {/* Right Side: Comments - smaller width on desktop */}
+                {/* Lado Direito: Comentários */}
                 <div className="w-full md:w-80 lg:w-96 border-t md:border-t-0 md:border-l border-zinc-800 flex flex-col bg-zinc-950 h-[50vh] md:h-auto shrink-0">
                     <div className="p-4 border-b border-zinc-800 flex items-center justify-between bg-zinc-900/50 shrink-0">
                         <h3 className="text-white font-black italic uppercase tracking-tighter flex items-center gap-2">
@@ -289,7 +289,7 @@ export function HighlightModal({ item, type, onClose }: HighlightModalProps) {
                     </div>
                 </div>
 
-                {/* Float Heart */}
+                {/* Animação do coração subindo quando dá like */}
                 <AnimatePresence>
                     {showHeartAnim && (
                         <motion.div

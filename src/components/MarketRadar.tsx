@@ -21,7 +21,7 @@ export function MarketRadar() {
     const [losers, setLosers] = useState<CardPriceData[]>([]);
     const [loading, setLoading] = useState(true);
 
-    // Load real TCG data from local JSON files
+    // Puxa os dados reais de TCG dos arquivos locais
     useEffect(() => {
         async function loadData() {
             try {
@@ -33,16 +33,16 @@ export function MarketRadar() {
                 const cards = await cardsRes.json();
                 const prices = await pricesRes.json();
 
-                // Filter to recent standard-legal cards (regulation mark H, I, J)
+                // Filtra as cartas que tão no standard (marcação H, I, J)
                 const standardCards = cards.filter((c: any) =>
                     ['H', 'I', 'J'].includes(c.regulationMark) &&
                     c.supertype === 'Pokémon' &&
                     prices[c.id] !== undefined
                 );
 
-                // Calculate gainers/losers based on price data
-                // Since we only have current prices, we'll simulate based on card rarity/popularity
-                // In a real implementation, you'd track historical prices
+                // Calcula quem valorizou ou desvalorizou baseado nos preços
+                // Como não tem histórico salvo, a gente simula a variação de preço aqui (baseado na raridade)
+                // Num app em produção real, a gente salvaria o histórico no banco
                 const cardsWithPrices: CardPriceData[] = standardCards
                     .map((card: any) => ({
                         id: card.id,
@@ -50,15 +50,15 @@ export function MarketRadar() {
                         set: card.setName,
                         image: card.imgLg || card.img,
                         price: prices[card.id] || 0,
-                        // Simulate price change based on price tier (higher cards = more volatile)
+                        // Simula variação (carta mais cara e rara flutua mais)
                         priceChange: card.id.includes('ex') || card.id.includes('sar') || card.id.includes('ir')
-                            ? (Math.random() * 20 - 5).toFixed(1) // ex cards: -5% to +15%
-                            : (Math.random() * 10 - 3).toFixed(1) // regular: -3% to +7%
+                            ? (Math.random() * 20 - 5).toFixed(1) // cartas ex: varia de -5% a +15%
+                            : (Math.random() * 10 - 3).toFixed(1) // carta comum: de -3% a +7%
                     }))
                     .filter((c: CardPriceData) => c.price > 0)
                     .sort((a: CardPriceData, b: CardPriceData) => b.price - a.price);
 
-                // Sort by price change percentage
+                // Organiza por quem subiu mais de preço
                 const sortedByChange = [...cardsWithPrices].sort((a, b) =>
                     parseFloat(b.priceChange) - parseFloat(a.priceChange)
                 );
@@ -83,7 +83,7 @@ export function MarketRadar() {
         }
 
         const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 6000); // 6s timeout
+        const timeoutId = setTimeout(() => controller.abort(), 6000); // 6s de timeout pra não travar a tela
 
         const fetchPrice = async () => {
             setLoadingPrice(true);
@@ -100,14 +100,14 @@ export function MarketRadar() {
                     if (cachedPrices[zoomedCard.id] !== undefined) {
                         setZoomedCardPrice(cachedPrices[zoomedCard.id]);
                         setLoadingPrice(false);
-                        return; // Done
+                        return; // Achou no cache, sucesso!
                     }
                 }
             } catch (e) {
-                // cache unavailable, no big deal
+                // Cache falhou, sem pânico, segue o jogo
             }
 
-            // Fallback to Live API
+            // Bate na API oficial pra puxar preço em tempo real
             try {
                 const res = await fetch(`https://api.pokemontcg.io/v2/cards/${zoomedCard.id}`, {
                     headers: {
@@ -124,7 +124,7 @@ export function MarketRadar() {
                     return;
                 }
 
-                // Try to find any price in priority order
+                // Tenta achar qualquer preço na ordem de prioridade
                 const getBestPrice = (p: any) => {
                     return p?.market || p?.mid || p?.low || p?.directLow;
                 };
