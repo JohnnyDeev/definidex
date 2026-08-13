@@ -1,35 +1,95 @@
 {
-  "lastUpdated": "2026-08-12T05:39:33.675Z",
+  "lastUpdated": "2026-08-13T04:10:50.876Z",
   "articles": [
     {
-      "id": "nintendoeverything-com-list-of-all-switch-demos-",
-      "title": "List of all Nintendo Switch demos",
-      "link": "https://nintendoeverything.com/list-of-all-switch-demos/",
-      "pubDate": "2026-08-12T03:30:39.000Z",
-      "snippet": "Thousands of games are currently available on Nintendo Switch, and there are a ton of demos out there for many of them. Not just Nintendo, but also third-parties are offering demos. We’ve now put…",
+      "id": "nintendoeverything-com-mind-diver-announced-for-nintendo-switch-2-",
+      "title": "Mind Diver announced for Nintendo Switch 2",
+      "link": "https://nintendoeverything.com/mind-diver-announced-for-nintendo-switch-2/",
+      "pubDate": "2026-08-13T04:00:16.000Z",
+      "snippet": "Today, Playism and Indoor Sunglasses announced that they’re putting Mind Diver on Nintendo Switch 2. The title will be available on August 27, 2026. Mind Diver is a detective adventure game. Players…",
       "source": "Nintendo",
       "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Nintendo-Switch-demos.jpg"
+      "image": "https://nintendoeverything.com/wp-content/uploads/Mind-Diver.jpg"
     },
     {
-      "id": "nintendoeverything-com-sacred-2-remaster-launch-trailer-",
-      "title": "Sacred 2 Remaster launch trailer – classic action RPG comes to Nintendo Switch",
-      "link": "https://nintendoeverything.com/sacred-2-remaster-launch-trailer/",
-      "pubDate": "2026-08-12T01:15:23.000Z",
-      "snippet": "To celebrate the new Nintendo Switch release of Sacred 2 Remaster, THQ Nordic issued a launch trailer. The action RPG has arrived on the console with enhanced textures, improved lighting, increased…",
+      "id": "nintendoeverything-com-nintendo-music-list-of-all-games-included-",
+      "title": "Nintendo Music – list of all games included",
+      "link": "https://nintendoeverything.com/nintendo-music-list-of-all-games-included/",
+      "pubDate": "2026-08-13T01:00:55.000Z",
+      "snippet": "For those looking for a complete list of all games included and supported in Nintendo Music, that’s where this post comes in. Nintendo Music only came with a few songs at launch. However, since then,…",
       "source": "Nintendo",
       "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Sacred-2-Remaster-launch-trailer.jpg"
+      "image": "https://nintendoeverything.com/wp-content/uploads/Nintendo-Music-list-of-all-games.jpg"
     },
     {
-      "id": "nintendoeverything-com-crimson-desert-dev-comments-on-status-of-nintendo-switch-",
-      "title": "Crimson Desert dev comments on status of Nintendo Switch 2 port, targeting first half of 2027",
-      "link": "https://nintendoeverything.com/crimson-desert-dev-comments-on-status-of-nintendo-switch-2-port-targeting-first-half-of-2027/",
-      "pubDate": "2026-08-11T22:40:57.000Z",
-      "snippet": "Pearl Abyss has commented again on the Nintendo Switch 2 port of Crimson Desert, providing the most encouraging update we’ve had thus far. In its latest earnings letter, the company said that it’s…",
+      "id": "nintendoeverything-com-action-adventure-game-angeline-era-to-appear-on-nintendo-",
+      "title": "Action adventure game Angeline Era to appear on Nintendo Switch",
+      "link": "https://nintendoeverything.com/action-adventure-game-angeline-era-to-appear-on-nintendo-switch/",
+      "pubDate": "2026-08-12T21:48:27.000Z",
+      "snippet": "Angeline Era is making its way to Nintendo Switch, Analgesic Productions shared today. The title is planned for September 2, 2026. Angeline Era, a 3D action adventure game, comes from the creators of…",
       "source": "Nintendo",
       "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Crimson-Desert-Sw-2-launch-timing.jpg"
+      "image": "https://nintendoeverything.com/wp-content/uploads/Angeline-Era.jpg"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-target-orders-stores-to-stop-cutting-open-pokemon-cards-",
+      "title": "Target orders stores to stop cutting open Pokemon cards over legal risk",
+      "link": "https://www.dexerto.com/pokemon/target-orders-stores-to-stop-cutting-open-pokemon-cards-over-legal-risk-3397840/",
+      "pubDate": "2026-08-12T20:34:45.000Z",
+      "snippet": "Target has reportedly ordered all stores to stop cutting seals or removing wrapping from Pokemon cards, citing vendor ownership and legal risk.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/08/12/pokemon-target-cards-cut-open.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "nintendoeverything-com-precognition-revealed-for-nintendo-switch-2-from-immortal",
+      "title": "Precognition revealed for Nintendo Switch 2, from Immortality and Her Story creator",
+      "link": "https://nintendoeverything.com/precognition-revealed-for-nintendo-switch-2-from-immortality-and-her-story-creator/",
+      "pubDate": "2026-08-12T19:34:36.000Z",
+      "snippet": "Kinetic Publishing and Half Mermaid Productions just pulled back the curtain on Precognition, which is planned for Nintendo Switch 2. The game is planned for Spring 2028. Precognition is a…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Precognition.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-cozy-wizard-life-sim-aether-wizard-life-announced-for-nin",
+      "title": "Cozy wizard life sim Aether Wizard Life announced for Nintendo Switch 2",
+      "link": "https://nintendoeverything.com/cozy-wizard-life-sim-aether-wizard-life-announced-for-nintendo-switch-2/",
+      "pubDate": "2026-08-12T19:30:35.000Z",
+      "snippet": "Kinetic Publishing has made another Nintendo Switch 2 announcement, which is Aether Wizard Life. This one is targeting a Fall 2028 launch. Aether Wizard Life is a cozy wizard life sim. You’ll play as…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Aether-Wizard-Life.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-crescent-county-revealed-for-nintendo-switch-2-",
+      "title": "Crescent County revealed for Nintendo Switch 2",
+      "link": "https://nintendoeverything.com/crescent-county-revealed-for-nintendo-switch-2/",
+      "pubDate": "2026-08-12T19:20:32.000Z",
+      "snippet": "Kinetic Publishing, along with Electric Saint, today unveiled Crescent County for Nintendo Switch 2. Fans can expect to see it in Summer 2027. Crescent County is a slice-of-life game. As Lu, players…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Crescent-County.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-contact-protocol-announced-for-nintendo-switch-2-",
+      "title": "Contact Protocol announced for Nintendo Switch 2",
+      "link": "https://nintendoeverything.com/contact-protocol-announced-for-nintendo-switch-2/",
+      "pubDate": "2026-08-12T19:15:02.000Z",
+      "snippet": "Today, Kinetic Publishing and Cold Zephyr Games revealed Contact Protocol for Nintendo Switch 2. The project is lined up for a Spring 2027 debut. Contact Protocol is a starship job simulator set in a…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Contact-Protocol.jpg"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-pokemon-ruby-sapphire-emerald-ports-rumored-for-2026-rel",
+      "title": "Pokemon Ruby, Sapphire & Emerald ports rumored for 2026 release",
+      "link": "https://www.dexerto.com/pokemon/pokemon-ruby-sapphire-emerald-ports-rumored-for-2026-release-3397493/",
+      "pubDate": "2026-08-12T11:16:20.000Z",
+      "snippet": "The rumor claims ports of all three games are currently planned for release as soon as September or October 2026.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/08/12/pokemon-gen-3-games.jpg?width=1080&amp;quality=75&amp;format=auto"
     },
     {
       "id": "www-dexerto-com-pokemon-couple-goes-viral-using-giant-pokemon-tcg-cards-for-gend",
@@ -40,76 +100,6 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/08/11/Gender-reveal-TCG.jpg?width=1080&amp;quality=75&amp;format=auto"
-    },
-    {
-      "id": "nintendoeverything-com-funguys-swarm-a-chaotic-cartoony-survivor-bullet-hell-gam",
-      "title": "Funguys Swarm, a chaotic cartoony survivor bullet hell game, coming to Nintendo Switch 2",
-      "link": "https://nintendoeverything.com/funguys-swarm-a-chaotic-cartoony-survivor-bullet-hell-game-coming-to-nintendo-switch-2/",
-      "pubDate": "2026-08-11T20:14:06.000Z",
-      "snippet": "Stairway Games has shared the news about Funguys Swarm, which is about to arrive on Nintendo Switch 2. The game is slated for August 25, 2026. Funguys Swarm is a chaotic cartoony survivor bullet hell…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Funguys-Swarm.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-stardew-valley-nintendo-switch-2-edition-physical-release",
-      "title": "Stardew Valley – Nintendo Switch 2 Edition physical release announced, pre-orders open",
-      "link": "https://nintendoeverything.com/stardew-valley-nintendo-switch-2-edition-physical-release-announced-pre-orders-open/",
-      "pubDate": "2026-08-11T20:04:42.000Z",
-      "snippet": "Stardew Valley – Nintendo Switch 2 Edition is getting a physical release on Nintendo Switch 2, Fangamer has announced. Copies will ship on February 5, 2027. Stardew Valley – Nintendo Switch 2 Edition…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Stardew-Valley-Nintendo-Switch-2-Edition-physical.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-the-elder-scrolls-4-oblivion-remastered-launch-trailer-",
-      "title": "The Elder Scrolls 4: Oblivion Remastered launch trailer – Bethesda’s RPG lands on Nintendo Switch 2",
-      "link": "https://nintendoeverything.com/the-elder-scrolls-4-oblivion-remastered-launch-trailer/",
-      "pubDate": "2026-08-11T18:04:25.000Z",
-      "snippet": "The Elder Scrolls 4: Oblivion Remastered has finally come to Nintendo Switch 2, and alongside that, we have the new launch trailer. This marks the first time that the RPG has appeared on a Nintendo…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/The-Elder-Scrolls-4-Oblivion-Remastered-launch-trailer.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-call-of-duty-modern-warfare-4-pre-orders-come-with-campai",
-      "title": "Call of Duty: Modern Warfare 4 pre-orders come with campaign early access on Nintendo Switch 2, first look at first look at Losing Ground [Traffic trailer]",
-      "link": "https://nintendoeverything.com/call-of-duty-modern-warfare-4-pre-orders-come-with-campaign-early-access-on-nintendo-switch-2-first-look-at-first-look-at-losing-ground/",
-      "pubDate": "2026-08-11T17:13:05.000Z",
-      "snippet": "July 30: Activision and Infinity Ward today unveiled a special pre-order bonus for Call of Duty: Modern Warfare 4, which provides early access to the single-player campaign. The announcement we…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Call-of-Duty-Modern-Warfare-4-pre-order-early-access-campaign.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-what-do-you-meme-the-video-game-announced-for-nintendo-sw",
-      "title": "What Do You Meme: The Video Game announced for Nintendo Switch",
-      "link": "https://nintendoeverything.com/what-do-you-meme-the-video-game-announced-for-nintendo-switch/",
-      "pubDate": "2026-08-11T16:46:21.000Z",
-      "snippet": "A Snap Finger Click, in collaboration with Relatable, has announced that a console version of What Do You Meme is in development, with the game confirmed to launch on Nintendo Switch this fall. At…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/what_do_you_meme.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-the-lord-of-the-rings-war-in-the-north-legacy-edition-rev",
-      "title": "The Lord of the Rings: War in the North Legacy Edition revealed for Nintendo Switch 2 and Switch, out today",
-      "link": "https://nintendoeverything.com/the-lord-of-the-rings-war-in-the-north-legacy-edition-revealed-for-nintendo-switch-2-and-switch-out-today/",
-      "pubDate": "2026-08-11T16:44:51.000Z",
-      "snippet": "Aspyr just announced The Lord of the Rings: War in the North Legacy Edition, and it’s launching today on both Nintendo Switch 2 and Switch (in North America, August 18 in Europe). This is an updated…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/The-Lord-of-the-Rings-War-in-the-North-Legacy-Edition.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-elden-ring-tarnished-edition-gets-new-story-spotlight-tra",
-      "title": "Elden Ring: Tarnished Edition gets new “Story Spotlight” trailer for Nintendo Switch 2",
-      "link": "https://nintendoeverything.com/elden-ring-tarnished-edition-gets-new-story-spotlight-trailer-for-nintendo-switch-2/",
-      "pubDate": "2026-08-11T16:10:13.000Z",
-      "snippet": "Just 17 days remain until Elden Ring: Tarnished Edition finally launches on Nintendo Switch 2. Coming to the console on August 28, the game has faced some issues during its porting process. It was…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/eldenring_new_trailer.jpg"
     },
     {
       "id": "www-dexerto-com-gaming-japan-warns-us-government-to-stop-using-nintendo-and-poke",
@@ -500,6 +490,16 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/08/meowth-balloon-plushie.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-man-arrested-for-stealing-24k-pokemon-card-with-fake-cry",
+      "title": "Man arrested for stealing $24K Pokemon card with fake cryptocurrency while at police HQ",
+      "link": "https://www.dexerto.com/pokemon/man-arrested-for-stealing-24k-pokemon-card-with-fake-cryptocurrency-while-at-police-hq-3383954/",
+      "pubDate": "2026-07-07T17:24:05.000Z",
+      "snippet": "A man has been arrested after cops say he used fake cryptocurrency to steal a rare Pokemon card during a sale at a police department.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/07/pokemon-card-pikachu-charizard.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
