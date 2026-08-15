@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-08-15T02:50:52.558Z",
+  "lastUpdated": "2026-08-15T04:34:46.419Z",
   "articles": [
+    {
+      "id": "nintendoeverything-com-brand-new-kingdom-hearts-4-trailer-released-confirmed-for",
+      "title": "Brand new Kingdom Hearts 4 trailer released, confirmed for late 2027, anime series announced",
+      "link": "https://nintendoeverything.com/brand-new-kingdom-hearts-4-trailer-released-confirmed-for-late-2027-anime-series-announced/",
+      "pubDate": "2026-08-15T03:06:46.000Z",
+      "snippet": "Two major Kingdom Hearts announcements were just made with Kingdom Hearts 4 confirmed for late 2027 and a new anime series on the way. Kingdom Hearts 4 was shown off at D23 minutes ago. In the latest…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Kingdom-Hearts-4-2027-anime-series.png"
+    },
     {
       "id": "nintendoeverything-com-list-of-all-nintendo-switch-2-games-that-support-gameshar",
       "title": "List of all Nintendo Switch 2 games that support GameShare",
@@ -80,26 +90,6 @@
       "source": "Nintendo",
       "category": "games-anime",
       "image": "https://nintendoeverything.com/wp-content/uploads/Call-of-Duty-Modern-Warfare-4-pre-order-early-access-campaign.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-fractured-worlds-announced-for-nintendo-switch-",
-      "title": "Fractured Worlds announced for Nintendo Switch",
-      "link": "https://nintendoeverything.com/fractured-worlds-announced-for-nintendo-switch/",
-      "pubDate": "2026-08-14T15:00:19.000Z",
-      "snippet": "Laser Guided Games is bringing Fractured Worlds to Nintendo Switch, the studio confirmed today. It’s release is scheduled for August 26, 2026. Fractured Worlds is an old-school dark fantasy action…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Fractured-Worlds.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-maestro-receives-nintendo-switch-2-and-switch-demo-new-tr",
-      "title": "Maestro receives Nintendo Switch 2 and Switch demo, new trailer",
-      "link": "https://nintendoeverything.com/maestro-receives-nintendo-switch-2-and-switch-demo-new-trailer/",
-      "pubDate": "2026-08-14T14:07:46.000Z",
-      "snippet": "Maestro, which was recently announced for Nintendo Switch 2 and Switch, has received a demo on both platforms. The demo lets fans step onto the conductor’s podium. It begins with the Masterclass…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Maestro-demo.jpg"
     },
     {
       "id": "www-dexerto-com-food-krispy-kreme-is-actually-letting-fans-pre-order-its-pokemon",
@@ -500,6 +490,16 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/10/Pokemon-jewelry-collab-includes-gold-Snorlax-necklace-worth-over-6000.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "www-dexerto-com-food-mcdonalds-pokemon-collab-comes-with-adorable-pikachu-french",
+      "title": "McDonald’s Pokemon collab comes with adorable Pikachu French fries timer",
+      "link": "https://www.dexerto.com/food/mcdonalds-pokemon-collab-comes-with-adorable-pikachu-french-fries-timer-3385019/",
+      "pubDate": "2026-07-10T11:13:02.000Z",
+      "snippet": "McDonald’s Japan is celebrating Pokemon’s 30th anniversary with color-changing cups, free food coupons, and an adorable Pikachu French fries timer.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/10/Pokemon-mcdonalds-collab-2026.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
