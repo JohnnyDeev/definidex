@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T03:01:12.498Z",
+  "lastUpdated": "2026-08-23T04:40:08.124Z",
   "articles": [
     {
       "id": "nintendoeverything-com-lets-talk-have-you-ever-been-to-a-gaming-expo-",
@@ -80,16 +80,6 @@
       "source": "Nintendo",
       "category": "games-anime",
       "image": "https://nintendoeverything.com/wp-content/uploads/SEGA-Atlus-Nintendo-Switch-2-Switch-sale-Sonic-Mania.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-a-brief-history-of-fake-nintendo-leaks-",
-      "title": "A brief history of fake Nintendo leaks",
-      "link": "https://nintendoeverything.com/a-brief-history-of-fake-nintendo-leaks/",
-      "pubDate": "2026-08-22T04:00:48.000Z",
-      "snippet": "In 2026, Nintendo has been somewhat quiet. There have been plenty of games, of course, but relatively little in terms of big reveals – at least in the first half of the year. This silence leads to…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/A-brief-history-of-fake-Nintendo-leaks.jpg"
     },
     {
       "id": "www-dexerto-com-pokemon-11-year-old-loses-over-1-million-baht-after-falling-for-",
@@ -500,6 +490,16 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/22/pokemon-diamond-pearl-beta-pokemon.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "www-dexerto-com-gaming-pokemon-shiny-hunter-builds-insane-58-console-rig-for-one",
+      "title": "Pokemon shiny hunter builds insane 58-console rig for “one-in-nine-million” Golduck",
+      "link": "https://www.dexerto.com/gaming/pokemon-shiny-hunter-builds-insane-58-console-rig-for-one-in-nine-million-golduck-3390101/",
+      "pubDate": "2026-07-22T13:57:17.000Z",
+      "snippet": "Pokemon shiny hunter Professor Rex is controlling 58 consoles at once in an attempt to encounter an exceptionally rare level 25 Shiny Golduck.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/22/professor-rex-shiny-setup.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
