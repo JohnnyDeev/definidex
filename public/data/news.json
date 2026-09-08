@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-09-08T06:57:49.141Z",
+  "lastUpdated": "2026-09-08T08:44:34.923Z",
   "articles": [
+    {
+      "id": "nintendoeverything-com-turn-based-rpg-tianji-shadow-of-the-ancients-announced-fo",
+      "title": "Turn-based RPG Tianji: Shadow of the Ancients announced for Nintendo Switch 2, and Switch",
+      "link": "https://nintendoeverything.com/turn-based-rpg-tianji-shadow-of-the-ancients-announced-for-nintendo-switch-2-and-switch/",
+      "pubDate": "2026-09-08T07:34:09.000Z",
+      "snippet": "Jusdan International has just announced their latest title, Tianji: Shadow of the Ancients; A turn based RPG set to release sometime in 2027 for both Nintendo Switch 2, and Switch. Tianji: Shadow of…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Tianji-Shadow-of-the-Ancients.jpg"
+    },
     {
       "id": "nintendoeverything-com-list-of-all-nintendo-switch-2-games-with-a-game-key-card-",
       "title": "List of all Nintendo Switch 2 games with a game-key card release",
@@ -60,26 +70,6 @@
       "source": "Nintendo",
       "category": "games-anime",
       "image": "https://nintendoeverything.com/wp-content/uploads/Beyond-the-Dark-Nightwatch-release-date.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-pokemon-champions-dev-explains-why-the-game-isnt-getting-",
-      "title": "Pokemon Champions dev explains why the game isn’t getting single-player modes",
-      "link": "https://nintendoeverything.com/pokemon-champions-dev-explains-why-the-game-isnt-getting-single-player-modes/",
-      "pubDate": "2026-09-07T14:04:38.000Z",
-      "snippet": "Masaaki Hoshino, the director of Pokemon Champions, has commented on why the team has no plans to add single-player modes. Right now the Nintendo Switch and mobile game is all about multiplayer. More…",
-      "source": "Nintendo",
-      "category": "vgc",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Pokemon-Champions-single-player.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-jupiter-mars-definitive-edition-announced-for-nintendo-sw",
-      "title": "Jupiter & Mars: Definitive Edition announced for Nintendo Switch",
-      "link": "https://nintendoeverything.com/jupiter-mars-definitive-edition-announced-for-nintendo-switch/",
-      "pubDate": "2026-09-07T13:36:58.000Z",
-      "snippet": "Today, Tigertron announced that it’s making Jupiter & Mars: Definitive Edition for Nintendo Switch. The game launches this week, with fans being able to grab it on September 10, 2026. Jupiter & Mars,…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Jupiter-Mars-Definitive-Edition.jpg"
     },
     {
       "id": "www-dexerto-com-pokemon-pokemon-card-shop-stops-online-sales-after-thieves-resea",
@@ -500,6 +490,16 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/08/11/Gender-reveal-TCG.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "www-dexerto-com-gaming-japan-warns-us-government-to-stop-using-nintendo-and-poke",
+      "title": "Japan warns US government to stop using Nintendo and Pokemon in memes",
+      "link": "https://www.dexerto.com/gaming/japan-warns-us-government-to-stop-using-nintendo-and-pokemon-in-memes-3395882/",
+      "pubDate": "2026-08-07T11:40:18.000Z",
+      "snippet": "The US government’s use of some of Japan’s biggest gaming and anime franchises has the Japanese government worried.",
+      "source": "Dexerto",
+      "category": "games-anime",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2025/03/13/pokemon-ash-pikachu-sad-shocked.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
