@@ -1,6 +1,26 @@
 {
-  "lastUpdated": "2026-09-28T09:32:41.184Z",
+  "lastUpdated": "2026-09-28T10:44:34.997Z",
   "articles": [
+    {
+      "id": "www-dexerto-com-pokemon-mcdonalds-x-pokemon-reportedly-returning-in-november-for",
+      "title": "McDonald’s x Pokemon reportedly returning in November for 30th anniversary",
+      "link": "https://www.dexerto.com/pokemon/mcdonalds-x-pokemon-reportedly-returning-in-november-for-30th-anniversary-3412931/",
+      "pubDate": "2026-09-28T10:21:34.000Z",
+      "snippet": "The next McDonald’s x Pokemon promotion will reportedly begin in the US on November 5 and run through December 9.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/28/pokemon-mcdonalds.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "nintendoeverything-com-super-shooting-gallery-battle-announced-for-nintendo-swit",
+      "title": "Super Shooting Gallery Battle announced for Nintendo Switch",
+      "link": "https://nintendoeverything.com/super-shooting-gallery-battle-announced-for-nintendo-switch/",
+      "pubDate": "2026-09-28T08:21:04.000Z",
+      "snippet": "Sat-Box has announced the title Super Shooting Gallery Battle for Nintendo Switch. It will arrive to the Hong Kong and South Korean eShop on October 8th, 2026, with a North American and European date…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Super-Shooting-Gallery.jpg"
+    },
     {
       "id": "nintendoeverything-com-tales-of-eternia-remastered-physical-release-detailed-",
       "title": "Tales of Eternia Remastered physical release detailed",
@@ -70,16 +90,6 @@
       "source": "Nintendo",
       "category": "games-anime",
       "image": "https://nintendoeverything.com/wp-content/uploads/Shadow-of-mordor-Shadow-of-War-Switch-2.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-switch-oled-worth-it-in-2026-",
-      "title": "Nintendo Switch OLED isn’t worth it in 2026, even with Switch 2 price increase – here’s why",
-      "link": "https://nintendoeverything.com/switch-oled-worth-it-in-2026/",
-      "pubDate": "2026-09-27T05:05:06.000Z",
-      "snippet": "Nintendo Switch has brought so many people into the Nintendo realm of gaming, and even now, we’re seeing fans who skipped the entire Switch generation hop in late to try out Tomodachi Life: Living…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Switch-OLED-worth-in-2026.jpg"
     },
     {
       "id": "www-dexerto-com-pokemon-pokemon-collector-who-gps-tracked-a-card-delivery-driver",
@@ -490,16 +500,6 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/01/Pokemon-releases-gigantic-Poke-Ball-Hotel.jpg?width=1080&amp;quality=75&amp;format=auto"
-    },
-    {
-      "id": "www-dexerto-com-pokemon-pokemon-xp-trader-denies-stealing-boys-legendary-after-v",
-      "title": "Pokemon XP trader denies stealing boy’s legendary after viral claims",
-      "link": "https://www.dexerto.com/pokemon/pokemon-xp-trader-denies-stealing-boys-legendary-after-viral-claims-3404156/",
-      "pubDate": "2026-08-31T15:27:17.000Z",
-      "snippet": "The trader accused of scamming a boy at Pokemon XP finally speaks out, and the Rayquaza gets returned.",
-      "source": "Dexerto",
-      "category": "tcg",
-      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/08/31/Pokemon-Exchange.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
