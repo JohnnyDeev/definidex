@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T08:20:25.926Z",
+  "lastUpdated": "2026-10-11T10:41:54.097Z",
   "articles": [
     {
       "id": "nintendoeverything-com-star-foxs-battle-mode-huge-changes-",
@@ -80,16 +80,6 @@
       "source": "Nintendo",
       "category": "games-anime",
       "image": "https://nintendoeverything.com/wp-content/uploads/Nintendo-Switch-demos.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-nintendo-switch-remaster-of-dsiware-game-zenonia-gets-rel",
-      "title": "Nintendo Switch remaster of DSiWare game Zenonia gets release date, first trailer",
-      "link": "https://nintendoeverything.com/nintendo-switch-remaster-of-dsiware-game-zenonia-gets-release-date-first-trailer/",
-      "pubDate": "2026-10-10T12:00:55.000Z",
-      "snippet": "The previously-announced Nintendo Switch remaster of Zenonia now has its release date. Com2us is publishing the title on October 14, 2026, the company has announced. We’re a Nintendo outlet, so we’re…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Zenonia-remaster-release-date.jpg"
     },
     {
       "id": "www-dexerto-com-pokemon-crypto-hacker-convicted-of-53m-theft-after-spending-mill",
@@ -500,6 +490,16 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/06/pokemon-card-mail.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-pokemon-fan-builds-adapter-that-lets-game-boy-advance-tr",
+      "title": "Pokemon fan builds adapter that lets Game Boy Advance trade directly with Switch 2",
+      "link": "https://www.dexerto.com/pokemon/pokemon-fan-builds-adapter-that-lets-game-boy-advance-trade-directly-with-switch-2-3406053/",
+      "pubDate": "2026-09-05T15:39:07.000Z",
+      "snippet": "A Pokemon fan has built their own adapter that allows an original Game Boy Advance to trade Pokemon directly with a Nintendo Switch 2. More than two decades separate the two consoles, but Drewworks,…",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/05/pokemon-trade-hall.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
