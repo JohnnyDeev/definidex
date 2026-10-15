@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-14T09:24:24.359Z",
+  "lastUpdated": "2026-10-15T07:00:24.810Z",
   "vgc": {
-    "lastUpdated": "2026-10-14T09:24:24.360Z",
+    "lastUpdated": "2026-10-15T07:00:24.810Z",
     "source": "smogon"
   },
   "tcg": {
-    "lastUpdated": "2026-10-14T09:24:24.360Z",
+    "lastUpdated": "2026-10-15T07:00:24.810Z",
     "source": "pokemontcg"
   },
   "news": {
-    "lastUpdated": "2026-10-14T09:24:24.360Z",
+    "lastUpdated": "2026-10-15T07:00:24.810Z",
     "source": "rss"
   }
 }
