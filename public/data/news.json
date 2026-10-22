@@ -1,15 +1,115 @@
 {
-  "lastUpdated": "2026-10-21T09:14:22.093Z",
+  "lastUpdated": "2026-10-22T07:08:48.088Z",
   "articles": [
     {
-      "id": "nintendoeverything-com-nintendo-switch-sports-resort-launch-trailer-",
-      "title": "Nintendo Switch Sports Resort launch trailer",
-      "link": "https://nintendoeverything.com/nintendo-switch-sports-resort-launch-trailer/",
-      "pubDate": "2026-10-21T01:30:25.000Z",
-      "snippet": "It’s a bit early, but we have a launch trailer for Nintendo Switch Sports Resort. The title will be arriving this Thursday, October 22. Thanks to Nintendo, we have the following gameplay details:…",
+      "id": "nintendoeverything-com-one-piece-grand-gourmet-launch-trailer-",
+      "title": "One Piece: Grand Gourmet launch trailer – new restaurant management sim for Nintendo Switch 2 and Switch",
+      "link": "https://nintendoeverything.com/one-piece-grand-gourmet-launch-trailer/",
+      "pubDate": "2026-10-22T02:30:28.000Z",
+      "snippet": "Fans can check out a final trailer for One Piece: Grand Gourmet, a new cooking sim based on the famous manga and anime. Bandai Namco is launching the title this week on Nintendo Switch 2 and Switch.…",
       "source": "Nintendo",
       "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Sw-Sports-Resort-trailer.jpg"
+      "image": "https://nintendoeverything.com/wp-content/uploads/One-Piece-Grand-Gourmet-trailer.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-nintendo-switch-sports-resort-icons-added-to-switch-onlin",
+      "title": "Nintendo Switch Sports Resort icons added to Switch Online",
+      "link": "https://nintendoeverything.com/nintendo-switch-sports-resort-icons-added-to-switch-online/",
+      "pubDate": "2026-10-22T01:03:42.000Z",
+      "snippet": "We’ve come to expect new Nintendo games to get icons on Switch Online, and that’s the case once again for Nintendo Switch Sports Resort. You can pick up new designs for characters, backgrounds, and…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Switch-Sports-Resort-icons.jpeg"
+    },
+    {
+      "id": "nintendoeverything-com-metaphor-refantazio-trailer-introduces-hulkenberg-",
+      "title": "Metaphor: ReFantazio trailer introduces Hulkenberg",
+      "link": "https://nintendoeverything.com/metaphor-refantazio-trailer-introduces-hulkenberg/",
+      "pubDate": "2026-10-21T22:30:15.000Z",
+      "snippet": "Another character trailer is in for Metaphor: ReFantazio, which gives us a look at Hulkenberg. Hulkenberg is a knight of the roussainte tribe and former member of the royal family’s Kingsguard who…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Metaphor-ReFantazio-Hulkenberg.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-hitman-absolution-nintendo-switch-2-edition-physical-rele",
+      "title": "Hitman: Absolution – Nintendo Switch 2 Edition physical release confirmed",
+      "link": "https://nintendoeverything.com/hitman-absolution-nintendo-switch-2-edition-physical-release-confirmed/",
+      "pubDate": "2026-10-21T20:11:17.000Z",
+      "snippet": "Hitman: Absolution – Nintendo Switch 2 Edition will have a physical release. That’s according to Limited Run Games, who made the announcement today. This is the entire game on the cartridge. Not only…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Hitman-Absolution-Switch-2-physical.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-disney-dreamlight-valley-shares-the-keepsake-sea-release-",
+      "title": "Disney Dreamlight Valley shares The Keepsake Sea release date with new details, big discounts",
+      "link": "https://nintendoeverything.com/disney-dreamlight-valley-shares-the-keepsake-sea-release-date-with-new-details-big-discounts/",
+      "pubDate": "2026-10-21T17:53:37.000Z",
+      "snippet": "We have an update on The Keepsake Sea expansion for The Keepsake Sea, including the release date. It will be available for Nintendo Switch 2 and Switch on November 18, 2026. This comes as part of a…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Disney-Dreamlight-Valley-Keepsake-Sea-release-date-details.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-pokemon-home-pokemon-champions-and-pokemon-sleep-go-offli",
+      "title": "Pokemon Home, Pokemon Champions, and Pokemon Sleep go offline following cybersecurity alert",
+      "link": "https://nintendoeverything.com/pokemon-home-pokemon-champions-and-pokemon-sleep-go-offline-following-cybersecurity-alert/",
+      "pubDate": "2026-10-21T17:40:02.000Z",
+      "snippet": "A global cybersecurity issue has affected several Pokemon apps. Two vulnerabilities were discovered in PHP, a programming language used by numerous websites and applications, raising serious security…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/pokemon_home.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-cyberpunk-2077-2-5-update-patch-notes-trailer-",
+      "title": "Cyberpunk 2077 2.5 update patch notes, trailer",
+      "link": "https://nintendoeverything.com/cyberpunk-2077-2-5-update-patch-notes-trailer/",
+      "pubDate": "2026-10-21T15:56:50.000Z",
+      "snippet": "After the initial announcement yesterday, we have full patch notes for the Cyberpunk 2077 version 2.5 update. A trailer is here as well. Note that the update is coming to the Nintendo Switch 2…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Cyberpunk-2077-2.5-update-patch-notes.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-rv-there-yet-announced-for-nintendo-switch-2-release-",
+      "title": "RV There Yet announced for Nintendo Switch 2 release",
+      "link": "https://nintendoeverything.com/rv-there-yet-announced-for-nintendo-switch-2-release/",
+      "pubDate": "2026-10-21T15:49:10.000Z",
+      "snippet": "In an announcement today, Nuggets Entertainment made it known that RV There Yet is getting a release on Nintendo Switch 2. This one arrives on October 29, 2026. RV There Yet is a co-op adventure…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/RV-There-Yet.jpg"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-pokemon-umamusume-and-other-major-games-taken-offline-ov",
+      "title": "Pokemon, Umamusume and other major games taken offline over critical PHP vulnerability",
+      "link": "https://www.dexerto.com/pokemon/pokemon-umamusume-and-other-major-games-taken-offline-over-critical-php-vulnerability-3420823/",
+      "pubDate": "2026-10-21T15:32:39.000Z",
+      "snippet": "Pokemon titles and other major Japanese games have been taken offline for emergency maintenance due to critical PHP vulnerabilities.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/10/21/nintendo-pokemon-servers-down-php-security-threat.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "nintendoeverything-com-crymelight-demo-just-released-on-nintendo-switch-2-new-tr",
+      "title": "Crymelight demo just released on Nintendo Switch 2, new trailer",
+      "link": "https://nintendoeverything.com/crymelight-demo-just-released-on-nintendo-switch-2-new-trailer/",
+      "pubDate": "2026-10-21T15:32:10.000Z",
+      "snippet": "Ahead of the game’s launch, FuRyu and Winning Entertainment Group just released a demo for Crymelight on Nintendo Switch 2. It’s located on the Nintendo eShop. Players can experience the story,…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Crymelight-demo.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-burggeist-slated-for-nintendo-switch-2-",
+      "title": "Burggeist slated for Nintendo Switch 2",
+      "link": "https://nintendoeverything.com/burggeist-slated-for-nintendo-switch-2/",
+      "pubDate": "2026-10-21T15:10:24.000Z",
+      "snippet": "Ghrian Studio is bringing its 2024 title Burggeist to Nintendo Switch 2, an eShop listing reveals. According to the store page, it’ll be out on October 27, 2026. Burggeist is an action strategy game…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Burggeist.jpg"
     },
     {
       "id": "www-dexerto-com-pokemon-pokemon-tcg-pocket-dual-fusion-cards-set-3420587-",
@@ -20,76 +120,6 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2025/07/24/pokemon-tcg-pocket-new-expansion-dual-fusion-set-c1-mega-mewtwo-x-pikachu-venusaur-charizard-blastoise-mega-dragonite-mega-greninja-mew.jpg?width=1080&amp;quality=75&amp;format=auto"
-    },
-    {
-      "id": "nintendoeverything-com-2d-platformer-fantasy-boy-planned-for-nintendo-switch-2-",
-      "title": "2D platformer Fantasy Boy planned for Nintendo Switch 2",
-      "link": "https://nintendoeverything.com/2d-platformer-fantasy-boy-planned-for-nintendo-switch-2/",
-      "pubDate": "2026-10-20T22:30:21.000Z",
-      "snippet": "Today, Serafini Productions announced its brand-new game Fantasy Boy. It’s in the works for Nintendo Switch 2, but the developer hasn’t provided launch timing. Fantasy Boy is a 2D platformer in which…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Fantasy-Boy.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-i-am-your-beast-coming-to-nintendo-switch-2-and-switch-",
-      "title": "I Am Your Beast coming to Nintendo Switch 2 and Switch [update: out now]",
-      "link": "https://nintendoeverything.com/i-am-your-beast-coming-to-nintendo-switch-2-and-switch/",
-      "pubDate": "2026-10-20T20:17:13.000Z",
-      "snippet": "September 1: Announced today, I Am Your Beast is releasing on both Nintendo Switch 2 and Switch. The title arrives on October 20, 2026. I Am Your Beast is a fast-paced covert revenge thriller FPS. It…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/I-Am-Your-Beast.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-a-game-about-digging-a-hole-together-announced-for-ninten",
-      "title": "A Game About Digging A Hole Together announced for Nintendo Switch 2 [update: release date]",
-      "link": "https://nintendoeverything.com/a-game-about-digging-a-hole-together-announced-for-nintendo-switch-2/",
-      "pubDate": "2026-10-20T20:00:11.000Z",
-      "snippet": "September 30: A Game About Digging A Hole Together is in development for Nintendo Switch 2, Rokaplay and Mipumi Games have announced. The title will be available later in 2026. This one builds on the…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/A-Game-About-Digging-a-Hole-Together.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-buckshot-roulette-coming-to-nintendo-switch-",
-      "title": "Buckshot Roulette coming to Nintendo Switch",
-      "link": "https://nintendoeverything.com/buckshot-roulette-coming-to-nintendo-switch/",
-      "pubDate": "2026-10-20T18:25:11.000Z",
-      "snippet": "Buckshot Roulette has earned a huge response on PC, and now it’s coming to Nintendo Switch. Critical Reflext is bringing it over at some point – for now we don’t have a launch window. Buckshot…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Buckshot-Roulette-1.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-arctic-eggs-planned-for-nintendo-switch-release-",
-      "title": "Arctic Eggs planned for Nintendo Switch release",
-      "link": "https://nintendoeverything.com/arctic-eggs-planned-for-nintendo-switch-release/",
-      "pubDate": "2026-10-20T18:22:41.000Z",
-      "snippet": "Following its original 2024 launch, Arctic Eggs will now be appearing on Nintendo Switch. Critical Reflex is publishing, but didn’t share launch timing. Arctic Eggs, made by The Water Museum,…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Arctic-Eggs.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-horror-thriller-no-im-not-a-human-heading-to-nintendo-swi",
-      "title": "Horror thriller No I’m Not a Human heading to Nintendo Switch",
-      "link": "https://nintendoeverything.com/horror-thriller-no-im-not-a-human-heading-to-nintendo-switch/",
-      "pubDate": "2026-10-20T18:17:47.000Z",
-      "snippet": "Critical Reflex and Trioskaz are putting No I’m Not a Human on Nintendo Switch, they’ve just announced. Expect to see this version in 2027. No I’m Not a Human is a well-received horror thriller about…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/No-Im-Not-a-Human.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-mouthwashing-shares-nintendo-switch-release-date-new-trai",
-      "title": "Mouthwashing shares Nintendo Switch release date, new trailer",
-      "link": "https://nintendoeverything.com/mouthwashing-shares-nintendo-switch-release-date-new-trailer/",
-      "pubDate": "2026-10-20T18:08:40.000Z",
-      "snippet": "The release date for Mouthwashing is now set on Nintendo Switch 2. According to Critical Reflex and Wrong Organ, it’ll be out on October 29, 2026. A physical release has also been confirmed by…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Mouthwashing-release-date.jpg"
     },
     {
       "id": "www-dexerto-com-pokemon-new-pokemon-donuts-turn-pikachu-diglett-and-slowpoke-int",
@@ -470,36 +500,6 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/20/pokemon-30th-anniversary-error-cards.jpg?width=1080&amp;quality=75&amp;format=auto"
-    },
-    {
-      "id": "www-dexerto-com-pokemon-pokemon-scalper-reportedly-arrested-after-assaulting-man",
-      "title": "Pokemon scalper reportedly arrested after assaulting man during trading card restock",
-      "link": "https://www.dexerto.com/pokemon/pokemon-scalper-reportedly-arrested-after-assaulting-man-during-trading-card-restock-3410523/",
-      "pubDate": "2026-09-20T14:15:14.000Z",
-      "snippet": "A Pokémon scalper was reportedly arrested after a Target restock turned violent, with a man punched and a 4-year-old girl hurt in the confrontation.",
-      "source": "Dexerto",
-      "category": "tcg",
-      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/20/pokemon-scalpers-assault.jpg?width=1080&amp;quality=75&amp;format=auto"
-    },
-    {
-      "id": "www-dexerto-com-pokemon-pokemon-go-sent-pikachu-to-space-for-67-days-aboard-iss-",
-      "title": "Pokemon Go sent Pikachu to space for 67 days aboard ISS",
-      "link": "https://www.dexerto.com/pokemon/pokemon-go-sent-pikachu-to-space-for-67-days-aboard-iss-3410420/",
-      "pubDate": "2026-09-19T20:44:46.000Z",
-      "snippet": "A Pikachu plush spent 67 days aboard the International Space Station earlier this year, completing roughly 1,040 orbits of Earth before coming home.",
-      "source": "Dexerto",
-      "category": "tcg",
-      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/19/Astronaut-Pikachu.jpg?width=1080&amp;quality=75&amp;format=auto"
-    },
-    {
-      "id": "www-dexerto-com-pokemon-pokemons-long-rumored-multi-region-mmo-reportedly-coming",
-      "title": "Pokemon’s long-rumored multi-region MMO reportedly coming after Gen 11",
-      "link": "https://www.dexerto.com/pokemon/pokemons-long-rumored-multi-region-mmo-reportedly-coming-after-gen-11-3410356/",
-      "pubDate": "2026-09-19T14:20:38.000Z",
-      "snippet": "A new leak claims a Pokemon MMO will launch after Gen 11, potentially allowing players to explore multiple regions in one shared online world.",
-      "source": "Dexerto",
-      "category": "tcg",
-      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/19/pokemon-mmo-in-development.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
