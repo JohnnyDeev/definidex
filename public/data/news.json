@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T06:56:17.362Z",
+  "lastUpdated": "2026-10-24T08:46:26.096Z",
   "articles": [
     {
       "id": "nintendoeverything-com-touhou-koumakyou-new-classic-switch-2-switch-physical-",
@@ -70,16 +70,6 @@
       "source": "Nintendo",
       "category": "games-anime",
       "image": "https://nintendoeverything.com/wp-content/uploads/Warrior-Cats-Clans-of-the-Forest-review.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-godzilla-destroy-all-monsters-melee-dev-reveals-that-it-w",
-      "title": "Godzilla: Destroy All Monsters Melee dev reveals that it was almost a two-player fighter",
-      "link": "https://nintendoeverything.com/godzilla-destroy-all-monsters-melee-dev-reveals-that-it-was-almost-a-two-player-fighter/",
-      "pubDate": "2026-10-23T12:30:40.000Z",
-      "snippet": "Godzilla: Destroy All Monsters Melee could have been a two-player fighting game, according to Pipeworks. In the end, what we ended up getting was a four-player brawler. However, that technically…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Godzilla-Destroy-All-Humans-4-player-brawler.jpg"
     },
     {
       "id": "www-dexerto-com-pokemon-man-sells-sons-forgotten-pokemon-cards-for-2m-after-keep",
@@ -500,6 +490,16 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/20/pokemon-scalpers-assault.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-pokemon-go-sent-pikachu-to-space-for-67-days-aboard-iss-",
+      "title": "Pokemon Go sent Pikachu to space for 67 days aboard ISS",
+      "link": "https://www.dexerto.com/pokemon/pokemon-go-sent-pikachu-to-space-for-67-days-aboard-iss-3410420/",
+      "pubDate": "2026-09-19T20:44:46.000Z",
+      "snippet": "A Pikachu plush spent 67 days aboard the International Space Station earlier this year, completing roughly 1,040 orbits of Earth before coming home.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/19/Astronaut-Pikachu.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
