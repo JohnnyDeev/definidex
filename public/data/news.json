@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-11-01T11:09:28.325Z",
+  "lastUpdated": "2026-11-02T08:56:29.060Z",
   "articles": [
+    {
+      "id": "www-dexerto-com-pokemon-pokemon-world-champion-selling-2022-championship-trophy-",
+      "title": "Pokemon World Champion selling 2022 championship trophy for $400,000",
+      "link": "https://www.dexerto.com/pokemon/pokemon-world-champion-selling-2022-championship-trophy-for-400000-3423697/",
+      "pubDate": "2026-11-01T16:20:08.000Z",
+      "snippet": "Junglebook described the trophy as being in pristine condition, claiming it had only been held by him during the 2022 awards ceremony.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/01/pokemon-trophy.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "nintendoeverything-com-mega-man-dual-override-reveals-cook-man-new-trailer-",
+      "title": "Mega Man: Dual Override reveals Cook Man, new trailer",
+      "link": "https://nintendoeverything.com/mega-man-dual-override-reveals-cook-man-new-trailer/",
+      "pubDate": "2026-11-01T12:19:46.000Z",
+      "snippet": "The Mega Man: Dual Override Robot Master reveals continue, and next up, we have a look at Cook Man. Cook Man is a wandering chef seeking recognition for his culinary prowess. His desire for…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Mega-Man-Dual-Override-Cook-Man-scaled.jpg"
+    },
+    {
+      "id": "nintendoeverything-com-petit-planet-confirmed-for-nintendo-switch-2-from-genshin",
+      "title": "Petit Planet confirmed for Nintendo Switch 2, from Genshin Impact dev",
+      "link": "https://nintendoeverything.com/petit-planet-confirmed-for-nintendo-switch-2-from-genshin-impact-dev/",
+      "pubDate": "2026-11-01T12:11:15.000Z",
+      "snippet": "miHoYo will release Petit Planet on Nintendo Switch 2, the company has announced. The title launches for Nintendo’s console in 2027. Petit Planet is a free-to-play cozy galactic life simulation game.…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Petit-Planet-Switch-2.jpg"
+    },
     {
       "id": "nintendoeverything-com-muramasa-revenant-blades-devs-on-why-the-game-is-returnin",
       "title": "Muramasa Revenant Blades devs on why the game is returning now",
@@ -20,46 +50,6 @@
       "source": "Nintendo",
       "category": "games-anime",
       "image": "https://nintendoeverything.com/wp-content/uploads/Anomalith-launch-trailer.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-nintendo-maintenance-schedule-november-1-2026-",
-      "title": "Nintendo maintenance schedule – November 1, 2026 – Switch 2 and Switch eShop downtime coming up",
-      "link": "https://nintendoeverything.com/nintendo-maintenance-schedule-november-1-2026/",
-      "pubDate": "2026-11-01T04:50:31.000Z",
-      "snippet": "Nintendo has released its maintenance schedule for the week of November 1, 2026. A lot of maintenance has been happening as of late. In fact, Nintendo 3DS has even been included in the fun.…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Switch-2-Switch-maintenance-1.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-nintendo-switch-online-adds-pikmin-icons-",
-      "title": "Nintendo Switch Online adds Pikmin icons",
-      "link": "https://nintendoeverything.com/nintendo-switch-online-adds-pikmin-icons/",
-      "pubDate": "2026-11-01T02:23:21.000Z",
-      "snippet": "As part of the Pikmin Day festivities, Nintendo Switch Online has added in new icons based on the franchise. These can be redeemed on Nintendo Switch 2 and Switch. Characters, backgrounds, and frames…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Pikmin-icons-Switch-Online.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-list-of-all-nintendo-switch-2-games-that-support-gameshar",
-      "title": "List of all Nintendo Switch 2 games that support GameShare",
-      "link": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-that-support-gameshare/",
-      "pubDate": "2026-10-31T16:00:01.000Z",
-      "snippet": "With GameShare becoming an important part of Nintendo Switch 2, we’ve put together a complete list of games that support the feature. We’ll be updating this post over time as well. GameShare is brand…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Nintendo-Switch-list-all-GameShare-games.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-nintendo-just-released-a-pikmin-day-direct-",
-      "title": "Nintendo just released a Pikmin Day Direct",
-      "link": "https://nintendoeverything.com/nintendo-just-released-a-pikmin-day-direct/",
-      "pubDate": "2026-10-31T14:02:21.000Z",
-      "snippet": "A Pikmin Day Direct is now available to watch, as Nintendo just released the presentation out of nowhere. No new game announcements are included. That said, if you’re a fan of the series at all, it’s…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Pikmin-Day-Direct-1.jpg"
     },
     {
       "id": "www-dexerto-com-pokemon-fbi-investigates-thieves-using-stolen-credit-cards-to-bu",
@@ -500,6 +490,16 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/22/avery-the-pokekid-last-pulls.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-pokemon-collector-secretly-put-gps-tracker-on-womans-car",
+      "title": "Pokemon collector secretly put GPS tracker on woman’s car to find trading card restocks",
+      "link": "https://www.dexerto.com/pokemon/pokemon-collector-secretly-put-gps-tracker-on-womans-car-to-find-trading-card-restocks-3411308/",
+      "pubDate": "2026-09-22T14:37:48.000Z",
+      "snippet": "A Pokemon collector pleaded no contest after secretly attaching a GPS tracker to a woman’s car to find new trading card restocks.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/22/pokemon-restock-tracking-woman.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
