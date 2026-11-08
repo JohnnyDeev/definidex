@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-11-08T08:38:23.705Z",
+  "lastUpdated": "2026-11-08T11:09:53.473Z",
   "articles": [
+    {
+      "id": "nintendoeverything-com-nintendo-switch-2-and-switch-file-sizes-metaphor-refantzi",
+      "title": "Nintendo Switch 2 and Switch file sizes – Metaphor: ReFantazio, Pikmin 4 for Switch 2, Shrek 2 Remastered, Sonic Pico Park, more",
+      "link": "https://nintendoeverything.com/nintendo-switch-2-and-switch-file-sizes-metaphor-refantzio-pikmin-4-switch-2-shrek-2-remastered-sonic-pico-park-more/",
+      "pubDate": "2026-11-08T08:40:59.000Z",
+      "snippet": "Listings on the eShops provide file sizes for a bunch of Nintendo Switch 2 and Switch games. These include Metaphor: ReFantazio, Pikmin 4 – Nintendo Switch 2 Edition, Shrek 2 Remastered, Sonic Pico…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Metaphor-ReFantazio.jpg"
+    },
     {
       "id": "nintendoeverything-com-nintendo-switch-online-adds-pikmin-icons-",
       "title": "Nintendo Switch Online adds Pikmin icons",
@@ -30,26 +40,6 @@
       "source": "Nintendo",
       "category": "games-anime",
       "image": "https://nintendoeverything.com/wp-content/uploads/RoomBattle.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-stellar-blade-nintendo-switch-2-tech-analysis-including-f",
-      "title": "Stellar Blade Nintendo Switch 2 tech analysis, including frame rate and resolution",
-      "link": "https://nintendoeverything.com/stellar-blade-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution/",
-      "pubDate": "2026-11-07T14:45:58.000Z",
-      "snippet": "Stellar Blade came to Nintendo Switch 2 this week, and thanks to Digital Foundry, we have various technical details covering frame rate, resolution, and more. Stellar Blade is one of the first games…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Stellar-Blade-frame-rate-resolution.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-cozy-3d-food-puzzler-umami-coming-to-nintendo-switch-",
-      "title": "Cozy 3D food puzzler Umami coming to Nintendo Switch [update: relaese date]",
-      "link": "https://nintendoeverything.com/cozy-3d-food-puzzler-umami-coming-to-nintendo-switch/",
-      "pubDate": "2026-11-07T13:00:00.000Z",
-      "snippet": "September 24, 2026: Mimmox is planning a Nintendo Switch version of Umami, the developer confirmed today. For now though, release timing is still being decided. Umami is described as a cozy 3D food…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Umami.jpg"
     },
     {
       "id": "www-dexerto-com-pokemon-man-arrested-after-leaving-6-year-old-daughter-sleeping-",
@@ -500,6 +490,16 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/29/coinbase-pokemon-card-packs.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-pokemon-vgc-champ-demands-better-hygiene-after-smelly-pl",
+      "title": "Pokemon VGC competitor demands better hygiene after smelly player made him throw up",
+      "link": "https://www.dexerto.com/pokemon/pokemon-vgc-champ-demands-better-hygiene-after-smelly-player-made-him-throw-up-3413143/",
+      "pubDate": "2026-09-28T16:21:07.000Z",
+      "snippet": "Pokemon VGC Regional Champion Donghun Youm is urging players to take their hygiene seriously after another competitor’s smell made him throw up.",
+      "source": "Dexerto",
+      "category": "vgc",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/28/pokemon-player-smells-bad-puke.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
