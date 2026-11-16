@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-11-16T10:48:30.875Z",
+  "lastUpdated": "2026-11-16T12:34:13.153Z",
   "articles": [
+    {
+      "id": "nintendoeverything-com-nintendo-store-app-3-4-0-update-out-now-patch-notes-",
+      "title": "Nintendo Store app 3.4.0 update out now, patch notes",
+      "link": "https://nintendoeverything.com/nintendo-store-app-3-4-0-update-out-now-patch-notes/",
+      "pubDate": "2026-11-16T12:13:02.000Z",
+      "snippet": "The Nintendo Store app has received a new update, with version 3.4.0 now available. New features and improvements are provided in the patch. These include additional filtering and sorting options…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Nintendo-Store-3.4.0-update.jpg"
+    },
     {
       "id": "nintendoeverything-com-nintendo-switch-eshop-latest-sales-lowest-prices-ever-for",
       "title": "Nintendo Switch eShop latest sales: lowest prices ever for Ball x Pit, Cocoon, Kentucky Route Zero: TV Edition, more",
@@ -60,26 +70,6 @@
       "source": "Nintendo",
       "category": "games-anime",
       "image": "https://nintendoeverything.com/wp-content/uploads/Pikmin-icons-Switch-Online.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-nintendo-switch-2-and-switch-file-sizes-warhammer-40000-b",
-      "title": "Nintendo Switch 2 and Switch file sizes – Warhammer 40,000: Boltgun 2, The Binding of Isaac: Repentance+, more",
-      "link": "https://nintendoeverything.com/nintendo-switch-2-and-switch-file-sizes-warhammer-40000-boltgun-2-binding-isaac-repentance-plus-more/",
-      "pubDate": "2026-11-15T08:25:06.000Z",
-      "snippet": "Listings on the eShops provide file sizes for a bunch of Nintendo Switch 2 and Switch games. These include Warhammer 40,000: Boltgun 2, The Binding of Isaac: Repentance+, and more. Here’s the full…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Binding-Isaac-Repentance-Plus-size.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-shrek-2-remastered-interview-why-the-game-was-brought-bac",
-      "title": "Shrek 2 Remastered interview: why the game was brought back for the modern era, possibility of other Shrek remasters, more",
-      "link": "https://nintendoeverything.com/shrek-2-remastered-interview-why-the-game-was-brought-back-for-the-modern-era-possibility-of-other-shrek-remasters-more/",
-      "pubDate": "2026-11-15T06:50:35.000Z",
-      "snippet": "Following its recent announcement, Shrek 2 Remastered launched on various platforms this week, including Nintendo Switch 2 and Switch. We spoke with senior game producer Jeff Carmen and associate…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Shrek-2-Remastered-interview.jpg"
     },
     {
       "id": "www-dexerto-com-pokemon-pokemon-fans-furious-after-lost-pokepark-ds-game-found-a",
@@ -500,6 +490,16 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/10/12/pokemon-daily-red-web-game-wordle.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-pokemon-card-designed-by-a-six-year-old-just-sold-for-15",
+      "title": "Pokemon card designed by a six-year-old just sold for $156,000",
+      "link": "https://www.dexerto.com/pokemon/pokemon-card-designed-by-a-six-year-old-just-sold-for-156000-3417798/",
+      "pubDate": "2026-10-10T16:09:29.000Z",
+      "snippet": "A Pokemon card designed by a six-year-old in 2010 has sold for $156,000 at auction, thanks to its tiny print run and rare contest history.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/10/10/zorua-kindergarten-card-design-contest.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
