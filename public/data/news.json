@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-11-24T12:01:34.703Z",
+  "lastUpdated": "2026-11-24T14:42:12.620Z",
   "articles": [
+    {
+      "id": "nintendoeverything-com-pokemon-has-a-mystery-countdown-going-",
+      "title": "Pokemon has a mystery countdown going [update: music video]",
+      "link": "https://nintendoeverything.com/pokemon-has-a-mystery-countdown-going/",
+      "pubDate": "2026-11-24T12:51:05.000Z",
+      "snippet": "November 2: Pokemon recently started a new countdown, but it’s anybody’s guess what it will ultimately lead to. Fans first noticed that an image of Bulbasaur was sent out on October 18 with the…",
+      "source": "Nintendo",
+      "category": "games-anime",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Pokemon-mystery-countdown.jpg"
+    },
     {
       "id": "nintendoeverything-com-nintendo-switch-online-finally-adds-new-option-fans-have-",
       "title": "Nintendo Switch Online finally adds new option fans have been asking for after nearly a decade",
@@ -80,26 +90,6 @@
       "source": "Nintendo",
       "category": "games-anime",
       "image": "https://nintendoeverything.com/wp-content/uploads/Tiny-Bookshop-Arts-Crafts-DLC.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-verho-curse-of-faces-reveals-whispers-of-the-wind-dlc-",
-      "title": "Verho: Curse of Faces reveals Whispers of the Wind DLC",
-      "link": "https://nintendoeverything.com/verho-curse-of-faces-reveals-whispers-of-the-wind-dlc/",
-      "pubDate": "2026-11-23T17:05:47.000Z",
-      "snippet": "CobraTekku Games and Kasur Games will support Verho: Curse of Faces with new Whispers of the Wind DLC, they’ve announced. Nintendo Switch players can expect it in Spring 2027. Whispers of the Wind…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/Verho-Curse-of-Faces-Whispers-of-the-Wind-DLC.jpg"
-    },
-    {
-      "id": "nintendoeverything-com-nis-america-black-friday-2026-nintendo-switch-sale-live-w",
-      "title": "NIS America Black Friday 2026 Nintendo Switch sale live with Langrisser, The Silver Case 2425, more at new low prices",
-      "link": "https://nintendoeverything.com/nis-america-black-friday-2026-nintendo-switch-sale-live-with-langrisser-the-silver-case-2425-more-at-new-low-prices/",
-      "pubDate": "2026-11-23T15:09:58.000Z",
-      "snippet": "Another Black Friday 2026 sale is happening on the Nintendo eShop, with NIS America offering a ton of discounts on Switch games, and you can get titles like Langrisser 1 & 2 and The Silver Case 2425…",
-      "source": "Nintendo",
-      "category": "games-anime",
-      "image": "https://nintendoeverything.com/wp-content/uploads/NIS-America-Black-Friday-2026-Nintendo-Switch-sale-Langrisser.jpg"
     },
     {
       "id": "www-dexerto-com-pokemon-man-charged-after-allegedly-posing-as-walmart-delivery-d",
@@ -500,6 +490,16 @@
       "source": "Dexerto",
       "category": "tcg",
       "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/10/18/pokebonk-megabonk-pokemon.jpg?width=1080&amp;quality=75&amp;format=auto"
+    },
+    {
+      "id": "www-dexerto-com-pokemon-pokemon-tcg-veteran-says-he-was-banned-for-life-after-ca",
+      "title": "Pokemon TCG veteran says he was banned for life after calling out judge",
+      "link": "https://www.dexerto.com/pokemon/pokemon-tcg-veteran-says-he-was-banned-for-life-after-calling-out-judge-3419510/",
+      "pubDate": "2026-10-16T20:09:37.000Z",
+      "snippet": "Pokemon TCG veteran iCaterpie says he was permanently banned after publicly accusing a judge of unfair treatment at the World Championships.",
+      "source": "Dexerto",
+      "category": "tcg",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/10/16/ash-ketchum-defeated.jpg?width=1080&amp;quality=75&amp;format=auto"
     }
   ]
 }
